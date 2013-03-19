@@ -22,7 +22,7 @@ namespace CreateNewDiagram
             // Create a new diagram.
             Diagram diagram = new Diagram(visioStencil);
 
-            //Add a new rectangle shape
+            //Add a new rectangle shape.
             long shapeId = diagram.AddShape(
                 4.25, 5.5, 2, 1, @"Rectangle", 0);
             Shape shape = diagram.Pages[0].Shapes.GetShape(shapeId);
