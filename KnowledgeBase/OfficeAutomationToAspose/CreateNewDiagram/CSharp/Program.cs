@@ -28,7 +28,7 @@ namespace CreateNewDiagram
             Shape shape = diagram.Pages[0].Shapes.GetShape(shapeId);
             shape.Text.Value.Add(new Txt(@"Rectangle text."));
 
-            //Add a new star shape
+            //Add a new star shape.
             shapeId = diagram.AddShape(
                 2.0, 5.5, 2, 2, @"Star 7", 0);
             shape = diagram.Pages[0].Shapes.GetShape(shapeId);
