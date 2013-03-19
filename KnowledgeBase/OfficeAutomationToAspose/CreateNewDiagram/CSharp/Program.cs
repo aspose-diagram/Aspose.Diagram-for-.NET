@@ -34,7 +34,7 @@ namespace CreateNewDiagram
             shape = diagram.Pages[0].Shapes.GetShape(shapeId);
             shape.Text.Value.Add(new Txt(@"Star text."));
 
-            //Add a new hexagon shape
+            //Add a new hexagon shape.
             shapeId = diagram.AddShape(
                 7.0, 5.5, 2, 2, @"Hexagon", 0);
             shape = diagram.Pages[0].Shapes.GetShape(shapeId);
