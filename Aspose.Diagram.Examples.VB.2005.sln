@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProgrammersGuide", "ProgrammersGuide", "{3ADE8217-854E-4864-AAC5-B5478B4AD234}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkingWithDiagrams", "WorkingWithDiagrams", "{86484A4E-A5D3-4313-88D1-C86EFE712222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportDiagramToPDF", "ProgrammersGuide\WorkingWithDiagrams\ExportDiagramToPDF\VisualBasic\ExportDiagramToPDF.vbproj", "{8E73C6FC-AB0F-4859-8539-2BD9D0B6A624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TechnicalArticles", "TechnicalArticles", "{2C33744A-E959-4601-9F60-A0AF61612CFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KnowledgeBase", "KnowledgeBase", "{F0D10832-114D-4B00-9D70-5FA6F4A28CD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OfficeAutomationToAspose", "OfficeAutomationToAspose", "{29404C66-7559-47FD-9066-5B260739F480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateNewDiagram", "KnowledgeBase\OfficeAutomationToAspose\CreateNewDiagram\VisualBasic\CreateNewDiagram.vbproj", "{F2619EAA-A45E-42AC-98F4-E1A499AEF6D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E73C6FC-AB0F-4859-8539-2BD9D0B6A624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E73C6FC-AB0F-4859-8539-2BD9D0B6A624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E73C6FC-AB0F-4859-8539-2BD9D0B6A624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55857B04-8C7F-497B-A136-A92F663357FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55857B04-8C7F-497B-A136-A92F663357FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55857B04-8C7F-497B-A136-A92F663357FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2619EAA-A45E-42AC-98F4-E1A499AEF6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2619EAA-A45E-42AC-98F4-E1A499AEF6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2619EAA-A45E-42AC-98F4-E1A499AEF6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86484A4E-A5D3-4313-88D1-C86EFE712222} = {3ADE8217-854E-4864-AAC5-B5478B4AD234}
+		{8E73C6FC-AB0F-4859-8539-2BD9D0B6A624} = {86484A4E-A5D3-4313-88D1-C86EFE712222}
+		{55857B04-8C7F-497B-A136-A92F663357FD} = {2C33744A-E959-4601-9F60-A0AF61612CFA}
+		{29404C66-7559-47FD-9066-5B260739F480} = {F0D10832-114D-4B00-9D70-5FA6F4A28CD3}
+		{F2619EAA-A45E-42AC-98F4-E1A499AEF6D5} = {29404C66-7559-47FD-9066-5B260739F480}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Folders>
+    <Folder>
+      <Title>Programmer’s Guide</Title>
+      <Description>This section includes the examples related to following topics:
+
+- Working with Diagrams
+- Working with Shapes
+- Miscellaneous</Description>
+      <FolderName>ProgrammersGuide</FolderName>
+      <Order>1</Order>
+      <Folders>
+        <Folder>
+          <Title>Working with Diagrams</Title>
+          <Description>This section includes examples related to the following topics: 
+
+- Create diagram 
+- Add shapes 
+- Reading diagram file 
+- Export diagrams to XML formats (VDX, VTX or VSX) 
+- Export diagram to image 
+- Export diagram to PDF 
+- Export diagram to XPS 
+- Retrieving page information 
+- Retrieving masters information 
+- Retrieving connectors information 
+- Retrieving fonts information 
+- Protect/unprotect diagrams 
+- Automatically lay out shapes</Description>
+          <FolderName>WorkingWithDiagrams</FolderName>
+          <Order>1</Order>
+          <Examples>
+            <Example>
+              <Title>Export Diagram to PDF</Title>
+              <Description>Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, HTML, SVG, SWF and PDF.
+This example explains how to export a Microsoft Visio diagram to PDF using Aspose.Diagram for .NET.</Description>
+              <FolderName>ExportDiagramToPDF</FolderName>
+              <Order>1</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to PDF</DisplayName>
+                <Url>Export+Diagram+to+PDF</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.pdf</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+          </Examples>
+        </Folder>
+      </Folders>
+    </Folder>
+    <Folder>
+      <Title>Technical Articles</Title>
+      <Description>This section includes the examples related to following topics: 
+
+- Adding a New Shape</Description>
+      <FolderName>TechnicalArticles</FolderName>
+      <Order>2</Order>
+      <Examples>
+        <Example>
+          <Title>Adding a New Shape</Title>
+          <Description>Aspose.Diagram for .NET allows you to manipulate Microsoft Visio diagrams in different ways. One of the things you can do is add new shapes to a diagrams. Aspose.Diagram for .NET lets you to add a new shape to a diagram. The added shape can also be customized using Aspose.Diagram for .NET.
+This example describes how to add a new rectangle shape to a diagram.</Description>
+          <FolderName>AddNewShape</FolderName>
+          <Order>1</Order>
+          <DocLink>
+            <DisplayName>Adding a New Shape</DisplayName>
+            <Url>Adding+a+New+Shape</Url>
+          </DocLink>
+          <InputFiles>
+            <DataFile>
+              <Path>..\Data\Drawing1.vsd</Path>
+            </DataFile>
+          </InputFiles>
+          <OutputFiles>
+            <DataFile>
+              <Path>..\Data\output.vdx</Path>
+            </DataFile>
+          </OutputFiles>
+          <Type>Console</Type>
+        </Example>
+      </Examples>
+    </Folder>
+    <Folder>
+      <Title>Knowledge Base</Title>
+      <Description>This section includes the examples related to following topics: 
+
+- Migration from Microsoft Office Automation to Aspose</Description>
+      <FolderName>KnowledgeBase</FolderName>
+      <Order>3</Order>
+      <Folders>
+        <Folder>
+          <Title>Migration from Microsoft Office Automation to Aspose</Title>
+          <Description>This section includes the examples related to following topics: 
+
+- Save VSD file to different file formats (VDX, PDF and JPEG) 
+- Update shape properties</Description>
+          <FolderName>OfficeAutomationToAspose</FolderName>
+          <Order>1</Order>
+          <Examples>
+            <Example>
+              <Title>Create a New Diagram</Title>
+              <Description>This migration example shows how to use first VSTO and then Aspose.Diagram for .NET to create a new diagram and add some shapes to it. You'll notice that the Aspose.Diagram code is shorter than VSTO code. Feel free to use the code as a base for your own development and enhance it to meet your needs.</Description>
+              <FolderName>CreateNewDiagram</FolderName>
+              <Order>1</Order>
+              <DocLink>
+                <DisplayName>Create a New Diagram</DisplayName>
+                <Url>Create+a+New+Diagram</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Basic Shapes.vss</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+          </Examples>
+        </Folder>
+      </Folders>
+    </Folder>
+  </Folders>
+</Data>
