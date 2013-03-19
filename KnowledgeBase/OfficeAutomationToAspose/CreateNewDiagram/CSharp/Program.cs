@@ -40,7 +40,7 @@ namespace CreateNewDiagram
             shape = diagram.Pages[0].Shapes.GetShape(shapeId);
             shape.Text.Value.Add(new Txt(@"Hexagon text."));
 
-            //Save the new diagram
+            //Save the new diagram.
             diagram.Save(dataDir + "Drawing1.vdx", SaveFileFormat.VDX);
 
             // Display Status.
