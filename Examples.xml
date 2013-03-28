@@ -53,6 +53,154 @@ This example explains how to export a Microsoft Visio diagram to PDF using Aspos
               </OutputFiles>
               <Type>Console</Type>
             </Example>
+            <Example>
+              <Title>Add and Connect Shapes</Title>
+              <Description>Aspose.Diagram for .NET allows you to add customized shapes and connect them shapes to diagrams you create.</Description>
+              <FolderName>AddAndConnectShapes</FolderName>
+              <Order>2</Order>
+              <DocLink>
+                <DisplayName>Add and Connect Shapes</DisplayName>
+                <Url>Add+and+Connect+Shapes</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Basic Shapes.vss</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\Output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to XML</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: image formats, HTML, SVG, SWF and XML formats:
+
+- VDX defines an XML diagram.
+- VTX defines an XML template.
+- VSX defines an XML stencil.
+
+This example contains code snippets that show how to export to each of these formats.</Description>
+              <FolderName>ExportDiagramToXML</FolderName>
+              <Order>3</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to XML</DisplayName>
+                <Url>Export+Diagram+to+XML</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\drawing.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\outputVSDtoVDX.vdx</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\Data\outputVSDtoVSX.vsx</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\Data\outputVSDtoVTX.vtx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to HTML</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, PDF, SVG, SWF and HTML.
+
+This example explains how to export a Microsoft Visio diagram to HTML using Aspose.Diagram for .NET.</Description>
+              <FolderName>ExportDiagramToHTML</FolderName>
+              <Order>4</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to HTML</DisplayName>
+                <Url>Export+Diagram+to+HTML</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\drawing.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\outputVSDtoHTML.html</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\Data\outputVSDtoHTML_files\img_0.htm</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\Data\outputVSDtoHTML_files\img_0.png</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\Data\outputVSDtoHTML_files\img_1.htm</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\Data\outputVSDtoHTML_files\img_1.png</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\Data\outputVSDtoHTML_files\img_2.htm</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\Data\outputVSDtoHTML_files\img_2.png</Path>
+                </DataFile>
+                <DataFile>
+                  <Path>..\Data\outputVSDtoHTML_files\toolbar.htm</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Retrieving Page Information</Title>
+              <Description>In Microsoft Visio, pages are either foreground or background pages. To get page information, for example page ID and page name, first establish whether a page is a background or foreground page. The Page object represents the drawing area of a foreground page or a background page. The Pages property exposed by the Diagram class supports a collection of Aspose.Diagram.Page objects. This property can be used to retrieve page information. Use the Page.Background property to determine whether a page is a foreground or background page .</Description>
+              <FolderName>RetrievingPageInformation</FolderName>
+              <Order>5</Order>
+              <DocLink>
+                <DisplayName>Retrieving Page Information</DisplayName>
+                <Url>Retrieving+Page+Information</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\drawing.vdx</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Retrieving Master Information</Title>
+              <Description>A shape master is another name for a Visio stencil. With Aspose.Diagram, it is possible to retrieve information about pages, connectors and also masters. This example explains how to get the ID and name from a diagram.</Description>
+              <FolderName>RetrievingMasterInformation</FolderName>
+              <Order>6</Order>
+              <DocLink>
+                <DisplayName>Retrieving Master Information</DisplayName>
+                <Url>Retrieving+Master+Information</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\drawing.vdx</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Extract All Images From a Visio Page</Title>
+              <Description>In Microsoft Visio, pages are either foreground or background pages. You can extract images from a particular page of a Visio file. The Page Class object represents the drawing area of a foreground page or a background page. The Shapes property exposed by the Diagram class supports a collection of Aspose.Diagram.Shape objects. This property can be used to extract all the images from a particular page.
+
+The following example extracts all the images from a particular page.</Description>
+              <FolderName>ExtractAllImagesFromVisioPage</FolderName>
+              <Order>7</Order>
+              <DocLink>
+                <DisplayName>Extract All Images From a Visio Page</DisplayName>
+                <Url>Extract+All+Images+From+a+Visio+Page</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\drawing.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
           </Examples>
         </Folder>
       </Folders>
