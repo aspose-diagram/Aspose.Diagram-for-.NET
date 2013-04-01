@@ -38,8 +38,6 @@ namespace ExtractAllImagesFromVisioPage
                     }
                 }
             }
-
-            Console.ReadKey();
         }
     }
 }

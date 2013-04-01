@@ -31,8 +31,6 @@ Namespace ExtractAllImagesFromVisioPage
 					End Using
 				End If
 			Next shape
-
-			Console.ReadKey()
 		End Sub
 	End Class
 End Namespace
