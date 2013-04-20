@@ -1,6 +1,6 @@
 #Aspose.Diagram for .NET Examples Repository
 
-This package contains C# and VB.NET Example Projects for [Aspose.Diagram for .NET](http://www.aspose.com/categories/.net-components/aspose.diagram-for-.net/default.aspx).
+This repository contains C# and VB.NET Example Projects for [Aspose.Diagram for .NET](http://www.aspose.com/categories/.net-components/aspose.diagram-for-.net/default.aspx).
 
 ##How to use the Examples?
 
