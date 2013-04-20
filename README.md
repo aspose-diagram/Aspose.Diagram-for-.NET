@@ -2,21 +2,19 @@
 
 This package contains C# and VB.NET Example Projects for [Aspose.Diagram for .NET](http://www.aspose.com/categories/.net-components/aspose.diagram-for-.net/default.aspx).
 
-Aspose.Diagram is a class library for working with Microsoft Visio files. It allows developers to work with VSD, VSS, VST, VSX, VTX, VDW and VDX files on ASP.NET web applications, web services and Windows applications. It allows you to open files and manipulate the elements of the diagram, from lines and fills, to more complex elements, and then export to VDX, VSX, VTX, XPS, image, HTML or PDF formats.
+##How to use the Examples?
 
-Using Aspose.Diagram for .NET in your project gives you the following benefits:
+###With the Examples Dashboard
 
-+ Rich Set of Features
+Download the [Aspose Examples Dashboard for .NET](http://www.aspose.com/community/files/51/.net-components/aspose-examples-for-.net/default.aspx) to view and run all these examples on your PC. It updates itself with the latest dependency libraries and examples.
 
-+ Platform Independence
+![Aspose Examples Dashboard](http://www.aspose.com/blogs/wp-content/uploads/2013/04/Dotnet-Dashboard.png "Aspose Examples Dashboard")
 
-+ No Microsoft Visio Automation
+###With IDE
 
-+ Performance and Scalability
+Clone or Download the ZIP and extract the contents to your local hard drive. It has Solution (SLN) files for Microsoft Visual Studio 2005, 2008 and 2010.
 
-+ Minimal Learning Curve
-
-These example projects provide helpful demonstrations and code when using Aspose.Diagram for .NET .
+Also download the [latest version](http://www.aspose.com/community/files/51/.net-components/aspose.diagram-for-.net/default.aspx) of Aspose.Diagram for .NET and set/fix jar references.
 
 ##Open Source Feel of Aspose.Diagram
 
@@ -46,40 +44,6 @@ All examples are each contained in separate folders at the root of the repositor
   <tr><td>XMLRendering</td><td>Demonstrates how to render Visio diagrams to Visio XML formats.</td></tr>
   <tr><td>XPSRendering</td><td>Demonstrates how to render Visio diagrams to XPS format.</td></tr>
 </table>
-
-###Data
-
-+ Input Documents - Each example contains a Samples directory which contains any sample Documents used in the example.
-
-###Output
-
-+ All examples generate output documents which can be found in Output folder.
-
-
-###Help Material
-
-For further details on setting up the examples and any requirements refer to the readme.txt found in the root of the repository.
-
-
-##Download the Examples
-
-Please [Download the Aspose.Diagram for .NET Examples](https://github.com/asposediagram/Aspose_Diagram_NET/downloads) to try them at your end.
-
-
-##How to use the Examples?
-
-1. Firstly make sure that you have downloaded and installed the latest version of [Aspose.Diagram for .NET](http://www.aspose.com/community/files/51/.net-components/aspose.diagram-for-.net/default.aspx). We recommend using the .MSI installer for fast installation and seamless intergration with the examples.
-
-2. Download the examples from the above link. The solution files for Microsoft Visual Studio 2005, 2008 and 2010 are provided with the examples.
-
-3. Once downloaded you can open the examples by opening the appropriate solution file (.sln) according to the version of Visual Studio installed on your system.
-
-4. Update license file,s path and click on "Debug" menu and choose one of the following menu items to start the example:
-
-- Start Debugging
-- Start Without Debugging
-
-Note: Output can be weird without licene file. You can request a temporary license [by following these guidelines](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx)
 
 ##Contact Us
 
