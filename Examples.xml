@@ -201,6 +201,148 @@ The following example extracts all the images from a particular page.</Descripti
               </InputFiles>
               <Type>Console</Type>
             </Example>
+            <Example>
+              <Title>Reading Diagram File</Title>
+              <Description>Use the Diagram class' constructors to read diagram files. The constructors accept a valid name or FileStream object in VSD, VSS, VTX, VDX, VDW, VST and VSX format, and an optional parameter that defines LoadFileFormat or LoadOptions. The Diagram object can also be used to manipulate Microsoft Visio objects.</Description>
+              <FolderName>ReadingDiagramFile</FolderName>
+              <Order>8</Order>
+              <DocLink>
+                <DisplayName>Reading Diagram File</DisplayName>
+                <Url>Reading+Diagram+File</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to Image</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, HTML, SVG, SWF and a variety of image files. This example shows how to export a Microsoft Visio diagram to an image using Aspose.Diagram for .NET.</Description>
+              <FolderName>ExportDiagramToImage</FolderName>
+              <Order>9</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to Image</DisplayName>
+                <Url>Export+Diagram+to+Image</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\output.png</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Particular Page of Diagram to Image</Title>
+              <Description>It is also possible to save a particular page to image, instead of the entire document. This example shows how to convert a particular page of diagram to image using Aspose.Diagram for .NET.</Description>
+              <FolderName>ExportParticularPageOfDiagramToImage</FolderName>
+              <Order>10</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to Image</DisplayName>
+                <Url>Export+Diagram+to+Image</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\output.png</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to XPS</Title>
+              <Description>S well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, HTML, SVG, SWF and XPS. This example shows how to export a Microsoft Visio diagram to XPS using Aspose.Diagram for .NET.</Description>
+              <FolderName>ExportDiagramToXPS</FolderName>
+              <Order>11</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to XPS</DisplayName>
+                <Url>Export+Diagram+to+XPS</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\Output.xps</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to SVG</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, PDF, SWF and SVG. SVG (Scalable Vector Graphics) are useful when you want to export a graphic to an open vector format. The exported diagram can then be used in other applications and documents. This example shows how to export a Microsoft Visio diagram to SVG using Aspose.Diagram for .NET</Description>
+              <FolderName>ExportDiagramToSVG</FolderName>
+              <Order>12</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to SVG</DisplayName>
+                <Url>Export+Diagram+to+SVG</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\Output.svg</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to SWF (Embedded Viewer)</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, HTML, SVG and SWF. SWF is an Adobe Flash file format used to display animations on web pages. SWF files encapsulate multimedia, vector graphics and ActionScript. This example shows how to export a Visio diagram to SWF using Aspose.Diagram for .NET. It is possible to export two types of SWF files: with and without an embedded SWF reader.</Description>
+              <FolderName>ExportDiagramToSWF</FolderName>
+              <Order>13</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to SWF</DisplayName>
+                <Url>Export+Diagram+to+SWF</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\drawing.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\Output.swf</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Export Diagram to SWF (Without Viewer)</Title>
+              <Description>As well as reading and creating diagrams, Aspose.Diagram for .NET lets you export diagrams to a variety of formats: XML formats, image formats, HTML, SVG and SWF. SWF is an Adobe Flash file format used to display animations on web pages. SWF files encapsulate multimedia, vector graphics and ActionScript. This example shows how to export a Visio diagram to SWF using Aspose.Diagram for .NET. It is possible to export two types of SWF files: with and without an embedded SWF reader.</Description>
+              <FolderName>ExportDiagramToSWFWithoutViewer</FolderName>
+              <Order>14</Order>
+              <DocLink>
+                <DisplayName>Export Diagram to SWF</DisplayName>
+                <Url>Export+Diagram+to+SWF</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\drawing.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\Output.swf</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
           </Examples>
         </Folder>
       </Folders>
