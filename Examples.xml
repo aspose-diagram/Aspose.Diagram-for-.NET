@@ -343,7 +343,146 @@ The following example extracts all the images from a particular page.</Descripti
               </OutputFiles>
               <Type>Console</Type>
             </Example>
+            <Example>
+              <Title>Create Diagram</Title>
+              <Description>Aspose.Diagram for .NET lets you read and create Microsoft Visio diagrams from within your own applications, without Microsoft Office Automation. The first step when creating new documents, is to create a diagram. Then add shapes and connectors to build up the diagram.</Description>
+              <FolderName>CreateDiagram</FolderName>
+              <Order>15</Order>
+              <DocLink>
+                <DisplayName>Create Diagram</DisplayName>
+                <Url>Create+Diagram</Url>
+              </DocLink>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\Diagram1.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Retrieving Connector Information</Title>
+              <Description>Aspose.Diagram for .NET provides mechanisms for retrieving information - ID and name - about pages and master. It also lets you get information about connectors, the elements that link shapes.</Description>
+              <FolderName>RetrievingConnectorInformation</FolderName>
+              <Order>16</Order>
+              <DocLink>
+                <DisplayName>Retrieving Connector Information</DisplayName>
+                <Url>Retrieving+Connector+Information</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Retrieving Font Information</Title>
+              <Description>Aspose.Diagram has mechanisms for retrieving information about the elements that make up a diagram, from pages, stencils, connectors and also fonts. This article shows how to find out which fonts are used in a diagram.</Description>
+              <FolderName>RetrievingFontInformation</FolderName>
+              <Order>17</Order>
+              <DocLink>
+                <DisplayName>Retrieving Font Information</DisplayName>
+                <Url>Retrieving+Font+Information</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Protect and Unprotect Diagrams</Title>
+              <Description>Protecting diagrams allow you to lock backgrounds, masters (stencils), shapes and styles so that they cannot be edited. This is useful for protecting corporate styles, for example, and ensure a consistent look across a set of diagrams.</Description>
+              <FolderName>ProtectAndUnprotectDiagrams</FolderName>
+              <Order>18</Order>
+              <DocLink>
+                <DisplayName>Protect and Unprotect Diagrams</DisplayName>
+                <Url>Protect+and+Unprotect+Diagrams</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
           </Examples>
+          <Folders>
+            <Folder>
+              <Title>Lay Out Shapes Automatically</Title>
+              <Description>With certain types of connected drawings, such as flowcharts and network diagrams, you can use the Lay out Shapes feature to automatically position shapes. Automatically positioning is faster than manually dragging each shape to a new location.</Description>
+              <FolderName>LayOutShapesAutomatically</FolderName>
+              <Order>19</Order>
+              <Examples>
+                <Example>
+                  <Title>Laying Out Shapes in Flowchart Style</Title>
+                  <Description>The Layout method, exposed by the Diagram class lays out the shapes and/or reroutes the connectors on all the diagram's pages. This method accepts an LayoutOptions object as an argument. Use the different properties exposed by the LayoutOptions class to automatically lay out shapes.</Description>
+                  <FolderName>LayingOutShapesInFlowchartStyle</FolderName>
+                  <Order>1</Order>
+                  <DocLink>
+                    <DisplayName>Lay Out Shapes Automatically</DisplayName>
+                    <Url>Lay+Out+Shapes+Automatically</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\drawing.vdx</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\sample_btm_top.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\Data\sample_left_right.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\Data\sample_right_left.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\Data\sample_top_btm.vdx</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Laying Out Shapes in the Compact Tree Style</Title>
+                  <Description>The compact tree layout style tries to built a tree structure.</Description>
+                  <FolderName>LayingOutShapesInCompactTreeStyle</FolderName>
+                  <Order>2</Order>
+                  <DocLink>
+                    <DisplayName>Lay Out Shapes Automatically</DisplayName>
+                    <Url>Lay+Out+Shapes+Automatically</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\drawing.vdx</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\sample_right_down.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\Data\sample_left_down.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\Data\sample_down_right.vdx</Path>
+                    </DataFile>
+                    <DataFile>
+                      <Path>..\Data\sample_down_left.vdx</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+              </Examples>
+            </Folder>
+          </Folders>
         </Folder>
       </Folders>
     </Folder>
