@@ -484,6 +484,147 @@ The following example extracts all the images from a particular page.</Descripti
             </Folder>
           </Folders>
         </Folder>
+        <Folder>
+          <Title>Working with Shapes</Title>
+          <Description>This section includes the following examples: 
+
+1: Retrieving shapes information
+2: Updating shape text
+3: Setting XForm data
+4: Setting Line data
+5: Setting Fill data
+6: Applying custom style sheets
+7: Reading shape data
+8: Reading user properties
+9: Protect/unprotect shapes
+10: Get Connected Shapes
+11: Get Glued Shapes</Description>
+          <FolderName>WorkingWithShapes</FolderName>
+          <Order>2</Order>
+          <Examples>
+            <Example>
+              <Title>Updating Shape Text</Title>
+              <Description>Aspose.Diagram for .NET lets you work with shapes in different ways. This example explains how to access and update text in shapes.</Description>
+              <FolderName>UpdatingShapeText</FolderName>
+              <Order>2</Order>
+              <DocLink>
+                <DisplayName>Updating Shape Text</DisplayName>
+                <Url>Updating+Shape+Text</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Retrieving Shape Information</Title>
+              <Description>Each shape in a diagram has an ID and a name. The ID is important when programming with Visio: it is the main method for accessing a shape. Each shape also retains information about what master (stencil) it is made from.This example explains how to retrieve the shape information using Aspose.Diagram.</Description>
+              <FolderName>RetrievingShapeInformation</FolderName>
+              <Order>1</Order>
+              <DocLink>
+                <DisplayName>Retrieving Shape Information</DisplayName>
+                <Url>Retrieving+Shape+Information</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Setting XForm data</Title>
+              <Description>The XForm element is part of the Microsoft Visio XML schema. XForm specifies a shapes position, for example width, height, rotation and whether the shape has been flipped.</Description>
+              <FolderName>SettingXFormdata</FolderName>
+              <Order>3</Order>
+              <DocLink>
+                <DisplayName>Setting XForm data</DisplayName>
+                <Url>Setting+XForm+Data</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Setting Line Data</Title>
+              <Description>Shapes can be formatted in several ways. It is possible to set various fill attributes (color, transperancy, shadows), and what font it uses. This example shows how to specify a line's attributes.</Description>
+              <FolderName>SettingLineData</FolderName>
+              <Order>4</Order>
+              <DocLink>
+                <DisplayName>Setting Line Data</DisplayName>
+                <Url>Setting+Line+Data</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Setting Fill data</Title>
+              <Description>Shapes can be formatted in several ways. It is possible to set a shape's line attributes (for example color, weight and style), and what font it uses. This example demonstrates how to specify a shape's fill.</Description>
+              <FolderName>SettingFillData</FolderName>
+              <Order>5</Order>
+              <DocLink>
+                <DisplayName>Setting Fill data</DisplayName>
+                <Url>Setting+Fill+data</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+            <Example>
+              <Title>Applying Custom Style Sheets</Title>
+              <Description>Microsoft Visio style sheets store formatting information that can be applied to shapes for a consistent look and feel. Aspose.Diagram for .NET allows you to apply style sheets from inside an application.</Description>
+              <FolderName>ApplyingCustomStyleSheets</FolderName>
+              <Order>6</Order>
+              <DocLink>
+                <DisplayName>Applying Custom Style Sheets</DisplayName>
+                <Url>Applying+Custom+Style+Sheets</Url>
+              </DocLink>
+              <InputFiles>
+                <DataFile>
+                  <Path>..\Data\Drawing1.vsd</Path>
+                </DataFile>
+              </InputFiles>
+              <OutputFiles>
+                <DataFile>
+                  <Path>..\Data\output.vdx</Path>
+                </DataFile>
+              </OutputFiles>
+              <Type>Console</Type>
+            </Example>
+          </Examples>
+        </Folder>
       </Folders>
     </Folder>
     <Folder>
