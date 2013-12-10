@@ -1,6 +1,16 @@
-#Aspose.Diagram for .NET Examples Repository
+##Aspose.Diagram for .NET Examples Repository
 
 This repository contains C# and VB.NET Example Projects for [Aspose.Diagram for .NET](http://www.aspose.com/categories/.net-components/aspose.diagram-for-.net/default.aspx).
+<br/><br/>
+<p align="center">
+  <a title="Download Examples Dashboard" href="http://www.aspose.com/community/files/72/java-components/aspose-examples-for-java/default.aspx">
+	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadDasboard-Button-Large.png" />
+  </a>
+  &nbsp;
+  <a title="Download Examples ZIP" href="https://github.com/asposediagram/Aspose_Diagram_NET/archive/master.zip">
+	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
+  </a>
+</p>
 
 ##How to use the Examples?
 
