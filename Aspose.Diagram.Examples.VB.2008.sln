@@ -58,6 +58,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingLineData", "Programm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingFillData", "ProgrammersGuide\WorkingWithShapes\SettingFillData\VisualBasic\SettingFillData.vbproj", "{F513222A-99A0-409F-9C0F-44F1E5DFC53B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyingCustomStyleSheets", "ProgrammersGuide\WorkingWithShapes\ApplyingCustomStyleSheets\VisualBasic\ApplyingCustomStyleSheets.vbproj", "{47079CA7-E40E-43CA-95D1-40FDF3C05250}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TechnicalArticles", "TechnicalArticles", "{2C33744A-E959-4601-9F60-A0AF61612CFA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNewShape", "TechnicalArticles\AddNewShape\VisualBasic\AddNewShape.vbproj", "{55857B04-8C7F-497B-A136-A92F663357FD}"
