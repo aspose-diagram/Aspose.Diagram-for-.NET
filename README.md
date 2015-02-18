@@ -1,9 +1,9 @@
 ##Aspose.Diagram for .NET Examples Repository
 
-This repository contains C# and VB.NET Example Projects for [Aspose.Diagram for .NET](http://www.aspose.com/categories/.net-components/aspose.diagram-for-.net/default.aspx).
+This repository contains C# and VB.NET Example Projects for [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx).
 <br/><br/>
 <p align="center">
-  <a title="Download Examples Dashboard" href="http://www.aspose.com/community/files/72/java-components/aspose-examples-for-java/default.aspx">
+  <a title="Download Examples Dashboard" href="http://www.aspose.com/community/files/51/.net-components/aspose-examples-for-.net/default.aspx">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadDasboard-Button-Large.png" />
   </a>
   &nbsp;
@@ -47,19 +47,26 @@ All examples are each contained in separate folders at the root of the repositor
 
 <table>
   <tr><th>Example<th>Description</th></tr>
-  <tr><td>CreateNewDiagram</td><td>Demonstrates how to create a Visio diagram from scratch and add shapes.</td></tr>
-  <tr><td>AddShape</td><td>Demonstrates how to add a new shape in Visio diagram.</td></tr>
-  <tr><td>ImageRendering</td><td>Demonstrates how to render Visio diagrams to image formats.</td></tr>
-  <tr><td>PDFRendering</td><td>Demonstrates how to render Visio diagrams to PDF format.</td></tr>
-  <tr><td>XMLRendering</td><td>Demonstrates how to render Visio diagrams to Visio XML formats.</td></tr>
-  <tr><td>XPSRendering</td><td>Demonstrates how to render Visio diagrams to XPS format.</td></tr>
+  <tr><td>CreateNewDiagram</td><td>It demonstrates, how to create a Visio diagram from scratch and add shapes.</td></tr>
+  <tr><td>AddShape</td><td>It demonstrates, how to add a new shape in Visio diagram.</td></tr>
+  <tr><td>ImageRendering</td><td>It demonstrates, how to render Visio diagrams to image formats.</td></tr>
+  <tr><td>PDFRendering</td><td>It demonstrates, how to render Visio diagrams to PDF format.</td></tr>
+  <tr><td>XMLRendering</td><td>It demonstrates, how to render Visio diagrams to Visio XML formats.</td></tr>
+  <tr><td>XPSRendering</td><td>It demonstrates, how to render Visio diagrams to XPS format.</td></tr>
+  <tr><td>Export Diagram to SVG</td><td>It demonstrates, how to render Visio diagrams to SVG format.</td></tr>
+  <tr><td>Export Diagram to SWF</td><td>It demonstrates, how to render Visio diagrams to SWF format.</td></tr>
+  <tr><td>Layout Shapes Automatically</td><td>It demonstrates, how to layout shapes into the several styles automatically.</td></tr>
+  <tr><td>Protect and Unprotect Diagrams</td><td>It demonstrates, how to protect and unprotect visio diagrams.</td></tr>
+  <tr><td>Search and Replace Text</td><td>It demonstrates, how to search text and replace it with new text.</td></tr>
+  <tr><td>Rotate Shape</td><td>It demonstrates, how to rotate visio shape in degree.</td></tr>
+  <tr><td>Change Shape Position</td><td>It demonstrates, how to change the shape's position.</td></tr>
 </table>
 
 ##Contact Us
 
 + **Website:** [www.aspose.com](http://www.aspose.com)
-+ **Product Home:** [Aspose.Diagram for .NET](http://www.aspose.com/categories/.net-components/aspose.diagram-for-.net/default.aspx)
++ **Product Home:** [Aspose.Diagram for .NET](http://www.aspose.com/.net/diagram-component.aspx)
 + **Download:** [Download Aspose.Diagram for .NET](http://www.aspose.com/community/files/51/.net-components/aspose.diagram-for-.net/default.aspx)
-+ **Documentation:** [Aspose.Diagram for .NET Documentation](http://www.aspose.com/documentation/.net-components/aspose.diagram-for-.net/index.html)
++ **Documentation:** [Aspose.Diagram for .NET Documentation](http://www.aspose.com/docs/display/diagramnet/Home)
 + **Forum:** [Aspose.Diagram for .NET Forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx)
 + **Blog:** [Aspose.Diagram for .NET Blog](http://www.aspose.com/blogs/aspose-products/aspose-diagram-product-family.html)
