@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC382CEE-9C07-4BB8-BD76-DF04A30EEDB4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Diagram">
+      <HintPath>..\packages\Aspose.Diagram.5.4.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProgrammersGuide\Working-Diagrams\AddConnectShapes.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\CreateDiagram.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ExportToHTML.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ExportToImage.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ExportToPDF.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ExportToSVG.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ExportToSWFWithoutViewer.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ExportToSWF.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ExportToXML.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ExportToXPS.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ExportPageToImage.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ExtractAllImagesFromPage.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\LayOutShapesInCompactTreeStyle.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\LayOutShapesInFlowchartStyle.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ProtectAndUnprotect.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ReadDiagramFile.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\RetrieveConnectorInfo.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\RetrieveFontInfo.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\RetrieveMasterInfo.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\RetrievePageInfo.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\ApplyCustomStyleSheets.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\RetrieveShapeInfo.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\SetFillData.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\SetLineData.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\SetXFormdata.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\UpdateShapeText.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="RunExamples.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\AddConnectShapes.vss" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToHTML.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToImage.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToPDF.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToSVG.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToSWFWithoutViewer.vb.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToSWF.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToXML.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToXPS.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportPageToImage.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExtractAllImagesFromPage.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\LayOutShapesInCompactTreeStyle.vdx" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\LayOutShapesInFlowchartStyle.vdx" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ProtectAndUnprotect.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ReadDiagramFile.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrieveConnectorInfo.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrieveFontInfo.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrieveMasterInfo.vdx" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrievePageInfo.vdx" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\ApplyCustomStyleSheets.vb.vsd" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\RetrieveShapeInfo.vsd" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\SetFillData.vsd" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\SetLineData.vsd" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\SetXFormdata.vsd" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\UpdateShapeText.vsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Examples.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
