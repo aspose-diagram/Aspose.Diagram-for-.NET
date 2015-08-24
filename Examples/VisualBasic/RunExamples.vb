@@ -22,25 +22,25 @@ Namespace VisualBasic
             ' =====================================================
 
             AddConnectShapes.Run()
-            'CreateDiagram.Run();
-            'ExportPageToImage.Run();
-            'ExportToHTML.Run();
-            'ExportToImage.Run();
-            'ExportToPDF.Run();
-            'ExportToSVG.Run();
-            'ExportToSWF.Run();
-            'ExportToSWFWithoutViewer.Run();
-            'ExportToXML.Run();
-            'ExportToXPS.Run();
-            'ExtractAllImagesFromPage.Run();
-            'LayOutShapesInCompactTreeStyle.Run();
-            'LayOutShapesInFlowchartStyle.Run();
-            'ProtectAndUnprotect.Run();
-            'ReadDiagramFile.Run();
-            'RetrieveConnectorInfo.Run();
-            'RetrieveFontInfo.Run();
-            'RetrieveMasterInfo.Run();
-            'RetrievePageInfo.Run();
+            'CreateDiagram.Run()
+            'ExportPageToImage.Run()
+            'ExportToHTML.Run()
+            'ExportToImage.Run()
+            'ExportToPDF.Run()
+            'ExportToSVG.Run()
+            'ExportToSWF.Run()
+            'ExportToSWFWithoutViewer.Run()
+            'ExportToXML.Run()
+            'ExportToXPS.Run()
+            'ExtractAllImagesFromPage.Run()
+            'LayOutShapesInCompactTreeStyle.Run()
+            'LayOutShapesInFlowchartStyle.Run()
+            'ProtectAndUnprotect.Run()
+            'ReadDiagramFile.Run()
+            'RetrieveConnectorInfo.Run()
+            'RetrieveFontInfo.Run()
+            'RetrieveMasterInfo.Run()
+            'RetrievePageInfo.Run()
 
             ' =====================================================
             ' =====================================================
@@ -48,12 +48,12 @@ Namespace VisualBasic
             ' =====================================================
             ' =====================================================
 
-            'ApplyCustomStyleSheets.Run();
-            'RetrieveShapeInfo.Run();
-            'SetFillData.Run();
-            'SetLineData.Run();
-            'SetXFormdata.Run();
-            'UpdateShapeText.Run();
+            'ApplyCustomStyleSheets.Run()
+            'RetrieveShapeInfo.Run()
+            'SetFillData.Run()
+            'SetLineData.Run()
+            'SetXFormdata.Run()
+            'UpdateShapeText.Run()
 
 
             ' Stop before exiting
