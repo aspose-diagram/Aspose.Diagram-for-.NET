@@ -23,7 +23,7 @@ namespace CSharp
             // =====================================================
             // =====================================================
 
-            AddConnectShapes.Run();
+            //AddConnectShapes.Run();
             //CreateDiagram.Run();
             //ExportPageToImage.Run();
             //ExportToHTML.Run();
@@ -56,7 +56,7 @@ namespace CSharp
             //SetLineData.Run();
             //SetXFormdata.Run();
             //UpdateShapeText.Run();
-
+            RefreshMilestoneWithMilestoneHelper.Run();
             
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");

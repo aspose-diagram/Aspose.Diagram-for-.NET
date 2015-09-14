@@ -21,7 +21,7 @@ Namespace VisualBasic
             ' =====================================================
             ' =====================================================
 
-            AddConnectShapes.Run()
+            'AddConnectShapes.Run()
             'CreateDiagram.Run()
             'ExportPageToImage.Run()
             'ExportToHTML.Run()
@@ -54,7 +54,7 @@ Namespace VisualBasic
             'SetLineData.Run()
             'SetXFormdata.Run()
             'UpdateShapeText.Run()
-
+            RefreshMilestoneWithMilestoneHelper.Run()
 
             ' Stop before exiting
             Console.WriteLine(Constants.vbLf + Constants.vbLf & "Program Finished. Press any key to exit....")
