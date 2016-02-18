@@ -15,6 +15,7 @@ Imports Aspose.Diagram.Manipulation
 Namespace VisualBasic.Diagrams
     Public Class AddConnectShapes
         Public Shared Sub Run()
+            'ExStart:AddConnectShapes
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -95,6 +96,7 @@ Namespace VisualBasic.Diagrams
 
             'Save the diagram
             diagram.Save(dataDir & "Output.vdx", SaveFileFormat.VDX)
+            'ExEnd:AddConnectShapes
         End Sub
     End Class
 End Namespace
