@@ -15,6 +15,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:ProtectAndUnprotect
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -27,6 +28,7 @@ namespace CSharp.Diagrams
             diagram.DocumentSettings.ProtectStyles = BOOL.True;
 
             diagram.Save(dataDir + "output.vdx", SaveFileFormat.VDX);
+            //ExEnd:ProtectAndUnprotect
         }
     }
 }

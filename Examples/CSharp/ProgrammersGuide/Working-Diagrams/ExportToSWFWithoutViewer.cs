@@ -16,6 +16,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:ExportToSWFWithoutViewer
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -33,7 +34,7 @@ namespace CSharp.Diagrams
 
             //Save the resultant SWF file
             diagram.Save(dataDir + "Output.swf", SaveFileFormat.SWF);
-
+            //ExEnd:ExportToSWFWithoutViewer
         }
     }
 }

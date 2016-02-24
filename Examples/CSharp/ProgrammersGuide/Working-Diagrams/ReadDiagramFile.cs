@@ -15,6 +15,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:ReadDiagramFile
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -26,7 +27,7 @@ namespace CSharp.Diagrams
             System.Console.WriteLine("Total Pages:" + vsdDiagram.Pages.Count);
 
             st.Close();
-
+            //ExEnd:ReadDiagramFile
         }
     }
 }

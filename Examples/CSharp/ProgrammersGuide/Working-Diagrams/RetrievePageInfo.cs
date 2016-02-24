@@ -16,6 +16,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:RetrievePageInfo
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -41,6 +42,7 @@ namespace CSharp.Diagrams
             }
 
             Console.ReadLine();
+            //ExEnd:RetrievePageInfo
         }
     }
 }

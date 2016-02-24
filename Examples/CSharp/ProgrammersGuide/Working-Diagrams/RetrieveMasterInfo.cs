@@ -16,6 +16,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:RetrieveMasterInfo
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -28,8 +29,9 @@ namespace CSharp.Diagrams
                 Console.WriteLine("\nMaster ID : " + master.ID);
                 Console.WriteLine("Master Name : " + master.Name);
             }
-
+            
             Console.ReadLine();
+            //ExEnd:RetrieveMasterInfo
         }
     }
 }

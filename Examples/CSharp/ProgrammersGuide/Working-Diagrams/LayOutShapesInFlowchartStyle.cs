@@ -16,6 +16,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:LayOutShapesInFlowchartStyle
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -45,6 +46,7 @@ namespace CSharp.Diagrams
             flowChartOptions.Direction = LayoutDirection.RightToLeft;
             diagram.Layout(flowChartOptions);
             diagram.Save(dataDir + "sample_right_left.vdx", SaveFileFormat.VDX);
+            //ExEnd:LayOutShapesInFlowchartStyle
         }
     }
 }

@@ -16,6 +16,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:RetrieveConnectorInfo
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -28,8 +29,7 @@ namespace CSharp.Diagrams
                 Console.WriteLine("\nFrom Shape ID : " + connector.FromSheet);
                 Console.WriteLine("To Shape ID : " + connector.ToSheet);
             }
-
-
+            //ExEnd:RetrieveConnectorInfo
         }
     }
 }

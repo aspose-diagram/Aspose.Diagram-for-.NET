@@ -16,6 +16,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:RetrieveFontInfo
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -27,7 +28,7 @@ namespace CSharp.Diagrams
                 //Display information about the fonts
                 Console.WriteLine(font.Name);
             }
-
+            //ExEnd:RetrieveFontInfo
         }
     }
 }

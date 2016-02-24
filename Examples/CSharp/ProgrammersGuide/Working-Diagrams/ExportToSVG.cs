@@ -15,6 +15,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:ExportToSVG
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -23,7 +24,7 @@ namespace CSharp.Diagrams
 
             //Save SVG Output file
             diagram.Save(dataDir + "Output.svg", SaveFileFormat.SVG);
-
+            //ExEnd:ExportToSVG
         }
     }
 }
