@@ -16,6 +16,7 @@ namespace CSharp.Shapes
     {
         public static void Run()
         {
+            //ExStart:RefreshMilestoneWithMilestoneHelper
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -67,8 +68,8 @@ namespace CSharp.Shapes
             milestoneHelper.RefreshMilestone(timeline);
 
             //Save Visio file
-            diagram.Save(dataDir + "output.vdx", SaveFileFormat.VDX); 
-
+            diagram.Save(dataDir + "output.vdx", SaveFileFormat.VDX);
+            //ExEnd:RefreshMilestoneWithMilestoneHelper
         }
     }
 }

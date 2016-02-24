@@ -16,6 +16,7 @@ namespace CSharp.Shapes
     {
         public static void Run()
         {
+            //ExStart:RetrieveShapeInfo
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -29,8 +30,7 @@ namespace CSharp.Shapes
                 Console.WriteLine("Name : " + shape.Name);
                 Console.WriteLine("Master Shape : " + shape.Master.Name);
             }
-            
-
+            //ExEnd:RetrieveShapeInfo
         }
     }
 }

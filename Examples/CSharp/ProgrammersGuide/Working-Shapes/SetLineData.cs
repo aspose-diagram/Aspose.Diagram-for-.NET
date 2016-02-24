@@ -15,6 +15,7 @@ namespace CSharp.Shapes
     {
         public static void Run()
         {
+            //ExStart:SetLineData
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -32,6 +33,7 @@ namespace CSharp.Shapes
                 }
             }
             vdxDiagram.Save(dataDir + "output.vdx", SaveFileFormat.VDX);
+            //ExEnd:SetLineData
         }
     }
 }

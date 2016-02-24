@@ -15,6 +15,7 @@ namespace CSharp.Shapes
     {
         public static void Run()
         {
+            //ExStart:ApplyCustomStyleSheets
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -57,7 +58,7 @@ namespace CSharp.Shapes
 
             //Save changed diagram as VDX
             vsdDiagram.Save(dataDir + "output.vdx", SaveFileFormat.VDX);
-           
+            //ExEnd:ApplyCustomStyleSheets
  
         }
     }
