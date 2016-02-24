@@ -15,6 +15,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:ExportToImage
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -23,7 +24,7 @@ namespace CSharp.Diagrams
 
             //Save Image file
             diagram.Save(dataDir + "output.png", SaveFileFormat.PNG);
-
+            //ExEnd:ExportToImage
         }
     }
 }

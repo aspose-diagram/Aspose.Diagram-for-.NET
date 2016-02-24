@@ -15,6 +15,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:ExportToPDF
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -32,6 +33,7 @@ namespace CSharp.Diagrams
 
             // Display Status.
             System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
+            //ExEnd:ExportToPDF
         }
     }
 }
