@@ -14,6 +14,7 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class CreateDiagram
         Public Shared Sub Run()
+            'ExStart:CreateDiagram
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -25,7 +26,7 @@ Namespace VisualBasic.Diagrams
 
             Dim diagram As New Diagram()
             diagram.Save(dataDir & "Diagram1.vdx", SaveFileFormat.VDX)
-
+            'ExEnd:CreateDiagram
         End Sub
     End Class
 End Namespace

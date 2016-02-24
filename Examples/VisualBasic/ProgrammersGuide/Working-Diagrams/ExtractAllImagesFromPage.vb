@@ -15,6 +15,7 @@ Imports System
 Namespace VisualBasic.Diagrams
     Public Class ExtractAllImagesFromPage
         Public Shared Sub Run()
+            'ExStart:ExtractAllImagesFromPage
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -34,6 +35,7 @@ Namespace VisualBasic.Diagrams
                     End Using
                 End If
             Next shape
+            'ExEnd:ExtractAllImagesFromPage
         End Sub
     End Class
 End Namespace

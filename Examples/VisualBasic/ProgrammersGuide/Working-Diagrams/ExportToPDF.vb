@@ -14,6 +14,7 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class ExportToPDF
         Public Shared Sub Run()
+            'ExStart:ExportToPDF
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -31,6 +32,7 @@ Namespace VisualBasic.Diagrams
 
             ' Display Status.
             System.Console.WriteLine("Conversion from vsd to pdf performed successfully.")
+            'ExEnd:ExportToPDF
         End Sub
     End Class
 End Namespace

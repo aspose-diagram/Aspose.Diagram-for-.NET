@@ -15,6 +15,7 @@ Imports System
 Namespace VisualBasic.Shapes
     Public Class RefreshMilestoneWithMilestoneHelper
         Public Shared Sub Run()
+            'ExStart:RefreshMilestoneWithMilestoneHelper
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -66,7 +67,7 @@ Namespace VisualBasic.Shapes
             milestoneHelper.RefreshMilestone(timeline)
 
             diagram.Save(dataDir & "output.vdx", SaveFileFormat.VDX)
-
+            'ExEnd:RefreshMilestoneWithMilestoneHelper
         End Sub
     End Class
 End Namespace

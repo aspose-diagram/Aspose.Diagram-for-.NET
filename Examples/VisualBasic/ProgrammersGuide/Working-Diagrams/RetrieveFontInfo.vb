@@ -15,6 +15,7 @@ Imports System
 Namespace VisualBasic.Diagrams
     Public Class RetrieveFontInfo
         Public Shared Sub Run()
+            'ExStart:RetrieveFontInfo
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -25,7 +26,7 @@ Namespace VisualBasic.Diagrams
                 'Display information about the fonts
                 Console.WriteLine(font.Name)
             Next font
-
+            'ExEnd:RetrieveFontInfo
         End Sub
     End Class
 End Namespace

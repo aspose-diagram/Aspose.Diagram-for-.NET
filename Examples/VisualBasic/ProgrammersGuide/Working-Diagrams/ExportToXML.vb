@@ -14,10 +14,9 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class ExportToXML
         Public Shared Sub Run()
+            'ExStart:ExportToXML
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
-
-
 
             ' 1.
             ' Exporting VSD to VDX
@@ -27,8 +26,6 @@ Namespace VisualBasic.Diagrams
             'Save input VSD as VDX
             diagram.Save(dataDir & "outputVSDtoVDX.vdx", SaveFileFormat.VDX)
 
-
-
             ' 2.
             ' Exporting from VSD to VSX
             ' Call the diagram constructor to load diagram from a VSD file
@@ -36,12 +33,11 @@ Namespace VisualBasic.Diagrams
             'Save input VSD as VSX
             diagram.Save(dataDir & "outputVSDtoVSX.vsx", SaveFileFormat.VSX)
 
-
-
             ' 3.
             ' Export VSD to VTX
             'Save input VSD as VTX
             diagram.Save(dataDir & "outputVSDtoVTX.vtx", SaveFileFormat.VTX)
+            'ExEnd:ExportToXML
         End Sub
     End Class
 End Namespace

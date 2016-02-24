@@ -15,6 +15,7 @@ Imports Aspose.Diagram.AutoLayout
 Namespace VisualBasic.Diagrams
     Public Class LayOutShapesInFlowchartStyle
         Public Shared Sub Run()
+            'ExStart:LayOutShapesInFlowchartStyle
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -44,6 +45,7 @@ Namespace VisualBasic.Diagrams
             flowChartOptions.Direction = LayoutDirection.RightToLeft
             diagram.Layout(flowChartOptions)
             diagram.Save(dataDir & "sample_right_left.vdx", SaveFileFormat.VDX)
+            'ExEnd:LayOutShapesInFlowchartStyle
         End Sub
     End Class
 End Namespace

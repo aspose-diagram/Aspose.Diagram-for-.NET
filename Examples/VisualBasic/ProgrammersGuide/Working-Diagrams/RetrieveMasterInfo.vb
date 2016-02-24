@@ -15,6 +15,7 @@ Imports System
 Namespace VisualBasic.Diagrams
     Public Class RetrieveMasterInfo
         Public Shared Sub Run()
+            'ExStart:RetrieveMasterInfo
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -28,6 +29,7 @@ Namespace VisualBasic.Diagrams
             Next master
 
             Console.ReadLine()
+            'ExEnd:RetrieveMasterInfo
         End Sub
     End Class
 End Namespace

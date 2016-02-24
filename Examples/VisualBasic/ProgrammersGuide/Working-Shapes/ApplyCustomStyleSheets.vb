@@ -14,6 +14,7 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Shapes
     Public Class ApplyCustomStyleSheets
         Public Shared Sub Run()
+            'ExStart:ApplyCustomStyleSheets
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -51,7 +52,7 @@ Namespace VisualBasic.Shapes
 
             'Save changed diagram as VDX
             vsdDiagram.Save(dataDir & "output.vdx", SaveFileFormat.VDX)
-
+            'ExEnd:ApplyCustomStyleSheets
 
         End Sub
     End Class

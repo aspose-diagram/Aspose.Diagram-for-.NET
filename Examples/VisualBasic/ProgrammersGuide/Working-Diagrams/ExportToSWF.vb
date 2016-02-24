@@ -14,6 +14,7 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class ExportToSWF
         Public Shared Sub Run()
+            'ExStart:ExportToSWF
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -21,7 +22,7 @@ Namespace VisualBasic.Diagrams
             Dim diagram As New Diagram(dataDir & "ExportToSWF.vsd")
 
             diagram.Save(dataDir & "Output.swf", SaveFileFormat.SWF)
-
+            'ExEnd:ExportToSWF
         End Sub
     End Class
 End Namespace

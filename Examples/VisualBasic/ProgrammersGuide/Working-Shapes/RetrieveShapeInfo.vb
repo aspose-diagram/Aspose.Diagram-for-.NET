@@ -15,6 +15,7 @@ Imports System
 Namespace VisualBasic.Shapes
     Public Class RetrieveShapeInfo
         Public Shared Sub Run()
+            'ExStart:RetrieveShapeInfo
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -27,8 +28,7 @@ Namespace VisualBasic.Shapes
                 Console.WriteLine("Name : " & shape.Name)
                 Console.WriteLine("Master Shape : " & shape.Master.Name)
             Next shape
-
-
+            'ExEnd:RetrieveShapeInfo
         End Sub
     End Class
 End Namespace

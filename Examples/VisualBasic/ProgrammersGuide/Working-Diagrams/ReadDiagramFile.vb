@@ -14,6 +14,7 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class ReadDiagramFile
         Public Shared Sub Run()
+            'ExStart:ReadDiagramFile
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -25,7 +26,7 @@ Namespace VisualBasic.Diagrams
             System.Console.WriteLine("Total Pages:" & vsdDiagram.Pages.Count)
 
             st.Close()
-
+            'ExEnd:ReadDiagramFile
         End Sub
     End Class
 End Namespace

@@ -15,6 +15,7 @@ Imports Aspose.Diagram.Saving
 Namespace VisualBasic.Diagrams
     Public Class ExportPageToImage
         Public Shared Sub Run()
+            'ExStart:ExportPageToImage
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -28,7 +29,7 @@ Namespace VisualBasic.Diagrams
 
             'Save resultant Image file
             diagram.Save(dataDir & "output.png", options)
-
+            'ExEnd:ExportPageToImage
         End Sub
     End Class
 End Namespace

@@ -14,6 +14,7 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class ExportToSVG
         Public Shared Sub Run()
+            'ExStart:ExportToSVG
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -22,7 +23,7 @@ Namespace VisualBasic.Diagrams
 
             'Save SVG Output file
             diagram.Save(dataDir & "Output.svg", SaveFileFormat.SVG)
-
+            'ExEnd:ExportToSVG
         End Sub
     End Class
 End Namespace

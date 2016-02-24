@@ -15,6 +15,7 @@ Imports System
 Namespace VisualBasic.Diagrams
     Public Class RetrieveConnectorInfo
         Public Shared Sub Run()
+            'ExStart:RetrieveConnectorInfo
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -26,7 +27,7 @@ Namespace VisualBasic.Diagrams
                 Console.WriteLine(Constants.vbLf & "From Shape ID : " & connector.FromSheet)
                 Console.WriteLine("To Shape ID : " & connector.ToSheet)
             Next connector
-
+            'ExEnd:RetrieveConnectorInfo
 
         End Sub
     End Class

@@ -15,6 +15,7 @@ Imports Aspose.Diagram.AutoLayout
 Namespace VisualBasic.Diagrams
     Public Class LayOutShapesInCompactTreeStyle
         Public Shared Sub Run()
+            'ExStart:LayOutShapesInCompactTreeStyle
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -43,6 +44,7 @@ Namespace VisualBasic.Diagrams
             compactTreeOptions.Direction = LayoutDirection.LeftThenDown
             diagram.Layout(compactTreeOptions)
             diagram.Save(dataDir & "sample_left_down.vdx", SaveFileFormat.VDX)
+            'ExEnd:LayOutShapesInCompactTreeStyle
         End Sub
     End Class
 End Namespace

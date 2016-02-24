@@ -14,12 +14,14 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class ExportToHTML
         Public Shared Sub Run()
+            'ExStart:ExportToHTML
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
             Dim diagram As New Diagram(dataDir & "ExportToHTML.vsd")
 
             diagram.Save(dataDir & "outputVSDtoHTML.html", SaveFileFormat.HTML)
+            'ExEnd:ExportToHTML
         End Sub
     End Class
 End Namespace

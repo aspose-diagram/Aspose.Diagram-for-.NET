@@ -14,6 +14,7 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Shapes
     Public Class SetLineData
         Public Shared Sub Run()
+            'ExStart:SetLineData
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -29,6 +30,7 @@ Namespace VisualBasic.Shapes
                 End If
             Next shape
             vdxDiagram.Save(dataDir & "output.vdx", SaveFileFormat.VDX)
+            'ExEnd:SetLineData
         End Sub
     End Class
 End Namespace

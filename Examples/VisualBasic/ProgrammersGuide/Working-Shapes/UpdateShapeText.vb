@@ -14,6 +14,7 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Shapes
     Public Class UpdateShapeText
         Public Shared Sub Run()
+            'ExStart:UpdateShapeText
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -28,7 +29,7 @@ Namespace VisualBasic.Shapes
                 End If
             Next shape
             vdxDiagram.Save(dataDir & "output.vdx", SaveFileFormat.VDX)
-
+            'ExEnd:UpdateShapeText
         End Sub
     End Class
 End Namespace

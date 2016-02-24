@@ -15,6 +15,7 @@ Imports System
 Namespace VisualBasic.Diagrams
     Public Class RetrievePageInfo
         Public Shared Sub Run()
+            'ExStart:RetrievePageInfo
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -36,6 +37,7 @@ Namespace VisualBasic.Diagrams
             Next page
 
             Console.ReadLine()
+            'ExEnd:RetrievePageInfo
         End Sub
     End Class
 End Namespace

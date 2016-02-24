@@ -14,6 +14,7 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class ProtectAndUnprotect
         Public Shared Sub Run()
+            'ExStart:ProtectAndUnprotect
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -26,6 +27,7 @@ Namespace VisualBasic.Diagrams
             diagram.DocumentSettings.ProtectStyles = BOOL.True
 
             diagram.Save(dataDir & "output.vdx", SaveFileFormat.VDX)
+            'ExEnd:ProtectAndUnprotect
         End Sub
     End Class
 End Namespace
