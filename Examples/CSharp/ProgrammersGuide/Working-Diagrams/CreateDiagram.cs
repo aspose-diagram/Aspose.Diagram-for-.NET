@@ -15,6 +15,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
+            //ExStart:CreateDiagram
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -25,7 +26,7 @@ namespace CSharp.Diagrams
 
             Diagram diagram = new Diagram();
             diagram.Save(dataDir + "Diagram1.vdx", SaveFileFormat.VDX);
- 
+            //ExEnd:CreateDiagram
         }
     }
 }
