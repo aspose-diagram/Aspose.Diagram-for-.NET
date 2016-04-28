@@ -23,9 +23,10 @@ namespace CSharp.Diagrams
             bool IsExists = System.IO.Directory.Exists(dataDir);
             if (!IsExists)
                 System.IO.Directory.CreateDirectory(dataDir);
-
+            // initialize a new Visio
             Diagram diagram = new Diagram();
-            diagram.Save(dataDir + "Diagram1.vdx", SaveFileFormat.VDX);
+            // save in the VSDX format
+            diagram.Save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
             //ExEnd:CreateDiagram
         }
     }

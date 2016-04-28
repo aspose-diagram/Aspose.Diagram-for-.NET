@@ -32,7 +32,7 @@ Namespace VisualBasic.Diagrams
             options.ViewerIncluded = False
 
             'Save the resultant SWF file
-            diagram.Save(dataDir & "Output.swf", SaveFileFormat.SWF)
+            diagram.Save(dataDir & "ExportToSWFWithoutViewer_Out.swf", SaveFileFormat.SWF)
             'ExEnd:ExportToSWFWithoutViewer
         End Sub
     End Class

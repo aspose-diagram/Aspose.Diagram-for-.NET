@@ -21,9 +21,9 @@ namespace CSharp.Diagrams
 
             //Call the diagram constructor to load diagram from a VSD stream
             FileStream st = new FileStream(dataDir + "ReadDiagramFile.vsd", FileMode.Open);
-
+            // load diagram
             Diagram vsdDiagram = new Diagram(st);
-
+            // get pages count
             System.Console.WriteLine("Total Pages:" + vsdDiagram.Pages.Count);
 
             st.Close();

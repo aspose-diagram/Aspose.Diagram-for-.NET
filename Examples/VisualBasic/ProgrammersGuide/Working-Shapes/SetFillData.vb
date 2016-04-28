@@ -28,7 +28,8 @@ Namespace VisualBasic.Shapes
                     shape.Fill.FillForegnd.Value = "#ebf8df"
                 End If
             Next shape
-            vdxDiagram.Save(dataDir & "output.vdx", SaveFileFormat.VDX)
+            ' save diagram
+            vdxDiagram.Save(dataDir & "SetFillData_Out.vsdx", SaveFileFormat.VDX)
             'ExEnd:SetFillData
         End Sub
     End Class

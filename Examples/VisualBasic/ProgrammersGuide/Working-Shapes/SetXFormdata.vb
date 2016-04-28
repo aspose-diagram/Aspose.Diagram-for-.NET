@@ -28,7 +28,7 @@ Namespace VisualBasic.Shapes
                     shape.XForm.PinY.Value = 5
                 End If
             Next shape
-            vdxDiagram.Save(dataDir & "output.vdx", SaveFileFormat.VDX)
+            vdxDiagram.Save(dataDir & "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX)
             'ExEnd:SetXFormdata
         End Sub
     End Class

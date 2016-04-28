@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC382CEE-9C07-4BB8-BD76-DF04A30EEDB4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Diagram, Version=6.3.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Diagram.6.3.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Visio, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplyLicense\ApplyLicenseByPath.vb" />
+    <Compile Include="ApplyLicense\ApplyLicenseUsingFileStream.vb" />
+    <Compile Include="Knowledge-Base\CreatingDiagramWithAspose.vb" />
+    <Compile Include="Knowledge-Base\CreatingDiagramWithVSTO.vb" />
+    <Compile Include="Knowledge-Base\SaveDiagramTo-VDX-PDF-JPEG-withAspose.vb" />
+    <Compile Include="Knowledge-Base\SaveDiagramTo-VDX-PDF-JPEG-withVSTO.vb" />
+    <Compile Include="Knowledge-Base\UpdateShapePropsWithAspose.vb" />
+    <Compile Include="Knowledge-Base\UpdateShapePropsWithVSTO.vb" />
+    <Compile Include="ProgrammersGuide\Introduction\DetectVisioFileFormat.vb" />
+    <Compile Include="ProgrammersGuide\Introduction\GetLibraryVersion.vb" />
+    <Compile Include="ProgrammersGuide\Introduction\SetVisioProperties.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\CreateNewVisio.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportToXAML.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ReadVisioDiagram.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UseDiagramSaveOptions.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UseHTMLSaveOptions.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UseImageSaveOptions.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UsePDFSaveOptions.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UseSVGSaveOptions.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UseSWFSaveOptions.vb" />
+    <Compile Include="ProgrammersGuide\OS-Fonts-Location\SpecifyFontLocation.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\AutoFitShapesInVisio.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\RemoveMacrosFromVisio.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\AddingNewShape.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\CalculateCenterOfSubShapes.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\ChangeShapeSize.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\ConfigureTimeLineShapes\ConfigureTimeLine.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\ConfigureTimeLineShapes\RefreshTimeLine.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\ConfigureTimeLineShapes\SetMilestoneProps.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\ConnectVisioSubShapes.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\CopyShape.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\GetAllConnectedShapes.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\GroupShapes.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\MoveVisioShape.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\ReadAllShapeProps.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\ReadShapePropByName.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\RerouteConnectors.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\RotateVisioShape.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\SaveVisioShapeInOtherFormats.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\SetConnectorAppearance.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\VerifyConnectedOrGluedShapes.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\Working-with-Icons-and-Pictures\GetShapeIcon.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\Working-with-Icons-and-Pictures\InsertImageInVisio.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\Working-with-Icons-and-Pictures\ReplaceShapePicture.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\Working-with-Shapes-Gluing\GetGluedConnectors.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\Working-with-Shapes-Gluing\GlueContainerShape.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\Working-with-Shapes-Gluing\GlueVisioShapes.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Comments\AddPageLevelCommentInVisio.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Comments\EditPageLevelCommentInVisio.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-External-Data-Sources\EditDataConAndRefreshRecords.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Geometry-Section\EditConnectorGeometry.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Headers-and-Footers\ManageHeadersandFooters.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Hyperlinks\AddHyperlinkToShape.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Hyperlinks\GetHyperlinks.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Layers\AddLayer.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Layers\ConfigureShapeLayers.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Layers\RetrieveAllLayers.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Masters\AddMasterFromStencil.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Masters\CheckMasterPresencebyID.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Masters\CheckMasterPresencebyName.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Masters\GetMasterbyID.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Masters\GetMasterbyName.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Pages\CopyVisioPage.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Pages\ExportOfHiddenVisioPagesToHTML.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Pages\ExportOfHiddenVisioPagesToImage.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Pages\ExportOfHiddenVisioPagesToPDF.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Pages\ExportOfHiddenVisioPagesToSVG.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Pages\ExportOfHiddenVisioPagesToXPS.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Pages\GetVisioPagebyID.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Pages\GetVisioPagebyName.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Pages\InsertBlankPageInVisio.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Pages\SetVisioPageOrientation.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Print\ByDefaultPrinter.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Print\BySpecificPrinter.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Print\PrintDiagramVisXPSPrinterAPI.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Print\SetPrintJobAndPrinterName.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Print\XpsPrintHelper.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Protection\VisioShapeProtection.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-SolutionXML-Elements\AddSolutionXMLElement.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-SolutionXML-Elements\ReadSolutionXMLElement.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-User-defined-Cells\CreateUserDefinedCellInShapeSheet.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Text-Boxes\FormatShapeTextBlockSection.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Text-Boxes\SetShapeTextPositionAtBottom.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Text-Boxes\SetShapeTextPositionAtLeft.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Text-Boxes\SetShapeTextPositionAtRight.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Text-Boxes\SetShapeTextPositionAtTop.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Text\ApplyFontOnText.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Text\FindAndReplaceShapeText.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Text\GetPlainTextOfVisio.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-User-defined-Cells\ReadUserdefinedCellsOfShape.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Window-Elements\AddSupportOfVisualAids.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Window-Elements\AddWindowElementInVisio.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Window-Elements\DisplayGridsRulersGuidesAndPageBreaks.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Window-Elements\RetrieveWindowElementsOfDiagram.vb" />
+    <Compile Include="Technical-Articles\AddConnectShapes.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\CreateDiagram.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportToHTML.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportToImage.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportToPDF.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportToSVG.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ExportToSWFWithoutViewer.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportToSWF.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportToXML.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportToXPS.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportPageToImage.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\Working-with-Icons-and-Pictures\ExtractAllImagesFromPage.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\LayOutShapesInCompactTreeStyle.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\LayOutShapesInFlowchartStyle.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Protection\VisioDiagramProtection.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ReadDiagramFile.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\RetrieveConnectorInfo.vb" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\RetrieveFontInfo.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Masters\RetrieveMasterInfo.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Pages\RetrievePageInfo.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Text\ApplyCustomStyleSheets.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\ConfigureTimeLineShapes\RefreshMilestoneWithMilestoneHelper.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\RetrieveShapeInfo.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\SetFillData.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\SetLineData.vb" />
+    <Compile Include="ProgrammersGuide\Working-Shapes\SetXFormdata.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-Text\UpdateShapeText.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="RunExamples.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Knowledge-Base\Data\Basic Shapes.vss" />
+    <None Include="Knowledge-Base\Data\Drawing1.vsd" />
+    <None Include="packages.config" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\AddConnectShapes.vss" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToHTML.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToImage.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToPDF.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToSVG.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToSWFWithoutViewer.vb.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToSWF.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToXML.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToXPS.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportPageToImage.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExtractAllImagesFromPage.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\LayOutShapesInCompactTreeStyle.vdx" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\LayOutShapesInFlowchartStyle.vdx" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ProtectAndUnprotect.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\ReadDiagramFile.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrieveConnectorInfo.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrieveFontInfo.vsd" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrieveMasterInfo.vdx" />
+    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrievePageInfo.vdx" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\ApplyCustomStyleSheets.vb.vsd" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\RetrieveShapeInfo.vsd" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\SetFillData.vsd" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\SetLineData.vsd" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\SetXFormdata.vsd" />
+    <None Include="ProgrammersGuide\Working-Shapes\Data\UpdateShapeText.vsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Examples.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ProgrammersGuide\Introduction\Data\" />
+    <Folder Include="ProgrammersGuide\Load-Save-Convert\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Comments\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-External-Data-Sources\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Geometry-Section\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Headers-and-Footers\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Hyperlinks\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Layers\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Masters\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Pages\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Print\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Protection\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-SolutionXML-Elements\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Text-Boxes\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Text\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-User-defined-Cells\Data\" />
+    <Folder Include="ProgrammersGuide\Working-with-Window-Elements\Data\" />
+    <Folder Include="Technical-Articles\Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

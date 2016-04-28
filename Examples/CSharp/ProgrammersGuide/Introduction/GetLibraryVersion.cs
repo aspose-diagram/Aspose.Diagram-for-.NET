@@ -28,8 +28,6 @@ namespace CSharp.ProgrammersGuide.Introduction
             Console.WriteLine("Date Last Edited : " + diagram.DocumentProps.TimeEdited);
             Console.WriteLine("Date Last Printed : " + diagram.DocumentProps.TimePrinted);
             Console.WriteLine("Date Last Saved : " + diagram.DocumentProps.TimeSaved);
-
-            Console.ReadLine();
             //ExEnd:GetLibraryVersion
         }
     }

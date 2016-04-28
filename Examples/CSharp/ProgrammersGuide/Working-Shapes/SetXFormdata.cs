@@ -19,11 +19,11 @@ namespace CSharp.Shapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
-            //Call the diagram constructor to load diagram from a VDX file
-            Diagram vdxDiagram = new Diagram(dataDir + "SetXFormdata.vsd");
+            // call a Diagram class constructor to load the VSD diagram
+            Diagram diagram = new Diagram(dataDir + "SetXFormdata.vsd");
 
             //Find a particular shape and update its XForm
-            foreach (Aspose.Diagram.Shape shape in vdxDiagram.Pages[0].Shapes)
+            foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
             {
                 if (shape.NameU.ToLower() == "process" && shape.ID == 1)
                 {
@@ -31,7 +31,8 @@ namespace CSharp.Shapes
                     shape.XForm.PinY.Value = 5;
                 }
             }
-            vdxDiagram.Save(dataDir + "output.vdx", SaveFileFormat.VDX);
+            // save diagram
+            diagram.Save(dataDir + "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX);
             //ExEnd:SetXFormdata
         }
     }

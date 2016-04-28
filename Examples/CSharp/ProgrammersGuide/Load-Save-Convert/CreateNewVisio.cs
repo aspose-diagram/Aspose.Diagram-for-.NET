@@ -11,7 +11,6 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert
         public static void Run()
         {
             //ExStart:CreateNewVisio
-
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
@@ -19,7 +18,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert
             Diagram diagram = new Diagram();
 
             // save diagram in the VSDX format
-            diagram.Save(dataDir + "MyDiagram.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
             //ExEnd:CreateNewVisio
         }
     }

@@ -33,7 +33,7 @@ namespace CSharp.Diagrams
             options.ViewerIncluded = false;
 
             //Save the resultant SWF file
-            diagram.Save(dataDir + "Output.swf", SaveFileFormat.SWF);
+            diagram.Save(dataDir + "ExportToSWFWithoutViewer_Out.swf", SaveFileFormat.SWF);
             //ExEnd:ExportToSWFWithoutViewer
         }
     }

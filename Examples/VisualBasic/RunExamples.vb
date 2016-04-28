@@ -68,6 +68,62 @@ Namespace VisualBasic
         Public Shared Function GetDataDir_Shapes() As String
             Return Path.GetFullPath("../../ProgrammersGuide/Working-Shapes/Data/")
         End Function
-
+        Public Shared Function GetDataDir_Intro() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Introduction/Data/")
+        End Function
+        Public Shared Function GetDataDir_LoadSaveConvert() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Load-Save-Convert/Data/")
+        End Function
+        Public Shared Function GetDataDir_ShapeText() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Text/Data/")
+        End Function
+        Public Shared Function GetDataDir_Protection() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Protection/Data/")
+        End Function
+        Public Shared Function GetDataDir_Master() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Masters/Data/")
+        End Function
+        Public Shared Function GetDataDir_VisioPages() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Pages/Data/")
+        End Function
+        Public Shared Function GetDataDir_VisioComments() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Comments/Data/")
+        End Function
+        Public Shared Function GetDataDir_ExternalDataSources() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-External-Data-Sources/Data/")
+        End Function
+        Public Shared Function GetDataDir_GeometrySection() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Geometry-Section/Data/")
+        End Function
+        Public Shared Function GetDataDir_HeadersAndFooters() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Headers-and-Footers/Data/")
+        End Function
+        Public Shared Function GetDataDir_Hyperlinks() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Hyperlinks/Data/")
+        End Function
+        Public Shared Function GetDataDir_Layers() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Hyperlinks/Data/")
+        End Function
+        Public Shared Function GetDataDir_Print() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Layers/Data/")
+        End Function
+        Public Shared Function GetDataDir_SolutionXML() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-SolutionXML-Elements/Data/")
+        End Function
+        Public Shared Function GetDataDir_ShapeTextBoxData() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Text-Boxes/Data/")
+        End Function
+        Public Shared Function GetDataDir_UserDefinedCells() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-User-defined-Cells/Data/")
+        End Function
+        Public Shared Function GetDataDir_WindowElements() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Working-with-Window-Elements/Data/")
+        End Function
+        Public Shared Function GetDataDir_TechnicalArticles() As String
+            Return Path.GetFullPath("../../ProgrammersGuide/Technical-Articles/Data/")
+        End Function
+        Public Shared Function GetDataDir_KnowledgeBase() As [String]
+            Return Path.GetFullPath("../../Knowledge-Base/Data/")
+        End Function
     End Class
 End Namespace

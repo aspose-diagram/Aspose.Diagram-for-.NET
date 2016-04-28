@@ -31,7 +31,7 @@ namespace CSharp.ProgrammersGuide.Introduction
             diagram.DocumentProps.Template = "Aspose Template";
 
             //Write the updated file to the disk in VSDX file format
-            diagram.Save(dataDir + "output.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "SetVisioProperties_Out.vsdx", SaveFileFormat.VSDX);
             //ExEnd:SetVisioProperties
         }
     }
