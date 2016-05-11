@@ -14,7 +14,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Layers
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Layers();
 
-            // load source Visio diagram
+            // load a source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
             // get page by name
             Page page = diagram.Pages.GetPage("Page-1");

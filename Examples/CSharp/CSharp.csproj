@@ -79,6 +79,7 @@
     <Compile Include="ProgrammersGuide\Introduction\GetLibraryVersion.cs" />
     <Compile Include="ProgrammersGuide\Introduction\SetVisioProperties.cs" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\CreateNewVisio.cs" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportHTMLinStream.cs" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportToXAML.cs" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\ReadVisioDiagram.cs" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UseDiagramSaveOptions.cs" />

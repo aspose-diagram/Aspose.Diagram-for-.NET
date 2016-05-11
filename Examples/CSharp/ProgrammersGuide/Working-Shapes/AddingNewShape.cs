@@ -19,9 +19,8 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
             // get page by name
             Page page = diagram.Pages.GetPage("Page-2");
 
-            // Add master with stencil file path and master id
-            string masterName = "Rectangle";
             // Add master with stencil file path and master name
+            string masterName = "Rectangle";
             diagram.AddMaster(dataDir + "Basic Shapes.vss", masterName);
             
             // page indexing starts from 0

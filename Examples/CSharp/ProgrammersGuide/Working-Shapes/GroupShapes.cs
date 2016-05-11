@@ -28,7 +28,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
             ss[2] = page.Shapes.GetShape(17);
 
             // mark array shapes as group
-            diagram.Pages[0].Shapes.Group(ss);
+            page.Shapes.Group(ss);
 
             // save visio diagram
             diagram.Save(dataDir + "GroupShapes_Out.vsdx", SaveFileFormat.VSDX);

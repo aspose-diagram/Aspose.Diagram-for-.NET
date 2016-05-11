@@ -66,8 +66,10 @@
     <Compile Include="ProgrammersGuide\Introduction\GetLibraryVersion.vb" />
     <Compile Include="ProgrammersGuide\Introduction\SetVisioProperties.vb" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\CreateNewVisio.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportHTMLinStream.vb" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\ExportToXAML.vb" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\ReadVisioDiagram.vb" />
+    <Compile Include="ProgrammersGuide\Load-Save-Convert\SaveVisioDiagram.vb" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UseDiagramSaveOptions.vb" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UseHTMLSaveOptions.vb" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UseImageSaveOptions.vb" />
@@ -182,6 +184,20 @@
     <None Include="Knowledge-Base\Data\Basic Shapes.vss" />
     <None Include="Knowledge-Base\Data\Drawing1.vsd" />
     <None Include="packages.config" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Basic.vss" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\certificate.pfx" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Drawing1.vdx" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Drawing1.vsdx" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Drawing1.vsx" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportPageToImage.vsd" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToHTML.vsd" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToImage.vsd" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToPDF.vsd" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToSVG.vsd" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToSWF.vsd" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToXAML.vsd" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToXML.vsd" />
+    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToXPS.vsd" />
     <None Include="ProgrammersGuide\Working-Diagrams\Data\AddConnectShapes.vss" />
     <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToHTML.vsd" />
     <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToImage.vsd" />
@@ -213,7 +229,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ProgrammersGuide\Introduction\Data\" />
-    <Folder Include="ProgrammersGuide\Load-Save-Convert\Data\" />
     <Folder Include="ProgrammersGuide\Working-with-Comments\Data\" />
     <Folder Include="ProgrammersGuide\Working-with-External-Data-Sources\Data\" />
     <Folder Include="ProgrammersGuide\Working-with-Geometry-Section\Data\" />

@@ -21,20 +21,20 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert
             st.Close();
 
             //Call the diagram constructor to load a VDX diagram
-            Diagram vdxDiagram = new Diagram(dataDir + "ReadVisioDiagram_Out.vdx");
+            Diagram vdxDiagram = new Diagram(dataDir + "Drawing1.vdx");
 
             /*
              * Call diagram constructor to load a VSS stencil
              * providing load file format
             */
-            Diagram vssDiagram = new Diagram(dataDir + "ReadVisioDiagram_Out.vss", LoadFileFormat.VSS);
+            Diagram vssDiagram = new Diagram(dataDir + "Basic.vss", LoadFileFormat.VSS);
 
             /*
              * Call diagram constructor to load diagram from a VSX file
              * providing load options
             */
             LoadOptions loadOptions = new LoadOptions(LoadFileFormat.VSX);
-            Diagram vsxDiagram = new Diagram(dataDir + "ReadVisioDiagram_Out.vsx", loadOptions);
+            Diagram vsxDiagram = new Diagram(dataDir + "Drawing1.vsx", loadOptions);
             //ExEnd:ReadVisioDiagram
         }
     }

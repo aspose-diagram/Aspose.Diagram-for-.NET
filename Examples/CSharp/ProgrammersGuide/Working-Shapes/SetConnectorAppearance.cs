@@ -14,8 +14,8 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
-            // call a Diagram class constructor to load the VSDX diagram
-            Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
+            // call a Diagram class constructor to load the VSD diagram
+            Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");
 
             //get a particular page
             Page page = diagram.Pages.GetPage("Page-3");

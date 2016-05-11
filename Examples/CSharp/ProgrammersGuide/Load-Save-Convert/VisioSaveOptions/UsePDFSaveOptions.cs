@@ -16,7 +16,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
-            // Call the diagram constructor to load diagram from a VSD file
+            // Call the diagram constructor to load diagram from a VSDX file
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
             // Options when saving a diagram into the PDF format

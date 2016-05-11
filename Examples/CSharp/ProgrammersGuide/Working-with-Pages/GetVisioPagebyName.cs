@@ -14,7 +14,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_VisioPages();
 
-            // Call the diagram constructor to load diagram from a VDX file
+            // Call the diagram constructor to load diagram from a VSDX file
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
             // Set page name

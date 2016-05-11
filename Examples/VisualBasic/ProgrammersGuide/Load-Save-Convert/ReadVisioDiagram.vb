@@ -15,16 +15,16 @@ Public Class ReadVisioDiagram
         st.Close()
 
         ' call the diagram constructor to load a VDX diagram
-        Dim vdxDiagram As New Diagram(dataDir & Convert.ToString("ReadVisioDiagram_Out.vdx"))
+        Dim vdxDiagram As New Diagram(dataDir & Convert.ToString("Drawing1.vdx"))
 
         ' * Call diagram constructor to load a VSS stencil
         ' * providing load file format
-        Dim vssDiagram As New Diagram(dataDir & Convert.ToString("ReadVisioDiagram_Out.vss"), LoadFileFormat.VSS)
+        Dim vssDiagram As New Diagram(dataDir & Convert.ToString("Basic.vss"), LoadFileFormat.VSS)
 
         '* Call diagram constructor to load diagram from a VSX file
         '* providing load options
         Dim loadOptions As New LoadOptions(LoadFileFormat.VSX)
-        Dim vsxDiagram As New Diagram(dataDir & Convert.ToString("ReadVisioDiagram_Out.vsx"), loadOptions)
+        Dim vsxDiagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsx"), loadOptions)
         'ExEnd:ReadVisioDiagram
     End Sub
 End Class

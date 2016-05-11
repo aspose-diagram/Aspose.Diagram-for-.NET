@@ -52,7 +52,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Geometry_Section
             connector.Geoms[0].CoordinateCol.Add(lineTo);
 
             //save diagram in VDX format
-            diagram.Save(dataDir + "EditConnectorGeometry_Out.vsdx", SaveFileFormat.VDX);
+            diagram.Save(dataDir + "EditConnectorGeometry_Out.vsdx", SaveFileFormat.VSDX);
             //ExEnd:EditConnectorGeometry
          }
     }
