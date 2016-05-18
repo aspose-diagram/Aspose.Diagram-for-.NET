@@ -51,11 +51,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=6.3.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Diagram.6.3.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Aspose.Diagram">
+      <HintPath>..\..\..\..\..\Aspose.Diagram for .NET Hotfix 6.3.2.0\NET4.0\Aspose.Diagram.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Office.Interop.Visio, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.Office.Interop.Visio, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
@@ -193,64 +192,7 @@
     <Compile Include="RunExamples.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Knowledge-Base\Data\Basic Shapes.vss" />
-    <None Include="Knowledge-Base\Data\Drawing1.vsd" />
-    <None Include="packages.config" />
-    <None Include="ProgrammersGuide\Introduction\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Basic.vss" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Drawing1.vdx" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Drawing1.vsx" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToXAML.vsd" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\Basic Shapes.vss" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\DrawingTimeLine.vsdx" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\Timeline.vss" />
-    <None Include="ProgrammersGuide\Working-with-External-Data-Sources\Data\Drawing1.vsd" />
-    <None Include="ProgrammersGuide\Working-with-Geometry-Section\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Working-with-Headers-and-Footers\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Working-with-Hyperlinks\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Working-with-Layers\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Working-with-Masters\Data\Basic Shapes.vss" />
-    <None Include="ProgrammersGuide\Working-with-Masters\Data\NetApp-FAS-series.vss" />
-    <None Include="ProgrammersGuide\Working-with-Pages\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Working-with-Print\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Working-with-SolutionXML-Elements\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Working-with-Text-Boxes\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Working-with-Text\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Working-with-Text\Data\FindReplaceText.vsdx" />
-    <None Include="ProgrammersGuide\Working-with-User-defined-Cells\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Working-with-Window-Elements\Data\Drawing1.vsdx" />
-    <None Include="Technical-Articles\Data\AddConnectShapes.vss" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToHTML.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToImage.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToPDF.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToSVG.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToSWFWithoutViewer.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToSWF.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToXML.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToXPS.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportPageToImage.vsd" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\ExtractAllImagesFromPage.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\LayOutShapesInCompactTreeStyle.vdx" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\LayOutShapesInFlowchartStyle.vdx" />
-    <None Include="ProgrammersGuide\Working-with-Protection\Data\ProtectAndUnprotect.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ReadDiagramFile.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrieveConnectorInfo.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrieveFontInfo.vsd" />
-    <None Include="ProgrammersGuide\Working-with-Masters\Data\RetrieveMasterInfo.vdx" />
-    <None Include="ProgrammersGuide\Working-with-Pages\Data\RetrievePageInfo.vdx" />
-    <None Include="ProgrammersGuide\Working-with-Text\Data\ApplyCustomStyleSheets.cs.vsd" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\RetrieveShapeInfo.vsd" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\SetFillData.vsd" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\SetLineData.vsd" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\SetXFormdata.vsd" />
-    <None Include="ProgrammersGuide\Working-with-Text\Data\UpdateShapeText.vsd" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Examples.xml" />
-    <Content Include="ProgrammersGuide\Working-Shapes\Data\image.bmp" />
-    <Content Include="ProgrammersGuide\Working-Shapes\Data\Picture.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -274,8 +216,9 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="ProgrammersGuide\Working-with-Comments\Data\" />
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

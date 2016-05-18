@@ -17,7 +17,7 @@ Namespace VisualBasic.Diagrams
         Public Shared Sub Run()
             'ExStart:ExportPageToImage
             ' The path to the documents directory.
-            Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
+            Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
             ' load diagram
             Dim diagram As New Diagram(dataDir & "ExportPageToImage.vsd")
 

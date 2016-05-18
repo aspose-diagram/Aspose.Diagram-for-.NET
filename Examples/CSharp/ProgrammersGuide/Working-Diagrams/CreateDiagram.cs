@@ -1,12 +1,6 @@
-//////////////////////////////////////////////////////////////////////////
-// Copyright 2001-2015 Aspose Pty Ltd. All Rights Reserved.
-//
-// This file is part of Aspose.Diagram. The source code in this file
-// is only intended as a supplement to the documentation, and is provided
-// "as is", without warranty of any kind, either expressed or implied.
-//////////////////////////////////////////////////////////////////////////
-using System.IO;
 
+using System.IO;
+using System;
 using Aspose.Diagram;
 
 namespace CSharp.Diagrams
@@ -25,9 +19,11 @@ namespace CSharp.Diagrams
                 System.IO.Directory.CreateDirectory(dataDir);
             // initialize a new Visio
             Diagram diagram = new Diagram();
+            dataDir = dataDir + "CreateDiagram_Out.vsdx";
             // save in the VSDX format
-            diagram.Save(dataDir + "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir, SaveFileFormat.VSDX);
             //ExEnd:CreateDiagram
+            Console.WriteLine("\nDiagram created successfully.\nFile saved at " + dataDir);
         }
     }
 }

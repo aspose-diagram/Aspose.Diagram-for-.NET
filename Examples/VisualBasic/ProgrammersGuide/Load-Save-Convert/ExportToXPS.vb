@@ -16,7 +16,7 @@ Namespace VisualBasic.Diagrams
         Public Shared Sub Run()
             'ExStart:ExportToXPS
             ' The path to the documents directory.
-            Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
+            Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
             ' open VSD diagram
             Dim diagram As New Diagram(dataDir & "ExportToXPS.vsd")

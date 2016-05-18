@@ -17,7 +17,7 @@ Namespace VisualBasic.Diagrams
         Public Shared Sub Run()
             'ExStart:RetrievePageInfo
             ' The path to the documents directory.
-            Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
+            Dim dataDir As String = RunExamples.GetDataDir_VisioPages()
 
             'Call the diagram constructor to load diagram from a VDX file
             Dim vdxDiagram As New Diagram(dataDir & "RetrievePageInfo.vdx")

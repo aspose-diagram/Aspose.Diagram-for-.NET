@@ -20,7 +20,7 @@ namespace CSharp.Diagrams
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
             // open a VSD file
-            Diagram diagram = new Diagram(dataDir + "ExportToXPS.vsd");
+            Diagram diagram = new Diagram(dataDir + "LayOutShapesInCompactTreeStyle.vdx");
 
             // save diagram to an XPS format
             diagram.Save(dataDir + "Output.xps", SaveFileFormat.XPS);

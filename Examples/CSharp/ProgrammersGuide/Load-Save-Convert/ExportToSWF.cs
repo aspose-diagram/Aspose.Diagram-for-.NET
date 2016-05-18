@@ -21,7 +21,7 @@ namespace CSharp.Diagrams
             // load diagram
             Diagram diagram = new Diagram(dataDir + "ExportToSWF.vsd");
             // save diagram
-            diagram.Save(dataDir + "Output.swf", SaveFileFormat.SWF);
+            diagram.Save(dataDir + "Output_Out.swf", SaveFileFormat.SWF);
             //ExEnd:ExportToSWF
         }
     }

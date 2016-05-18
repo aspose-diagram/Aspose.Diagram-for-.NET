@@ -18,7 +18,7 @@ Namespace VisualBasic.Diagrams
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
             ' load a VSD diagram
-            Dim diagram As New Diagram(dataDir & "ExportToSWF.vsd")
+            Dim diagram As New Diagram(dataDir & "ExportToSWFWithoutViewer.vsd")
             ' save diagram in the SWF format
             diagram.Save(dataDir & "ExportToSWF_Out.swf", SaveFileFormat.SWF)
             'ExEnd:ExportToSWF

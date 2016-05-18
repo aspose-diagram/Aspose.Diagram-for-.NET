@@ -17,7 +17,7 @@ Namespace VisualBasic.Diagrams
         Public Shared Sub Run()
             'ExStart:ExtractAllImagesFromPage
             ' The path to the documents directory.
-            Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
+            Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
             'Call the diagram constructor to load diagram from a VSD file
             Dim diagram As New Diagram(dataDir & "ExtractAllImagesFromPage.vsd")

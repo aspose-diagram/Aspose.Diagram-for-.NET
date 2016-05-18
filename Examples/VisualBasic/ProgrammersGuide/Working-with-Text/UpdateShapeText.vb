@@ -16,7 +16,7 @@ Namespace VisualBasic.Shapes
         Public Shared Sub Run()
             'ExStart:UpdateShapeText
             ' The path to the documents directory.
-            Dim dataDir As String = RunExamples.GetDataDir_Shapes()
+            Dim dataDir As String = RunExamples.GetDataDir_ShapeText()
 
             'Call the diagram constructor to load diagram from a VDX file
             Dim vdxDiagram As New Diagram(dataDir & "UpdateShapeText.vsd")

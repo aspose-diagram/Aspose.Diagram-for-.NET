@@ -16,7 +16,7 @@ Namespace VisualBasic.Diagrams
         Public Shared Sub Run()
             'ExStart:ExportToXML
             ' The path to the documents directory.
-            Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
+            Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
             ' 1.
             ' Exporting VSD to VDX

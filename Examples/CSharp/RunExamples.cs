@@ -7,6 +7,7 @@ using CSharp.Diagrams;
 using CSharp.Shapes;
 using CSharp.ProgrammersGuide.Introduction;
 using CSharp.ProgrammersGuide.Working_Shapes;
+using CSharp.ProgrammersGuide.Working_with_Comments;
 
 namespace CSharp
 {
@@ -25,7 +26,7 @@ namespace CSharp
             // Introduction
             // =====================================================
             // =====================================================
-            GetLibraryVersion.Run();
+            //GetLibraryVersion.Run();
 
             // =====================================================
             // =====================================================
@@ -35,19 +36,16 @@ namespace CSharp
 
             //AddConnectShapes.Run();
             //CreateDiagram.Run();
-            //ExportPageToImage.Run();
+            ExportPageToImage.Run();
             //ExportToHTML.Run();
             //ExportToImage.Run();
             //ExportToPDF.Run();
-            //ExportToSVG.Run();
-            //ExportToSWF.Run();
-            //ExportToSWFWithoutViewer.Run();
+            //ExportToSVG.Run();            
             //ExportToXML.Run();
             //ExportToXPS.Run();
             //ExtractAllImagesFromPage.Run();
             //LayOutShapesInCompactTreeStyle.Run();
-            //LayOutShapesInFlowchartStyle.Run();
-            //ProtectAndUnprotect.Run();
+            //LayOutShapesInFlowchartStyle.Run();           
             //ReadDiagramFile.Run();
             //RetrieveConnectorInfo.Run();
             //RetrieveFontInfo.Run();
@@ -67,6 +65,15 @@ namespace CSharp
             //SetXFormdata.Run();
             //UpdateShapeText.Run();
             //RefreshMilestoneWithMilestoneHelper.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working With Comments
+            // =====================================================
+            // =====================================================
+
+            //AddPageLevelCommentInVisio.Run();
+            //EditPageLevelCommentInVisio.Run();
             
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
@@ -74,88 +81,106 @@ namespace CSharp
         }
         public static String GetDataDir_Intro()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Introduction/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Introduction/");
         }
         public static String GetDataDir_LoadSaveConvert()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Load-Save-Convert/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Load-Save-Convert/");
         }
         public static String GetDataDir_Diagrams()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-Diagrams/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-Diagrams/");
         }
 
         public static String GetDataDir_Shapes()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-Shapes/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-Shapes/");
         }
         public static String GetDataDir_ShapeText()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Text/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Text/");
         }
         public static String GetDataDir_Protection()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Protection/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Protection/");
         }
         public static String GetDataDir_Master()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Masters/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Masters/");
         }
         public static String GetDataDir_VisioPages()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Pages/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Pages/");
         }
         public static String GetDataDir_VisioComments()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Comments/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Comments/");
         }
         public static String GetDataDir_ExternalDataSources()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-External-Data-Sources/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-External-Data-Sources/");
         }
         public static String GetDataDir_GeometrySection()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Geometry-Section/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Geometry-Section/");
         }
         public static String GetDataDir_HeadersAndFooters()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Headers-and-Footers/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Headers-and-Footers/");
         }
         public static String GetDataDir_Hyperlinks()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Hyperlinks/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Hyperlinks/");
         }
         public static String GetDataDir_Layers()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Layers/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Layers/");
         }
         public static String GetDataDir_Print()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Print/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Print/");
         }
         public static String GetDataDir_SolutionXML()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-SolutionXML-Elements/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-SolutionXML-Elements/");
         }
         public static String GetDataDir_ShapeTextBoxData()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Text-Boxes/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Text-Boxes/");
         }
         public static String GetDataDir_UserDefinedCells()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-User-defined-Cells/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-User-defined-Cells/");
         }
         public static String GetDataDir_WindowElements()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Working-with-Window-Elements/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Window-Elements/");
         }
         public static String GetDataDir_TechnicalArticles()
         {
-            return Path.GetFullPath("../../ProgrammersGuide/Technical-Articles/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "Technical-Articles/");
         }
         public static String GetDataDir_KnowledgeBase()
         {
-            return Path.GetFullPath("../../Knowledge-Base/Data/");
+            return Path.GetFullPath(GetDataDir_Data() + "Knowledge-Base/");
         }
+        private static string GetDataDir_Data()
+        {
+            var parent = Directory.GetParent(Directory.GetCurrentDirectory()).Parent;
+            string startDirectory = null;
+            if (parent != null)
+            {
+                var directoryInfo = parent.Parent;
+                if (directoryInfo != null)
+                {
+                    startDirectory = directoryInfo.FullName;
+                }
+            }
+            else
+            {
+                startDirectory = parent.FullName;
+            }
+            return Path.Combine(startDirectory, "Data\\");
+        }       
     }
 }

@@ -16,7 +16,7 @@ Namespace VisualBasic.Diagrams
         Public Shared Sub Run()
             'ExStart:ExportToPDF
             ' The path to the documents directory.
-            Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
+            Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
             'Call the diagram constructor to load a VSD diagram
             Dim diagram As New Diagram(dataDir & "ExportToPDF.vsd")

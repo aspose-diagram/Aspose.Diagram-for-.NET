@@ -17,6 +17,8 @@
     <OptionInfer>On</OptionInfer>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -38,12 +40,12 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=6.3.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Diagram.6.3.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Aspose.Diagram">
+      <HintPath>..\..\..\..\..\Aspose.Diagram for .NET Hotfix 6.3.2.0\NET4.0\Aspose.Diagram.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Visio, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Program Files\Microsoft Visual Studio 11.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Visio.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -181,72 +183,11 @@
     <Compile Include="RunExamples.vb" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Knowledge-Base\Data\Basic Shapes.vss" />
-    <None Include="Knowledge-Base\Data\Drawing1.vsd" />
-    <None Include="packages.config" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Basic.vss" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\certificate.pfx" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Drawing1.vdx" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Drawing1.vsdx" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\Drawing1.vsx" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportPageToImage.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToHTML.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToImage.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToPDF.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToSVG.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToSWF.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToXAML.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToXML.vsd" />
-    <None Include="ProgrammersGuide\Load-Save-Convert\Data\ExportToXPS.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\AddConnectShapes.vss" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToHTML.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToImage.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToPDF.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToSVG.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToSWFWithoutViewer.vb.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToSWF.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToXML.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportToXPS.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExportPageToImage.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ExtractAllImagesFromPage.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\LayOutShapesInCompactTreeStyle.vdx" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\LayOutShapesInFlowchartStyle.vdx" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ProtectAndUnprotect.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\ReadDiagramFile.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrieveConnectorInfo.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrieveFontInfo.vsd" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrieveMasterInfo.vdx" />
-    <None Include="ProgrammersGuide\Working-Diagrams\Data\RetrievePageInfo.vdx" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\ApplyCustomStyleSheets.vb.vsd" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\RetrieveShapeInfo.vsd" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\SetFillData.vsd" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\SetLineData.vsd" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\SetXFormdata.vsd" />
-    <None Include="ProgrammersGuide\Working-Shapes\Data\UpdateShapeText.vsd" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Examples.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ProgrammersGuide\Introduction\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Comments\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-External-Data-Sources\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Geometry-Section\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Headers-and-Footers\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Hyperlinks\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Layers\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Masters\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Pages\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Print\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Protection\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-SolutionXML-Elements\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Text-Boxes\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Text\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-User-defined-Cells\Data\" />
-    <Folder Include="ProgrammersGuide\Working-with-Window-Elements\Data\" />
-    <Folder Include="Technical-Articles\Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
