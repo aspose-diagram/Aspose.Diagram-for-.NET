@@ -36,13 +36,13 @@ namespace CSharp
 
             //AddConnectShapes.Run();
             //CreateDiagram.Run();
-            ExportPageToImage.Run();
+            ///ExportPageToImage.Run();
             //ExportToHTML.Run();
             //ExportToImage.Run();
             //ExportToPDF.Run();
             //ExportToSVG.Run();            
             //ExportToXML.Run();
-            //ExportToXPS.Run();
+            //ExportToXPS.Run();            
             //ExtractAllImagesFromPage.Run();
             //LayOutShapesInCompactTreeStyle.Run();
             //LayOutShapesInFlowchartStyle.Run();           

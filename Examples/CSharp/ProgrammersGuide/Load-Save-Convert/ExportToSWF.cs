@@ -17,9 +17,9 @@ namespace CSharp.Diagrams
         {
             //ExStart:ExportToSWF
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
+            string dataDir = RunExamples.GetDataDir_Diagrams();
             // load diagram
-            Diagram diagram = new Diagram(dataDir + "ExportToSWF.vsd");
+            Diagram diagram = new Diagram(dataDir + "ActvDir.vsd");
             // save diagram
             diagram.Save(dataDir + "Output_Out.swf", SaveFileFormat.SWF);
             //ExEnd:ExportToSWF
