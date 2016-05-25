@@ -16,7 +16,7 @@ Namespace VisualBasic.Diagrams
         Public Shared Sub Run()
             'ExStart:VisioDiagramProtection
             ' The path to the documents directory.
-            Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
+            Dim dataDir As String = RunExamples.GetDataDir_Protection()
 
             'Load diagram
             Dim diagram As New Diagram(dataDir & "ProtectAndUnprotect.vsd")

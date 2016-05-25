@@ -17,7 +17,7 @@ Namespace VisualBasic.Diagrams
         Public Shared Sub Run()
             'ExStart:AddConnectShapes
             ' The path to the documents directory.
-            Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
+            Dim dataDir As String = RunExamples.GetDataDir_TechnicalArticles()
 
             'Set license (you can add 10 shapes without setting a license)
             'License lic = new License();

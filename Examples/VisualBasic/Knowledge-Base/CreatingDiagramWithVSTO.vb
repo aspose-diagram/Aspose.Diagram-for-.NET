@@ -1,6 +1,7 @@
 ﻿Imports VisualBasic
 Imports Aspose.Diagram
 Imports System
+Imports System.IO
 Imports Visio = Microsoft.Office.Interop.Visio
 
 Public Class CreatingDiagramWithVSTO
@@ -47,11 +48,7 @@ Public Class CreatingDiagramWithVSTO
             'Save diagram as VDX
             vdxDoc.SaveAs(dataDir & Convert.ToString("CreatingDiagramWithVSTO_Out.vdx"))
         Catch ex As Exception
-            Console.WriteLine(ex.Message)
-        Finally
-            'Close active document and quit
-            vdxDoc.Close()
-            vdxApp.Quit()
+            Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.")
         End Try
         'ExEnd:CreatingDiagramWithVSTO
     End Sub

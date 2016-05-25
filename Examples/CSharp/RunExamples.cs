@@ -2,12 +2,26 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-
 using CSharp.Diagrams;
 using CSharp.Shapes;
 using CSharp.ProgrammersGuide.Introduction;
 using CSharp.ProgrammersGuide.Working_Shapes;
 using CSharp.ProgrammersGuide.Working_with_Comments;
+using CSharp.ProgrammersGuide.Load_Save_Convert;
+using CSharp.Knowledge_Base;
+using CSharp.ProgrammersGuide.Working_with_Geometry_Section;
+using CSharp.ProgrammersGuide.Working_with_Headers_and_Footers;
+using CSharp.ProgrammersGuide.Working_with_Hyperlinks;
+using CSharp.ProgrammersGuide.Working_with_Layers;
+using CSharp.ProgrammersGuide.Working_with_Masters;
+using CSharp.ProgrammersGuide.Working_with_Pages;
+using CSharp.ProgrammersGuide.Working_with_Print;
+using CSharp.ProgrammersGuide.Working_with_Protection;
+using CSharp.ProgrammersGuide.Working_with_SolutionXML_Elements;
+using CSharp.ProgrammersGuide.Working_with_Text;
+using CSharp.ProgrammersGuide.Working_with_Text_Boxes;
+using CSharp.ProgrammersGuide.Working_with_User_defined_Cells;
+using CSharp.ProgrammersGuide.Working_with_Window_Elements;
 
 namespace CSharp
 {
@@ -26,8 +40,38 @@ namespace CSharp
             // Introduction
             // =====================================================
             // =====================================================
-            //GetLibraryVersion.Run();
 
+            //GetLibraryVersion.Run();
+            //SetVisioProperties.Run();
+            //DetectVisioFileFormat.Run();
+
+            // =====================================================
+            // =====================================================
+            // Load-Save-Convert
+            // =====================================================
+            // =====================================================
+
+            //CreateNewVisio.Run();
+            //ExportHTMLinStream.Run();
+            //ExportToXAML.Run();
+            //ReadVisioDiagram.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-Geometry-Section
+            // =====================================================
+            // =====================================================
+
+            //EditConnectorGeometry.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-Headers-and-Footers
+            // =====================================================
+            // =====================================================
+
+            //ManageHeadersandFooters.Run();
+         
             // =====================================================
             // =====================================================
             // Working With Diagrams
@@ -36,7 +80,7 @@ namespace CSharp
 
             //AddConnectShapes.Run();
             //CreateDiagram.Run();
-            ///ExportPageToImage.Run();
+            //ExportPageToImage.Run();
             //ExportToHTML.Run();
             //ExportToImage.Run();
             //ExportToPDF.Run();
@@ -51,6 +95,8 @@ namespace CSharp
             //RetrieveFontInfo.Run();
             //RetrieveMasterInfo.Run();
             //RetrievePageInfo.Run();
+            //ExportToSWF.Run();
+            //ExportToSWFWithoutViewer.Run();
 
             // =====================================================
             // =====================================================
@@ -74,7 +120,150 @@ namespace CSharp
 
             //AddPageLevelCommentInVisio.Run();
             //EditPageLevelCommentInVisio.Run();
-            
+
+            // =====================================================
+            // =====================================================
+            // Knowledge-Base
+            // =====================================================
+            // =====================================================
+
+            //CreatingDiagramWithAspose.Run();
+            //CreatingDiagramWithVSTO.Run();
+            //SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run();
+            //SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run();
+            //UpdateShapePropsWithAspose.Run();
+            //UpdateShapePropsWithVSTO.Run();
+
+            // =====================================================
+            // =====================================================
+            // Technical-Articles
+            // =====================================================
+            // =====================================================
+
+            //AddConnectShapes.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-Hyperlinks
+            // =====================================================
+            // =====================================================
+
+            //AddHyperlinkToShape.Run();
+            //GetHyperlinks.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-Layers
+            // =====================================================
+            // =====================================================
+
+            //AddLayer.Run();
+            //ConfigureShapeLayers.Run();
+            //RetrieveAllLayers.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-Masters
+            // =====================================================
+            // =====================================================
+                        
+            //CheckMasterPresencebyID.Run();
+            //CheckMasterPresencebyName.Run();
+            //GetMasterbyID.Run();
+            //GetMasterbyName.Run();
+            //RetrieveMasterInfo.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-Pages
+            // =====================================================
+            // =====================================================
+
+            //CopyVisioPage.Run();
+            //ExportOfHiddenVisioPagesToHTML.Run();
+            //ExportOfHiddenVisioPagesToImage.Run();
+            //ExportOfHiddenVisioPagesToPDF.Run();
+            //ExportOfHiddenVisioPagesToSVG.Run();
+            //ExportOfHiddenVisioPagesToXPS.Run();
+            //GetVisioPagebyID.Run();
+            //GetVisioPagebyName.Run();
+            //InsertBlankPageInVisio.Run();
+            //RetrievePageInfo.Run();
+            //SetVisioPageOrientation.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-Print
+            // =====================================================
+            // =====================================================
+
+            //ByDefaultPrinter.Run();
+            //BySpecificPrinter.Run();
+            //PrintDiagramVisXPSPrinterAPI.Run();
+            //SetPrintJobAndPrinterName.Run();  
+
+            // =====================================================
+            // =====================================================
+            // Working-with-Protection
+            // =====================================================
+            // =====================================================
+
+            //VisioDiagramProtection.Run();
+            //VisioShapeProtection.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-SolutionXML-Elements
+            // =====================================================
+            // =====================================================
+
+            //AddSolutionXMLElement.Run();
+            //ReadSolutionXMLElement.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-Text
+            // =====================================================
+            // =====================================================
+
+            //ApplyCustomStyleSheets.Run();
+            //ApplyFontOnText.Run();
+            //FindAndReplaceShapeText.Run();
+            //GetPlainTextOfVisio.Run();
+            //UpdateShapeText.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-Text-Boxes
+            // =====================================================
+            // =====================================================
+
+            //FormatShapeTextBlockSection.Run();
+            //SetShapeTextPositionAtBottom.Run();
+            //SetShapeTextPositionAtLeft.Run();
+            //SetShapeTextPositionAtRight.Run();
+            //SetShapeTextPositionAtTop.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-User-defined-Cells
+            // =====================================================
+            // =====================================================
+
+            //CreateUserDefinedCellInShapeSheet.Run();
+            //ReadUserdefinedCellsOfShape.Run();
+
+            // =====================================================
+            // =====================================================
+            // Working-with-Window-Elements
+            // =====================================================
+            // =====================================================
+
+            //AddSupportOfVisualAids.Run();
+            //AddWindowElementInVisio.Run();
+            //DisplayGridsRulersGuidesAndPageBreaks.Run();
+            RetrieveWindowElementsOfDiagram.Run();
+                        
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
             Console.ReadKey();

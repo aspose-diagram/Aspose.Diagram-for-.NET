@@ -16,25 +16,32 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:ExportToSWFWithoutViewer
-            // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Diagrams();
+            try
+            {
+                //ExStart:ExportToSWFWithoutViewer
+                // The path to the documents directory.
+                string dataDir = RunExamples.GetDataDir_Diagrams();
 
-            //instantiate Diagram Object and open VSD file
-            Diagram diagram = new Diagram(dataDir + "ExportToSWFWithoutViewer.vsd");
+                //instantiate Diagram Object and open VSD file
+                Diagram diagram = new Diagram(dataDir + "ExportToSWFWithoutViewer.vsd");
 
-            //Instantiate the Save Options
-            SWFSaveOptions options = new SWFSaveOptions();
+                //Instantiate the Save Options
+                SWFSaveOptions options = new SWFSaveOptions();
 
-            //Set Save format as SWF
-            options.SaveFormat = SaveFileFormat.SWF;
+                //Set Save format as SWF
+                options.SaveFormat = SaveFileFormat.SWF;
 
-            // Exclude the embedded viewer
-            options.ViewerIncluded = false;
+                // Exclude the embedded viewer
+                options.ViewerIncluded = false;
 
-            //Save the resultant SWF file
-            diagram.Save(dataDir + "ExportToSWFWithoutViewer_Out.swf", SaveFileFormat.SWF);
-            //ExEnd:ExportToSWFWithoutViewer
+                //Save the resultant SWF file
+                diagram.Save(dataDir + "ExportToSWFWithoutViewer_Out.swf", SaveFileFormat.SWF);
+                //ExEnd:ExportToSWFWithoutViewer
+            }            
+            catch (System.Exception ex)
+            {
+                System.Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
+            }            
         }
     }
 }

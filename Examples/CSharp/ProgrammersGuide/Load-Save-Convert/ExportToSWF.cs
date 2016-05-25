@@ -15,14 +15,22 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:ExportToSWF
-            // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Diagrams();
-            // load diagram
-            Diagram diagram = new Diagram(dataDir + "ActvDir.vsd");
-            // save diagram
-            diagram.Save(dataDir + "Output_Out.swf", SaveFileFormat.SWF);
-            //ExEnd:ExportToSWF
+
+            try
+            {
+                //ExStart:ExportToSWF
+                // The path to the documents directory.
+                string dataDir = RunExamples.GetDataDir_Diagrams();
+                // load diagram
+                Diagram diagram = new Diagram(dataDir + "ActvDir.vsd");
+                // save diagram
+                diagram.Save(dataDir + "Output_Out.swf", SaveFileFormat.SWF);
+                //ExEnd:ExportToSWF
+            }
+            catch (System.Exception ex)
+            {
+                System.Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
+            }
         }
     }
 }

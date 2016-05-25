@@ -41,11 +41,7 @@ Public Class UpdateShapePropsWithVSTO
             'Save file as VDX
             vsdDoc.SaveAs(dataDir & Convert.ToString("Drawing1.vdx"))
         Catch ex As Exception
-            Console.WriteLine(ex.Message)
-        Finally
-            'Close active document and quit
-            vsdDoc.Close()
-            vsdApp.Quit()
+            Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.")
         End Try
         'ExEnd:UpdateShapePropsWithVSTO
     End Sub

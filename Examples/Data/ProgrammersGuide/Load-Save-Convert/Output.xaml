@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FixedDocument xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'>
+	<PageContent>
+		<FixedPage xml:lang='en-us' Width='1056' Height='816' Name='Page1'>
+			<Canvas RenderTransform='1.333333373,0,0,1.333333373,0,0'>
+				<Canvas RenderTransform='1,0,0,-1,0,612'>
+					<Canvas RenderTransform='1,0,0,1,301.5,410.399993896'>
+						<Canvas RenderTransform='1,0,0,1,9,-9'>
+							<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M0,0 L0,72 L0,72 L189,72 L189,72 L189,0 L189,0 L0,0 Z'>
+								<Path.Fill>
+									<SolidColorBrush Color='#FFCDCDCD' />
+								</Path.Fill>
+								<Path.Stroke>
+									<SolidColorBrush Color='#FFCDCDCD' />
+								</Path.Stroke>
+							</Path>
+							<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M1.800000072,1.800000072 L1.800000072,70.200004578 L1.800000072,70.200004578 L187.199996948,70.200004578 L187.199996948,70.200004578 L187.199996948,1.800000072 L187.199996948,1.800000072 L1.800000072,1.800000072 Z'>
+								<Path.Stroke>
+									<SolidColorBrush Color='#FFCDCDCD' />
+								</Path.Stroke>
+							</Path>
+							<Canvas RenderTransform='1,0,0,1,67.728149414,18'>
+								<Glyphs OriginX='29.151195526' OriginY='0' UnicodeString='Jossef Goldberg' Fill='#FFCDCDCD' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' StyleSimulations='BoldSimulation' RenderTransform='1,0,0,-1,0,20.399999619' />
+								<Glyphs OriginX='27.821119308' OriginY='9.600000381' UnicodeString='President &amp; CEO' Fill='#FFCDCDCD' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' RenderTransform='1,0,0,-1,0,20.399999619' />
+							</Canvas>
+						</Canvas>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M0,0 L0,72 L0,72 L189,72 L189,72 L189,0 L189,0 L0,0 Z'>
+							<Path.Fill>
+								<SolidColorBrush Color='#FFFFFFFF' />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M1.800000072,1.800000072 L1.800000072,70.200004578 L1.800000072,70.200004578 L187.199996948,70.200004578 L187.199996948,70.200004578 L187.199996948,1.800000072 L187.199996948,1.800000072 L1.800000072,1.800000072 Z'>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+						<Canvas RenderTransform='1,0,0,1,94.5,63' />
+						<Canvas RenderTransform='1,0,0,1,157.49369812,63' />
+						<Canvas RenderTransform='1,0,0,1,94.5,9' />
+						<Canvas RenderTransform='1,0,0,1,157.49369812,9' />
+						<Canvas RenderTransform='1,0,0,1,2.300000191,2.299999237'>
+							<Path Data='M0,0 L53.11120224,0 L53.11120224,0 L53.11120224,67.400001526 L53.11120224,67.400001526 L0,67.400001526 L0,67.400001526 L0,0 Z'>
+								<Path.Fill>
+									<SolidColorBrush Color='#FFFFFFFF' />
+								</Path.Fill>
+							</Path>
+							<Canvas RenderTransform='1,0,0,-1,0,67.400001526'>
+								<Path Data='M0.359999985,0.359999985 L52.75120163,0.359999985 L52.75120163,67.040000916 L0.359999985,67.040000916 Z'>
+									<Path.Fill>
+										<ImageBrush ImageSource='Output_Resources/image1.jpeg' Viewbox='0,0,248.320007324,316.160003662' Viewport='0.359999985,0.359999985,52.391201019,66.680000305' ViewboxUnits='Absolute' ViewportUnits='Absolute' TileMode='None' />
+									</Path.Fill>
+								</Path>
+							</Canvas>
+						</Canvas>
+						<Canvas RenderTransform='1,0,0,1,67.728149414,18'>
+							<Glyphs OriginX='29.151195526' OriginY='0' UnicodeString='Jossef Goldberg' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' StyleSimulations='BoldSimulation' RenderTransform='1,0,0,-1,0,20.399999619' />
+							<Glyphs OriginX='27.821119308' OriginY='9.600000381' UnicodeString='President &amp; CEO' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' RenderTransform='1,0,0,-1,0,20.399999619' />
+						</Canvas>
+					</Canvas>
+					<Canvas RenderTransform='1,0,0,1,411.300018311,351.899993896'>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M0,0 L0,45 L0,45 L81,45 L81,45 L81,0 L81,0 L0,0 Z'>
+							<Path.Fill>
+								<SolidColorBrush Color='#FFFFFFFF' />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+						<Canvas RenderTransform='1,0,0,1,20.25,39.375' />
+						<Canvas RenderTransform='1,0,0,1,60.75,39.375' />
+						<Canvas RenderTransform='1,0,0,1,20.25,5.625' />
+						<Canvas RenderTransform='1,0,0,1,60.75,5.625' />
+						<Canvas RenderTransform='1,0,0,1,0.405002594,11.25'>
+							<Glyphs OriginX='17.025623322' OriginY='0' UnicodeString='Suzan Fine' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' StyleSimulations='BoldSimulation' RenderTransform='1,0,0,-1,0,13.649999619' />
+							<Glyphs OriginX='2.578358173' OriginY='9.600000381' UnicodeString='Executive Assistant' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' RenderTransform='1,0,0,-1,0,13.649999619' />
+						</Canvas>
+					</Canvas>
+					<Canvas RenderTransform='1,0,0,1,396,410.399993896'>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M0,0 L0,-36 L0,-36 L15.300000191,-36 '>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+					</Canvas>
+					<Canvas RenderTransform='1,0,0,1,253.650024414,279.899993896'>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M0,0 L0,45 L0,45 L121.5,45 L121.5,45 L121.5,0 L121.5,0 L0,0 Z'>
+							<Path.Fill>
+								<SolidColorBrush Color='#FFFFFFFF' />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M1.800000072,1.800000072 L1.800000072,43.200000763 L1.800000072,43.200000763 L119.700004578,43.200000763 L119.700004578,43.200000763 L119.700004578,1.800000072 L119.700004578,1.800000072 L1.800000072,1.800000072 Z'>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+						<Canvas RenderTransform='1,0,0,1,60.75,39.375' />
+						<Canvas RenderTransform='1,0,0,1,101.245948792,39.375' />
+						<Canvas RenderTransform='1,0,0,1,60.75,5.625' />
+						<Canvas RenderTransform='1,0,0,1,101.245948792,5.625' />
+						<Canvas RenderTransform='1,0,0,1,2.300000191,2.300001144'>
+							<Path Data='M0,0 L32.319999695,0 L32.319999695,0 L32.319999695,40.399997711 L32.319999695,40.399997711 L0,40.399997711 L0,40.399997711 L0,0 Z'>
+								<Path.Fill>
+									<SolidColorBrush Color='#FFFFFFFF' />
+								</Path.Fill>
+							</Path>
+							<Canvas RenderTransform='1,0,0,-1,0,40.399997711'>
+								<Path Data='M0.359999985,0.359999985 L31.960000992,0.359999985 L31.960000992,40.040000916 L0.359999985,40.040000916 Z'>
+									<Path.Fill>
+										<ImageBrush ImageSource='Output_Resources/image2.jpeg' Viewbox='0,0,250.880004883,314.880004883' Viewport='0.359999985,0.359999985,31.600002289,39.680000305' ViewboxUnits='Absolute' ViewportUnits='Absolute' TileMode='None' />
+									</Path.Fill>
+								</Path>
+							</Canvas>
+						</Canvas>
+						<Canvas RenderTransform='1,0,0,1,43.539527893,11.25'>
+							<Glyphs OriginX='10.111009598' OriginY='0' UnicodeString='Laura Jennings' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' StyleSimulations='BoldSimulation' RenderTransform='1,0,0,-1,0,13.649999619' />
+							<Glyphs OriginX='29.02116394' OriginY='9.600000381' UnicodeString='CFO' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' RenderTransform='1,0,0,-1,0,13.649999619' />
+						</Canvas>
+					</Canvas>
+					<Canvas RenderTransform='1,0,0,1,396,410.399993896'>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M0,0 L0,-76.503593445 L0,-76.503593445 L-81.599998474,-76.503593445 L-81.599998474,-76.503593445 L-81.599998474,-85.5 '>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+					</Canvas>
+					<Canvas RenderTransform='1,0,0,1,438.450012207,279.899993896'>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M0,0 L0,45 L0,45 L121.5,45 L121.5,45 L121.5,0 L121.5,0 L0,0 Z'>
+							<Path.Fill>
+								<SolidColorBrush Color='#FFFFFFFF' />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M1.800000072,1.800000072 L1.800000072,43.200000763 L1.800000072,43.200000763 L119.700004578,43.200000763 L119.700004578,43.200000763 L119.700004578,1.800000072 L119.700004578,1.800000072 L1.800000072,1.800000072 Z'>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+						<Canvas RenderTransform='1,0,0,1,60.75,39.375' />
+						<Canvas RenderTransform='1,0,0,1,101.245948792,39.375' />
+						<Canvas RenderTransform='1,0,0,1,60.75,5.625' />
+						<Canvas RenderTransform='1,0,0,1,101.245948792,5.625' />
+						<Canvas RenderTransform='1,0,0,1,2.300000191,4.549999237'>
+							<Path Data='M0,0 L35.900001526,0 L35.900001526,0 L35.900001526,35.900001526 L35.900001526,35.900001526 L0,35.900001526 L0,35.900001526 L0,0 Z'>
+								<Path.Fill>
+									<SolidColorBrush Color='#FFFFFFFF' />
+								</Path.Fill>
+							</Path>
+							<Canvas RenderTransform='1,0,0,-1,0,35.900001526'>
+								<Path Data='M0.359999985,0.359999985 L35.540000916,0.359999985 L35.540000916,35.540000916 L0.359999985,35.540000916 Z'>
+									<Path.Fill>
+										<ImageBrush ImageSource='Output_Resources/image3.jpeg' Viewbox='0,0,250.880004883,250.880004883' Viewport='0.359999985,0.359999985,35.180000305,35.180000305' ViewboxUnits='Absolute' ViewportUnits='Absolute' TileMode='None' />
+									</Path.Fill>
+								</Path>
+							</Canvas>
+						</Canvas>
+						<Canvas RenderTransform='1,0,0,1,43.539527893,11.25'>
+							<Glyphs OriginX='7.349769592' OriginY='-4.800000191' UnicodeString='Thom McCann' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' StyleSimulations='BoldSimulation' RenderTransform='1,0,0,-1,0,13.649999619' />
+							<Glyphs OriginX='-0.437339544' OriginY='4.800000191' UnicodeString='Senior VP Sales &amp; ' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' RenderTransform='1,0,0,-1,0,13.649999619' />
+							<Glyphs OriginX='16.017738342' OriginY='14.400001526' UnicodeString='Marketing' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' RenderTransform='1,0,0,-1,0,13.649999619' />
+						</Canvas>
+					</Canvas>
+					<Canvas RenderTransform='1,0,0,1,396,410.399993896'>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M0,0 L0,-76.503593445 L0,-76.503593445 L103.199996948,-76.503593445 L103.199996948,-76.503593445 L103.199996948,-85.5 '>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+					</Canvas>
+					<Canvas RenderTransform='1,0,0,1,68.849990845,279.899993896'>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M0,0 L0,45 L0,45 L121.5,45 L121.5,45 L121.5,0 L121.5,0 L0,0 Z'>
+							<Path.Fill>
+								<SolidColorBrush Color='#FFFFFFFF' />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M1.800000072,1.800000072 L1.800000072,43.200000763 L1.800000072,43.200000763 L119.700004578,43.200000763 L119.700004578,43.200000763 L119.700004578,1.800000072 L119.700004578,1.800000072 L1.800000072,1.800000072 Z'>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+						<Canvas RenderTransform='1,0,0,1,60.75,39.375' />
+						<Canvas RenderTransform='1,0,0,1,101.245948792,39.375' />
+						<Canvas RenderTransform='1,0,0,1,60.75,5.625' />
+						<Canvas RenderTransform='1,0,0,1,101.245948792,5.625' />
+						<Canvas RenderTransform='1,0,0,1,2.300000191,2.300001144'>
+							<Path Data='M0,0 L30.261579514,0 L30.261579514,0 L30.261579514,40.399997711 L30.261579514,40.399997711 L0,40.399997711 L0,40.399997711 L0,0 Z'>
+								<Path.Fill>
+									<SolidColorBrush Color='#FFFFFFFF' />
+								</Path.Fill>
+							</Path>
+							<Canvas RenderTransform='1,0,0,-1,0,40.399997711'>
+								<Path Data='M0.359999985,0.359999985 L29.901578903,0.359999985 L29.901578903,40.040000916 L0.359999985,40.040000916 Z'>
+									<Path.Fill>
+										<ImageBrush ImageSource='Output_Resources/image4.jpeg' Viewbox='0,0,245.759994507,330.239990234' Viewport='0.359999985,0.359999985,29.5415802,39.680000305' ViewboxUnits='Absolute' ViewportUnits='Absolute' TileMode='None' />
+									</Path.Fill>
+								</Path>
+							</Canvas>
+						</Canvas>
+						<Canvas RenderTransform='1,0,0,1,43.539527893,11.25'>
+							<Glyphs OriginX='7.557580948' OriginY='-9.600000381' UnicodeString='Ashley Larsen' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' StyleSimulations='BoldSimulation' RenderTransform='1,0,0,-1,0,13.649999619' />
+							<Glyphs OriginX='13.784142494' OriginY='0' UnicodeString='Senior VP ' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' RenderTransform='1,0,0,-1,0,13.649999619' />
+							<Glyphs OriginX='10.895471573' OriginY='9.600001335' UnicodeString='Research &amp; ' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' RenderTransform='1,0,0,-1,0,13.649999619' />
+							<Glyphs OriginX='9.336876869' OriginY='19.200000763' UnicodeString='Development' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' RenderTransform='1,0,0,-1,0,13.649999619' />
+						</Canvas>
+					</Canvas>
+					<Canvas RenderTransform='1,0,0,1,396,410.399993896'>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M0,0 L0,-76.503593445 L0,-76.503593445 L-266.399993896,-76.503593445 L-266.399993896,-76.503593445 L-266.399993896,-85.5 '>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+					</Canvas>
+					<Canvas RenderTransform='1,0,0,1,623.25,279.899993896'>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M0,0 L0,45 L0,45 L121.5,45 L121.5,45 L121.5,0 L121.5,0 L0,0 Z'>
+							<Path.Fill>
+								<SolidColorBrush Color='#FFFFFFFF' />
+							</Path.Fill>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+						<Path StrokeThickness='0.719999969' StrokeLineJoin='Miter' StrokeMiterLimit='10' StrokeStartLineCap='Round' StrokeEndLineCap='Round' Data='M1.800000072,1.800000072 L1.800000072,43.200000763 L1.800000072,43.200000763 L119.700004578,43.200000763 L119.700004578,43.200000763 L119.700004578,1.800000072 L119.700004578,1.800000072 L1.800000072,1.800000072 Z'>
+							<Path.Stroke>
+								<SolidColorBrush Color='#FF0033CC' />
+							</Path.Stroke>
+						</Path>
+						<Canvas RenderTransform='1,0,0,1,60.75,39.375' />
+						<Canvas RenderTransform='1,0,0,1,101.245948792,39.375' />
+						<Canvas RenderTransform='1,0,0,1,60.75,5.625' />
+						<Canvas RenderTransform='1,0,0,1,101.245948792,5.625' />
+						<Canvas RenderTransform='1,0,0,1,2.300000191,5.689687729'>
+							<Path Data='M0,0 L35.900001526,0 L35.900001526,0 L35.900001526,33.620624542 L35.900001526,33.620624542 L0,33.620624542 L0,33.620624542 L0,0 Z'>
+								<Path.Fill>
+									<SolidColorBrush Color='#FFFFFFFF' />
+								</Path.Fill>
+							</Path>
+							<Canvas RenderTransform='1,0,0,-1,0,33.620624542'>
+								<Path Data='M0.359999985,0.359999985 L35.540000916,0.359999985 L35.540000916,33.260623932 L0.359999985,33.260623932 Z'>
+									<Path.Fill>
+										<ImageBrush ImageSource='Output_Resources/image5.jpeg' Viewbox='0,0,197.759994507,184.960006714' Viewport='0.359999985,0.359999985,35.180000305,32.900623322' ViewboxUnits='Absolute' ViewportUnits='Absolute' TileMode='None' />
+									</Path.Fill>
+								</Path>
+							</Canvas>
+						</Canvas>
+						<Canvas RenderTransform='1,0,0,1,43.539527893,11.25'>
+							<Glyphs OriginX='16.349290848' OriginY='0' UnicodeString='Clair Hector' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' StyleSimulations='BoldSimulation' RenderTransform='1,0,0,-1,0,13.649999619' />
+							<Glyphs OriginX='28.353199005' OriginY='9.600000381' UnicodeString='COO' Fill='#FF000000' FontRenderingEmSize='8' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' RenderTransform='1,0,0,-1,0,13.649999619' />
+						</Canvas>
+					</Canvas>
+				</Canvas>
+				<Canvas>
+					<Glyphs OriginX='174.90234375' OriginY='295.9453125' UnicodeString='Created with Evaluation version of Aspose.Diagram (c).' Fill='#FF808080' FontRenderingEmSize='18' FontUri='Output_Resources/61790736-0000-0000-0000-000000000000.odttf' />
+				</Canvas>
+			</Canvas>
+		</FixedPage>
+	</PageContent>
+</FixedDocument>

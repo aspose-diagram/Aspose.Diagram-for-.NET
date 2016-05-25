@@ -3,7 +3,6 @@ Imports System
 Imports System.Collections.Generic
 Imports System.IO
 Imports System.Text
-
 Imports VisualBasic.Diagrams
 Imports VisualBasic.Shapes
 
@@ -14,6 +13,43 @@ Namespace VisualBasic
             Console.WriteLine("Open RunExamples.cs. In Main() method, Un-comment the example that you want to run")
             Console.WriteLine("=====================================================")
             ' Un-comment the one you want to try out
+
+            ' =====================================================
+            ' =====================================================
+            ' Introduction
+            ' =====================================================
+            ' =====================================================
+
+            'GetLibraryVersion.Run()
+            'SetVisioProperties.Run()
+            'DetectVisioFileFormat.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Load-Save-Convert
+            ' =====================================================
+            ' =====================================================
+
+            'CreateNewVisio.Run()
+            'ExportHTMLinStream.Run()
+            'ExportToXAML.Run()
+            'ReadVisioDiagram.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-Geometry-Section
+            ' =====================================================
+            ' =====================================================
+
+            'EditConnectorGeometry.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-Headers-and-Footers
+            ' =====================================================
+            ' =====================================================
+
+            'ManageHeadersandFooters.Run()
 
             ' =====================================================
             ' =====================================================
@@ -38,7 +74,8 @@ Namespace VisualBasic
             'RetrieveFontInfo.Run()
             'RetrieveMasterInfo.Run()
             'RetrievePageInfo.Run()
-
+            'ExportToSWF.Run()
+            'ExportToSWFWithoutViewer.Run()
 
             ' =====================================================
             ' =====================================================
@@ -62,6 +99,149 @@ Namespace VisualBasic
 
             'AddPageLevelCommentInVisio.Run()
             'EditPageLevelCommentInVisio.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Knowledge-Base
+            ' =====================================================
+            ' =====================================================
+
+            'CreatingDiagramWithAspose.Run()
+            'CreatingDiagramWithVSTO.Run()
+            'SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run()
+            'SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run()
+            'UpdateShapePropsWithAspose.Run()
+            'UpdateShapePropsWithVSTO.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Technical-Articles
+            ' =====================================================
+            ' =====================================================
+
+            'AddConnectShapes.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-Hyperlinks
+            ' =====================================================
+            ' =====================================================
+
+            'AddHyperlinkToShape.Run()
+            'GetHyperlinks.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-Layers
+            ' =====================================================
+            ' =====================================================
+
+            'AddLayer.Run()
+            'ConfigureShapeLayers.Run()
+            'RetrieveAllLayers.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-Masters
+            ' =====================================================
+            ' =====================================================
+
+            'CheckMasterPresencebyID.Run()
+            'CheckMasterPresencebyName.Run()
+            'GetMasterbyID.Run()
+            'GetMasterbyName.Run()
+            'RetrieveMasterInfo.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-Pages
+            ' =====================================================
+            ' =====================================================
+
+            'CopyVisioPage.Run()
+            'ExportOfHiddenVisioPagesToHTML.Run()
+            'ExportOfHiddenVisioPagesToImage.Run()
+            'ExportOfHiddenVisioPagesToPDF.Run()
+            'ExportOfHiddenVisioPagesToSVG.Run()
+            'ExportOfHiddenVisioPagesToXPS.Run()
+            'GetVisioPagebyID.Run()
+            'GetVisioPagebyName.Run()
+            'InsertBlankPageInVisio.Run()
+            'RetrievePageInfo.Run()
+            'SetVisioPageOrientation.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-Print
+            ' =====================================================
+            ' =====================================================
+
+            'ByDefaultPrinter.Run()
+            'BySpecificPrinter.Run()
+            'PrintDiagramVisXPSPrinterAPI.Run()
+            'SetPrintJobAndPrinterName.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-Protection
+            ' =====================================================
+            ' =====================================================
+
+            'VisioDiagramProtection.Run()
+            'VisioShapeProtection.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-SolutionXML-Elements
+            ' =====================================================
+            ' =====================================================
+
+            'AddSolutionXMLElement.Run()
+            'ReadSolutionXMLElement.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-Text
+            ' =====================================================
+            ' =====================================================
+
+            'ApplyCustomStyleSheets.Run()
+            'ApplyFontOnText.Run()
+            'FindAndReplaceShapeText.Run()
+            'GetPlainTextOfVisio.Run()
+            'UpdateShapeText.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-Text-Boxes
+            ' =====================================================
+            ' =====================================================
+
+            'FormatShapeTextBlockSection.Run()
+            'SetShapeTextPositionAtBottom.Run()
+            'SetShapeTextPositionAtLeft.Run()
+            'SetShapeTextPositionAtRight.Run()
+            'SetShapeTextPositionAtTop.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-User-defined-Cells
+            ' =====================================================
+            ' =====================================================
+
+            'CreateUserDefinedCellInShapeSheet.Run()
+            'ReadUserdefinedCellsOfShape.Run()
+
+            ' =====================================================
+            ' =====================================================
+            ' Working-with-Window-Elements
+            ' =====================================================
+            ' =====================================================
+
+            'AddSupportOfVisualAids.Run()
+            'AddWindowElementInVisio.Run()
+            'DisplayGridsRulersGuidesAndPageBreaks.Run()
+            RetrieveWindowElementsOfDiagram.Run()
 
             ' Stop before exiting
             Console.WriteLine(Constants.vbLf + Constants.vbLf & "Program Finished. Press any key to exit....")

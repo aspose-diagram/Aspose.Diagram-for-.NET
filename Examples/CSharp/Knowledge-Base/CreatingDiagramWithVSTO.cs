@@ -8,7 +8,7 @@ namespace CSharp.Knowledge_Base
 {
     public class CreatingDiagramWithVSTO
     {
-        public static void Run() 
+        public static void Run()
         {
             //ExStart:CreatingDiagramWithVSTO
             // The path to the documents directory.
@@ -56,14 +56,9 @@ namespace CSharp.Knowledge_Base
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
             }
-            finally
-            {
-                //Close active document and quit
-                vdxDoc.Close();
-                vdxApp.Quit();
-            }
+            
             //ExEnd:CreatingDiagramWithVSTO
         }
     }
