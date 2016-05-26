@@ -51,8 +51,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram">
-      <HintPath>..\..\..\..\..\Aspose.Diagram for .NET Hotfix 6.3.2.0\NET4.0\Aspose.Diagram.dll</HintPath>
+    <Reference Include="Aspose.Diagram, Version=6.4.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Aspose.Diagram.6.4.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Visio, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -216,7 +217,9 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
