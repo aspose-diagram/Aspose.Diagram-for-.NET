@@ -156,6 +156,7 @@
     <Compile Include="ProgrammersGuide\Working-with-Text\ApplyFontOnText.cs" />
     <Compile Include="ProgrammersGuide\Working-with-Text\FindAndReplaceShapeText.cs" />
     <Compile Include="ProgrammersGuide\Working-with-Text\GetPlainTextOfVisio.cs" />
+    <Compile Include="ProgrammersGuide\Working-with-User-defined-Cells\RetrieveUserDefinedCells.cs" />
     <Compile Include="ProgrammersGuide\Working-with-User-defined-Cells\CreateUserDefinedCellInShapeSheet.cs" />
     <Compile Include="ProgrammersGuide\Working-with-User-defined-Cells\ReadUserdefinedCellsOfShape.cs" />
     <Compile Include="ProgrammersGuide\Working-with-Window-Elements\AddSupportOfVisualAids.cs" />

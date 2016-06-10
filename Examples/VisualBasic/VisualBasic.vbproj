@@ -149,6 +149,7 @@
     <Compile Include="ProgrammersGuide\Working-with-Text\FindAndReplaceShapeText.vb" />
     <Compile Include="ProgrammersGuide\Working-with-Text\GetPlainTextOfVisio.vb" />
     <Compile Include="ProgrammersGuide\Working-with-User-defined-Cells\ReadUserdefinedCellsOfShape.vb" />
+    <Compile Include="ProgrammersGuide\Working-with-User-defined-Cells\RetrieveUserDefinedCells.vb" />
     <Compile Include="ProgrammersGuide\Working-with-Window-Elements\AddSupportOfVisualAids.vb" />
     <Compile Include="ProgrammersGuide\Working-with-Window-Elements\AddWindowElementInVisio.vb" />
     <Compile Include="ProgrammersGuide\Working-with-Window-Elements\DisplayGridsRulersGuidesAndPageBreaks.vb" />
