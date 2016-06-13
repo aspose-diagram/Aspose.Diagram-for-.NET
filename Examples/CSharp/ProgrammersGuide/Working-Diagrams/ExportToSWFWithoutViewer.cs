@@ -18,29 +18,29 @@ namespace CSharp.Diagrams
         {
             try
             {
-                //ExStart:ExportToSWFWithoutViewer
+                // ExStart:ExportToSWFWithoutViewer
                 // The path to the documents directory.
                 string dataDir = RunExamples.GetDataDir_Diagrams();
 
-                //instantiate Diagram Object and open VSD file
+                // Instantiate Diagram Object and open VSD file
                 Diagram diagram = new Diagram(dataDir + "ExportToSWFWithoutViewer.vsd");
 
-                //Instantiate the Save Options
+                // Instantiate the Save Options
                 SWFSaveOptions options = new SWFSaveOptions();
 
-                //Set Save format as SWF
+                // Set Save format as SWF
                 options.SaveFormat = SaveFileFormat.SWF;
 
                 // Exclude the embedded viewer
                 options.ViewerIncluded = false;
 
-                //Save the resultant SWF file
+                // Save the resultant SWF file
                 diagram.Save(dataDir + "ExportToSWFWithoutViewer_Out.swf", SaveFileFormat.SWF);
-                //ExEnd:ExportToSWFWithoutViewer
+                // ExEnd:ExportToSWFWithoutViewer
             }            
             catch (System.Exception ex)
             {
-                System.Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
+                System.Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http:// Www.aspose.com/purchase/default.aspx.");
             }            
         }
     }

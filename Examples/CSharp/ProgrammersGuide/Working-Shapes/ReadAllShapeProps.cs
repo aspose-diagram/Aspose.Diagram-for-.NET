@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:ReadAllShapeProps
+            // ExStart:ReadAllShapeProps
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -30,7 +30,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
                     break;
                 }
             }
-            //ExEnd:ReadAllShapeProps
+            // ExEnd:ReadAllShapeProps
         }
     }
 }

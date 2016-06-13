@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Text_Boxes
     {
         public static void Run() 
         {
-            //ExStart:FormatShapeTextBlockSection
+            // ExStart:FormatShapeTextBlockSection
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
             
@@ -42,7 +42,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Text_Boxes
 
             // save Visio
             diagram.Save(dataDir + "FormatShapeTextBlockSection_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:FormatShapeTextBlockSection
+            // ExEnd:FormatShapeTextBlockSection
         }
     }
 }

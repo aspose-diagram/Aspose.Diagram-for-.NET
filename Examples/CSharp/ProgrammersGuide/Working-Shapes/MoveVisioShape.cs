@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:MoveVisioShape
+            // ExStart:MoveVisioShape
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -25,7 +25,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
 
             // save diagram
             diagram.Save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:MoveVisioShape
+            // ExEnd:MoveVisioShape
         }
     }
 }

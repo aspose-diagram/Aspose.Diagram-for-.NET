@@ -15,11 +15,11 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:ExportToPDF
+            // ExStart:ExportToPDF
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
-            //Call the diagram constructor to load a VSD diagram
+            // Call the diagram constructor to load a VSD diagram
             Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
 
             MemoryStream pdfStream = new MemoryStream();
@@ -35,7 +35,7 @@ namespace CSharp.Diagrams
 
             // Display Status.
             System.Console.WriteLine("Conversion from vsd to pdf performed successfully.");
-            //ExEnd:ExportToPDF
+            // ExEnd:ExportToPDF
         }
     }
 }

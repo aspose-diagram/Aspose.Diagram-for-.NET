@@ -4,7 +4,7 @@ Imports System
 
 Public Class AddWindowElementInVisio
     Public Shared Sub Run()
-        'ExStart:AddWindowElementInVisio
+        ' ExStart:AddWindowElementInVisio
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_WindowElements()
 
@@ -25,6 +25,6 @@ Public Class AddWindowElementInVisio
 
         ' save in any supported format
         diagram.Save(dataDir & Convert.ToString("AddWindowElementInVisio_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:AddWindowElementInVisio
+        ' ExEnd:AddWindowElementInVisio
     End Sub
 End Class

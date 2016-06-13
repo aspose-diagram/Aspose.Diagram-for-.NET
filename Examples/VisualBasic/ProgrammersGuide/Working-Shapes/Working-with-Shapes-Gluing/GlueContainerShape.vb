@@ -4,7 +4,7 @@ Imports System
 
 Public Class GlueContainerShape
     Public Shared Sub Run()
-        'ExStart:GlueContainerShape
+        ' ExStart:GlueContainerShape
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -31,6 +31,6 @@ Public Class GlueContainerShape
 
         ' Save diagram
         diagram.Save(dataDir & Convert.ToString("GlueContainerShape_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:GlueContainerShape
+        ' ExEnd:GlueContainerShape
     End Sub
 End Class

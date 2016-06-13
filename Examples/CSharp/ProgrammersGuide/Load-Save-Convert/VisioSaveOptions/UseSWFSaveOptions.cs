@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
     {
         public static void Run()
         {
-            //ExStart:UseSWFSaveOptions
+            // ExStart:UseSWFSaveOptions
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
@@ -37,7 +37,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
             options.ViewerIncluded = true;
 
             diagram.Save(dataDir + "UseSWFSaveOptions_Out.swf", options);
-            //ExEnd:UseSWFSaveOptions
+            // ExEnd:UseSWFSaveOptions
         }
     }
 }

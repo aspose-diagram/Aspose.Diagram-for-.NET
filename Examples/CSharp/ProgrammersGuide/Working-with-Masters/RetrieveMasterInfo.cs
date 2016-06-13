@@ -16,7 +16,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:RetrieveMasterInfo
+            // ExStart:RetrieveMasterInfo
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Master();
 
@@ -25,13 +25,13 @@ namespace CSharp.Diagrams
 
             foreach (Aspose.Diagram.Master master in vdxDiagram.Masters)
             {
-                //Display information about the masters
+                // Display information about the masters
                 Console.WriteLine("\nMaster ID : " + master.ID);
                 Console.WriteLine("Master Name : " + master.Name);
             }
             
             Console.ReadLine();
-            //ExEnd:RetrieveMasterInfo
+            // ExEnd:RetrieveMasterInfo
         }
     }
 }

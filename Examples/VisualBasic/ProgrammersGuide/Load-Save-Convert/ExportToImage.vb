@@ -14,16 +14,16 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class ExportToImage
         Public Shared Sub Run()
-            'ExStart:ExportToImage
+            ' ExStart:ExportToImage
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
             ' call the diagram constructor to load a VSD diagram
             Dim diagram As New Diagram(dataDir & "ExportToImage.vsd")
 
-            'Save Image file
+            ' Save Image file
             diagram.Save(dataDir & "ExportToImage_Out.png", SaveFileFormat.PNG)
-            'ExEnd:ExportToImage
+            ' ExEnd:ExportToImage
         End Sub
     End Class
 End Namespace

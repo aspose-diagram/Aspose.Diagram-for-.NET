@@ -20,7 +20,7 @@ Public Class RetrieveUserDefinedCells
                 ' Iterate through user-defined cells
                 For Each objUserField As Aspose.Diagram.User In objShape.Users
                     count += 1
-                    Console.WriteLine(count + " - Name: " + objUserField.NameU + " Value: " + objUserField.Value.Val + " Prompt: " + objUserField.Prompt.Value)
+                    Console.WriteLine(count.ToString() + " - Name: " + objUserField.NameU + " Value: " + objUserField.Value.Val + " Prompt: " + objUserField.Prompt.Value)
                 Next
             Next
         Next

@@ -5,7 +5,7 @@ Imports VisualBasic
 
 Public Class ConnectVisioSubShapes
     Public Shared Sub Run()
-        'ExStart:ConnectVisioSubShapes
+        ' ExStart:ConnectVisioSubShapes
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -29,6 +29,6 @@ Public Class ConnectVisioSubShapes
         page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToId, ConnectionPointPlace.Left, connecter1Id)
         ' save Visio drawing
         diagram.Save(dataDir & Convert.ToString("ConnectVisioSubShapes_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:ConnectVisioSubShapes
+        ' ExEnd:ConnectVisioSubShapes
     End Sub
 End Class

@@ -4,7 +4,7 @@ Imports VisualBasic
 
 Public Class ConfigureShapeLayers
     Public Shared Sub Run()
-        'ExStart:ConfigureShapeLayers
+        ' ExStart:ConfigureShapeLayers
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Layers()
 
@@ -16,7 +16,7 @@ Public Class ConfigureShapeLayers
         ' iterate through the shapes
         For Each shape As Aspose.Diagram.Shape In page.Shapes
             If shape.Name.ToLower() = "shape1" Then
-                'Add shape1 in first two layers. Here "0;1" are indexes of the layers
+                ' Add shape1 in first two layers. Here "0;1" are indexes of the layers
                 Dim layer As LayerMem = shape.LayerMem
                 layer.LayerMember.Value = "0;1"
             ElseIf shape.Name.ToLower() = "shape2" Then
@@ -24,13 +24,13 @@ Public Class ConfigureShapeLayers
                 Dim layer As LayerMem = shape.LayerMem
                 layer.LayerMember.Value = ""
             ElseIf shape.Name.ToLower() = "shape3" Then
-                'Add shape3 in first layer. Here "0" is index of the first layer
+                ' Add shape3 in first layer. Here "0" is index of the first layer
                 Dim layer As LayerMem = shape.LayerMem
                 layer.LayerMember.Value = "0"
             End If
         Next
         ' save diagram
         diagram.Save(dataDir & Convert.ToString("ConfigureShapeLayers_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:ConfigureShapeLayers
+        ' ExEnd:ConfigureShapeLayers
     End Sub
 End Class

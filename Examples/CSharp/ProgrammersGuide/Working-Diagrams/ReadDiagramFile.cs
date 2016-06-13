@@ -15,11 +15,11 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:ReadDiagramFile
+            // ExStart:ReadDiagramFile
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
-            //Call the diagram constructor to load diagram from a VSD stream
+            // Call the diagram constructor to load diagram from a VSD stream
             FileStream st = new FileStream(dataDir + "ReadDiagramFile.vsd", FileMode.Open);
             // load diagram
             Diagram vsdDiagram = new Diagram(st);
@@ -27,7 +27,7 @@ namespace CSharp.Diagrams
             System.Console.WriteLine("Total Pages:" + vsdDiagram.Pages.Count);
 
             st.Close();
-            //ExEnd:ReadDiagramFile
+            // ExEnd:ReadDiagramFile
         }
     }
 }

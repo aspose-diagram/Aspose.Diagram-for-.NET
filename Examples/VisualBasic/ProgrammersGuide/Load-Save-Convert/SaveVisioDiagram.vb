@@ -5,7 +5,7 @@ Imports System.IO
 
 Public Class SaveVisioDiagram
     Public Shared Sub Run()
-        'ExStart:SaveVisioDiagram
+        ' ExStart:SaveVisioDiagram
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
         ' load an existing Visio diagram
@@ -16,7 +16,7 @@ Public Class SaveVisioDiagram
         Dim stream As New MemoryStream()
         ' save diagram in the stream
         diagram.Save(stream, SaveFileFormat.VSDX)
-        'ExEnd:SaveVisioDiagram
+        ' ExEnd:SaveVisioDiagram
     End Sub
 
 End Class

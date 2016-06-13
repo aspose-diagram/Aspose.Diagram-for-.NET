@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Layers
     {
         public static void Run() 
         {
-            //ExStart:RetrieveAllLayers
+            // ExStart:RetrieveAllLayers
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Layers();
 
@@ -26,7 +26,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Layers
                 Console.WriteLine("Visibility: " + layer.Visible.Value);
                 Console.WriteLine("Status: " + layer.Status.Value);
             }
-            //ExEnd:RetrieveAllLayers
+            // ExEnd:RetrieveAllLayers
         }
     }
 }

@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_User_defined_Cells
     {
         public static void Run() 
         {
-            //ExStart:ReadUserdefinedCellsOfShape
+            // ExStart:ReadUserdefinedCellsOfShape
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_UserDefinedCells();
 
@@ -25,7 +25,7 @@ namespace CSharp.ProgrammersGuide.Working_with_User_defined_Cells
             {
                 Console.WriteLine(user.Name + ": " + user.Value.Val);
             }
-            //ExEnd:ReadUserdefinedCellsOfShape
+            // ExEnd:ReadUserdefinedCellsOfShape
         }
     }
 }

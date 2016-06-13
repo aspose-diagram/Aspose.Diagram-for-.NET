@@ -15,7 +15,7 @@ namespace CSharp.Shapes
     {
         public static void Run()
         {
-            //ExStart:SetLineData
+            // ExStart:SetLineData
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -48,7 +48,7 @@ namespace CSharp.Shapes
 
             // save the Visio
             diagram.Save(dataDir + "SetLineData_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:SetLineData
+            // ExEnd:SetLineData
         }
     }
 }

@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:ConnectVisioSubShapes
+            // ExStart:ConnectVisioSubShapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -35,7 +35,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
             page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToId, ConnectionPointPlace.Left, connecter1Id);
             // save Visio drawing
             diagram.Save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:ConnectVisioSubShapes
+            // ExEnd:ConnectVisioSubShapes
         }
     }
 }

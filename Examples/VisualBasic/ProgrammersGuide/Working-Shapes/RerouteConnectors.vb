@@ -4,7 +4,7 @@ Imports System
 
 Public Class RerouteConnectors
     Public Shared Sub Run()
-        'ExStart:RerouteConnectors
+        ' ExStart:RerouteConnectors
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -20,6 +20,6 @@ Public Class RerouteConnectors
 
         ' save Visio diagram
         diagram.Save(dataDir & Convert.ToString("RerouteConnectors_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:RerouteConnectors
+        ' ExEnd:RerouteConnectors
     End Sub
 End Class

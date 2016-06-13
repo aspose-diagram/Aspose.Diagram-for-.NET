@@ -10,11 +10,11 @@ namespace CSharp.ProgrammersGuide.Working_with_Protection
     {
         public static void Run() 
         {
-            //ExStart:VisioShapeProtection
+            // ExStart:VisioShapeProtection
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Protection();
 
-            //Load diagram
+            // Load diagram
             Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
             // get page by name
             Page page = diagram.Pages.GetPage("Flow 1");
@@ -45,7 +45,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Protection
             
             // save diagram
             diagram.Save(dataDir + "VisioShapeProtection_Out.vdx", SaveFileFormat.VDX);
-            //ExEnd:VisioShapeProtection
+            // ExEnd:VisioShapeProtection
         }
     }
 }

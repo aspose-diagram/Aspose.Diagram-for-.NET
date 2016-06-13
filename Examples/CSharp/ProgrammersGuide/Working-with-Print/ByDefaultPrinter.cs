@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Print
     {
         public static void Run() 
         {
-            //ExStart:ByDefaultPrinter
+            // ExStart:ByDefaultPrinter
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Print();
 
@@ -19,7 +19,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Print
 
             // call the print method to print whole Diagram using the default printer
             diagram.Print();
-            //ExEnd:ByDefaultPrinter
+            // ExEnd:ByDefaultPrinter
         }
     }
 }

@@ -4,7 +4,7 @@ Imports System
 
 Public Class CheckMasterPresencebyName
     Public Shared Sub Run()
-        'ExStart:CheckMasterPresencebyName
+        ' ExStart:CheckMasterPresencebyName
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Master()
 
@@ -17,6 +17,6 @@ Public Class CheckMasterPresencebyName
         Dim isPresent As Boolean = diagram.Masters.IsExist(masterName)
 
         Console.WriteLine("Master Presence : " & isPresent)
-        'ExEnd:CheckMasterPresencebyName
+        ' ExEnd:CheckMasterPresencebyName
     End Sub
 End Class

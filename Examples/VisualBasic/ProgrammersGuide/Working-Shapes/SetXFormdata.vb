@@ -14,14 +14,14 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Shapes
     Public Class SetXFormdata
         Public Shared Sub Run()
-            'ExStart:SetXFormdata
+            ' ExStart:SetXFormdata
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
-            'Call the diagram constructor to load diagram from a VDX file
+            ' Call the diagram constructor to load diagram from a VDX file
             Dim vdxDiagram As New Diagram(dataDir & "SetXFormdata.vsd")
 
-            'Find a particular shape and update its XForm
+            ' Find a particular shape and update its XForm
             For Each shape As Aspose.Diagram.Shape In vdxDiagram.Pages(0).Shapes
                 If shape.NameU.ToLower() = "process" AndAlso shape.ID = 1 Then
                     shape.XForm.PinX.Value = 5
@@ -29,7 +29,7 @@ Namespace VisualBasic.Shapes
                 End If
             Next shape
             vdxDiagram.Save(dataDir & "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX)
-            'ExEnd:SetXFormdata
+            ' ExEnd:SetXFormdata
         End Sub
     End Class
 End Namespace

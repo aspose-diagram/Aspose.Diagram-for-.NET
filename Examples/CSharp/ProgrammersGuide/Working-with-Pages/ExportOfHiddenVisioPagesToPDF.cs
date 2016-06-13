@@ -13,7 +13,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
         {
             try
             {
-                //ExStart:ExportOfHiddenVisioPagesToPDF
+                // ExStart:ExportOfHiddenVisioPagesToPDF
                 // The path to the documents directory.
                 string dataDir = RunExamples.GetDataDir_Intro();
 
@@ -29,13 +29,13 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
                 // set export option of hidden Visio pages
                 options.ExportHiddenPage = false;
 
-                //Save the Visio diagram
+                // Save the Visio diagram
                 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToPDF_Out.pdf", options);
-                //ExEnd:ExportOfHiddenVisioPagesToPDF
+                // ExEnd:ExportOfHiddenVisioPagesToPDF
             }
             catch (System.Exception ex)
             {
-                System.Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
+                System.Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http:// Www.aspose.com/purchase/default.aspx.");
             }
         }
     }

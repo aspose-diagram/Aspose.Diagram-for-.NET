@@ -16,19 +16,19 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:AddConnectShapes
+            // ExStart:AddConnectShapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_TechnicalArticles();
 
-            //Set license (you can add 10 shapes without setting a license)
-            //License lic = new License();
-            //lic.SetLicense(dataDir + "Aspose.Total.lic");
+            // Set license (you can add 10 shapes without setting a license)
+            // License lic = new License();
+            // Lic.SetLicense(dataDir + "Aspose.Total.lic");
 
             // Load masters from any existing diagram, stencil or template
             // and add in the new diagram
             string visioStencil = dataDir + "AddConnectShapes.vss";
 
-            //Names of the masters present in the stencil
+            // Names of the masters present in the stencil
             string rectangleMaster = @"Rectangle", starMaster = @"Star 7",
                 hexagonMaster = @"Hexagon", connectorMaster = "Dynamic connector";
 
@@ -38,11 +38,11 @@ namespace CSharp.Diagrams
             // Create a new diagram
             Diagram diagram = new Diagram(visioStencil);
 
-            //Add a new rectangle shape
+            // Add a new rectangle shape
             long rectangleId = diagram.AddShape(
                 pinX, pinY, width, height, rectangleMaster, pageNumber);
 
-            //Set the new shape's properties
+            // Set the new shape's properties
             Shape shape = diagram.Pages[pageNumber].Shapes.GetShape(rectangleId);
             shape.Text.Value.Add(new Txt(@"Rectangle text."));
             shape.Name = "Rectangle1";
@@ -54,13 +54,13 @@ namespace CSharp.Diagrams
             shape.Fill.FillForegnd.Value = "3";
             shape.Fill.FillPattern.Value = 31;
 
-            //Add a new star shape
+            // Add a new star shape
             pinX = 2.0;
             pinY = 4.5;
             long starId = diagram.AddShape(
                 pinX, pinY, width, height, starMaster, pageNumber);
 
-            //Set the star shape's properties
+            // Set the star shape's properties
             shape = diagram.Pages[pageNumber].Shapes.GetShape(starId);
             shape.Text.Value.Add(new Txt(@"Star text."));
             shape.Name = "Star1";
@@ -72,12 +72,12 @@ namespace CSharp.Diagrams
             shape.Fill.FillForegnd.Value = "#0000ff";
             shape.Fill.FillPattern.Value = 31;
 
-            //Add a new hexagon shape
+            // Add a new hexagon shape
             pinX = 7.0;
             long hexagonId = diagram.AddShape(
                 pinX, pinY, width, height, hexagonMaster, pageNumber);
 
-            //Set the hexagon shape's properties
+            // Set the hexagon shape's properties
             shape = diagram.Pages[pageNumber].Shapes.GetShape(hexagonId);
             shape.Text.Value.Add(new Txt(@"Hexagon text."));
             shape.Name = "Hexagon1";
@@ -86,24 +86,24 @@ namespace CSharp.Diagrams
             shape.Line.LineWeight.Value = 0.03;
             shape.Fill.FillPattern.Value = 31;
 
-            //Add master to dynamic connector from the stencil
+            // Add master to dynamic connector from the stencil
             diagram.AddMaster(visioStencil, connectorMaster);
 
-            //Connect rectangle and star shapes
+            // Connect rectangle and star shapes
             Shape connector1 = new Shape();
             long connecter1Id = diagram.AddShape(connector1, connectorMaster, 0);
             diagram.Pages[0].ConnectShapesViaConnector(rectangleId, ConnectionPointPlace.Bottom,
                 starId, ConnectionPointPlace.Top, connecter1Id);
 
-            //Connect rectangle and hexagon shapes
+            // Connect rectangle and hexagon shapes
             Shape connector2 = new Shape();
             long connecter2Id = diagram.AddShape(connector2, connectorMaster, 0);
             diagram.Pages[0].ConnectShapesViaConnector(rectangleId, ConnectionPointPlace.Bottom,
                 hexagonId, ConnectionPointPlace.Left, connecter2Id);
 
-            //Save the diagram
+            // Save the diagram
             diagram.Save(dataDir + "AddConnectShapes_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:AddConnectShapes
+            // ExEnd:AddConnectShapes
         }
     }
 }

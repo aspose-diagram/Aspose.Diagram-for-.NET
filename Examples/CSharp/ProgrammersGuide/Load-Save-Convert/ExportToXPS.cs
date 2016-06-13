@@ -15,7 +15,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:ExportToXPS
+            // ExStart:ExportToXPS
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -24,7 +24,7 @@ namespace CSharp.Diagrams
 
             // save diagram to an XPS format
             diagram.Save(dataDir + "Output.xps", SaveFileFormat.XPS);
-            //ExEnd:ExportToXPS
+            // ExEnd:ExportToXPS
         }
     }
 }

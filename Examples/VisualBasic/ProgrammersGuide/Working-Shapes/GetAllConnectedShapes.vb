@@ -4,7 +4,7 @@ Imports System
 
 Public Class GetAllConnectedShapes
     Public Shared Sub Run()
-        'ExStart:GetAllConnectedShapes
+        ' ExStart:GetAllConnectedShapes
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -19,6 +19,6 @@ Public Class GetAllConnectedShapes
             shape = diagram.Pages.GetPage("Page-3").Shapes.GetShape(id)
             Console.WriteLine("ID: " & shape.ID & "\t\t Name: " & shape.Name)
         Next
-        'ExEnd:GetAllConnectedShapes
+        ' ExEnd:GetAllConnectedShapes
     End Sub
 End Class

@@ -6,7 +6,7 @@ Imports Aspose.Diagram.Saving
 Public Class ExportOfHiddenVisioPagesToPDF
     Public Shared Sub Run()
         Try
-            'ExStart:ExportOfHiddenVisioPagesToPDF
+            ' ExStart:ExportOfHiddenVisioPagesToPDF
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Intro()
 
@@ -22,9 +22,9 @@ Public Class ExportOfHiddenVisioPagesToPDF
             ' set export option of hidden Visio pages
             options.ExportHiddenPage = False
 
-            'Save the Visio diagram
+            ' Save the Visio diagram
             diagram.Save(dataDir & Convert.ToString("ExportOfHiddenVisioPagesToPDF_Out.pdf"), options)
-            'ExEnd:ExportOfHiddenVisioPagesToPDF
+            ' ExEnd:ExportOfHiddenVisioPagesToPDF
         Catch ex As System.Exception
             System.Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.")
         End Try

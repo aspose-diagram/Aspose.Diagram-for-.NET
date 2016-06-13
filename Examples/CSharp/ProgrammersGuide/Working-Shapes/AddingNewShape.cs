@@ -10,11 +10,11 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:AddingNewShape
+            // ExStart:AddingNewShape
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
-            //Load a diagram
+            // Load a diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
             // get page by name
             Page page = diagram.Pages.GetPage("Page-2");
@@ -26,7 +26,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
             // page indexing starts from 0
             int PageIndex = 1;
             double width = 2, height = 2, pinX = 4.25, pinY = 4.5;
-            //Add a new rectangle shape
+            // Add a new rectangle shape
             long rectangleId = diagram.AddShape(pinX, pinY, width, height, masterName, PageIndex);
             
             // set shape properties 
@@ -44,7 +44,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
 
             diagram.Save(dataDir + "AddShape_Out.vsdx", SaveFileFormat.VSDX);
             Console.WriteLine("Shape has been added.");
-            //ExEnd:AddingNewShape
+            // ExEnd:AddingNewShape
         }
     }
 }

@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
     {
         public static void Run()
         {
-            //ExStart:UseDiagramSaveOptions
+            // ExStart:UseDiagramSaveOptions
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
@@ -35,7 +35,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
             options.AutoFitPageToDrawingContent = true;
 
             diagram.Save(dataDir + "UseDiagramSaveOptions_Out.vsdx", options);
-            //ExEnd:UseDiagramSaveOptions
+            // ExEnd:UseDiagramSaveOptions
         }
     }
 }

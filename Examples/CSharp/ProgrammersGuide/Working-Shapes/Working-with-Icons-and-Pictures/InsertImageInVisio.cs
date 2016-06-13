@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.Working_with_Icons_and_Pictures
     {
         public static void Run()
         {
-            //ExStart:InsertImageInVisio
+            // ExStart:InsertImageInVisio
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -28,7 +28,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.Working_with_Icons_and_Pictures
 
             // Save Visio diagram
             diagram.Save(dataDir + "InsertImageInVisio_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:InsertImageInVisio
+            // ExEnd:InsertImageInVisio
         }
     }
 }

@@ -4,7 +4,7 @@ Imports System
 
 Public Class ChangeShapeSize
     Public Shared Sub Run()
-        'ExStart:ChangeShapeSize
+        ' ExStart:ChangeShapeSize
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -19,6 +19,6 @@ Public Class ChangeShapeSize
         shape.SetHeight(2 * shape.XForm.Height.Value)
         ' save diagram
         diagram.Save(dataDir & Convert.ToString("ChangeShapeSize_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:ChangeShapeSize
+        ' ExEnd:ChangeShapeSize
     End Sub
 End Class

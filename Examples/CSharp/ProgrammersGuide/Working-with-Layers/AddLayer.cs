@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Layers
     {
         public static void Run() 
         {
-            //ExStart:AddLayer
+            // ExStart:AddLayer
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Layers();
 
@@ -34,7 +34,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Layers
             shape.LayerMem.LayerMember.Value = layer.IX.ToString();
             // save diagram
             diagram.Save(dataDir + "AddLayer_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:AddLayer
+            // ExEnd:AddLayer
 
         }
     }

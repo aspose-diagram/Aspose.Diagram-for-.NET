@@ -4,7 +4,7 @@ Imports System
 Imports System.Text.RegularExpressions
 
 Public Class GetPlainTextOfVisio
-    'ExStart:GetPlainTextOfVisio
+    ' ExStart:GetPlainTextOfVisio
     Shared text As String = ""
     Public Shared Sub Run()
         ' The path to the documents directory.
@@ -41,5 +41,5 @@ Public Class GetPlainTextOfVisio
             Next
         End If
     End Sub
-    'ExEnd:GetPlainTextOfVisio
+    ' ExEnd:GetPlainTextOfVisio
 End Class

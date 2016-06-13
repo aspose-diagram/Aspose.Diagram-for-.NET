@@ -4,7 +4,7 @@ Imports System
 
 Public Class RefreshTimeLine
     Public Shared Sub Run()
-        'ExStart:RefreshTimeLine
+        ' ExStart:RefreshTimeLine
 
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
@@ -32,6 +32,6 @@ Public Class RefreshTimeLine
 
         ' Save to VDX format
         diagram.Save(dataDir & Convert.ToString("RefreshTimeLine_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:RefreshTimeLine
+        ' ExEnd:RefreshTimeLine
     End Sub
 End Class

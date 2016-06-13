@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Masters
     {
         public static void Run() 
         {
-            //ExStart:CheckMasterPresencebyName
+            // ExStart:CheckMasterPresencebyName
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Master();
 
@@ -23,7 +23,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Masters
             bool isPresent = diagram.Masters.IsExist(masterName);
 
             Console.WriteLine("Master Presence : " + isPresent);
-            //ExEnd:CheckMasterPresencebyName
+            // ExEnd:CheckMasterPresencebyName
         }
     }
 }

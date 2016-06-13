@@ -4,7 +4,7 @@ Imports System
 
 Public Class EditDataConAndRefreshRecords
     Public Shared Sub Run()
-        'ExStart:EditDataConAndRefreshRecords
+        ' ExStart:EditDataConAndRefreshRecords
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_ExternalDataSources()
 
@@ -18,6 +18,6 @@ Public Class EditDataConAndRefreshRecords
         diagram.Refresh()
         ' save Visio diagram
         diagram.Save(dataDir & Convert.ToString("EditDataConAndRefreshRecords_Out.vdx"), SaveFileFormat.VDX)
-        'ExEnd:EditDataConAndRefreshRecords
+        ' ExEnd:EditDataConAndRefreshRecords
     End Sub
 End Class

@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Text_Boxes
     {
         public static void Run() 
         {
-            //ExStart:SetShapeTextPositionAtBottom
+            // ExStart:SetShapeTextPositionAtBottom
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_ShapeTextBoxData();
 
@@ -32,7 +32,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Text_Boxes
 
             // save Visio diagram in the local storage
             diagram.Save(dataDir + "SetShapeTextPositionAtBottom_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:SetShapeTextPositionAtBottom
+            // ExEnd:SetShapeTextPositionAtBottom
         }
     }
 }

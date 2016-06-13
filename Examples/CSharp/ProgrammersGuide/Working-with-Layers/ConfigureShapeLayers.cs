@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Layers
     {
         public static void Run()
         {
-            //ExStart:ConfigureShapeLayers
+            // ExStart:ConfigureShapeLayers
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Layers();
 
@@ -24,26 +24,26 @@ namespace CSharp.ProgrammersGuide.Working_with_Layers
             {
                 if (shape.Name.ToLower() == "shape1")
                 {
-                    //Add shape1 in first two layers. Here "0;1" are indexes of the layers
+                    // Add shape1 in first two layers. Here "0;1" are indexes of the layers
                     LayerMem layer = shape.LayerMem;
                     layer.LayerMember.Value = "0;1";
                 }
                 else if (shape.Name.ToLower() == "shape2")
                 {
-                    //Remove shape2 from all the layers
+                    // Remove shape2 from all the layers
                     LayerMem layer = shape.LayerMem;
                     layer.LayerMember.Value = "";
                 }
                 else if (shape.Name.ToLower() == "shape3")
                 {
-                    //Add shape3 in first layer. Here "0" is index of the first layer
+                    // Add shape3 in first layer. Here "0" is index of the first layer
                     LayerMem layer = shape.LayerMem;
                     layer.LayerMember.Value = "0";
                 }
             }
             // save diagram
             diagram.Save(dataDir + "ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:ConfigureShapeLayers
+            // ExEnd:ConfigureShapeLayers
         }
     }
 }

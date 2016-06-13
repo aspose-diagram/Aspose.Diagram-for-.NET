@@ -4,7 +4,7 @@ Imports VisualBasic
 
 Public Class CopyVisioPage
     Public Shared Sub Run()
-        'ExStart:CopyVisioPage
+        ' ExStart:CopyVisioPage
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_VisioPages()
 
@@ -46,6 +46,6 @@ Public Class CopyVisioPage
         NewDigram.Pages.Remove(NewDigram.Pages(0))
         ' save diagram
         NewDigram.Save(dataDir & Convert.ToString("CopyVisioPage_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:CopyVisioPage
+        ' ExEnd:CopyVisioPage
     End Sub
 End Class

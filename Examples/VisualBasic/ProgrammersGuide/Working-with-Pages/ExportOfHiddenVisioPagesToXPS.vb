@@ -6,7 +6,7 @@ Imports System
 Public Class ExportOfHiddenVisioPagesToXPS
     Public Shared Sub Run()
         Try
-            'ExStart:ExportOfHiddenVisioPagesToXPS
+            ' ExStart:ExportOfHiddenVisioPagesToXPS
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Intro()
 
@@ -22,9 +22,9 @@ Public Class ExportOfHiddenVisioPagesToXPS
             ' set export option of hidden Visio pages
             options.ExportHiddenPage = False
 
-            'Save the Visio diagram
+            ' Save the Visio diagram
             diagram.Save(dataDir & Convert.ToString("ExportOfHiddenVisioPagesToXPS_Out.xps"), options)
-            'ExEnd:ExportOfHiddenVisioPagesToXPS
+            ' ExEnd:ExportOfHiddenVisioPagesToXPS
         Catch ex As System.Exception
             System.Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.")
         End Try

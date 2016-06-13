@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:RerouteConnectors
+            // ExStart:RerouteConnectors
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -26,7 +26,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
 
             // save Visio diagram
             diagram.Save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:RerouteConnectors
+            // ExEnd:RerouteConnectors
         }
     }
 }

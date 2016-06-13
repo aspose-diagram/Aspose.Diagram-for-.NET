@@ -5,7 +5,7 @@ Imports Aspose.Diagram
 
 Public Class UseImageSaveOptions
     Public Shared Sub Run()
-        'ExStart:UseImageSaveOptions
+        ' ExStart:UseImageSaveOptions
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
@@ -18,7 +18,7 @@ Public Class UseImageSaveOptions
 
         ' sets the brightness for the the generated images.
         ' this property has effect only when saving to raster image formats.
-        'The default value is 0.5. The value must be in the range between 0 and 1.
+        ' The default value is 0.5. The value must be in the range between 0 and 1.
         options.ImageBrightness = 1.0F
 
         ' Summary:
@@ -72,6 +72,6 @@ Public Class UseImageSaveOptions
 
         ' save in any supported file format
         diagram.Save(dataDir & Convert.ToString("UseImageSaveOptions_Out.jpeg"), options)
-        'ExEnd:UseImageSaveOptions
+        ' ExEnd:UseImageSaveOptions
     End Sub
 End Class

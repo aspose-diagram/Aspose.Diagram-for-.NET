@@ -4,7 +4,7 @@ Imports System
 
 Public Class ReadAllShapeProps
     Public Shared Sub Run()
-        'ExStart:ReadAllShapeProps
+        ' ExStart:ReadAllShapeProps
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -21,6 +21,6 @@ Public Class ReadAllShapeProps
                 Exit For
             End If
         Next
-        'ExEnd:ReadAllShapeProps
+        ' ExEnd:ReadAllShapeProps
     End Sub
 End Class

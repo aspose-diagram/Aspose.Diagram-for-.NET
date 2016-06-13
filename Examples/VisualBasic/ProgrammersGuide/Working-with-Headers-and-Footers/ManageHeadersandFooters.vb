@@ -5,7 +5,7 @@ Imports System
 
 Public Class ManageHeadersandFooters
     Public Shared Sub Run()
-        'ExStart:ManageHeadersandFooters
+        ' ExStart:ManageHeadersandFooters
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_HeadersAndFooters()
 
@@ -39,6 +39,6 @@ Public Class ManageHeadersandFooters
 
         ' save Visio diagram
         diagram.Save(dataDir & Convert.ToString("ManageHeadersandFooters_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:ManageHeadersandFooters
+        ' ExEnd:ManageHeadersandFooters
     End Sub
 End Class

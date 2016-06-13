@@ -4,7 +4,7 @@ Imports System
 
 Public Class RetrieveAllLayers
     Public Shared Sub Run()
-        'ExStart:RetrieveAllLayers
+        ' ExStart:RetrieveAllLayers
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Layers()
 
@@ -19,6 +19,6 @@ Public Class RetrieveAllLayers
             Console.WriteLine("Visibility: " & layer.Visible.Value)
             Console.WriteLine("Status: " & layer.Status.Value)
         Next
-        'ExEnd:RetrieveAllLayers
+        ' ExEnd:RetrieveAllLayers
     End Sub
 End Class

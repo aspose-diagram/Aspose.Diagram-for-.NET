@@ -6,7 +6,7 @@ Imports Aspose.Diagram
 
 Public Class UsePDFSaveOptions
     Public Shared Sub Run()
-        'ExStart:UsePDFSaveOptions
+        ' ExStart:UsePDFSaveOptions
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
@@ -47,6 +47,6 @@ Public Class UsePDFSaveOptions
         options.PageSize = pgSize
         ' save in any supported file format
         diagram.Save(dataDir & Convert.ToString("UsePDFSaveOptions_Out.pdf"), options)
-        'ExEnd:UsePDFSaveOptions
+        ' ExEnd:UsePDFSaveOptions
     End Sub
 End Class

@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Window_Elements
     {
         public static void Run() 
         {
-            //ExStart:AddWindowElementInVisio
+            // ExStart:AddWindowElementInVisio
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_WindowElements();
 
@@ -31,7 +31,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Window_Elements
 
             // save in any supported format
             diagram.Save(dataDir + "AddWindowElementInVisio_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:AddWindowElementInVisio
+            // ExEnd:AddWindowElementInVisio
         }
     }
 }

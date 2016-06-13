@@ -4,7 +4,7 @@ Imports System
 
 Public Class ReadSolutionXMLElement
     Public Shared Sub Run()
-        'ExStart:ReadSolutionXMLElement
+        ' ExStart:ReadSolutionXMLElement
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_SolutionXML()
 
@@ -18,6 +18,6 @@ Public Class ReadSolutionXMLElement
             ' get xml value
             Console.WriteLine(solutionXML.XmlValue)
         Next
-        'ExEnd:ReadSolutionXMLElement
+        ' ExEnd:ReadSolutionXMLElement
     End Sub
 End Class

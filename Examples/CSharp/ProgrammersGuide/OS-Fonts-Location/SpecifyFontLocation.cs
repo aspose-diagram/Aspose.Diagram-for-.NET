@@ -10,19 +10,19 @@ namespace CSharp.ProgrammersGuide
     {
         public static void Run()
         {
-            //ExStart:SpecifyFontLocation
+            // ExStart:SpecifyFontLocation
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Intro();
 
             String[] fontDirs = new String[] { "C:\\MyFonts\\", "D:\\Misc\\Fonts\\" };
-            //Load the Visio diagram
+            // Load the Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            //setting the custom font directories
+            // Setting the custom font directories
             diagram.FontDirs = fontDirs;
 
-            //saving Visio diagram in PDF format
+            // Saving Visio diagram in PDF format
             diagram.Save(dataDir + "SetFontsFolders_Out.pdf", SaveFileFormat.PDF);
-            //ExEnd:SpecifyFontLocation
+            // ExEnd:SpecifyFontLocation
         }
     }
 }

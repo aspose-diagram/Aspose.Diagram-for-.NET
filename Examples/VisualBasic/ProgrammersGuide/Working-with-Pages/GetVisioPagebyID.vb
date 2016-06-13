@@ -4,7 +4,7 @@ Imports System
 
 Public Class GetVisioPagebyID
     Public Shared Sub Run()
-        'ExStart:GetVisioPagebyID
+        ' ExStart:GetVisioPagebyID
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_VisioPages()
 
@@ -15,6 +15,6 @@ Public Class GetVisioPagebyID
         Dim pageid As Integer = 2
         ' Get page object by id
         Dim page2 As Page = diagram.Pages.GetPage(pageid)
-        'ExEnd:GetVisioPagebyID
+        ' ExEnd:GetVisioPagebyID
     End Sub
 End Class

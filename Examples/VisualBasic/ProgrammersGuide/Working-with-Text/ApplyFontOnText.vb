@@ -4,7 +4,7 @@ Imports System
 
 Public Class ApplyFontOnText
     Public Shared Sub Run()
-        'ExStart:ApplyFontOnText
+        ' ExStart:ApplyFontOnText
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_ShapeText()
 
@@ -34,28 +34,28 @@ Public Class ApplyFontOnText
         shape.Chars.Add(New Aspose.Diagram.Char())
         shape.Chars.Add(New Aspose.Diagram.Char())
 
-        'set properties e.g. color, font, size and style etc.
+        ' Set properties e.g. color, font, size and style etc.
         shape.Chars(0).IX = 0
         shape.Chars(0).Color.Value = "#FF0000"
         shape.Chars(0).Font.Value = 4
         shape.Chars(0).Size.Value = 0.22
         shape.Chars(0).Style.Value = StyleValue.Undefined
 
-        'set properties e.g. color, font, size and style etc.
+        ' Set properties e.g. color, font, size and style etc.
         shape.Chars(1).IX = 1
         shape.Chars(1).Color.Value = "#FF00FF"
         shape.Chars(1).Font.Value = 4
         shape.Chars(1).Size.Value = 0.22
         shape.Chars(1).Style.Value = StyleValue.Bold Or StyleValue.Italic
 
-        'set properties e.g. color, font, size and style etc.
+        ' Set properties e.g. color, font, size and style etc.
         shape.Chars(2).IX = 2
         shape.Chars(2).Color.Value = "#00FF00"
         shape.Chars(2).Font.Value = 4
         shape.Chars(2).Size.Value = 0.22
         shape.Chars(2).Style.Value = StyleValue.Underline Or StyleValue.Italic
 
-        'set properties e.g. color, font, size and style etc.
+        ' Set properties e.g. color, font, size and style etc.
         shape.Chars(3).IX = 3
         shape.Chars(3).Color.Value = "#3333FF"
         shape.Chars(3).Font.Value = 4
@@ -63,6 +63,6 @@ Public Class ApplyFontOnText
         shape.Chars(3).Style.Value = StyleValue.Bold Or StyleValue.Italic Or StyleValue.Underline
         ' save diagram
         diagram.Save(dataDir & Convert.ToString("ApplyFontOnText_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:ApplyFontOnText
+        ' ExEnd:ApplyFontOnText
     End Sub
 End Class

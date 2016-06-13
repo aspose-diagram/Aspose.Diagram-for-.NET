@@ -5,7 +5,7 @@ Imports System
 
 Public Class InsertImageInVisio
     Public Shared Sub Run()
-        'ExStart:InsertImageInVisio
+        ' ExStart:InsertImageInVisio
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -22,6 +22,6 @@ Public Class InsertImageInVisio
 
         ' Save Visio diagram
         diagram.Save(dataDir & Convert.ToString("InsertImageInVisio_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:InsertImageInVisio
+        ' ExEnd:InsertImageInVisio
     End Sub
 End Class

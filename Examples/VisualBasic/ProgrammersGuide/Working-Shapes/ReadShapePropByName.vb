@@ -4,7 +4,7 @@ Imports System
 
 Public Class ReadShapePropByName
     Public Shared Sub Run()
-        'ExStart:ReadShapePropByName
+        ' ExStart:ReadShapePropByName
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -19,6 +19,6 @@ Public Class ReadShapePropByName
                 Console.WriteLine([property].Label.Value + ": " + [property].Value.Val)
             End If
         Next
-        'ExEnd:ReadShapePropByName
+        ' ExEnd:ReadShapePropByName
     End Sub
 End Class

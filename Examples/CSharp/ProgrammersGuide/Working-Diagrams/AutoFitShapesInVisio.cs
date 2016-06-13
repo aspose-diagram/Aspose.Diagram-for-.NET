@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Working_Diagrams
     {
         public static void Run()
         {
-            //ExStart:AutoFitShapesInVisio
+            // ExStart:AutoFitShapesInVisio
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -25,7 +25,7 @@ namespace CSharp.ProgrammersGuide.Working_Diagrams
 
             // save Visio diagram
             diagram.Save(dataDir + "AutoFitShapesInVisio_Out.vsdx", options);
-            //ExEnd:AutoFitShapesInVisio
+            // ExEnd:AutoFitShapesInVisio
         }
     }
 }

@@ -14,11 +14,11 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class VisioDiagramProtection
         Public Shared Sub Run()
-            'ExStart:VisioDiagramProtection
+            ' ExStart:VisioDiagramProtection
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Protection()
 
-            'Load diagram
+            ' Load diagram
             Dim diagram As New Diagram(dataDir & "ProtectAndUnprotect.vsd")
 
             diagram.DocumentSettings.ProtectBkgnds = BOOL.True
@@ -27,7 +27,7 @@ Namespace VisualBasic.Diagrams
             diagram.DocumentSettings.ProtectStyles = BOOL.True
             ' save diagram
             diagram.Save(dataDir & "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX)
-            'ExEnd:VisioDiagramProtection
+            ' ExEnd:VisioDiagramProtection
         End Sub
     End Class
 End Namespace

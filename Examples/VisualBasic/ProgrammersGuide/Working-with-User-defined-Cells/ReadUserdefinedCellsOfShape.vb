@@ -4,7 +4,7 @@ Imports System
 
 Public Class ReadUserdefinedCellsOfShape
     Public Shared Sub Run()
-        'ExStart:ReadUserdefinedCellsOfShape
+        ' ExStart:ReadUserdefinedCellsOfShape
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_UserDefinedCells()
 
@@ -18,6 +18,6 @@ Public Class ReadUserdefinedCellsOfShape
         For Each user As User In shape.Users
             Console.WriteLine(user.Name + ": " + user.Value.Val)
         Next
-        'ExEnd:ReadUserdefinedCellsOfShape
+        ' ExEnd:ReadUserdefinedCellsOfShape
     End Sub
 End Class

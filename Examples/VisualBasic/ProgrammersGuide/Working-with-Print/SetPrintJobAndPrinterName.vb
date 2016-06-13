@@ -4,7 +4,7 @@ Imports System
 
 Public Class SetPrintJobAndPrinterName
     Public Shared Sub Run()
-        'ExStart:SetPrintJobAndPrinterName
+        ' ExStart:SetPrintJobAndPrinterName
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Print()
 
@@ -13,6 +13,6 @@ Public Class SetPrintJobAndPrinterName
 
         ' call the print method to print whole Diagram using the printer name and set document name in the print job
         diagram.Print("LaserJet1100", "Job name while printing with Aspose.Diagram")
-        'ExEnd:SetPrintJobAndPrinterName
+        ' ExEnd:SetPrintJobAndPrinterName
     End Sub
 End Class

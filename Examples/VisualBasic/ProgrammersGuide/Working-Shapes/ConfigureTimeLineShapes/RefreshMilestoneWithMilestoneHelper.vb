@@ -15,20 +15,20 @@ Imports System
 Namespace VisualBasic.Shapes
     Public Class RefreshMilestoneWithMilestoneHelper
         Public Shared Sub Run()
-            'ExStart:RefreshMilestoneWithMilestoneHelper
+            ' ExStart:RefreshMilestoneWithMilestoneHelper
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
-            'Modify time line
+            ' Modify time line
             Dim startDate As New DateTime(2015, 8, 1)
             Dim endDate As New DateTime(2016, 6, 1)
             Dim fisYear As DateTime = startDate
             Dim pageName As String = "Page-1"
 
-            'Load a diagram
+            ' Load a diagram
             Dim diagram As New Diagram(dataDir & "DrawingTimeLine.vsdx")
 
-            'Get page
+            ' Get page
             Dim page As Aspose.Diagram.Page = diagram.Pages.GetPage(pageName)
 
             Dim timelineId As Long = 1
@@ -40,29 +40,29 @@ Namespace VisualBasic.Shapes
             ' Add milestone
             Dim milestoneMasterName As String = "2 triangle milestone"
 
-            'Add Master
+            ' Add Master
             diagram.AddMaster(dataDir & "Timeline.vss", milestoneMasterName)
 
-            'Add Shape in Visio diagram using AddShape method
+            ' Add Shape in Visio diagram using AddShape method
             Dim milestoneShapeId As Long = diagram.AddShape(xpos, ypos, milestoneMasterName, 0)
 
-            'Get the shape based on ID
+            ' Get the shape based on ID
             Dim milestone As Shape = page.Shapes.GetShape(milestoneShapeId)
 
-            'Instantiate MilestoneHelper object
+            ' Instantiate MilestoneHelper object
             Dim milestoneHelper As New MilestoneHelper(milestone)
 
-            'Set Milestone Date
+            ' Set Milestone Date
             milestoneHelper.MilestoneDate = New DateTime(2015, 8, 1)
 
-            'Set IsAutoUpdate to true
+            ' Set IsAutoUpdate to true
             milestoneHelper.IsAutoUpdate = True
 
             'RefreshMilesone of timeline shape
             milestoneHelper.RefreshMilestone(timeline)
 
             diagram.Save(dataDir & "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX)
-            'ExEnd:RefreshMilestoneWithMilestoneHelper
+            ' ExEnd:RefreshMilestoneWithMilestoneHelper
         End Sub
     End Class
 End Namespace

@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Print
     {
         public static void Run() 
         {
-            //ExStart:SetPrintJobAndPrinterName
+            // ExStart:SetPrintJobAndPrinterName
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Print();
 
@@ -19,7 +19,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Print
 
             // call the print method to print whole Diagram using the printer name and set document name in the print job
             diagram.Print("LaserJet1100", "Job name while printing with Aspose.Diagram");
-            //ExEnd:SetPrintJobAndPrinterName
+            // ExEnd:SetPrintJobAndPrinterName
         }
     }
 }

@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:SaveVisioShapeInOtherFormats
+            // ExStart:SaveVisioShapeInOtherFormats
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -28,7 +28,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
 
             // get hash table of shapes, it holds id and name
             Hashtable remShapes = new Hashtable();
-            //Hashtable<Long, String> remShapes = new Hashtable<Long, String>();
+            // Hashtable<Long, String> remShapes = new Hashtable<Long, String>();
             foreach (Aspose.Diagram.Shape shape in srcPage.Shapes)
                 // for the normal shape
                 remShapes.Add(shape.ID, shape.Name);
@@ -66,7 +66,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
             opts.PageIndex = 1;
             // save it
             srcVisio.Save(dataDir + "SaveVisioShapeInOtherFormats_Out.pdf", opts);
-            //ExEnd:SaveVisioShapeInOtherFormats
+            // ExEnd:SaveVisioShapeInOtherFormats
         }
     }
 }

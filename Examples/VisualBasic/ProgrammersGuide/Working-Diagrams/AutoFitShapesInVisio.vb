@@ -5,7 +5,7 @@ Imports Aspose.Diagram.Saving
 
 Public Class AutoFitShapesInVisio
     Public Shared Sub Run()
-        'ExStart:AutoFitShapesInVisio
+        ' ExStart:AutoFitShapesInVisio
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
@@ -19,6 +19,6 @@ Public Class AutoFitShapesInVisio
 
         ' save Visio diagram
         diagram.Save(dataDir & Convert.ToString("AutoFitShapesInVisio_Out.vsdx"), options)
-        'ExEnd:AutoFitShapesInVisio
+        ' ExEnd:AutoFitShapesInVisio
     End Sub
 End Class

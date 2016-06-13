@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:GroupShapes
+            // ExStart:GroupShapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -32,7 +32,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
 
             // save visio diagram
             diagram.Save(dataDir + "GroupShapes_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:GroupShapes
+            // ExEnd:GroupShapes
         }
     }
 }

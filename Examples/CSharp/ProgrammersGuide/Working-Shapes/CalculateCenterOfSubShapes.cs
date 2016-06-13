@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:CalculateCenterOfSubShapes
+            // ExStart:CalculateCenterOfSubShapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -36,7 +36,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
             // calculate the sub-shape pinx and piny
             double resultx = shape.XForm.PinX.Value - shape.XForm.LocPinX.Value - pinx;
             double resulty = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny;
-            //ExEnd:CalculateCenterOfSubShapes
+            // ExEnd:CalculateCenterOfSubShapes
         }
     }
 }

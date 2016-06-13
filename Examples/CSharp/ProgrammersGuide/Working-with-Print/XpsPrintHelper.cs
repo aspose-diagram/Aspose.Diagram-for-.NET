@@ -21,7 +21,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Print
         {
         }
 
-        //ExStart:XpsPrint_PrintDocument
+        // ExStart:XpsPrint_PrintDocument
         /// <summary>
         /// Sends an Aspose.Diagram document to a printer using the XpsPrint API.
         /// </summary>
@@ -42,9 +42,9 @@ namespace CSharp.ProgrammersGuide.Working_with_Print
 
             Print(stream, printerName, jobName, isWait);
         }
-        //ExEnd:XpsPrint_PrintDocument
+        // ExEnd:XpsPrint_PrintDocument
 
-        //ExStart:XpsPrint_PrintStream
+        // ExStart:XpsPrint_PrintStream
         /// <summary>
         /// Sends a stream that contains a document in the XPS format to a printer using the XpsPrint API.
         /// Has no dependency on Aspose.Diagram, can be used in any project.
@@ -86,7 +86,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Print
                     CloseHandle(completionEvent);
             }
         }
-        //ExEnd:XpsPrint_PrintStream
+        // ExEnd:XpsPrint_PrintStream
 
         private static void StartJob(string printerName, string jobName, IntPtr completionEvent, out IXpsPrintJob job, out IXpsPrintJobStream jobStream)
         {

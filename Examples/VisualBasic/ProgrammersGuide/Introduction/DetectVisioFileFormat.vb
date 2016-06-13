@@ -5,7 +5,7 @@ Imports Aspose.Diagram
 
 Public Class DetectVisioFileFormat
     Public Shared Sub Run()
-        'ExStart:DetectVisioFileFormat
+        ' ExStart:DetectVisioFileFormat
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Intro()
 
@@ -23,6 +23,6 @@ Public Class DetectVisioFileFormat
 
         ' get the detected file format from the file stream
         Console.WriteLine("The spreadsheet format is (from the file stream): " & info.FileFormatType)
-        'ExEnd:DetectVisioFileFormat
+        ' ExEnd:DetectVisioFileFormat
     End Sub
 End Class

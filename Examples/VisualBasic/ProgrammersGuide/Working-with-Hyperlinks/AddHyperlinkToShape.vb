@@ -4,7 +4,7 @@ Imports System
 
 Public Class AddHyperlinkToShape
     Public Shared Sub Run()
-        'ExStart:AddHyperlinkToShape
+        ' ExStart:AddHyperlinkToShape
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Hyperlinks()
 
@@ -15,21 +15,21 @@ Public Class AddHyperlinkToShape
         ' get shape by ID
         Dim shape As Shape = page.Shapes.GetShape(2)
 
-        'initialize Hyperlink object
+        ' Initialize Hyperlink object
         Dim hyperlink As New Hyperlink()
-        'set address value
+        ' Set address value
         hyperlink.Address.Value = "http://www.google.com/"
-        'set sub address value
+        ' Set sub address value
         hyperlink.SubAddress.Value = "Sub address here"
-        'set description value
+        ' Set description value
         hyperlink.Description.Value = "Description here"
-        'set name
+        ' Set name
         hyperlink.Name = "MyHyperLink"
 
-        'add hyperlink to the shape
+        ' Add hyperlink to the shape
         shape.Hyperlinks.Add(hyperlink)
-        'save diagram to local space
+        ' Save diagram to local space
         diagram.Save(dataDir & Convert.ToString("AddHyperlinkToShape_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:AddHyperlinkToShape
+        ' ExEnd:AddHyperlinkToShape
     End Sub
 End Class

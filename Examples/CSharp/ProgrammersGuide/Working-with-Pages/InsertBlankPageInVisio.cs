@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
     {
         public static void Run()
         {
-            //ExStart:InsertBlankPageInVisio
+            // ExStart:InsertBlankPageInVisio
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_VisioPages();
 
@@ -46,7 +46,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
 
             // Save diagram
             diagram.Save(dataDir + "InsertBlankPage_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:InsertBlankPageInVisio
+            // ExEnd:InsertBlankPageInVisio
         }
     }
 }

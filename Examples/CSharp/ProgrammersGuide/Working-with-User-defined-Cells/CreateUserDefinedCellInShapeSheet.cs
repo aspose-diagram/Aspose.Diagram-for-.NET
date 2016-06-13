@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_User_defined_Cells
     {
         public static void Run() 
         {
-            //ExStart:CreateUserDefinedCellInShapeSheet
+            // ExStart:CreateUserDefinedCellInShapeSheet
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_UserDefinedCells();
 
@@ -30,7 +30,7 @@ namespace CSharp.ProgrammersGuide.Working_with_User_defined_Cells
 
             // save diagram
             diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:CreateUserDefinedCellInShapeSheet
+            // ExEnd:CreateUserDefinedCellInShapeSheet
         }
     }
 }

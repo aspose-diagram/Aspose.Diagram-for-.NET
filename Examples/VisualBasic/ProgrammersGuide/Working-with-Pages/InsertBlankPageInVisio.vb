@@ -4,7 +4,7 @@ Imports VisualBasic
 
 Public Class InsertBlankPageInVisio
     Public Shared Sub Run()
-        'ExStart:InsertBlankPageInVisio
+        ' ExStart:InsertBlankPageInVisio
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_VisioPages()
 
@@ -41,6 +41,6 @@ Public Class InsertBlankPageInVisio
 
         ' Save diagram
         diagram.Save(dataDir & Convert.ToString("InsertBlankPage_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:InsertBlankPageInVisio
+        ' ExEnd:InsertBlankPageInVisio
     End Sub
 End Class

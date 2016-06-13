@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert
     {
         public static void Run()
         {
-            //ExStart:ReadVisioDiagram
+            // ExStart:ReadVisioDiagram
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
@@ -20,7 +20,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert
             Diagram vsdDiagram = new Diagram(st);
             st.Close();
 
-            //Call the diagram constructor to load a VDX diagram
+            // Call the diagram constructor to load a VDX diagram
             Diagram vdxDiagram = new Diagram(dataDir + "Drawing1.vdx");
 
             /*
@@ -35,7 +35,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert
             */
             LoadOptions loadOptions = new LoadOptions(LoadFileFormat.VSX);
             Diagram vsxDiagram = new Diagram(dataDir + "Drawing1.vsx", loadOptions);
-            //ExEnd:ReadVisioDiagram
+            // ExEnd:ReadVisioDiagram
         }
     }
 }

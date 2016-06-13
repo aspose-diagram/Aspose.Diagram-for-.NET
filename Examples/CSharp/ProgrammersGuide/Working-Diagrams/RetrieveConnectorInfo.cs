@@ -16,20 +16,20 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:RetrieveConnectorInfo
+            // ExStart:RetrieveConnectorInfo
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
-            //Call the diagram constructor to load diagram from a VSD file
+            // Call the diagram constructor to load diagram from a VSD file
             Diagram vdxDiagram = new Diagram(dataDir + "RetrieveConnectorInfo.vsd");
 
             foreach (Aspose.Diagram.Connect connector in vdxDiagram.Pages[0].Connects)
             {
-                //Display information about the Connectors
+                // Display information about the Connectors
                 Console.WriteLine("\nFrom Shape ID : " + connector.FromSheet);
                 Console.WriteLine("To Shape ID : " + connector.ToSheet);
             }
-            //ExEnd:RetrieveConnectorInfo
+            // ExEnd:RetrieveConnectorInfo
         }
     }
 }

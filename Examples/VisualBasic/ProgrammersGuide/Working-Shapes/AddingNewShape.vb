@@ -4,11 +4,11 @@ Imports Aspose.Diagram
 
 Public Class AddingNewShape
     Public Shared Sub Run()
-        'ExStart:AddingNewShape
+        ' ExStart:AddingNewShape
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
-        'Load a diagram
+        ' Load a diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
         ' get page by name
         Dim page As Page = diagram.Pages.GetPage("Page-2")
@@ -21,7 +21,7 @@ Public Class AddingNewShape
         ' page indexing starts from 0
         Dim PageIndex As Integer = 1
         Dim width As Double = 2, height As Double = 2, pinX As Double = 4.25, pinY As Double = 4.5
-        'Add a new rectangle shape
+        ' Add a new rectangle shape
         Dim rectangleId As Long = diagram.AddShape(pinX, pinY, width, height, masterName, PageIndex)
 
         ' set shape properties 
@@ -39,6 +39,6 @@ Public Class AddingNewShape
 
         diagram.Save(dataDir & Convert.ToString("AddShape_Out.vsdx"), SaveFileFormat.VSDX)
         Console.WriteLine("Shape has been added.")
-        'ExEnd:AddingNewShape
+        ' ExEnd:AddingNewShape
     End Sub
 End Class

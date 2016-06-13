@@ -12,7 +12,7 @@ namespace CSharp.ProgrammersGuide.Introduction
     {
         public static void Run() 
         {
-            //ExStart:DetectVisioFileFormat
+            // ExStart:DetectVisioFileFormat
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Intro();
 
@@ -30,7 +30,7 @@ namespace CSharp.ProgrammersGuide.Introduction
             
             // get the detected file format from the file stream
             Console.WriteLine("The spreadsheet format is (from the file stream): " + info.FileFormatType);
-            //ExEnd:DetectVisioFileFormat
+            // ExEnd:DetectVisioFileFormat
         }
     }
 }

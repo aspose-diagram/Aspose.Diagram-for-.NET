@@ -20,9 +20,9 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'GetLibraryVersion.Run()
-            'SetVisioProperties.Run()
-            'DetectVisioFileFormat.Run()
+            ' GetLibraryVersion.Run()
+            ' SetVisioProperties.Run()
+            ' DetectVisioFileFormat.Run()
 
             '' =====================================================
             '' =====================================================
@@ -30,9 +30,9 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'CreateNewVisio.Run()
-            'ExportHTMLinStream.Run()
-            'ExportToXAML.Run()
+            ' CreateNewVisio.Run()
+            ' ExportHTMLinStream.Run()
+            ' ExportToXAML.Run()
             'ReadVisioDiagram.Run()
 
             '' =====================================================
@@ -41,7 +41,7 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'EditConnectorGeometry.Run()
+            ' EditConnectorGeometry.Run()
 
             '' =====================================================
             '' =====================================================
@@ -49,7 +49,7 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'ManageHeadersandFooters.Run()
+            ' ManageHeadersandFooters.Run()
 
             '' =====================================================
             '' =====================================================
@@ -57,25 +57,25 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'AddConnectShapes.Run()
-            'CreateDiagram.Run()
-            'ExportPageToImage.Run()
-            'ExportToHTML.Run()
-            'ExportToImage.Run()
-            'ExportToPDF.Run()
-            'ExportToSVG.Run()
-            'ExportToXML.Run()
-            'ExportToXPS.Run()
-            'ExtractAllImagesFromPage.Run()
-            'LayOutShapesInCompactTreeStyle.Run()
-            'LayOutShapesInFlowchartStyle.Run()
+            ' AddConnectShapes.Run()
+            ' CreateDiagram.Run()
+            ' ExportPageToImage.Run()
+            ' ExportToHTML.Run()
+            ' ExportToImage.Run()
+            ' ExportToPDF.Run()
+            ' ExportToSVG.Run()
+            ' ExportToXML.Run()
+            ' ExportToXPS.Run()
+            ' ExtractAllImagesFromPage.Run()
+            ' LayOutShapesInCompactTreeStyle.Run()
+            ' LayOutShapesInFlowchartStyle.Run()
             'ReadDiagramFile.Run()
             'RetrieveConnectorInfo.Run()
             'RetrieveFontInfo.Run()
             'RetrieveMasterInfo.Run()
             'RetrievePageInfo.Run()
-            'ExportToSWF.Run()
-            'ExportToSWFWithoutViewer.Run()
+            ' ExportToSWF.Run()
+            ' ExportToSWFWithoutViewer.Run()
 
             '' =====================================================
             '' =====================================================
@@ -83,12 +83,12 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'ApplyCustomStyleSheets.Run()
+            ' ApplyCustomStyleSheets.Run()
             'RetrieveShapeInfo.Run()
-            'SetFillData.Run()
-            'SetLineData.Run()
-            'SetXFormdata.Run()
-            'UpdateShapeText.Run()
+            ' SetFillData.Run()
+            ' SetLineData.Run()
+            ' SetXFormdata.Run()
+            ' UpdateShapeText.Run()
             'RefreshMilestoneWithMilestoneHelper.Run()
 
             '' =====================================================
@@ -97,8 +97,8 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'AddPageLevelCommentInVisio.Run()
-            'EditPageLevelCommentInVisio.Run()
+            ' AddPageLevelCommentInVisio.Run()
+            ' EditPageLevelCommentInVisio.Run()
 
             '' =====================================================
             '' =====================================================
@@ -106,12 +106,12 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'CreatingDiagramWithAspose.Run()
-            'CreatingDiagramWithVSTO.Run()
-            'SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run()
-            'SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run()
-            'UpdateShapePropsWithAspose.Run()
-            'UpdateShapePropsWithVSTO.Run()
+            ' CreatingDiagramWithAspose.Run()
+            ' CreatingDiagramWithVSTO.Run()
+            ' SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run()
+            ' SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run()
+            ' UpdateShapePropsWithAspose.Run()
+            ' UpdateShapePropsWithVSTO.Run()
 
             '' =====================================================
             '' =====================================================
@@ -119,7 +119,7 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'AddConnectShapes.Run()
+            ' AddConnectShapes.Run()
 
             '' =====================================================
             '' =====================================================
@@ -127,8 +127,8 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'AddHyperlinkToShape.Run()
-            'GetHyperlinks.Run()
+            ' AddHyperlinkToShape.Run()
+            ' GetHyperlinks.Run()
 
             '' =====================================================
             '' =====================================================
@@ -136,8 +136,8 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'AddLayer.Run()
-            'ConfigureShapeLayers.Run()
+            ' AddLayer.Run()
+            ' ConfigureShapeLayers.Run()
             'RetrieveAllLayers.Run()
 
             '' =====================================================
@@ -146,10 +146,10 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'CheckMasterPresencebyID.Run()
-            'CheckMasterPresencebyName.Run()
-            'GetMasterbyID.Run()
-            'GetMasterbyName.Run()
+            ' CheckMasterPresencebyID.Run()
+            ' CheckMasterPresencebyName.Run()
+            ' GetMasterbyID.Run()
+            ' GetMasterbyName.Run()
             'RetrieveMasterInfo.Run()
 
             '' =====================================================
@@ -158,17 +158,17 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'CopyVisioPage.Run()
-            'ExportOfHiddenVisioPagesToHTML.Run()
-            'ExportOfHiddenVisioPagesToImage.Run()
-            'ExportOfHiddenVisioPagesToPDF.Run()
-            'ExportOfHiddenVisioPagesToSVG.Run()
-            'ExportOfHiddenVisioPagesToXPS.Run()
-            'GetVisioPagebyID.Run()
-            'GetVisioPagebyName.Run()
-            'InsertBlankPageInVisio.Run()
+            ' CopyVisioPage.Run()
+            ' ExportOfHiddenVisioPagesToHTML.Run()
+            ' ExportOfHiddenVisioPagesToImage.Run()
+            ' ExportOfHiddenVisioPagesToPDF.Run()
+            ' ExportOfHiddenVisioPagesToSVG.Run()
+            ' ExportOfHiddenVisioPagesToXPS.Run()
+            ' GetVisioPagebyID.Run()
+            ' GetVisioPagebyName.Run()
+            ' InsertBlankPageInVisio.Run()
             'RetrievePageInfo.Run()
-            'SetVisioPageOrientation.Run()
+            ' SetVisioPageOrientation.Run()
 
             '' =====================================================
             '' =====================================================
@@ -176,10 +176,10 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'ByDefaultPrinter.Run()
-            'BySpecificPrinter.Run()
-            'PrintDiagramVisXPSPrinterAPI.Run()
-            'SetPrintJobAndPrinterName.Run()
+            ' ByDefaultPrinter.Run()
+            ' BySpecificPrinter.Run()
+            ' PrintDiagramVisXPSPrinterAPI.Run()
+            ' SetPrintJobAndPrinterName.Run()
 
             '' =====================================================
             '' =====================================================
@@ -187,8 +187,8 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'VisioDiagramProtection.Run()
-            'VisioShapeProtection.Run()
+            ' VisioDiagramProtection.Run()
+            ' VisioShapeProtection.Run()
 
             '' =====================================================
             '' =====================================================
@@ -196,7 +196,7 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'AddSolutionXMLElement.Run()
+            ' AddSolutionXMLElement.Run()
             'ReadSolutionXMLElement.Run()
 
             '' =====================================================
@@ -205,11 +205,11 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'ApplyCustomStyleSheets.Run()
-            'ApplyFontOnText.Run()
-            'FindAndReplaceShapeText.Run()
-            'GetPlainTextOfVisio.Run()
-            'UpdateShapeText.Run()
+            ' ApplyCustomStyleSheets.Run()
+            ' ApplyFontOnText.Run()
+            ' FindAndReplaceShapeText.Run()
+            ' GetPlainTextOfVisio.Run()
+            ' UpdateShapeText.Run()
 
             '' =====================================================
             '' =====================================================
@@ -217,11 +217,11 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'FormatShapeTextBlockSection.Run()
-            'SetShapeTextPositionAtBottom.Run()
-            'SetShapeTextPositionAtLeft.Run()
-            'SetShapeTextPositionAtRight.Run()
-            'SetShapeTextPositionAtTop.Run()
+            ' FormatShapeTextBlockSection.Run()
+            ' SetShapeTextPositionAtBottom.Run()
+            ' SetShapeTextPositionAtLeft.Run()
+            ' SetShapeTextPositionAtRight.Run()
+            ' SetShapeTextPositionAtTop.Run()
 
             '' =====================================================
             '' =====================================================
@@ -229,7 +229,7 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'CreateUserDefinedCellInShapeSheet.Run()
+            ' CreateUserDefinedCellInShapeSheet.Run()
             'ReadUserdefinedCellsOfShape.Run()
             'RetrieveUserDefinedCells.Run()
 
@@ -239,9 +239,9 @@ Namespace VisualBasic
             '' =====================================================
             '' =====================================================
 
-            'AddSupportOfVisualAids.Run()
-            'AddWindowElementInVisio.Run()
-            'DisplayGridsRulersGuidesAndPageBreaks.Run()
+            ' AddSupportOfVisualAids.Run()
+            ' AddWindowElementInVisio.Run()
+            ' DisplayGridsRulersGuidesAndPageBreaks.Run()
             RetrieveWindowElementsOfDiagram.Run()
 
             ' Stop before exiting

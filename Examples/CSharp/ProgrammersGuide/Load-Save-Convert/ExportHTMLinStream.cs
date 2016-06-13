@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert
     {
         public static void Run()
         {
-            //ExStart:ExportHTMLinStream
+            // ExStart:ExportHTMLinStream
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
             // load diagram
@@ -19,7 +19,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert
             // save resultant HTML directly to a stream
             MemoryStream stream = new MemoryStream();
             diagram.Save(stream, SaveFileFormat.HTML);
-            //ExEnd:ExportHTMLinStream
+            // ExEnd:ExportHTMLinStream
         }
     }
 }

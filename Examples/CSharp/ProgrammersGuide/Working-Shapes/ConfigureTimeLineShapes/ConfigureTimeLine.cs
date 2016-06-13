@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.ConfigureTimeLineShapes
     {
         public static void Run()
         {
-            //ExStart:ConfigureTimeLine
+            // ExStart:ConfigureTimeLine
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -29,9 +29,9 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.ConfigureTimeLineShapes
             timelineHelper.TimePeriodFinish = new DateTime(2015, 2, 19);
 
             // Set date format
-            //timelineHelper.DateFormatForBE = 21;
+            // TimelineHelper.DateFormatForBE = 21;
             // Set date format for intm of timeline shape   
-            //timelineHelper.DateFormatForIntm = 21;
+            // TimelineHelper.DateFormatForIntm = 21;
 
             // Or
 
@@ -42,7 +42,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.ConfigureTimeLineShapes
 
             // Save to VDX format
             diagram.Save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:ConfigureTimeLine
+            // ExEnd:ConfigureTimeLine
         }
     }
 }

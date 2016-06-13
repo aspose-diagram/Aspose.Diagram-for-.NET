@@ -4,7 +4,7 @@ Imports System
 
 Public Class AddSolutionXMLElement
     Public Shared Sub Run()
-        'ExStart:AddSolutionXMLElement
+        ' ExStart:AddSolutionXMLElement
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_SolutionXML()
 
@@ -22,6 +22,6 @@ Public Class AddSolutionXMLElement
 
         ' save Visio diagram
         diagram.Save(dataDir & Convert.ToString("AddSolutionXMLElement_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:AddSolutionXMLElement
+        ' ExEnd:AddSolutionXMLElement
     End Sub
 End Class

@@ -10,11 +10,11 @@ namespace CSharp.ProgrammersGuide.Working_with_Text
     {
         public static void Run()
         {
-            //ExStart:FindAndReplaceShapeText
+            // ExStart:FindAndReplaceShapeText
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_ShapeText();
 
-            //prepare a collection old and new text
+            // Prepare a collection old and new text
             Dictionary<string, string> replacements = new Dictionary<string, string>();
             replacements.Add("[[CompanyName]]", "Research Society of XYZ");
             replacements.Add("[[EmployeeName]]", "James Bond");
@@ -29,7 +29,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Text
             // get page by name
             Page page = diagram.Pages.GetPage("Page-1");
 
-            //iterate through the shapes of a page
+            // Iterate through the shapes of a page
             foreach (Shape shape in page.Shapes)
             {
                 foreach (KeyValuePair<string, string> kvp in replacements)
@@ -39,15 +39,15 @@ namespace CSharp.ProgrammersGuide.Working_with_Text
                         Txt tx = txt as Txt;
                         if (tx != null && tx.Text.Contains(kvp.Key))
                         {
-                            //find and replace text of a shape
+                            // Find and replace text of a shape
                             tx.Text = tx.Text.Replace(kvp.Key, kvp.Value);
                         }
                     }
                 }
             }
-            //save the diagram
+            // Save the diagram
             diagram.Save(dataDir + "FindAndReplaceShapeText_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:FindAndReplaceShapeText
+            // ExEnd:FindAndReplaceShapeText
         }
     }
 }

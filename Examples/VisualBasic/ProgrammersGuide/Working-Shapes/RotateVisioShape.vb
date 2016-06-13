@@ -4,7 +4,7 @@ Imports System
 
 Public Class RotateVisioShape
     Public Shared Sub Run()
-        'ExStart:RotateVisioShape
+        ' ExStart:RotateVisioShape
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -20,6 +20,6 @@ Public Class RotateVisioShape
 
         ' Save diagram
         diagram.Save(dataDir & Convert.ToString("RotateVisioShape_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:RotateVisioShape
+        ' ExEnd:RotateVisioShape
     End Sub
 End Class

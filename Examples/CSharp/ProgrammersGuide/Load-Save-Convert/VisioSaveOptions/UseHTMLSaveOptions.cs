@@ -12,7 +12,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
     {
         public static void Run()
         {
-            //ExStart:UseHTMLSaveOptions
+            // ExStart:UseHTMLSaveOptions
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
@@ -49,7 +49,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
             // save resultant HTML directly to a stream
             MemoryStream stream = new MemoryStream();
             diagram.Save(stream, SaveFileFormat.HTML);
-            //ExEnd:UseHTMLSaveOptions
+            // ExEnd:UseHTMLSaveOptions
         }
     }
 }

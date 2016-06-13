@@ -4,7 +4,7 @@ Imports System
 
 Public Class FormatShapeTextBlockSection
     Public Shared Sub Run()
-        'ExStart:FormatShapeTextBlockSection
+        ' ExStart:FormatShapeTextBlockSection
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_ShapeTextBoxData()
 
@@ -18,7 +18,7 @@ Public Class FormatShapeTextBlockSection
         ' set orientation angle
         Dim margin As New DoubleValue(4, MeasureConst.PT)
 
-        ' set left, right, top and bottom margins of the shape's text block
+        ' set left, right, top and bottom margins of the shape' S text block
         shape.TextBlock.LeftMargin = margin
         shape.TextBlock.RightMargin = margin
         shape.TextBlock.TopMargin = margin
@@ -36,6 +36,6 @@ Public Class FormatShapeTextBlockSection
 
         ' save Visio
         diagram.Save(dataDir & Convert.ToString("FormatShapeTextBlockSection_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:FormatShapeTextBlockSection
+        ' ExEnd:FormatShapeTextBlockSection
     End Sub
 End Class

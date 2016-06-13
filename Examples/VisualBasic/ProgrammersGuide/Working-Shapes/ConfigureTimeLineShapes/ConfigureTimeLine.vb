@@ -4,7 +4,7 @@ Imports System
 
 Public Class ConfigureTimeLine
     Public Shared Sub Run()
-        'ExStart:ConfigureTimeLine
+        ' ExStart:ConfigureTimeLine
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -23,9 +23,9 @@ Public Class ConfigureTimeLine
         timelineHelper.TimePeriodFinish = New DateTime(2015, 2, 19)
 
         ' Set date format
-        'timelineHelper.DateFormatForBE = 21;
+        ' TimelineHelper.DateFormatForBE = 21;
         ' Set date format for intm of timeline shape   
-        'timelineHelper.DateFormatForIntm = 21;
+        ' TimelineHelper.DateFormatForIntm = 21;
 
         ' Or
 
@@ -36,6 +36,6 @@ Public Class ConfigureTimeLine
 
         ' Save to VDX format
         diagram.Save(dataDir & Convert.ToString("ConfigureTimeLine_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:ConfigureTimeLine
+        ' ExEnd:ConfigureTimeLine
     End Sub
 End Class

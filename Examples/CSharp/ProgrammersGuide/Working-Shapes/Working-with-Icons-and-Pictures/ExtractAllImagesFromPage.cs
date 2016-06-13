@@ -16,22 +16,22 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:ExtractAllImagesFromPage
+            // ExStart:ExtractAllImagesFromPage
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
             // call a Diagram class constructor to load a VSD diagram
             Diagram diagram = new Diagram(dataDir + "ExtractAllImagesFromPage.vsd");
 
-            //enter page index i.e. 0 for first one
+            // Enter page index i.e. 0 for first one
             foreach (Shape shape in diagram.Pages[0].Shapes)
             {
-                //Filter shapes by type Foreign
+                // Filter shapes by type Foreign
                 if (shape.Type == Aspose.Diagram.TypeValue.Foreign)
                 {
                     using (System.IO.MemoryStream stream = new System.IO.MemoryStream(shape.ForeignData.Value))
                     {
-                        //Load memory stream into bitmap object
+                        // Load memory stream into bitmap object
                         System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(stream);
 
                         // save bmp here
@@ -39,7 +39,7 @@ namespace CSharp.Diagrams
                     }
                 }
             }
-            //ExEnd:ExtractAllImagesFromPage
+            // ExEnd:ExtractAllImagesFromPage
         }
     }
 }

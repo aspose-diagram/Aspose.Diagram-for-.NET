@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:ChangeShapeSize
+            // ExStart:ChangeShapeSize
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -25,7 +25,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
             shape.SetHeight(2 * shape.XForm.Height.Value);
             // save diagram
             diagram.Save(dataDir + "ChangeShapeSize_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:ChangeShapeSize
+            // ExEnd:ChangeShapeSize
         }
     }
 }

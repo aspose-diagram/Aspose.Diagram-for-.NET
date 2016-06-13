@@ -6,7 +6,7 @@ Imports System.IO
 
 Public Class UseHTMLSaveOptions
     Public Shared Sub Run()
-        'ExStart:UseHTMLSaveOptions
+        ' ExStart:UseHTMLSaveOptions
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
@@ -43,6 +43,6 @@ Public Class UseHTMLSaveOptions
         ' save resultant HTML directly to a stream
         Dim stream As New MemoryStream()
         diagram.Save(stream, SaveFileFormat.HTML)
-        'ExEnd:UseHTMLSaveOptions
+        ' ExEnd:UseHTMLSaveOptions
     End Sub
 End Class

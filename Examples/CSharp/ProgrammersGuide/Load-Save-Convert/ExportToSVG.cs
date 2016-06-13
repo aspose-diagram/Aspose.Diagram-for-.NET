@@ -15,16 +15,16 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:ExportToSVG
+            // ExStart:ExportToSVG
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
             // Call the diagram constructor to load a VSD diagram
             Diagram diagram = new Diagram(dataDir + "ExportToSVG.vsd");
 
-            //Save SVG Output file
+            // Save SVG Output file
             diagram.Save(dataDir + "Output.svg", SaveFileFormat.SVG);
-            //ExEnd:ExportToSVG
+            // ExEnd:ExportToSVG
         }
     }
 }

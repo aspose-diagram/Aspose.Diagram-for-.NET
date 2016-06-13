@@ -4,7 +4,7 @@ Imports System
 
 Public Class CreateUserDefinedCellInShapeSheet
     Public Shared Sub Run()
-        'ExStart:CreateUserDefinedCellInShapeSheet
+        ' ExStart:CreateUserDefinedCellInShapeSheet
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_UserDefinedCells()
 
@@ -24,6 +24,6 @@ Public Class CreateUserDefinedCellInShapeSheet
 
         ' save diagram
         diagram.Save(dataDir & Convert.ToString("CreateUserDefinedCellInShapeSheet_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:CreateUserDefinedCellInShapeSheet
+        ' ExEnd:CreateUserDefinedCellInShapeSheet
     End Sub
 End Class

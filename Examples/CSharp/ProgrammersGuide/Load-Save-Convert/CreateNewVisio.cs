@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert
     {
         public static void Run()
         {
-            //ExStart:CreateNewVisio
+            // ExStart:CreateNewVisio
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
@@ -19,7 +19,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert
 
             // save diagram in the VSDX format
             diagram.Save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:CreateNewVisio
+            // ExEnd:CreateNewVisio
         }
     }
 }

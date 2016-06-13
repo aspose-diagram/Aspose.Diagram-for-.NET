@@ -5,7 +5,7 @@ Imports System.IO
 
 Public Class ReplaceShapePicture
     Public Shared Sub Run()
-        'ExStart:ReplaceShapePicture
+        ' ExStart:ReplaceShapePicture
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -14,9 +14,9 @@ Public Class ReplaceShapePicture
         ' convert image into bytes array
         Dim imageBytes As Byte() = File.ReadAllBytes(dataDir & Convert.ToString("Picture.png"))
 
-        'enter page index i.e. 0 for first one
+        ' Enter page index i.e. 0 for first one
         For Each shape As Shape In diagram.Pages(0).Shapes
-            'Filter shapes by type Foreign
+            ' Filter shapes by type Foreign
             If shape.Type = Aspose.Diagram.TypeValue.Foreign Then
                 Using stream As New System.IO.MemoryStream(shape.ForeignData.Value)
                     'replace picture shape
@@ -27,6 +27,6 @@ Public Class ReplaceShapePicture
 
         ' save diagram
         diagram.Save(dataDir & Convert.ToString("ReplaceShapePicture_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:ReplaceShapePicture
+        ' ExEnd:ReplaceShapePicture
     End Sub
 End Class

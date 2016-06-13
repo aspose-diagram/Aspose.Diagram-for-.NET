@@ -4,7 +4,7 @@ Imports System
 
 Public Class GroupShapes
     Public Shared Sub Run()
-        'ExStart:GroupShapes
+        ' ExStart:GroupShapes
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -26,6 +26,6 @@ Public Class GroupShapes
 
         ' save visio diagram
         diagram.Save(dataDir & Convert.ToString("GroupShapes_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:GroupShapes
+        ' ExEnd:GroupShapes
     End Sub
 End Class

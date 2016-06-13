@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Headers_and_Footers
     {
         public static void Run() 
         {
-            //ExStart:ManageHeadersandFooters
+            // ExStart:ManageHeadersandFooters
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_HeadersAndFooters();
 
@@ -45,7 +45,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Headers_and_Footers
 
             // save Visio diagram
             diagram.Save(dataDir + "ManageHeadersandFooters_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:ManageHeadersandFooters
+            // ExEnd:ManageHeadersandFooters
         }
     }
 }

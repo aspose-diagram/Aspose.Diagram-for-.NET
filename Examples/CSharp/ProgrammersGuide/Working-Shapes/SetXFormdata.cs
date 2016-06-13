@@ -15,14 +15,14 @@ namespace CSharp.Shapes
     {
         public static void Run()
         {
-            //ExStart:SetXFormdata
+            // ExStart:SetXFormdata
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
             // call a Diagram class constructor to load the VSD diagram
             Diagram diagram = new Diagram(dataDir + "SetXFormdata.vsd");
 
-            //Find a particular shape and update its XForm
+            // Find a particular shape and update its XForm
             foreach (Aspose.Diagram.Shape shape in diagram.Pages[0].Shapes)
             {
                 if (shape.NameU.ToLower() == "process" && shape.ID == 1)
@@ -33,7 +33,7 @@ namespace CSharp.Shapes
             }
             // save diagram
             diagram.Save(dataDir + "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:SetXFormdata
+            // ExEnd:SetXFormdata
         }
     }
 }

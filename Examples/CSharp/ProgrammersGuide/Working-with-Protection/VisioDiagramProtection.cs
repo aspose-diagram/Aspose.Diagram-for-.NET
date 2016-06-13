@@ -15,11 +15,11 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:VisioDiagramProtection
+            // ExStart:VisioDiagramProtection
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Protection();
 
-            //Load diagram
+            // Load diagram
             Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
 
             diagram.DocumentSettings.ProtectBkgnds = BOOL.True;
@@ -28,7 +28,7 @@ namespace CSharp.Diagrams
             diagram.DocumentSettings.ProtectStyles = BOOL.True;
             // save diagram
             diagram.Save(dataDir + "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX);
-            //ExEnd:VisioDiagramProtection
+            // ExEnd:VisioDiagramProtection
         }
     }
 }

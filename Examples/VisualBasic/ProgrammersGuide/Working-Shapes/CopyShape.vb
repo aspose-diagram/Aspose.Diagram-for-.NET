@@ -4,7 +4,7 @@ Imports System
 
 Public Class CopyShape
     Public Shared Sub Run()
-        'ExStart:CopyShape
+        ' ExStart:CopyShape
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -33,6 +33,6 @@ Public Class CopyShape
         Next
         ' save the new Visio
         newDiagram.Save(dataDir & Convert.ToString("CopyShapes_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:CopyShape
+        ' ExEnd:CopyShape
     End Sub
 End Class

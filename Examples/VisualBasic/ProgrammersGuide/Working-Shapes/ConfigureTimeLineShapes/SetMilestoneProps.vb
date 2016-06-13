@@ -4,7 +4,7 @@ Imports System
 
 Public Class SetMilestoneProps
     Public Shared Sub Run()
-        'ExStart:SetMilestoneProps
+        ' ExStart:SetMilestoneProps
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -28,6 +28,6 @@ Public Class SetMilestoneProps
 
         ' Save to VDX format
         diagram.Save(dataDir & Convert.ToString("SetMilestoneProps_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:SetMilestoneProps
+        ' ExEnd:SetMilestoneProps
     End Sub
 End Class

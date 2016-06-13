@@ -4,7 +4,7 @@ Imports System
 
 Public Class RetrieveWindowElementsOfDiagram
     Public Shared Sub Run()
-        'ExStart:RetrieveWindowElementsOfDiagram
+        ' ExStart:RetrieveWindowElementsOfDiagram
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_WindowElements()
 
@@ -18,6 +18,6 @@ Public Class RetrieveWindowElementsOfDiagram
             Console.WriteLine("Window width: " & window.WindowWidth)
             Console.WriteLine("Window state: " & window.WindowState)
         Next
-        'ExEnd:RetrieveWindowElementsOfDiagram
+        ' ExEnd:RetrieveWindowElementsOfDiagram
     End Sub
 End Class

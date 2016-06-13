@@ -9,7 +9,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:CreateDiagram
+            // ExStart:CreateDiagram
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -22,7 +22,7 @@ namespace CSharp.Diagrams
             dataDir = dataDir + "CreateDiagram_Out.vsdx";
             // save in the VSDX format
             diagram.Save(dataDir, SaveFileFormat.VSDX);
-            //ExEnd:CreateDiagram
+            // ExEnd:CreateDiagram
             Console.WriteLine("\nDiagram created successfully.\nFile saved at " + dataDir);
         }
     }

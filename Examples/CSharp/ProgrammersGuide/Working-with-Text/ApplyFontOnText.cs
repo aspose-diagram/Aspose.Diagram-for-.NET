@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Text
     {
         public static void Run()
         {
-            //ExStart:ApplyFontOnText
+            // ExStart:ApplyFontOnText
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_ShapeText();
 
@@ -40,28 +40,28 @@ namespace CSharp.ProgrammersGuide.Working_with_Text
             shape.Chars.Add(new Aspose.Diagram.Char());
             shape.Chars.Add(new Aspose.Diagram.Char());
 
-            //set properties e.g. color, font, size and style etc.
+            // Set properties e.g. color, font, size and style etc.
             shape.Chars[0].IX = 0;
             shape.Chars[0].Color.Value = "#FF0000";
             shape.Chars[0].Font.Value = 4;
             shape.Chars[0].Size.Value = 0.22;
             shape.Chars[0].Style.Value = StyleValue.Undefined;
 
-            //set properties e.g. color, font, size and style etc.
+            // Set properties e.g. color, font, size and style etc.
             shape.Chars[1].IX = 1;
             shape.Chars[1].Color.Value = "#FF00FF";
             shape.Chars[1].Font.Value = 4;
             shape.Chars[1].Size.Value = 0.22;
             shape.Chars[1].Style.Value = StyleValue.Bold | StyleValue.Italic;
 
-            //set properties e.g. color, font, size and style etc.
+            // Set properties e.g. color, font, size and style etc.
             shape.Chars[2].IX = 2;
             shape.Chars[2].Color.Value = "#00FF00";
             shape.Chars[2].Font.Value = 4;
             shape.Chars[2].Size.Value = 0.22;
             shape.Chars[2].Style.Value = StyleValue.Underline | StyleValue.Italic;
 
-            //set properties e.g. color, font, size and style etc.
+            // Set properties e.g. color, font, size and style etc.
             shape.Chars[3].IX = 3;
             shape.Chars[3].Color.Value = "#3333FF";
             shape.Chars[3].Font.Value = 4;
@@ -69,7 +69,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Text
             shape.Chars[3].Style.Value = StyleValue.Bold | StyleValue.Italic | StyleValue.Underline;
             // save diagram
             diagram.Save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:ApplyFontOnText
+            // ExEnd:ApplyFontOnText
         }
     }
 }

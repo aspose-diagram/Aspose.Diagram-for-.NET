@@ -4,7 +4,7 @@ Imports System
 
 Public Class SetVisioPageOrientation
     Public Shared Sub Run()
-        'ExStart:SetVisioPageOrientation
+        ' ExStart:SetVisioPageOrientation
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_VisioPages()
 
@@ -17,6 +17,6 @@ Public Class SetVisioPageOrientation
         page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue.Landscape
         ' save Visio
         diagram.Save(dataDir & Convert.ToString("SetPageOrientation_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:SetVisioPageOrientation
+        ' ExEnd:SetVisioPageOrientation
     End Sub
 End Class

@@ -15,7 +15,7 @@ Imports System
 Namespace VisualBasic.Shapes
     Public Class SetLineData
         Public Shared Sub Run()
-            'ExStart:SetLineData
+            ' ExStart:SetLineData
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -29,7 +29,7 @@ Namespace VisualBasic.Shapes
             shape.Line.LinePattern.Value = 4
             ' set line weight, defualt in PT
             shape.Line.LineWeight.Value = 2
-            ' set color of the shape's line
+            ' set color of the shape' S line
             shape.Line.LineColor.Ufe.F = "RGB(95,108,53)"
             ' set line rounding, default in inch
             shape.Line.Rounding.Value = 0.3125
@@ -49,7 +49,7 @@ Namespace VisualBasic.Shapes
 
             ' save the Visio
             diagram.Save(dataDir & Convert.ToString("SetLineData_Out.vsdx"), SaveFileFormat.VSDX)
-            'ExEnd:SetLineData
+            ' ExEnd:SetLineData
         End Sub
     End Class
 End Namespace

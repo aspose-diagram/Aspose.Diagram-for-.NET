@@ -15,11 +15,11 @@ namespace CSharp.Shapes
     {
         public static void Run()
         {
-            //ExStart:ApplyCustomStyleSheets
+            // ExStart:ApplyCustomStyleSheets
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_ShapeText();
 
-            //Load diagram
+            // Load diagram
             Diagram vsdDiagram = new Diagram(dataDir + "ApplyCustomStyleSheets.vsd");
             // get page by name
             Page page = vsdDiagram.Pages.GetPage("Flow 1");
@@ -37,7 +37,7 @@ namespace CSharp.Shapes
 
             StyleSheet customStyleSheet = null;
 
-            //Find the required style sheet
+            // Find the required style sheet
             foreach (StyleSheet styleSheet in vsdDiagram.StyleSheets)
             {
                 if (styleSheet.Name == "Basic")
@@ -49,17 +49,17 @@ namespace CSharp.Shapes
 
             if (sourceShape != null && customStyleSheet != null)
             {
-                //Apply text style
+                // Apply text style
                 sourceShape.TextStyle = customStyleSheet;
-                //Apply fill style
+                // Apply fill style
                 sourceShape.FillStyle = customStyleSheet;
-                //Apply line style
+                // Apply line style
                 sourceShape.LineStyle = customStyleSheet;
             }
 
-            //Save changed diagram as VDX
+            // Save changed diagram as VDX
             vsdDiagram.Save(dataDir + "ApplyCustomStyleSheets_Out.vdx", SaveFileFormat.VDX);
-            //ExEnd:ApplyCustomStyleSheets
+            // ExEnd:ApplyCustomStyleSheets
  
         }
     }

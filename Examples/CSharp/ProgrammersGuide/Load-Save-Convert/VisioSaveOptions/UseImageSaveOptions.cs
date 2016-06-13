@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
     {
         public static void Run()
         {
-            //ExStart:UseImageSaveOptions
+            // ExStart:UseImageSaveOptions
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
@@ -24,7 +24,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
 
             // sets the brightness for the the generated images.
             // this property has effect only when saving to raster image formats.
-            //The default value is 0.5. The value must be in the range between 0 and 1.
+            // The default value is 0.5. The value must be in the range between 0 and 1.
             options.ImageBrightness = 1f;
 
             // Summary:
@@ -78,7 +78,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
 
             // save in any supported file format
             diagram.Save(dataDir + "UseImageSaveOptions_Out.jpeg", options);
-            //ExEnd:UseImageSaveOptions
+            // ExEnd:UseImageSaveOptions
         }
     }
 }

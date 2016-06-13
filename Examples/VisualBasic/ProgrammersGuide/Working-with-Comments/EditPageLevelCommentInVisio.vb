@@ -4,7 +4,7 @@ Imports System
 
 Public Class EditPageLevelCommentInVisio
     Public Shared Sub Run()
-        'ExStart:EditPageLevelCommentInVisio
+        ' ExStart:EditPageLevelCommentInVisio
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_VisioComments()
 
@@ -22,6 +22,6 @@ Public Class EditPageLevelCommentInVisio
         Next
         ' save Visio
         diagram.Save(dataDir & Convert.ToString("EditComment_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:EditPageLevelCommentInVisio
+        ' ExEnd:EditPageLevelCommentInVisio
     End Sub
 End Class

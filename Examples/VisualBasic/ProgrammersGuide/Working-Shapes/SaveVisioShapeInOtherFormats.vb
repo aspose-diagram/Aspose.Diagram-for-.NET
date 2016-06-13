@@ -5,7 +5,7 @@ Imports Aspose.Diagram
 
 Public Class SaveVisioShapeInOtherFormats
     Public Shared Sub Run()
-        'ExStart:SaveVisioShapeInOtherFormats
+        ' ExStart:SaveVisioShapeInOtherFormats
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -22,7 +22,7 @@ Public Class SaveVisioShapeInOtherFormats
 
         ' get hash table of shapes, it holds id and name
         Dim remShapes As New Hashtable()
-        'Hashtable<Long, String> remShapes = new Hashtable<Long, String>();
+        ' Hashtable<Long, String> remShapes = new Hashtable<Long, String>();
         For Each shape As Aspose.Diagram.Shape In srcPage.Shapes
             ' for the normal shape
             remShapes.Add(shape.ID, shape.Name)
@@ -57,6 +57,6 @@ Public Class SaveVisioShapeInOtherFormats
         opts.PageIndex = 1
         ' save it
         srcVisio.Save(dataDir & Convert.ToString("SaveVisioShapeInOtherFormats_Out.pdf"), opts)
-        'ExEnd:SaveVisioShapeInOtherFormats
+        ' ExEnd:SaveVisioShapeInOtherFormats
     End Sub
 End Class

@@ -10,13 +10,13 @@ namespace CSharp.ApplyLicense
     {
         public static void Run() 
         {
-            //ExStart:ApplyLicenseByPath
+            // ExStart:ApplyLicenseByPath
             // set path of the license file, i.e. c:\temp\
             string dataDir = @"c:\temp\";
 
             License license = new License();
             license.SetLicense(dataDir + "Aspose.Diagram.lic");
-            //ExEnd:ApplyLicenseByPath
+            // ExEnd:ApplyLicenseByPath
         }
     }
 }

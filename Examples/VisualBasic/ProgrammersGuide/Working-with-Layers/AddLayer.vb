@@ -4,7 +4,7 @@ Imports System
 
 Public Class AddLayer
     Public Shared Sub Run()
-        'ExStart:AddLayer
+        ' ExStart:AddLayer
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Layers()
 
@@ -29,6 +29,6 @@ Public Class AddLayer
         ' save diagram
         diagram.Save(dataDir & Convert.ToString("AddLayer_Out.vsdx"), SaveFileFormat.VSDX)
 
-        'ExEnd:AddLayer
+        ' ExEnd:AddLayer
     End Sub
 End Class

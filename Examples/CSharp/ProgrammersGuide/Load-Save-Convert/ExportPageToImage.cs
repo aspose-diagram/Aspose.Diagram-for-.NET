@@ -16,21 +16,21 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:ExportPageToImage
+            // ExStart:ExportPageToImage
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
             // load diagram
             Diagram diagram = new Diagram(dataDir + "ExportPageToImage.vsd");
 
-            //Save diagram as PNG
+            // Save diagram as PNG
             ImageSaveOptions options = new ImageSaveOptions(SaveFileFormat.PNG);
 
             // Save one page only, by page index
             options.PageIndex = 0;
 
-            //Save resultant Image file
+            // Save resultant Image file
             diagram.Save(dataDir + "ExportPageToImage_Out.png", options);
-            //ExEnd:ExportPageToImage
+            // ExEnd:ExportPageToImage
         }
     }
 }

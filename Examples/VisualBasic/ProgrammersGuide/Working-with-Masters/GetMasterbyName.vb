@@ -4,7 +4,7 @@ Imports System
 
 Public Class GetMasterbyName
     Public Shared Sub Run()
-        'ExStart:GetMasterbyName
+        ' ExStart:GetMasterbyName
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Master()
 
@@ -19,6 +19,6 @@ Public Class GetMasterbyName
         Console.WriteLine("Master ID : " & master.ID)
         Console.WriteLine("Master Name : " & master.Name)
         Console.WriteLine("Master Name : " & master.UniqueID.ToString())
-        'ExEnd:GetMasterbyName
+        ' ExEnd:GetMasterbyName
     End Sub
 End Class

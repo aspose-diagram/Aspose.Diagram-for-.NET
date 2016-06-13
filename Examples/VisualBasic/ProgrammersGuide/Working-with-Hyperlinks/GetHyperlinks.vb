@@ -4,7 +4,7 @@ Imports System
 
 Public Class GetHyperlinks
     Public Shared Sub Run()
-        'ExStart:GetHyperlinks
+        ' ExStart:GetHyperlinks
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Hyperlinks()
 
@@ -20,6 +20,6 @@ Public Class GetHyperlinks
             Console.WriteLine("Sub Address: " + hyperlink.SubAddress.Value)
             Console.WriteLine("Description: " + hyperlink.Description.Value)
         Next
-        'ExEnd:GetHyperlinks
+        ' ExEnd:GetHyperlinks
     End Sub
 End Class

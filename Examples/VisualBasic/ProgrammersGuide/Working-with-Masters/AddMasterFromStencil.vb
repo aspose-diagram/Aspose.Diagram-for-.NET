@@ -5,7 +5,7 @@ Imports System.IO
 
 Public Class AddMasterFromStencil
     Public Shared Sub Run()
-        'ExStart:AddMasterFromStencil
+        ' ExStart:AddMasterFromStencil
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Master()
 
@@ -39,6 +39,6 @@ Public Class AddMasterFromStencil
 
         ' Adds shape with defined PinX,PinY,Width and Height.
         diagram.AddShape(7.0, 3.0, 1.5, 1.5, masterName, 0)
-        'ExEnd:AddMasterFromStencil
+        ' ExEnd:AddMasterFromStencil
     End Sub
 End Class

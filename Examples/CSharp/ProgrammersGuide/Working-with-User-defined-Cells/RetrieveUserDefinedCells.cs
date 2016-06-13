@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_User_defined_Cells
     {
         public static void Run() 
         {
-            //ExStart:RetrieveUserDefinedCells
+            // ExStart:RetrieveUserDefinedCells
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_UserDefinedCells();
             int count = 0;
@@ -32,7 +32,7 @@ namespace CSharp.ProgrammersGuide.Working_with_User_defined_Cells
                     }
                 }
             }  
-            //ExEnd:RetrieveUserDefinedCells            
+            // ExEnd:RetrieveUserDefinedCells            
         }
     }
 }

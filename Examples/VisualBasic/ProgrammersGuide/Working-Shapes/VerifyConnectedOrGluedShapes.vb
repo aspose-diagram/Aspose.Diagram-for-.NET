@@ -4,7 +4,7 @@ Imports System
 
 Public Class VerifyConnectedOrGluedShapes
     Public Shared Sub Run()
-        'ExStart:VerifyConnectedOrGluedShapes
+        ' ExStart:VerifyConnectedOrGluedShapes
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -28,6 +28,6 @@ Public Class VerifyConnectedOrGluedShapes
         ' determine whether shapes are glued
         Dim glued As Boolean = ShapedOne.IsGlued(ShapedTwo)
         Console.WriteLine("Shapes are Glued: " & glued)
-        'ExEnd:VerifyConnectedOrGluedShapes
+        ' ExEnd:VerifyConnectedOrGluedShapes
     End Sub
 End Class

@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
     {
         public static void Run()
         {
-            //ExStart:GetVisioPagebyID
+            // ExStart:GetVisioPagebyID
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_VisioPages();
 
@@ -21,7 +21,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
             int pageid = 2;
             // Get page object by id
             Page page2 = diagram.Pages.GetPage(pageid);
-            //ExEnd:GetVisioPagebyID
+            // ExEnd:GetVisioPagebyID
         }
     }
 }

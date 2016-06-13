@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Window_Elements
     {
         public static void Run() 
         {
-            //ExStart:DisplayGridsRulersGuidesAndPageBreaks
+            // ExStart:DisplayGridsRulersGuidesAndPageBreaks
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_WindowElements();
 
@@ -30,7 +30,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Window_Elements
 
             // save diagram
             diagram.Save(dataDir + "DisplayGridsRulersGuidesAndPageBreaks_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:DisplayGridsRulersGuidesAndPageBreaks
+            // ExEnd:DisplayGridsRulersGuidesAndPageBreaks
         }
     }
 }

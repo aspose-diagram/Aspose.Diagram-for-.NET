@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:GetAllConnectedShapes
+            // ExStart:GetAllConnectedShapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -26,7 +26,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
                 shape = diagram.Pages.GetPage("Page-3").Shapes.GetShape(id);
                 Console.WriteLine("ID: " + shape.ID + "\t\t Name: " + shape.Name);
             }
-            //ExEnd:GetAllConnectedShapes
+            // ExEnd:GetAllConnectedShapes
         }
     }
 }

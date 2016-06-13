@@ -16,19 +16,19 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:RetrieveFontInfo
+            // ExStart:RetrieveFontInfo
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
-            //Call the diagram constructor to load diagram from a VSD file
+            // Call the diagram constructor to load diagram from a VSD file
             Diagram vdxDiagram = new Diagram(dataDir + "RetrieveFontInfo.vsd");
 
             foreach (Aspose.Diagram.Font font in vdxDiagram.Fonts)
             {
-                //Display information about the fonts
+                // Display information about the fonts
                 Console.WriteLine(font.Name);
             }
-            //ExEnd:RetrieveFontInfo
+            // ExEnd:RetrieveFontInfo
         }
     }
 }

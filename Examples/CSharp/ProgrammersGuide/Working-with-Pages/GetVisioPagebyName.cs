@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
     {
         public static void Run()
         {
-            //ExStart:GetVisioPagebyName
+            // ExStart:GetVisioPagebyName
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_VisioPages();
 
@@ -21,7 +21,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
             string pageName = "Flow 2";
             // Get page object by name
             Page page2 = diagram.Pages.GetPage(pageName);
-            //ExEnd:GetVisioPagebyName
+            // ExEnd:GetVisioPagebyName
         }
     }
 }

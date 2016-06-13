@@ -5,7 +5,7 @@ Imports System
 
 Public Class UseSWFSaveOptions
     Public Shared Sub Run()
-        'ExStart:UseSWFSaveOptions
+        ' ExStart:UseSWFSaveOptions
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
@@ -31,6 +31,6 @@ Public Class UseSWFSaveOptions
         options.ViewerIncluded = True
 
         diagram.Save(dataDir & Convert.ToString("UseSWFSaveOptions_Out.swf"), options)
-        'ExEnd:UseSWFSaveOptions
+        ' ExEnd:UseSWFSaveOptions
     End Sub
 End Class

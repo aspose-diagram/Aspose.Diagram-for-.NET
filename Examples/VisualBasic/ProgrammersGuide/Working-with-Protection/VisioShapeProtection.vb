@@ -4,11 +4,11 @@ Imports System
 
 Public Class VisioShapeProtection
     Public Shared Sub Run()
-        'ExStart:VisioShapeProtection
+        ' ExStart:VisioShapeProtection
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Protection()
 
-        'Load diagram
+        ' Load diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("ProtectAndUnprotect.vsd"))
         ' get page by name
         Dim page As Page = diagram.Pages.GetPage("Flow 1")
@@ -39,6 +39,6 @@ Public Class VisioShapeProtection
 
         ' save diagram
         diagram.Save(dataDir & Convert.ToString("VisioShapeProtection_Out.vdx"), SaveFileFormat.VDX)
-        'ExEnd:VisioShapeProtection
+        ' ExEnd:VisioShapeProtection
     End Sub
 End Class

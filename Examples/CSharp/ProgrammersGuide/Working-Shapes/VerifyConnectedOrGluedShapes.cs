@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:VerifyConnectedOrGluedShapes
+            // ExStart:VerifyConnectedOrGluedShapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -34,7 +34,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
             // determine whether shapes are glued
             bool glued = ShapedOne.IsGlued(ShapedTwo);
             Console.WriteLine("Shapes are Glued: " + glued);
-            //ExEnd:VerifyConnectedOrGluedShapes
+            // ExEnd:VerifyConnectedOrGluedShapes
         }
     }
 }

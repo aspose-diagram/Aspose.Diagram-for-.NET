@@ -11,7 +11,7 @@ namespace CSharp.ApplyLicense
     {
         public static void Run()
         {
-            //ExStart:ApplyLicenseUsingFileStream
+            // ExStart:ApplyLicenseUsingFileStream
             // set path of the license file, i.e. c:\temp\
             string dataDir = @"c:\temp\";
             // load an existing Visio file in the stream
@@ -19,7 +19,7 @@ namespace CSharp.ApplyLicense
 
             License license = new License();
             license.SetLicense(LicStream);
-            //ExEnd:ApplyLicenseUsingFileStream
+            // ExEnd:ApplyLicenseUsingFileStream
         }
 
     }

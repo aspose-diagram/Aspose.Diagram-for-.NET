@@ -6,7 +6,7 @@ Imports System
 Public Class ExportOfHiddenVisioPagesToImage
     Public Shared Sub Run()
         Try
-            'ExStart:ExportOfHiddenVisioPagesToImage
+            ' ExStart:ExportOfHiddenVisioPagesToImage
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Intro()
 
@@ -22,9 +22,9 @@ Public Class ExportOfHiddenVisioPagesToImage
             ' set export option of hidden Visio pages
             options.ExportHiddenPage = False
 
-            'Save the Visio diagram
+            ' Save the Visio diagram
             diagram.Save(dataDir & Convert.ToString("ExportOfHiddenVisioPagesToImage_Out.jpeg"), options)
-            'ExEnd:ExportOfHiddenVisioPagesToImage
+            ' ExEnd:ExportOfHiddenVisioPagesToImage
         Catch ex As System.Exception
             System.Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.")
         End Try

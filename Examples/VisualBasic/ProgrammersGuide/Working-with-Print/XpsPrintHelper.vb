@@ -14,7 +14,7 @@ Public Class XpsPrintHelper
     Private Sub New()
     End Sub
 
-    'ExStart:XpsPrint_PrintDocument
+    ' ExStart:XpsPrint_PrintDocument
     ''' <summary>
     ''' Sends an Aspose.Diagram document to a printer using the XpsPrint API.
     ''' </summary>
@@ -35,9 +35,9 @@ Public Class XpsPrintHelper
 
         Print(stream, printerName, jobName, isWait)
     End Sub
-    'ExEnd:XpsPrint_PrintDocument
+    ' ExEnd:XpsPrint_PrintDocument
 
-    'ExStart:XpsPrint_PrintStream
+    ' ExStart:XpsPrint_PrintStream
     ''' <summary>
     ''' Sends a stream that contains a document in the XPS format to a printer using the XpsPrint API.
     ''' Has no dependency on Aspose.Diagram, can be used in any project.
@@ -64,6 +64,9 @@ Public Class XpsPrintHelper
         Try
             Dim job As IXpsPrintJob
             Dim jobStream As IXpsPrintJobStream
+            job = Nothing
+            jobStream = Nothing
+
             StartJob(printerName, jobName, completionEvent, job, jobStream)
 
             CopyJob(stream, job, jobStream)
@@ -78,7 +81,7 @@ Public Class XpsPrintHelper
             End If
         End Try
     End Sub
-    'ExEnd:XpsPrint_PrintStream
+    ' ExEnd:XpsPrint_PrintStream
 
     Private Shared Sub StartJob(printerName As String, jobName As String, completionEvent As IntPtr, ByRef job As IXpsPrintJob, ByRef jobStream As IXpsPrintJobStream)
         Dim result As Integer = StartXpsPrintJob(printerName, jobName, Nothing, IntPtr.Zero, completionEvent, Nothing, _
@@ -147,7 +150,7 @@ Public Class XpsPrintHelper
     Private Shared Function StartXpsPrintJob(<MarshalAs(UnmanagedType.LPWStr)> printerName As String, <MarshalAs(UnmanagedType.LPWStr)> jobName As String, <MarshalAs(UnmanagedType.LPWStr)> outputFileName As String, progressEvent As IntPtr, completionEvent As IntPtr, <MarshalAs(UnmanagedType.LPArray)> printablePagesOn As Byte(), _
         printablePagesOnCount As UInt32, ByRef xpsPrintJob As IXpsPrintJob, ByRef documentStream As IXpsPrintJobStream, printTicketStream As IntPtr) As Integer
     End Function
-    ' This is actually "out IXpsPrintJobStream", but we don't use it and just want to pass null, hence IntPtr.
+    ' This is actually "out IXpsPrintJobStream", but we don' T use it and just want to pass null, hence IntPtr.
     <DllImport("Kernel32.dll", SetLastError:=True)> _
     Private Shared Function CreateEvent(lpEventAttributes As IntPtr, bManualReset As Boolean, bInitialState As Boolean, lpName As String) As IntPtr
     End Function

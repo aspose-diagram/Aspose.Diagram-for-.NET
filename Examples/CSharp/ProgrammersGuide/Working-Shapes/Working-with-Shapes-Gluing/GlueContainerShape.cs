@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.Working_with_Shapes_Gluing
     {
         public static void Run()
         {
-            //ExStart:GlueContainerShape
+            // ExStart:GlueContainerShape
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -37,7 +37,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.Working_with_Shapes_Gluing
 
             // Save diagram
             diagram.Save(dataDir + "GlueContainerShape_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:GlueContainerShape
+            // ExEnd:GlueContainerShape
         }
     }
 }

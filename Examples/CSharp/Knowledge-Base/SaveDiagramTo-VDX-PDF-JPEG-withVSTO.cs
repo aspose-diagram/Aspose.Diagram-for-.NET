@@ -10,23 +10,23 @@ namespace CSharp.Knowledge_Base
     {
         public static void Run() 
         {
-            //ExStart:SaveDiagramTo_VDX_PDF_JPEG_withVSTO
+            // ExStart:SaveDiagramTo_VDX_PDF_JPEG_withVSTO
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_KnowledgeBase();
 
-            //Create Visio Application Object
+            // Create Visio Application Object
             Visio.Application vsdApp = new Visio.Application();
 
-            //Make Visio Application Invisible
+            // Make Visio Application Invisible
             vsdApp.Visible = false;
 
-            //Create a document object and load a diagram
+            // Create a document object and load a diagram
             Visio.Document vsdDoc = vsdApp.Documents.Open(dataDir + "Drawing1.vsd");
 
-            //Save the VDX diagram
+            // Save the VDX diagram
             vsdDoc.SaveAs(dataDir + "SaveDiagramToVDXwithVSTO_Out.vdx");
 
-            //Save as PDF file
+            // Save as PDF file
             vsdDoc.ExportAsFixedFormat(Visio.VisFixedFormatTypes.visFixedFormatPDF,
                 dataDir + "SaveDiagramToPDFwithVSTO_Out.pdf", Visio.VisDocExIntent.visDocExIntentScreen,
                 Visio.VisPrintOutRange.visPrintAll, 1, vsdDoc.Pages.Count, false, true,
@@ -34,12 +34,12 @@ namespace CSharp.Knowledge_Base
 
             Visio.Page vsdPage = vsdDoc.Pages[1];
 
-            //Save as JPEG Image
+            // Save as JPEG Image
             vsdPage.Export(dataDir + "SaveDiagramToJPGwithVSTO_Out.jpg");
 
-            //Quit Visio Object
+            // Quit Visio Object
             vsdApp.Quit();
-            //ExEnd:SaveDiagramTo_VDX_PDF_JPEG_withVSTO
+            // ExEnd:SaveDiagramTo_VDX_PDF_JPEG_withVSTO
         }
     }
 }

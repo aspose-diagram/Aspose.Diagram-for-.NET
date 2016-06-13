@@ -4,7 +4,7 @@ Imports System
 
 Public Class AddSupportOfVisualAids
     Public Shared Sub Run()
-        'ExStart:AddSupportOfVisualAids
+        ' ExStart:AddSupportOfVisualAids
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_WindowElements()
 
@@ -21,6 +21,6 @@ Public Class AddSupportOfVisualAids
 
         ' save visio drawing
         diagram.Save(dataDir & Convert.ToString("AddSupportOfVisualAids_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:AddSupportOfVisualAids
+        ' ExEnd:AddSupportOfVisualAids
     End Sub
 End Class

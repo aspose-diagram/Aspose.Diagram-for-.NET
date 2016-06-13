@@ -12,7 +12,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
     {
         public static void Run()
         {
-            //ExStart:UsePDFSaveOptions
+            // ExStart:UsePDFSaveOptions
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
@@ -53,7 +53,7 @@ namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
             options.PageSize = pgSize;
             // save in any supported file format
             diagram.Save(dataDir + "UsePDFSaveOptions_Out.pdf", options);
-            //ExEnd:UsePDFSaveOptions
+            // ExEnd:UsePDFSaveOptions
         }
     }
 }

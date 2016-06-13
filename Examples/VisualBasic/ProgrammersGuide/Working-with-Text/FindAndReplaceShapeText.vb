@@ -5,11 +5,11 @@ Imports System
 
 Public Class FindAndReplaceShapeText
     Public Shared Sub Run()
-        'ExStart:FindAndReplaceShapeText
+        ' ExStart:FindAndReplaceShapeText
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_ShapeText()
 
-        'prepare a collection old and new text
+        ' Prepare a collection old and new text
         Dim replacements As New Dictionary(Of String, String)()
         replacements.Add("[[CompanyName]]", "Research Society of XYZ")
         replacements.Add("[[EmployeeName]]", "James Bond")
@@ -24,20 +24,20 @@ Public Class FindAndReplaceShapeText
         ' get page by name
         Dim page As Page = diagram.Pages.GetPage("Page-1")
 
-        'iterate through the shapes of a page
+        ' Iterate through the shapes of a page
         For Each shape As Shape In page.Shapes
             For Each kvp As KeyValuePair(Of String, String) In replacements
                 For Each txt As FormatTxt In shape.Text.Value
                     Dim tx As Txt = TryCast(txt, Txt)
                     If tx IsNot Nothing AndAlso tx.Text.Contains(kvp.Key) Then
-                        'find and replace text of a shape
+                        ' Find and replace text of a shape
                         tx.Text = tx.Text.Replace(kvp.Key, kvp.Value)
                     End If
                 Next
             Next
         Next
-        'save the diagram
+        ' Save the diagram
         diagram.Save(dataDir & Convert.ToString("FindAndReplaceShapeText_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:FindAndReplaceShapeText
+        ' ExEnd:FindAndReplaceShapeText
     End Sub
 End Class

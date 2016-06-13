@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
     {
         public static void Run()
         {
-            //ExStart:CopyShape
+            // ExStart:CopyShape
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
             
@@ -39,7 +39,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes
             }
             // save the new Visio
             newDiagram.Save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:CopyShape
+            // ExEnd:CopyShape
         }
     }
 }

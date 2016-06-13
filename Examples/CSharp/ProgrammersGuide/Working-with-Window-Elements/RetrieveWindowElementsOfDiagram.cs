@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Window_Elements
     {
         public static void Run() 
         {
-            //ExStart:RetrieveWindowElementsOfDiagram
+            // ExStart:RetrieveWindowElementsOfDiagram
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_WindowElements();
 
@@ -25,7 +25,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Window_Elements
                 Console.WriteLine("Window width: " + window.WindowWidth);
                 Console.WriteLine("Window state: " + window.WindowState);
             }
-            //ExEnd:RetrieveWindowElementsOfDiagram
+            // ExEnd:RetrieveWindowElementsOfDiagram
         }
     }
 }

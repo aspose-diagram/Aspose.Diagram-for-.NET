@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Hyperlinks
     {
         public static void Run()
         {
-            //ExStart:GetHyperlinks
+            // ExStart:GetHyperlinks
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Hyperlinks();
 
@@ -27,7 +27,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Hyperlinks
                 Console.WriteLine("Sub Address: " + hyperlink.SubAddress.Value);
                 Console.WriteLine("Description: " + hyperlink.Description.Value);
             }       
-            //ExEnd:GetHyperlinks
+            // ExEnd:GetHyperlinks
         }
     }
 }

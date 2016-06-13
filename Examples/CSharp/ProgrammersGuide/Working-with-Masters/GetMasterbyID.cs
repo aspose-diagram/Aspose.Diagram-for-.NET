@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Masters
     {
         public static void Run()
         {
-            //ExStart:GetMasterbyID
+            // ExStart:GetMasterbyID
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Master();
 
@@ -25,7 +25,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Masters
             Console.WriteLine("Master ID : " + master.ID);
             Console.WriteLine("Master Name : " + master.Name);
             Console.WriteLine("Master Name : " + master.UniqueID);
-            //ExEnd:GetMasterbyID
+            // ExEnd:GetMasterbyID
         }
     }
 }

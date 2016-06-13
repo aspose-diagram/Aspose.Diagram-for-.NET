@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.ConfigureTimeLineShapes
     {
         public static void Run()
         {
-            //ExStart:RefreshTimeLine
+            // ExStart:RefreshTimeLine
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -32,12 +32,12 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.ConfigureTimeLineShapes
             // Set date format
             timelineHelper.DateFormatForBE = 21;
 
-            //revive milestones on the timeline
+            // Revive milestones on the timeline
             timelineHelper.RefreshTimeLine();
 
             // Save to VDX format
             diagram.Save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:RefreshTimeLine
+            // ExEnd:RefreshTimeLine
         }
     }
 }

@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_External_Data_Sources
     {
         public static void Run()
         {
-            //ExStart:EditDataConAndRefreshRecords
+            // ExStart:EditDataConAndRefreshRecords
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_ExternalDataSources();
 
@@ -24,7 +24,7 @@ namespace CSharp.ProgrammersGuide.Working_with_External_Data_Sources
             diagram.Refresh();
             // save Visio diagram
             diagram.Save(dataDir + "EditDataConAndRefreshRecords_Out.vdx", SaveFileFormat.VDX);
-            //ExEnd:EditDataConAndRefreshRecords
+            // ExEnd:EditDataConAndRefreshRecords
         }
     }
 }

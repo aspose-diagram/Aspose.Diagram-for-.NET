@@ -422,7 +422,7 @@ The following example extracts all the images from a particular page.</Descripti
               <Examples>
                 <Example>
                   <Title>Laying Out Shapes in Flowchart Style</Title>
-                  <Description>The Layout method, exposed by the Diagram class lays out the shapes and/or reroutes the connectors on all the diagram's pages. This method accepts an LayoutOptions object as an argument. Use the different properties exposed by the LayoutOptions class to automatically lay out shapes.</Description>
+                  <Description>The Layout method, exposed by the Diagram class lays out the shapes and/or reroutes the connectors on all the diagram' S pages. This method accepts an LayoutOptions object as an argument. Use the different properties exposed by the LayoutOptions class to automatically lay out shapes.</Description>
                   <FolderName>LayingOutShapesInFlowchartStyle</FolderName>
                   <Order>1</Order>
                   <DocLink>
@@ -562,7 +562,7 @@ The following example extracts all the images from a particular page.</Descripti
             </Example>
             <Example>
               <Title>Setting Line Data</Title>
-              <Description>Shapes can be formatted in several ways. It is possible to set various fill attributes (color, transperancy, shadows), and what font it uses. This example shows how to specify a line's attributes.</Description>
+              <Description>Shapes can be formatted in several ways. It is possible to set various fill attributes (color, transperancy, shadows), and what font it uses. This example shows how to specify a line' S attributes.</Description>
               <FolderName>SettingLineData</FolderName>
               <Order>4</Order>
               <DocLink>
@@ -583,7 +583,7 @@ The following example extracts all the images from a particular page.</Descripti
             </Example>
             <Example>
               <Title>Setting Fill data</Title>
-              <Description>Shapes can be formatted in several ways. It is possible to set a shape's line attributes (for example color, weight and style), and what font it uses. This example demonstrates how to specify a shape's fill.</Description>
+              <Description>Shapes can be formatted in several ways. It is possible to set a shape' S line attributes (for example color, weight and style), and what font it uses. This example demonstrates how to specify a shape' S fill.</Description>
               <FolderName>SettingFillData</FolderName>
               <Order>5</Order>
               <DocLink>
@@ -678,7 +678,7 @@ This example describes how to add a new rectangle shape to a diagram.</Descripti
           <Examples>
             <Example>
               <Title>Create a New Diagram</Title>
-              <Description>This migration example shows how to use first VSTO and then Aspose.Diagram for .NET to create a new diagram and add some shapes to it. You'll notice that the Aspose.Diagram code is shorter than VSTO code. Feel free to use the code as a base for your own development and enhance it to meet your needs.</Description>
+              <Description>This migration example shows how to use first VSTO and then Aspose.Diagram for .NET to create a new diagram and add some shapes to it. You' Ll notice that the Aspose.Diagram code is shorter than VSTO code. Feel free to use the code as a base for your own development and enhance it to meet your needs.</Description>
               <FolderName>CreateNewDiagram</FolderName>
               <Order>1</Order>
               <DocLink>

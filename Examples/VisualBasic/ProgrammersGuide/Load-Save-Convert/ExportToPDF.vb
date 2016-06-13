@@ -14,11 +14,11 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class ExportToPDF
         Public Shared Sub Run()
-            'ExStart:ExportToPDF
+            ' ExStart:ExportToPDF
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
-            'Call the diagram constructor to load a VSD diagram
+            ' Call the diagram constructor to load a VSD diagram
             Dim diagram As New Diagram(dataDir & "ExportToPDF.vsd")
 
             Dim pdfStream As New MemoryStream()
@@ -32,7 +32,7 @@ Namespace VisualBasic.Diagrams
 
             ' Display Status.
             System.Console.WriteLine("Conversion from vsd to pdf performed successfully.")
-            'ExEnd:ExportToPDF
+            ' ExEnd:ExportToPDF
         End Sub
     End Class
 End Namespace

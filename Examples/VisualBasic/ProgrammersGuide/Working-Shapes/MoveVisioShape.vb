@@ -4,7 +4,7 @@ Imports System
 
 Public Class MoveVisioShape
     Public Shared Sub Run()
-        'ExStart:MoveVisioShape
+        ' ExStart:MoveVisioShape
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -19,6 +19,6 @@ Public Class MoveVisioShape
 
         ' save diagram
         diagram.Save(dataDir & Convert.ToString("MoveVisioShape_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:MoveVisioShape
+        ' ExEnd:MoveVisioShape
     End Sub
 End Class

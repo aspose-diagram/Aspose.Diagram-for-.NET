@@ -4,7 +4,7 @@ Imports System
 
 Public Class GlueVisioShapes
     Public Shared Sub Run()
-        'ExStart:GlueVisioShapes
+        ' ExStart:GlueVisioShapes
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -21,6 +21,6 @@ Public Class GlueVisioShapes
 
         ' Save diagram
         diagram.Save(dataDir & Convert.ToString("GlueVisioShapes_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:GlueVisioShapes
+        ' ExEnd:GlueVisioShapes
     End Sub
 End Class

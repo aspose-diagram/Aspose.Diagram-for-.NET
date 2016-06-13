@@ -15,14 +15,14 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:ExportToHTML
+            // ExStart:ExportToHTML
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
             // load diagram
             Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
             // save diagram
             diagram.Save(dataDir + "outputVSDtoHTML.html", SaveFileFormat.HTML);
-            //ExEnd:ExportToHTML
+            // ExEnd:ExportToHTML
         }
     }
 }

@@ -5,7 +5,7 @@ Imports System
 
 Public Class UseSVGSaveOptions
     Public Shared Sub Run()
-        'ExStart:UseSVGSaveOptions
+        ' ExStart:UseSVGSaveOptions
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
@@ -27,6 +27,6 @@ Public Class UseSVGSaveOptions
         options.PageSize = pgSize
 
         diagram.Save(dataDir & Convert.ToString("UseSVGSaveOptions_Out.svg"), options)
-        'ExEnd:UseSVGSaveOptions
+        ' ExEnd:UseSVGSaveOptions
     End Sub
 End Class

@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_SolutionXML_Elements
     {
         public static void Run() 
         {
-            //ExStart:ReadSolutionXMLElement
+            // ExStart:ReadSolutionXMLElement
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_SolutionXML();
 
@@ -25,7 +25,7 @@ namespace CSharp.ProgrammersGuide.Working_with_SolutionXML_Elements
                 // get xml value
                 Console.WriteLine(solutionXML.XmlValue);
             }
-            //ExEnd:ReadSolutionXMLElement
+            // ExEnd:ReadSolutionXMLElement
         }
     }
 }

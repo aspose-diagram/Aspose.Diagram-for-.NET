@@ -5,7 +5,7 @@ Imports System
 
 Public Class UseDiagramSaveOptions
     Public Shared Sub Run()
-        'ExStart:UseDiagramSaveOptions
+        ' ExStart:UseDiagramSaveOptions
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
@@ -29,6 +29,6 @@ Public Class UseDiagramSaveOptions
         options.AutoFitPageToDrawingContent = True
 
         diagram.Save(dataDir & Convert.ToString("UseDiagramSaveOptions_Out.vsdx"), options)
-        'ExEnd:UseDiagramSaveOptions
+        ' ExEnd:UseDiagramSaveOptions
     End Sub
 End Class

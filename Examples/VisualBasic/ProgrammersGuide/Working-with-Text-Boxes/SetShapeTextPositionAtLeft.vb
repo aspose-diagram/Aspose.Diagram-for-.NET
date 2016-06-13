@@ -4,7 +4,7 @@ Imports System
 
 Public Class SetShapeTextPositionAtLeft
     Public Shared Sub Run()
-        'ExStart:SetShapeTextPositionAtLeft
+        ' ExStart:SetShapeTextPositionAtLeft
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_ShapeTextBoxData()
 
@@ -25,6 +25,6 @@ Public Class SetShapeTextPositionAtLeft
 
         ' save Visio diagram in the local storage
         diagram.Save(dataDir & Convert.ToString("SetShapeTextPositionAtLeft_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:SetShapeTextPositionAtLeft
+        ' ExEnd:SetShapeTextPositionAtLeft
     End Sub
 End Class

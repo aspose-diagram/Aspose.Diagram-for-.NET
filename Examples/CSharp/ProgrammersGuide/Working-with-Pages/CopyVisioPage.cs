@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
     {
         public static void Run()
         {
-            //ExStart:CopyVisioPage
+            // ExStart:CopyVisioPage
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_VisioPages();
 
@@ -50,7 +50,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
             NewDigram.Pages.Remove(NewDigram.Pages[0]);
             // save diagram
             NewDigram.Save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:CopyVisioPage
+            // ExEnd:CopyVisioPage
         }
     }
 }

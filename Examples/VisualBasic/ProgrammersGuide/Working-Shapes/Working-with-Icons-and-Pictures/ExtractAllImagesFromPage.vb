@@ -15,19 +15,19 @@ Imports System
 Namespace VisualBasic.Diagrams
     Public Class ExtractAllImagesFromPage
         Public Shared Sub Run()
-            'ExStart:ExtractAllImagesFromPage
+            ' ExStart:ExtractAllImagesFromPage
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
-            'Call the diagram constructor to load diagram from a VSD file
+            ' Call the diagram constructor to load diagram from a VSD file
             Dim diagram As New Diagram(dataDir & "ExtractAllImagesFromPage.vsd")
 
-            'enter page index i.e. 0 for first one
+            ' Enter page index i.e. 0 for first one
             For Each shape As Shape In diagram.Pages(0).Shapes
-                'Filter shapes by type Foreign
+                ' Filter shapes by type Foreign
                 If shape.Type = Aspose.Diagram.TypeValue.Foreign Then
                     Using stream As New System.IO.MemoryStream(shape.ForeignData.Value)
-                        'Load memory stream into bitmap object
+                        ' Load memory stream into bitmap object
                         Dim bitmap As New System.Drawing.Bitmap(stream)
 
                         ' save bmp here
@@ -35,7 +35,7 @@ Namespace VisualBasic.Diagrams
                     End Using
                 End If
             Next shape
-            'ExEnd:ExtractAllImagesFromPage
+            ' ExEnd:ExtractAllImagesFromPage
         End Sub
     End Class
 End Namespace

@@ -4,7 +4,7 @@ Imports System
 
 Public Class CreateNewVisio
     Public Shared Sub Run()
-        'ExStart:CreateNewVisio
+        ' ExStart:CreateNewVisio
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
@@ -13,6 +13,6 @@ Public Class CreateNewVisio
 
         ' save diagram in the VSDX format
         diagram.Save(dataDir & Convert.ToString("CreateNewVisio_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:CreateNewVisio
+        ' ExEnd:CreateNewVisio
     End Sub
 End Class

@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
     {
         public static void Run()
         {
-            //ExStart:SetVisioPageOrientation
+            // ExStart:SetVisioPageOrientation
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_VisioPages();
 
@@ -23,7 +23,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Pages
             page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue.Landscape;
             // save Visio
             diagram.Save(dataDir + "SetPageOrientation_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:SetVisioPageOrientation
+            // ExEnd:SetVisioPageOrientation
         }
     }
 }

@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Comments
     {
         public static void Run()
         {
-            //ExStart:AddPageLevelCommentInVisio
+            // ExStart:AddPageLevelCommentInVisio
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_VisioComments();
 
@@ -22,7 +22,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Comments
 
             // Save diagram
             diagram.Save(dataDir + "AddComment_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:AddPageLevelCommentInVisio
+            // ExEnd:AddPageLevelCommentInVisio
         }
     }
 }

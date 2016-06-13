@@ -9,7 +9,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Text
 {
     public class GetPlainTextOfVisio
     {
-        //ExStart:GetPlainTextOfVisio
+        // ExStart:GetPlainTextOfVisio
         static string text = "";
         public static void Run()
         {
@@ -47,6 +47,6 @@ namespace CSharp.ProgrammersGuide.Working_with_Text
                     GetShapeText(subshape);
                 }
         }
-        //ExEnd:GetPlainTextOfVisio
+        // ExEnd:GetPlainTextOfVisio
     }
 }

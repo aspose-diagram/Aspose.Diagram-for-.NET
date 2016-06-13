@@ -11,7 +11,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Masters
     {
         public static void Run()
         {
-            //ExStart:AddMasterFromStencil
+            // ExStart:AddMasterFromStencil
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Master();
 
@@ -45,7 +45,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Masters
 
             // Adds shape with defined PinX,PinY,Width and Height.
             diagram.AddShape(7.0, 3.0, 1.5, 1.5, masterName, 0);
-            //ExEnd:AddMasterFromStencil
+            // ExEnd:AddMasterFromStencil
         }
     }
 }

@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.ConfigureTimeLineShapes
     {
         public static void Run()
         {
-            //ExStart:SetMilestoneProps
+            // ExStart:SetMilestoneProps
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -34,7 +34,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.ConfigureTimeLineShapes
 
             // Save to VDX format
             diagram.Save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:SetMilestoneProps
+            // ExEnd:SetMilestoneProps
         }
     }
 }

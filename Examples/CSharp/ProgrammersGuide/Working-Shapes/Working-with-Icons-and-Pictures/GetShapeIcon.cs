@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.Working_with_Icons_and_Pictures
     {
         public static void Run()
         {
-            //ExStart:GetShapeIcon
+            // ExStart:GetShapeIcon
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -26,7 +26,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.Working_with_Icons_and_Pictures
                 // save as png format
                 bitmap.Save(dataDir + "MasterIcon_Out.png", System.Drawing.Imaging.ImageFormat.Png);
             }
-            //ExEnd:GetShapeIcon
+            // ExEnd:GetShapeIcon
         }
     }
 }

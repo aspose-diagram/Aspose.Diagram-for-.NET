@@ -4,7 +4,7 @@ Imports System
 
 Public Class GetGluedConnectors
     Public Shared Sub Run()
-        'ExStart:GetGluedConnectors
+        ' ExStart:GetGluedConnectors
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -20,6 +20,6 @@ Public Class GetGluedConnectors
             shape = diagram.Pages(0).Shapes.GetShape(id)
             Console.WriteLine("ID: " & shape.ID & "\t\t Name: " & shape.Name)
         Next
-        'ExEnd:GetGluedConnectors
+        ' ExEnd:GetGluedConnectors
     End Sub
 End Class

@@ -5,7 +5,7 @@ Imports System.Drawing.Drawing2D
 
 Public Class CalculateCenterOfSubShapes
     Public Shared Sub Run()
-        'ExStart:CalculateCenterOfSubShapes
+        ' ExStart:CalculateCenterOfSubShapes
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -30,6 +30,6 @@ Public Class CalculateCenterOfSubShapes
         ' calculate the sub-shape pinx and piny
         Dim resultx As Double = shape.XForm.PinX.Value - shape.XForm.LocPinX.Value - pinx
         Dim resulty As Double = shape.XForm.PinY.Value - shape.XForm.LocPinY.Value - piny
-        'ExEnd:CalculateCenterOfSubShapes
+        ' ExEnd:CalculateCenterOfSubShapes
     End Sub
 End Class

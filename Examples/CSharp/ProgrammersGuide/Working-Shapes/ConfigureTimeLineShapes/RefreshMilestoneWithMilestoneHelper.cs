@@ -16,7 +16,7 @@ namespace CSharp.Shapes
     {
         public static void Run()
         {
-            //ExStart:RefreshMilestoneWithMilestoneHelper
+            // ExStart:RefreshMilestoneWithMilestoneHelper
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -27,10 +27,10 @@ namespace CSharp.Shapes
             DateTime endDate = new DateTime(2016, 6, 1);
             DateTime fisYear = startDate;
 
-            //Load a diagram 
+            // Load a diagram 
             Diagram diagram = new Diagram(dataDir + "DrawingTimeLine.vsdx");
 
-            //Get page
+            // Get page
             Aspose.Diagram.Page page = diagram.Pages.GetPage(pageName);
 
             long timelineId = 1;
@@ -41,30 +41,30 @@ namespace CSharp.Shapes
             // Add milestone 
             string milestoneMasterName = "2 triangle milestone";
 
-            //Add Master
+            // Add Master
             diagram.AddMaster(dataDir + "Timeline.vss", milestoneMasterName);
 
-            //Add Shape in Visio diagram using AddShape method
+            // Add Shape in Visio diagram using AddShape method
             long milestoneShapeId = diagram.AddShape(xpos, ypos, milestoneMasterName, 0);
 
-            //Get the shape based on ID
+            // Get the shape based on ID
             Shape milestone = page.Shapes.GetShape(milestoneShapeId);
 
-            //Instantiate MilestoneHelper object
+            // Instantiate MilestoneHelper object
             MilestoneHelper milestoneHelper = new MilestoneHelper(milestone);
 
-            //Set Milestone Date
+            // Set Milestone Date
             milestoneHelper.MilestoneDate = new DateTime(2015, 8, 1);
 
-            //Set IsAutoUpdate to true
+            // Set IsAutoUpdate to true
             milestoneHelper.IsAutoUpdate = true;
 
-            //RefreshMilesone of timeline shape
+            // RefreshMilesone of timeline shape
             milestoneHelper.RefreshMilestone(timeline);
 
-            //Save Visio file
+            // Save Visio file
             diagram.Save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:RefreshMilestoneWithMilestoneHelper
+            // ExEnd:RefreshMilestoneWithMilestoneHelper
         }
     }
 }

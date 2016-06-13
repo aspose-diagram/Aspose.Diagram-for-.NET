@@ -4,7 +4,7 @@ Imports System
 
 Public Class DisplayGridsRulersGuidesAndPageBreaks
     Public Shared Sub Run()
-        'ExStart:DisplayGridsRulersGuidesAndPageBreaks
+        ' ExStart:DisplayGridsRulersGuidesAndPageBreaks
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_WindowElements()
 
@@ -24,6 +24,6 @@ Public Class DisplayGridsRulersGuidesAndPageBreaks
 
         ' save diagram
         diagram.Save(dataDir & Convert.ToString("DisplayGridsRulersGuidesAndPageBreaks_Out.vsdx"), SaveFileFormat.VSDX)
-        'ExEnd:DisplayGridsRulersGuidesAndPageBreaks
+        ' ExEnd:DisplayGridsRulersGuidesAndPageBreaks
     End Sub
 End Class

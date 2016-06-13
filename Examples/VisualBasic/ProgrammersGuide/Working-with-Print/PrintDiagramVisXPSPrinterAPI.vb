@@ -4,7 +4,7 @@ Imports System
 
 Public Class PrintDiagramVisXPSPrinterAPI
     Public Shared Sub Run()
-        'ExStart:PrintDiagramVisXPSPrinterAPI
+        ' ExStart:PrintDiagramVisXPSPrinterAPI
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Print()
 
@@ -16,6 +16,6 @@ Public Class PrintDiagramVisXPSPrinterAPI
 
         ' Print the document.
         XpsPrintHelper.Print(diagram, printerName, "My Test Job", True)
-        'ExEnd:PrintDiagramVisXPSPrinterAPI
+        ' ExEnd:PrintDiagramVisXPSPrinterAPI
     End Sub
 End Class

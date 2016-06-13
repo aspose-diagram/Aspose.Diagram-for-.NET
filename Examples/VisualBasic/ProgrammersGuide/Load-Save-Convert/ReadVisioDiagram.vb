@@ -5,7 +5,7 @@ Imports System
 
 Public Class ReadVisioDiagram
     Public Shared Sub Run()
-        'ExStart:ReadVisioDiagram
+        ' ExStart:ReadVisioDiagram
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
@@ -25,6 +25,6 @@ Public Class ReadVisioDiagram
         '* providing load options
         Dim loadOptions As New LoadOptions(LoadFileFormat.VSX)
         Dim vsxDiagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsx"), loadOptions)
-        'ExEnd:ReadVisioDiagram
+        ' ExEnd:ReadVisioDiagram
     End Sub
 End Class

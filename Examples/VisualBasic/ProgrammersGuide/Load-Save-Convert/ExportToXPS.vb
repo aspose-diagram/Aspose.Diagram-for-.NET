@@ -14,7 +14,7 @@ Imports Aspose.Diagram
 Namespace VisualBasic.Diagrams
     Public Class ExportToXPS
         Public Shared Sub Run()
-            'ExStart:ExportToXPS
+            ' ExStart:ExportToXPS
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
@@ -23,7 +23,7 @@ Namespace VisualBasic.Diagrams
 
             ' save diagram to XPS format
             diagram.Save(dataDir & "Output.xps", SaveFileFormat.XPS)
-            'ExEnd:ExportToXPS
+            ' ExEnd:ExportToXPS
         End Sub
     End Class
 End Namespace

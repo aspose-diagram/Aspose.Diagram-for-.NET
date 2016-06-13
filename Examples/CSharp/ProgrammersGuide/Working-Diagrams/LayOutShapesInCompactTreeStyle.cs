@@ -16,7 +16,7 @@ namespace CSharp.Diagrams
     {
         public static void Run()
         {
-            //ExStart:LayOutShapesInCompactTreeStyle
+            // ExStart:LayOutShapesInCompactTreeStyle
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -51,7 +51,7 @@ namespace CSharp.Diagrams
             compactTreeOptions.Direction = LayoutDirection.LeftThenDown;
             diagram.Layout(compactTreeOptions);
             diagram.Save(dataDir + "sample_left_down.vdx", SaveFileFormat.VDX);
-            //ExEnd:LayOutShapesInCompactTreeStyle
+            // ExEnd:LayOutShapesInCompactTreeStyle
         }
     }
 }

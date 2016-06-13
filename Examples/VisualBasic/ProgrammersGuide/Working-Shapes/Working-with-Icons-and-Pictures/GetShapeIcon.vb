@@ -4,7 +4,7 @@ Imports System
 
 Public Class GetShapeIcon
     Public Shared Sub Run()
-        'ExStart:GetShapeIcon
+        ' ExStart:GetShapeIcon
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
@@ -19,6 +19,6 @@ Public Class GetShapeIcon
             ' save as png format
             bitmap.Save(dataDir & Convert.ToString("MasterIcon_Out.png"), System.Drawing.Imaging.ImageFormat.Png)
         End Using
-        'ExEnd:GetShapeIcon
+        ' ExEnd:GetShapeIcon
     End Sub
 End Class

@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Diagrams
     {
         public static void Run()
         {
-            //ExStart:RemoveMacrosFromVisio
+            // ExStart:RemoveMacrosFromVisio
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
@@ -22,7 +22,7 @@ namespace CSharp.ProgrammersGuide.Working_Diagrams
 
             // Save diagram
             diagram.Save(dataDir + "RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:RemoveMacrosFromVisio
+            // ExEnd:RemoveMacrosFromVisio
         }
     }
 }

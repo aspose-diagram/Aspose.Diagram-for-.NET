@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Window_Elements
     {
         public static void Run() 
         {
-            //ExStart:AddSupportOfVisualAids
+            // ExStart:AddSupportOfVisualAids
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_WindowElements();
 
@@ -26,7 +26,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Window_Elements
             
             // save visio drawing
             diagram.Save(dataDir + "AddSupportOfVisualAids_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:AddSupportOfVisualAids
+            // ExEnd:AddSupportOfVisualAids
         }
     }
 }

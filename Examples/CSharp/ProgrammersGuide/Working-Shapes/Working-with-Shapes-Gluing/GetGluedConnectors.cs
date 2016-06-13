@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.Working_with_Shapes_Gluing
     {
         public static void Run()
         {
-            //ExStart:GetGluedConnectors
+            // ExStart:GetGluedConnectors
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
@@ -27,7 +27,7 @@ namespace CSharp.ProgrammersGuide.Working_Shapes.Working_with_Shapes_Gluing
                 shape = diagram.Pages[0].Shapes.GetShape(id);
                 Console.WriteLine("ID: " + shape.ID + "\t\t Name: " + shape.Name);
             }
-            //ExEnd:GetGluedConnectors
+            // ExEnd:GetGluedConnectors
         }
     }
 }

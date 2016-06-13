@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_Hyperlinks
     {
         public static void Run() 
         {
-            //ExStart:AddHyperlinkToShape
+            // ExStart:AddHyperlinkToShape
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Hyperlinks();
 
@@ -21,22 +21,22 @@ namespace CSharp.ProgrammersGuide.Working_with_Hyperlinks
             // get shape by ID
             Shape shape = page.Shapes.GetShape(2);
 
-            //initialize Hyperlink object
+            // Initialize Hyperlink object
             Hyperlink hyperlink = new Hyperlink();
-            //set address value
-            hyperlink.Address.Value = "http://www.google.com/";
-            //set sub address value
+            // Set address value
+            hyperlink.Address.Value = "http:// Www.google.com/";
+            // Set sub address value
             hyperlink.SubAddress.Value = "Sub address here";
-            //set description value
+            // Set description value
             hyperlink.Description.Value = "Description here";
-            //set name
+            // Set name
             hyperlink.Name = "MyHyperLink";
 
-            //add hyperlink to the shape
+            // Add hyperlink to the shape
             shape.Hyperlinks.Add(hyperlink);            
-            //save diagram to local space
+            // Save diagram to local space
             diagram.Save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:AddHyperlinkToShape
+            // ExEnd:AddHyperlinkToShape
         }
     }
 }

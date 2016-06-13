@@ -10,7 +10,7 @@ namespace CSharp.ProgrammersGuide.Working_with_SolutionXML_Elements
     {
         public static void Run() 
         {
-            //ExStart:AddSolutionXMLElement
+            // ExStart:AddSolutionXMLElement
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_SolutionXML();
 
@@ -28,7 +28,7 @@ namespace CSharp.ProgrammersGuide.Working_with_SolutionXML_Elements
 
             // save Visio diagram
             diagram.Save(dataDir + "AddSolutionXMLElement_Out.vsdx", SaveFileFormat.VSDX);
-            //ExEnd:AddSolutionXMLElement
+            // ExEnd:AddSolutionXMLElement
         }
     }
 }
