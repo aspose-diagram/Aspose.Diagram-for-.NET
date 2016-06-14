@@ -1,5 +1,5 @@
 ﻿Imports Aspose.Diagram
-Imports VisualBasic
+
 Imports System
 
 Public Class ApplyFontOnText

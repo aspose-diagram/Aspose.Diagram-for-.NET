@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace CSharp.ProgrammersGuide.Working_with_Text
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Text
 {
     public class GetPlainTextOfVisio
     {

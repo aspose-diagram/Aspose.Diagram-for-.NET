@@ -3,7 +3,7 @@ using System.IO;
 using System;
 using Aspose.Diagram;
 
-namespace CSharp.Diagrams
+namespace Aspose.Diagram.Examples.CSharp.Diagrams
 {
     public class CreateDiagram
     {

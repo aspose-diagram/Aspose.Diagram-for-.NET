@@ -3,328 +3,325 @@ Imports System
 Imports System.Collections.Generic
 Imports System.IO
 Imports System.Text
-Imports VisualBasic.Diagrams
-Imports VisualBasic.Shapes
+Imports Aspose.Diagram.Examples.VisualBasic.Diagrams
+Imports Aspose.Diagram.Examples.VisualBasic.Shapes
+Friend Class RunExamples
+    <STAThread()> _
+    Public Shared Sub Main()
+        Console.WriteLine("Open RunExamples.vb. " & vbLf & "In Main() method uncomment the example that you want to run.")
+        Console.WriteLine("=====================================================")
+        ' Uncomment the one you want to try out
 
-Namespace VisualBasic
-    Friend Class RunExamples
-        <STAThread()> _
-        Public Shared Sub Main()
-            Console.WriteLine("Open RunExamples.vb. In Main() method, Un-comment the example that you want to run")
-            Console.WriteLine("=====================================================")
-            ' Un-comment the one you want to try out
+        '' =====================================================
+        '' =====================================================
+        '' Introduction
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Introduction
-            '' =====================================================
-            '' =====================================================
+        'GetLibraryVersion.Run()
+        'SetVisioProperties.Run()
+        'DetectVisioFileFormat.Run()
 
-            ' GetLibraryVersion.Run()
-            ' SetVisioProperties.Run()
-            ' DetectVisioFileFormat.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Load-Save-Convert
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Load-Save-Convert
-            '' =====================================================
-            '' =====================================================
+        ' CreateNewVisio.Run()
+        ' ExportHTMLinStream.Run()
+        ' ExportToXAML.Run()
+        ' ReadVisioDiagram.Run()
 
-            ' CreateNewVisio.Run()
-            ' ExportHTMLinStream.Run()
-            ' ExportToXAML.Run()
-            'ReadVisioDiagram.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-Geometry-Section
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-Geometry-Section
-            '' =====================================================
-            '' =====================================================
+        ' EditConnectorGeometry.Run()
 
-            ' EditConnectorGeometry.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-Headers-and-Footers
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-Headers-and-Footers
-            '' =====================================================
-            '' =====================================================
+        ' ManageHeadersandFooters.Run()
 
-            ' ManageHeadersandFooters.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working With Diagrams
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working With Diagrams
-            '' =====================================================
-            '' =====================================================
+        ' AddConnectShapes.Run()
+        ' CreateDiagram.Run()
+        ' ExportPageToImage.Run()
+        ' ExportToHTML.Run()
+        ' ExportToImage.Run()
+        ' ExportToPDF.Run()
+        ' ExportToSVG.Run()
+        ' ExportToXML.Run()
+        ' ExportToXPS.Run()
+        ' ExtractAllImagesFromPage.Run()
+        ' LayOutShapesInCompactTreeStyle.Run()
+        ' LayOutShapesInFlowchartStyle.Run()
+        ' ReadDiagramFile.Run()
+        ' RetrieveConnectorInfo.Run()
+        ' RetrieveFontInfo.Run()
+        ' RetrieveMasterInfo.Run()
+        ' RetrievePageInfo.Run()
+        ' ExportToSWF.Run()
+        ' ExportToSWFWithoutViewer.Run()
 
-            ' AddConnectShapes.Run()
-            ' CreateDiagram.Run()
-            ' ExportPageToImage.Run()
-            ' ExportToHTML.Run()
-            ' ExportToImage.Run()
-            ' ExportToPDF.Run()
-            ' ExportToSVG.Run()
-            ' ExportToXML.Run()
-            ' ExportToXPS.Run()
-            ' ExtractAllImagesFromPage.Run()
-            ' LayOutShapesInCompactTreeStyle.Run()
-            ' LayOutShapesInFlowchartStyle.Run()
-            'ReadDiagramFile.Run()
-            'RetrieveConnectorInfo.Run()
-            'RetrieveFontInfo.Run()
-            'RetrieveMasterInfo.Run()
-            'RetrievePageInfo.Run()
-            ' ExportToSWF.Run()
-            ' ExportToSWFWithoutViewer.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working With Shapes
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working With Shapes
-            '' =====================================================
-            '' =====================================================
+        ' ApplyCustomStyleSheets.Run()
+        ' RetrieveShapeInfo.Run()
+        ' SetFillData.Run()
+        ' SetLineData.Run()
+        ' SetXFormdata.Run()
+        ' UpdateShapeText.Run()
+        ' RefreshMilestoneWithMilestoneHelper.Run()
 
-            ' ApplyCustomStyleSheets.Run()
-            'RetrieveShapeInfo.Run()
-            ' SetFillData.Run()
-            ' SetLineData.Run()
-            ' SetXFormdata.Run()
-            ' UpdateShapeText.Run()
-            'RefreshMilestoneWithMilestoneHelper.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working With Comments
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working With Comments
-            '' =====================================================
-            '' =====================================================
+        ' AddPageLevelCommentInVisio.Run()
+        ' EditPageLevelCommentInVisio.Run()
 
-            ' AddPageLevelCommentInVisio.Run()
-            ' EditPageLevelCommentInVisio.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Knowledge-Base
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Knowledge-Base
-            '' =====================================================
-            '' =====================================================
+        ' CreatingDiagramWithAspose.Run()
+        ' CreatingDiagramWithVSTO.Run()
+        ' SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run()
+        ' SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run()
+        ' UpdateShapePropsWithAspose.Run()
+        ' UpdateShapePropsWithVSTO.Run()
 
-            ' CreatingDiagramWithAspose.Run()
-            ' CreatingDiagramWithVSTO.Run()
-            ' SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run()
-            ' SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run()
-            ' UpdateShapePropsWithAspose.Run()
-            ' UpdateShapePropsWithVSTO.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Technical-Articles
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Technical-Articles
-            '' =====================================================
-            '' =====================================================
+        ' AddConnectShapes.Run()
 
-            ' AddConnectShapes.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-Hyperlinks
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-Hyperlinks
-            '' =====================================================
-            '' =====================================================
+        ' AddHyperlinkToShape.Run()
+        ' GetHyperlinks.Run()
 
-            ' AddHyperlinkToShape.Run()
-            ' GetHyperlinks.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-Layers
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-Layers
-            '' =====================================================
-            '' =====================================================
+        ' AddLayer.Run()
+        ' ConfigureShapeLayers.Run()
+        ' RetrieveAllLayers.Run()
 
-            ' AddLayer.Run()
-            ' ConfigureShapeLayers.Run()
-            'RetrieveAllLayers.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-Masters
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-Masters
-            '' =====================================================
-            '' =====================================================
+        ' CheckMasterPresencebyID.Run()
+        ' CheckMasterPresencebyName.Run()
+        ' GetMasterbyID.Run()
+        ' GetMasterbyName.Run()
+        ' RetrieveMasterInfo.Run()
 
-            ' CheckMasterPresencebyID.Run()
-            ' CheckMasterPresencebyName.Run()
-            ' GetMasterbyID.Run()
-            ' GetMasterbyName.Run()
-            'RetrieveMasterInfo.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-Pages
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-Pages
-            '' =====================================================
-            '' =====================================================
+        ' CopyVisioPage.Run()
+        ' ExportOfHiddenVisioPagesToHTML.Run()
+        ' ExportOfHiddenVisioPagesToImage.Run()
+        ' ExportOfHiddenVisioPagesToPDF.Run()
+        ' ExportOfHiddenVisioPagesToSVG.Run()
+        ' ExportOfHiddenVisioPagesToXPS.Run()
+        ' GetVisioPagebyID.Run()
+        ' GetVisioPagebyName.Run()
+        ' InsertBlankPageInVisio.Run()
+        ' RetrievePageInfo.Run()
+        ' SetVisioPageOrientation.Run()
 
-            ' CopyVisioPage.Run()
-            ' ExportOfHiddenVisioPagesToHTML.Run()
-            ' ExportOfHiddenVisioPagesToImage.Run()
-            ' ExportOfHiddenVisioPagesToPDF.Run()
-            ' ExportOfHiddenVisioPagesToSVG.Run()
-            ' ExportOfHiddenVisioPagesToXPS.Run()
-            ' GetVisioPagebyID.Run()
-            ' GetVisioPagebyName.Run()
-            ' InsertBlankPageInVisio.Run()
-            'RetrievePageInfo.Run()
-            ' SetVisioPageOrientation.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-Print
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-Print
-            '' =====================================================
-            '' =====================================================
+        ' ByDefaultPrinter.Run()
+        ' BySpecificPrinter.Run()
+        ' PrintDiagramVisXPSPrinterAPI.Run()
+        ' SetPrintJobAndPrinterName.Run()
 
-            ' ByDefaultPrinter.Run()
-            ' BySpecificPrinter.Run()
-            ' PrintDiagramVisXPSPrinterAPI.Run()
-            ' SetPrintJobAndPrinterName.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-Protection
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-Protection
-            '' =====================================================
-            '' =====================================================
+        ' VisioDiagramProtection.Run()
+        ' VisioShapeProtection.Run()
 
-            ' VisioDiagramProtection.Run()
-            ' VisioShapeProtection.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-SolutionXML-Elements
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-SolutionXML-Elements
-            '' =====================================================
-            '' =====================================================
+        ' AddSolutionXMLElement.Run()
+        ' ReadSolutionXMLElement.Run()
 
-            ' AddSolutionXMLElement.Run()
-            'ReadSolutionXMLElement.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-Text
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-Text
-            '' =====================================================
-            '' =====================================================
+        ' ApplyCustomStyleSheets.Run()
+        ' ApplyFontOnText.Run()
+        ' FindAndReplaceShapeText.Run()
+        ' GetPlainTextOfVisio.Run()
+        ' UpdateShapeText.Run()
 
-            ' ApplyCustomStyleSheets.Run()
-            ' ApplyFontOnText.Run()
-            ' FindAndReplaceShapeText.Run()
-            ' GetPlainTextOfVisio.Run()
-            ' UpdateShapeText.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-Text-Boxes
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-Text-Boxes
-            '' =====================================================
-            '' =====================================================
+        ' FormatShapeTextBlockSection.Run()
+        ' SetShapeTextPositionAtBottom.Run()
+        ' SetShapeTextPositionAtLeft.Run()
+        ' SetShapeTextPositionAtRight.Run()
+        ' SetShapeTextPositionAtTop.Run()
 
-            ' FormatShapeTextBlockSection.Run()
-            ' SetShapeTextPositionAtBottom.Run()
-            ' SetShapeTextPositionAtLeft.Run()
-            ' SetShapeTextPositionAtRight.Run()
-            ' SetShapeTextPositionAtTop.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-User-defined-Cells
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-User-defined-Cells
-            '' =====================================================
-            '' =====================================================
+        ' CreateUserDefinedCellInShapeSheet.Run()
+        ' ReadUserdefinedCellsOfShape.Run()
+        ' RetrieveUserDefinedCells.Run()
 
-            ' CreateUserDefinedCellInShapeSheet.Run()
-            'ReadUserdefinedCellsOfShape.Run()
-            'RetrieveUserDefinedCells.Run()
+        '' =====================================================
+        '' =====================================================
+        '' Working-with-Window-Elements
+        '' =====================================================
+        '' =====================================================
 
-            '' =====================================================
-            '' =====================================================
-            '' Working-with-Window-Elements
-            '' =====================================================
-            '' =====================================================
+        ' AddSupportOfVisualAids.Run()
+        ' AddWindowElementInVisio.Run()
+        ' DisplayGridsRulersGuidesAndPageBreaks.Run()
+        RetrieveWindowElementsOfDiagram.Run()
 
-            ' AddSupportOfVisualAids.Run()
-            ' AddWindowElementInVisio.Run()
-            ' DisplayGridsRulersGuidesAndPageBreaks.Run()
-            RetrieveWindowElementsOfDiagram.Run()
+        ' Stop before exiting
+        Console.WriteLine(Constants.vbLf + Constants.vbLf & "Program Finished. Press any key to exit....")
+        Console.ReadKey()
+    End Sub
 
-            ' Stop before exiting
-            Console.WriteLine(Constants.vbLf + Constants.vbLf & "Program Finished. Press any key to exit....")
-            Console.ReadKey()
-        End Sub
+    Public Shared Function GetDataDir_Intro() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Introduction/")
+    End Function
+    Public Shared Function GetDataDir_LoadSaveConvert() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Load-Save-Convert/")
+    End Function
+    Public Shared Function GetDataDir_Diagrams() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-Diagrams/")
+    End Function
 
-        Public Shared Function GetDataDir_Intro() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Introduction/")
-        End Function
-        Public Shared Function GetDataDir_LoadSaveConvert() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Load-Save-Convert/")
-        End Function
-        Public Shared Function GetDataDir_Diagrams() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-Diagrams/")
-        End Function
-
-        Public Shared Function GetDataDir_Shapes() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-Shapes/")
-        End Function
-        Public Shared Function GetDataDir_ShapeText() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Text/")
-        End Function
-        Public Shared Function GetDataDir_Protection() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Protection/")
-        End Function
-        Public Shared Function GetDataDir_Master() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Masters/")
-        End Function
-        Public Shared Function GetDataDir_VisioPages() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Pages/")
-        End Function
-        Public Shared Function GetDataDir_VisioComments() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Comments/")
-        End Function
-        Public Shared Function GetDataDir_ExternalDataSources() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-External-Data-Sources/")
-        End Function
-        Public Shared Function GetDataDir_GeometrySection() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Geometry-Section/")
-        End Function
-        Public Shared Function GetDataDir_HeadersAndFooters() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Headers-and-Footers/")
-        End Function
-        Public Shared Function GetDataDir_Hyperlinks() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Hyperlinks/")
-        End Function
-        Public Shared Function GetDataDir_Layers() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Layers/")
-        End Function
-        Public Shared Function GetDataDir_Print() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Print/")
-        End Function
-        Public Shared Function GetDataDir_SolutionXML() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-SolutionXML-Elements/")
-        End Function
-        Public Shared Function GetDataDir_ShapeTextBoxData() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Text-Boxes/")
-        End Function
-        Public Shared Function GetDataDir_UserDefinedCells() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-User-defined-Cells/")
-        End Function
-        Public Shared Function GetDataDir_WindowElements() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Window-Elements/")
-        End Function
-        Public Shared Function GetDataDir_TechnicalArticles() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "Technical-Articles/")
-        End Function
-        Public Shared Function GetDataDir_KnowledgeBase() As [String]
-            Return Path.GetFullPath(GetDataDir_Data() + "Knowledge-Base/")
-        End Function
-        Private Shared Function GetDataDir_Data() As String
-            Dim parent = Directory.GetParent(Directory.GetCurrentDirectory()).Parent
-            Dim startDirectory As String = Nothing
-            If parent IsNot Nothing Then
-                Dim directoryInfo = parent.Parent
-                If directoryInfo IsNot Nothing Then
-                    startDirectory = directoryInfo.FullName
-                End If
-            Else
-                startDirectory = parent.FullName
+    Public Shared Function GetDataDir_Shapes() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-Shapes/")
+    End Function
+    Public Shared Function GetDataDir_ShapeText() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Text/")
+    End Function
+    Public Shared Function GetDataDir_Protection() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Protection/")
+    End Function
+    Public Shared Function GetDataDir_Master() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Masters/")
+    End Function
+    Public Shared Function GetDataDir_VisioPages() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Pages/")
+    End Function
+    Public Shared Function GetDataDir_VisioComments() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Comments/")
+    End Function
+    Public Shared Function GetDataDir_ExternalDataSources() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-External-Data-Sources/")
+    End Function
+    Public Shared Function GetDataDir_GeometrySection() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Geometry-Section/")
+    End Function
+    Public Shared Function GetDataDir_HeadersAndFooters() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Headers-and-Footers/")
+    End Function
+    Public Shared Function GetDataDir_Hyperlinks() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Hyperlinks/")
+    End Function
+    Public Shared Function GetDataDir_Layers() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Layers/")
+    End Function
+    Public Shared Function GetDataDir_Print() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Print/")
+    End Function
+    Public Shared Function GetDataDir_SolutionXML() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-SolutionXML-Elements/")
+    End Function
+    Public Shared Function GetDataDir_ShapeTextBoxData() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Text-Boxes/")
+    End Function
+    Public Shared Function GetDataDir_UserDefinedCells() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-User-defined-Cells/")
+    End Function
+    Public Shared Function GetDataDir_WindowElements() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Window-Elements/")
+    End Function
+    Public Shared Function GetDataDir_TechnicalArticles() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "Technical-Articles/")
+    End Function
+    Public Shared Function GetDataDir_KnowledgeBase() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "Knowledge-Base/")
+    End Function
+    Private Shared Function GetDataDir_Data() As String
+        Dim parent = Directory.GetParent(Directory.GetCurrentDirectory()).Parent
+        Dim startDirectory As String = Nothing
+        If parent IsNot Nothing Then
+            Dim directoryInfo = parent.Parent
+            If directoryInfo IsNot Nothing Then
+                startDirectory = directoryInfo.FullName
             End If
-            Return Path.Combine(startDirectory, "Data\")
-        End Function
-    End Class
-End Namespace
+        Else
+            startDirectory = parent.FullName
+        End If
+        Return Path.Combine(startDirectory, "Data\")
+    End Function
+End Class

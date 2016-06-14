@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
 {
     public class UseHTMLSaveOptions
     {

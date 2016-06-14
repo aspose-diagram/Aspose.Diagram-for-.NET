@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Working_Shapes.Working_with_Icons_and_Pictures
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_Shapes.Working_with_Icons_and_Pictures
 {
     public class ReplaceShapePicture
     {

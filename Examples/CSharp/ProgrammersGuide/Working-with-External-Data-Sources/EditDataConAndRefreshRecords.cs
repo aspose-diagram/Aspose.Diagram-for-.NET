@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Working_with_External_Data_Sources
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_External_Data_Sources
 {
     public class EditDataConAndRefreshRecords
     {

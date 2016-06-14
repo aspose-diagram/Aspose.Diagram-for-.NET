@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Working_with_SolutionXML_Elements
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_SolutionXML_Elements
 {
     public class AddSolutionXMLElement
     {

@@ -1,6 +1,6 @@
 ﻿Imports System
 Imports Visio = Microsoft.Office.Interop.Visio
-Imports VisualBasic
+
 
 Public Class SaveDiagramTo_VDX_PDF_JPEG_withVSTO
     Public Shared Sub Run()

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Working_with_Layers
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Layers
 {
     public class ConfigureShapeLayers
     {

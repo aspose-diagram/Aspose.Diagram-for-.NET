@@ -6,7 +6,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Load_Save_Convert.VisioSaveOptions
 {
     public class UsePDFSaveOptions
     {

@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Working_with_Masters
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Masters
 {
     public class AddMasterFromStencil
     {

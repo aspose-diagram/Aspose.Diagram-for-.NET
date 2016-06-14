@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Working_Diagrams
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_Diagrams
 {
     public class AutoFitShapesInVisio
     {

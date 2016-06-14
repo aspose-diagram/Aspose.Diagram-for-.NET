@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Visio = Microsoft.Office.Interop.Visio;
 
-namespace CSharp.Knowledge_Base
+namespace Aspose.Diagram.Examples.CSharp.Knowledge_Base
 {
     public class SaveDiagramTo_VDX_PDF_JPEG_withVSTO
     {

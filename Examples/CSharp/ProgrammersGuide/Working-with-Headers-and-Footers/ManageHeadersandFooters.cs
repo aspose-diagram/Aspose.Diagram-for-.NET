@@ -5,7 +5,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Working_with_Headers_and_Footers
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Headers_and_Footers
 {
     public class ManageHeadersandFooters
     {

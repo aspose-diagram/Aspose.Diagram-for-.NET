@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Working_Shapes.ConfigureTimeLineShapes
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_Shapes.ConfigureTimeLineShapes
 {
     public class SetMilestoneProps
     {

@@ -1,6 +1,5 @@
 ﻿Imports Aspose.Diagram
 Imports System
-Imports VisualBasic
 
 Public Class CreatingDiagramWithAspose
     Public Shared Sub Run()

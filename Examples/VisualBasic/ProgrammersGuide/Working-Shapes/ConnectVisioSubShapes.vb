@@ -1,7 +1,7 @@
 ﻿Imports Aspose.Diagram
 Imports Aspose.Diagram.Manipulation
 Imports System
-Imports VisualBasic
+
 
 Public Class ConnectVisioSubShapes
     Public Shared Sub Run()

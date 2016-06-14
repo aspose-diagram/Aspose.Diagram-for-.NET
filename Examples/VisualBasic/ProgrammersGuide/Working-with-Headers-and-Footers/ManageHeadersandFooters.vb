@@ -1,4 +1,4 @@
-﻿Imports VisualBasic
+﻿
 Imports System.Drawing
 Imports Aspose.Diagram
 Imports System

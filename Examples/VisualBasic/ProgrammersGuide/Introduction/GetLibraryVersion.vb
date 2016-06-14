@@ -1,6 +1,6 @@
 ﻿Imports Aspose.Diagram
 Imports System
-Imports VisualBasic
+
 
 Public Class GetLibraryVersion
     Public Shared Sub Run()

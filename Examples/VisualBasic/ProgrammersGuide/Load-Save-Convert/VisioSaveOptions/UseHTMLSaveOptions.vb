@@ -1,5 +1,5 @@
 ﻿Imports Aspose.Diagram.Saving
-Imports VisualBasic
+
 Imports Aspose.Diagram
 Imports System
 Imports System.IO

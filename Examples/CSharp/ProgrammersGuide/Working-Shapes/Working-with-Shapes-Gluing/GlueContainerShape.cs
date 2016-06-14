@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Working_Shapes.Working_with_Shapes_Gluing
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_Shapes.Working_with_Shapes_Gluing
 {
     public class GlueContainerShape
     {

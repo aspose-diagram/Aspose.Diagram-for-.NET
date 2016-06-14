@@ -1,6 +1,6 @@
 ﻿Imports System
 Imports Aspose.Diagram
-Imports VisualBasic
+
 
 Public Class UpdateShapePropsWithAspose
     Public Shared Sub Run()

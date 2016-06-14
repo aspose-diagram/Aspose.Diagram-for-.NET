@@ -2,37 +2,37 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using CSharp.Diagrams;
-using CSharp.Shapes;
-using CSharp.ProgrammersGuide.Introduction;
-using CSharp.ProgrammersGuide.Working_Shapes;
-using CSharp.ProgrammersGuide.Working_with_Comments;
-using CSharp.ProgrammersGuide.Load_Save_Convert;
-using CSharp.Knowledge_Base;
-using CSharp.ProgrammersGuide.Working_with_Geometry_Section;
-using CSharp.ProgrammersGuide.Working_with_Headers_and_Footers;
-using CSharp.ProgrammersGuide.Working_with_Hyperlinks;
-using CSharp.ProgrammersGuide.Working_with_Layers;
-using CSharp.ProgrammersGuide.Working_with_Masters;
-using CSharp.ProgrammersGuide.Working_with_Pages;
-using CSharp.ProgrammersGuide.Working_with_Print;
-using CSharp.ProgrammersGuide.Working_with_Protection;
-using CSharp.ProgrammersGuide.Working_with_SolutionXML_Elements;
-using CSharp.ProgrammersGuide.Working_with_Text;
-using CSharp.ProgrammersGuide.Working_with_Text_Boxes;
-using CSharp.ProgrammersGuide.Working_with_User_defined_Cells;
-using CSharp.ProgrammersGuide.Working_with_Window_Elements;
+using Aspose.Diagram.Examples.CSharp.Diagrams;
+using Aspose.Diagram.Examples.CSharp.Shapes;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Introduction;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_Shapes;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Comments;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Load_Save_Convert;
+using Aspose.Diagram.Examples.CSharp.Knowledge_Base;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Geometry_Section;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Headers_and_Footers;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Hyperlinks;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Layers;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Masters;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Pages;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Print;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Protection;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_SolutionXML_Elements;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Text;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Text_Boxes;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_User_defined_Cells;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Window_Elements;
 
-namespace CSharp
+namespace Aspose.Diagram.Examples.CSharp
 {
     class RunExamples
     {
         [STAThread]
         public static void Main()
         {
-            Console.WriteLine("Open RunExamples.cs. In Main() method, Un-comment the example that you want to run");
+            Console.WriteLine("Open RunExamples.cs. \nIn Main() method uncomment the example that you want to run.");
             Console.WriteLine("=====================================================");
-            // Un-comment the one you want to try out
+            // Uncomment the one you want to try out
 
             
             // =====================================================

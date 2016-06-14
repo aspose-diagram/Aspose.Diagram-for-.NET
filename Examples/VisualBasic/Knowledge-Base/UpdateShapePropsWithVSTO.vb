@@ -1,5 +1,5 @@
 ﻿Imports System
-Imports VisualBasic
+
 Imports Visio = Microsoft.Office.Interop.Visio
 
 Public Class UpdateShapePropsWithVSTO

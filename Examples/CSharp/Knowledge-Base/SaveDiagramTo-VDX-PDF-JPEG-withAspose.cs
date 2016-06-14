@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.Knowledge_Base
+namespace Aspose.Diagram.Examples.CSharp.Knowledge_Base
 {
     public class SaveDiagramTo_VDX_PDF_JPEG_withAspose
     {

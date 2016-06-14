@@ -1,6 +1,6 @@
 ﻿Imports Aspose.Diagram
 Imports System
-Imports VisualBasic
+
 
 Public Class CopyVisioPage
     Public Shared Sub Run()

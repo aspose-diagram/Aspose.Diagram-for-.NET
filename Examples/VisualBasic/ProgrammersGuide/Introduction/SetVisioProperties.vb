@@ -1,6 +1,6 @@
 ﻿Imports Aspose.Diagram
 Imports System
-Imports VisualBasic
+
 
 Public Class SetVisioProperties
     Public Shared Sub Run()

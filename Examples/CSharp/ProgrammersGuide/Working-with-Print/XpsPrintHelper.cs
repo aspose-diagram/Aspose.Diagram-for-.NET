@@ -7,7 +7,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Working_with_Print
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Print
 {
     /// <summary>
     /// A utility class that converts a document to XPS using Aspose.Diagram and then sends to the XpsPrint API.

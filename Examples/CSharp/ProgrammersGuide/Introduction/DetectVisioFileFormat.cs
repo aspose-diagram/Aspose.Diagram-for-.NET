@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 
 
-namespace CSharp.ProgrammersGuide.Introduction
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Introduction
 {
     public class DetectVisioFileFormat
     {

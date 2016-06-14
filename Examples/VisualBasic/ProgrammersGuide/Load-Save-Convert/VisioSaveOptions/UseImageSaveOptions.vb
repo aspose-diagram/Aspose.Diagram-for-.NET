@@ -1,6 +1,6 @@
 ﻿Imports Aspose.Diagram.Saving
 Imports System
-Imports VisualBasic
+
 Imports Aspose.Diagram
 
 Public Class UseImageSaveOptions

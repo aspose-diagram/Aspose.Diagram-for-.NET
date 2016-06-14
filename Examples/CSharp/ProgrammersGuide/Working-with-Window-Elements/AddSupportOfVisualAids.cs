@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CSharp.ProgrammersGuide.Working_with_Window_Elements
+namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Window_Elements
 {
     public class AddSupportOfVisualAids
     {
