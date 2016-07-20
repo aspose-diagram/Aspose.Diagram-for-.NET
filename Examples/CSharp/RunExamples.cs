@@ -22,6 +22,7 @@ using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Text;
 using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Text_Boxes;
 using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_User_defined_Cells;
 using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Window_Elements;
+using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.OLE_Objects;
 
 namespace Aspose.Diagram.Examples.CSharp
 {
@@ -97,6 +98,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // RetrievePageInfo.Run();
             // ExportToSWF.Run();
             // ExportToSWFWithoutViewer.Run();
+            //ModifyVBAModule.Run();
 
             // =====================================================
             // =====================================================
@@ -263,11 +265,23 @@ namespace Aspose.Diagram.Examples.CSharp
             // AddSupportOfVisualAids.Run();
             // AddWindowElementInVisio.Run();
             // DisplayGridsRulersGuidesAndPageBreaks.Run();
-            RetrieveWindowElementsOfDiagram.Run();
+            // RetrieveWindowElementsOfDiagram.Run();
+
+            // =====================================================
+            // =====================================================
+            // OLE-Objects
+            // =====================================================
+            // =====================================================
+
+            ManipulateObjects.Run();
                         
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
             Console.ReadKey();
+        }
+        public static String GetDataDir_OLEObjects()
+        {
+            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/OLE-Objects/");
         }
         public static String GetDataDir_Intro()
         {

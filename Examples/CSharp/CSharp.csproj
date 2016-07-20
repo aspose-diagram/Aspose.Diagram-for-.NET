@@ -51,9 +51,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=6.4.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+    <Reference Include="Aspose.Diagram, Version=6.6.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Aspose.Diagram.6.4.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
+      <HintPath>..\packages\Aspose.Diagram.6.6.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Words">
+      <HintPath>..\packages\Aspose.Words.16.6.0\lib\net40-client\Aspose.Words.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Visio, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -88,7 +91,9 @@
     <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UsePDFSaveOptions.cs" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UseSVGSaveOptions.cs" />
     <Compile Include="ProgrammersGuide\Load-Save-Convert\VisioSaveOptions\UseSWFSaveOptions.cs" />
+    <Compile Include="ProgrammersGuide\OLE-Objects\ManipulateObjects.cs" />
     <Compile Include="ProgrammersGuide\OS-Fonts-Location\SpecifyFontLocation.cs" />
+    <Compile Include="ProgrammersGuide\Working-Diagrams\ModifyVBAModule.cs" />
     <Compile Include="ProgrammersGuide\Working-Shapes\ReadShapePropByName.cs" />
     <Compile Include="ProgrammersGuide\Working-with-Comments\AddPageLevelCommentInVisio.cs" />
     <Compile Include="ProgrammersGuide\Working-Diagrams\AutoFitShapesInVisio.cs" />
@@ -219,12 +224,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

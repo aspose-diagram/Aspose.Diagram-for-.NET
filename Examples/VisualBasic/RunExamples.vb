@@ -74,6 +74,7 @@ Friend Class RunExamples
         ' RetrievePageInfo.Run()
         ' ExportToSWF.Run()
         ' ExportToSWFWithoutViewer.Run()
+        ' ModifyVBAModule.Run()
 
         '' =====================================================
         '' =====================================================
@@ -240,12 +241,22 @@ Friend Class RunExamples
         ' AddSupportOfVisualAids.Run()
         ' AddWindowElementInVisio.Run()
         ' DisplayGridsRulersGuidesAndPageBreaks.Run()
-        RetrieveWindowElementsOfDiagram.Run()
+        ' RetrieveWindowElementsOfDiagram.Run()
+
+        '' =====================================================
+        '' =====================================================
+        '' OLE-Objects
+        '' =====================================================
+        '' =====================================================
+        ' ManipulateObjects.Run()
 
         ' Stop before exiting
         Console.WriteLine(Constants.vbLf + Constants.vbLf & "Program Finished. Press any key to exit....")
         Console.ReadKey()
     End Sub
+    Public Shared Function GetDataDir_OLEObjects() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/OLE-Objects/")
+    End Function
 
     Public Shared Function GetDataDir_Intro() As [String]
         Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Introduction/")
