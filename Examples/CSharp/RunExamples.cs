@@ -4,25 +4,25 @@ using System.IO;
 using System.Text;
 using Aspose.Diagram.Examples.CSharp.Diagrams;
 using Aspose.Diagram.Examples.CSharp.Shapes;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Introduction;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_Shapes;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Comments;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Load_Save_Convert;
+using Aspose.Diagram.Examples.CSharp.Introduction;
+using Aspose.Diagram.Examples.CSharp.Working_Shapes;
+using Aspose.Diagram.Examples.CSharp.Working_with_Comments;
+using Aspose.Diagram.Examples.CSharp.Load_Save_Convert;
 using Aspose.Diagram.Examples.CSharp.Knowledge_Base;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Geometry_Section;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Headers_and_Footers;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Hyperlinks;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Layers;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Masters;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Pages;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Print;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Protection;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_SolutionXML_Elements;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Text;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Text_Boxes;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_User_defined_Cells;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.Working_with_Window_Elements;
-using Aspose.Diagram.Examples.CSharp.ProgrammersGuide.OLE_Objects;
+using Aspose.Diagram.Examples.CSharp.Working_with_Geometry_Section;
+using Aspose.Diagram.Examples.CSharp.Working_with_Headers_and_Footers;
+using Aspose.Diagram.Examples.CSharp.Working_with_Hyperlinks;
+using Aspose.Diagram.Examples.CSharp.Working_with_Layers;
+using Aspose.Diagram.Examples.CSharp.Working_with_Masters;
+using Aspose.Diagram.Examples.CSharp.Working_with_Pages;
+using Aspose.Diagram.Examples.CSharp.Working_with_Print;
+using Aspose.Diagram.Examples.CSharp.Working_with_Protection;
+using Aspose.Diagram.Examples.CSharp.Working_with_SolutionXML_Elements;
+using Aspose.Diagram.Examples.CSharp.Working_with_Text;
+using Aspose.Diagram.Examples.CSharp.Working_with_Text_Boxes;
+using Aspose.Diagram.Examples.CSharp.Working_with_User_defined_Cells;
+using Aspose.Diagram.Examples.CSharp.Working_with_Window_Elements;
+using Aspose.Diagram.Examples.CSharp.OLE_Objects;
 
 namespace Aspose.Diagram.Examples.CSharp
 {
@@ -281,84 +281,84 @@ namespace Aspose.Diagram.Examples.CSharp
         }
         public static String GetDataDir_OLEObjects()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/OLE-Objects/");
+            return Path.GetFullPath(GetDataDir_Data() + "OLE-Objects/");
         }
         public static String GetDataDir_Intro()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Introduction/");
+            return Path.GetFullPath(GetDataDir_Data() + "Introduction/");
         }
         public static String GetDataDir_LoadSaveConvert()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Load-Save-Convert/");
+            return Path.GetFullPath(GetDataDir_Data() + "Load-Save-Convert/");
         }
         public static String GetDataDir_Diagrams()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-Diagrams/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-Diagrams/");
         }
 
         public static String GetDataDir_Shapes()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-Shapes/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-Shapes/");
         }
         public static String GetDataDir_ShapeText()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Text/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Text/");
         }
         public static String GetDataDir_Protection()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Protection/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Protection/");
         }
         public static String GetDataDir_Master()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Masters/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Masters/");
         }
         public static String GetDataDir_VisioPages()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Pages/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Pages/");
         }
         public static String GetDataDir_VisioComments()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Comments/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Comments/");
         }
         public static String GetDataDir_ExternalDataSources()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-External-Data-Sources/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-External-Data-Sources/");
         }
         public static String GetDataDir_GeometrySection()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Geometry-Section/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Geometry-Section/");
         }
         public static String GetDataDir_HeadersAndFooters()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Headers-and-Footers/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Headers-and-Footers/");
         }
         public static String GetDataDir_Hyperlinks()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Hyperlinks/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Hyperlinks/");
         }
         public static String GetDataDir_Layers()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Layers/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Layers/");
         }
         public static String GetDataDir_Print()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Print/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Print/");
         }
         public static String GetDataDir_SolutionXML()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-SolutionXML-Elements/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-SolutionXML-Elements/");
         }
         public static String GetDataDir_ShapeTextBoxData()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Text-Boxes/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Text-Boxes/");
         }
         public static String GetDataDir_UserDefinedCells()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-User-defined-Cells/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-User-defined-Cells/");
         }
         public static String GetDataDir_WindowElements()
         {
-            return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Window-Elements/");
+            return Path.GetFullPath(GetDataDir_Data() + "Working-with-Window-Elements/");
         }
         public static String GetDataDir_TechnicalArticles()
         {

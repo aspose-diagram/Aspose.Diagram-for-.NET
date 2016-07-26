@@ -255,66 +255,66 @@ Friend Class RunExamples
         Console.ReadKey()
     End Sub
     Public Shared Function GetDataDir_OLEObjects() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/OLE-Objects/")
+        Return Path.GetFullPath(GetDataDir_Data() + "OLE-Objects/")
     End Function
 
     Public Shared Function GetDataDir_Intro() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Introduction/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Introduction/")
     End Function
     Public Shared Function GetDataDir_LoadSaveConvert() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Load-Save-Convert/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Load-Save-Convert/")
     End Function
     Public Shared Function GetDataDir_Diagrams() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-Diagrams/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-Diagrams/")
     End Function
 
     Public Shared Function GetDataDir_Shapes() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-Shapes/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-Shapes/")
     End Function
     Public Shared Function GetDataDir_ShapeText() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Text/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Text/")
     End Function
     Public Shared Function GetDataDir_Protection() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Protection/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Protection/")
     End Function
     Public Shared Function GetDataDir_Master() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Masters/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Masters/")
     End Function
     Public Shared Function GetDataDir_VisioPages() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Pages/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Pages/")
     End Function
     Public Shared Function GetDataDir_VisioComments() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Comments/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Comments/")
     End Function
     Public Shared Function GetDataDir_ExternalDataSources() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-External-Data-Sources/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-External-Data-Sources/")
     End Function
     Public Shared Function GetDataDir_GeometrySection() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Geometry-Section/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Geometry-Section/")
     End Function
     Public Shared Function GetDataDir_HeadersAndFooters() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Headers-and-Footers/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Headers-and-Footers/")
     End Function
     Public Shared Function GetDataDir_Hyperlinks() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Hyperlinks/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Hyperlinks/")
     End Function
     Public Shared Function GetDataDir_Layers() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Layers/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Layers/")
     End Function
     Public Shared Function GetDataDir_Print() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Print/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Print/")
     End Function
     Public Shared Function GetDataDir_SolutionXML() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-SolutionXML-Elements/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-SolutionXML-Elements/")
     End Function
     Public Shared Function GetDataDir_ShapeTextBoxData() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Text-Boxes/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Text-Boxes/")
     End Function
     Public Shared Function GetDataDir_UserDefinedCells() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-User-defined-Cells/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-User-defined-Cells/")
     End Function
     Public Shared Function GetDataDir_WindowElements() As [String]
-        Return Path.GetFullPath(GetDataDir_Data() + "ProgrammersGuide/Working-with-Window-Elements/")
+        Return Path.GetFullPath(GetDataDir_Data() + "Working-with-Window-Elements/")
     End Function
     Public Shared Function GetDataDir_TechnicalArticles() As [String]
         Return Path.GetFullPath(GetDataDir_Data() + "Technical-Articles/")
