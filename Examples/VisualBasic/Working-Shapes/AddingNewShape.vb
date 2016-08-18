@@ -10,7 +10,7 @@ Public Class AddingNewShape
 
         ' Load a diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
-        ' get page by name
+        ' Get page by name
         Dim page As Page = diagram.Pages.GetPage("Page-2")
 
         ' Add master with stencil file path and master id
@@ -18,13 +18,13 @@ Public Class AddingNewShape
         ' Add master with stencil file path and master name
         diagram.AddMaster(dataDir & Convert.ToString("Basic Shapes.vss"), masterName)
 
-        ' page indexing starts from 0
+        ' Page indexing starts from 0
         Dim PageIndex As Integer = 1
         Dim width As Double = 2, height As Double = 2, pinX As Double = 4.25, pinY As Double = 4.5
         ' Add a new rectangle shape
         Dim rectangleId As Long = diagram.AddShape(pinX, pinY, width, height, masterName, PageIndex)
 
-        ' set shape properties 
+        ' Set shape properties 
         Dim rectangle As Shape = page.Shapes.GetShape(rectangleId)
         rectangle.XForm.PinX.Value = 5
         rectangle.XForm.PinY.Value = 5

@@ -5,6 +5,7 @@ Imports System.IO
 Imports System.Text
 Imports Aspose.Diagram.Examples.VisualBasic.Diagrams
 Imports Aspose.Diagram.Examples.VisualBasic.Shapes
+Imports Aspose.Diagram.Examples.VisualBasic.Event_Section
 Friend Class RunExamples
     <STAThread()> _
     Public Shared Sub Main()
@@ -250,6 +251,13 @@ Friend Class RunExamples
         '' =====================================================
         ' ManipulateObjects.Run()
 
+        '' =====================================================
+        '' =====================================================
+        '' Event-Section
+        '' =====================================================
+        '' =====================================================
+        SettingCellsInEventSection.Run()
+
         ' Stop before exiting
         Console.WriteLine(Constants.vbLf + Constants.vbLf & "Program Finished. Press any key to exit....")
         Console.ReadKey()
@@ -322,6 +330,10 @@ Friend Class RunExamples
     Public Shared Function GetDataDir_KnowledgeBase() As [String]
         Return Path.GetFullPath(GetDataDir_Data() + "Knowledge-Base/")
     End Function
+    Public Shared Function GetDataDir_EventSection() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "Event-Section/")
+    End Function
+
     Private Shared Function GetDataDir_Data() As String
         Dim parent = Directory.GetParent(Directory.GetCurrentDirectory()).Parent
         Dim startDirectory As String = Nothing

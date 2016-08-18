@@ -7,9 +7,9 @@ Public Class ExportToXAML
         ' ExStart:ExportToXAML
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
-        ' load diagram
+        ' Load diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("ExportToXAML.vsd"))
-        ' save diagram in the XAML format
+        ' Save diagram in the XAML format
         diagram.Save(dataDir & Convert.ToString("Output.xaml"), SaveFileFormat.XAML)
         ' ExEnd:ExportToXAML
     End Sub

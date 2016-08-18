@@ -14,7 +14,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_User_defined_Cells
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_UserDefinedCells();
             int count = 0;
-            // load diagram
+            // Load diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
             // Iterate through pages

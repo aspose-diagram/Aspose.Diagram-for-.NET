@@ -12,9 +12,9 @@ namespace Aspose.Diagram.Examples.CSharp.ApplyLicense
         public static void Run()
         {
             // ExStart:ApplyLicenseUsingFileStream
-            // set path of the license file, i.e. c:\temp\
+            // Set path of the license file, i.e. c:\temp\
             string dataDir = @"c:\temp\";
-            // load an existing Visio file in the stream
+            // Load an existing Visio file in the stream
             FileStream LicStream = new FileStream(dataDir + "Aspose.Diagram.lic", FileMode.Open);
 
             License license = new License();

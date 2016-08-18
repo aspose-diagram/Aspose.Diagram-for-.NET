@@ -14,21 +14,21 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_VisioPages();
 
-            // initialize the new visio diagram
+            // Initialize the new visio diagram
             Diagram NewDigram = new Diagram();
 
-            // load source diagram
+            // Load source diagram
             Diagram dgm = new Diagram(dataDir + "Drawing1.vsdx");
-            // add all masters from the source Visio diagram
+            // Add all masters from the source Visio diagram
             foreach (Master master in dgm.Masters)
                 NewDigram.Masters.Add(master);
 
-            // get page object
+            // Get page object
             Aspose.Diagram.Page SrcPage = dgm.Pages.GetPage("Page-1");
             // Set name
             SrcPage.Name = "new page";
 
-            // it calculates max page id
+            // It calculates max page id
             int max = 0;
             if (NewDigram.Pages.Count != 0)
                 max = NewDigram.Pages[0].ID;
@@ -39,16 +39,16 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
                     max = NewDigram.Pages[i].ID;
             }
             
-            // set max page ID 
+            // Set max page ID 
             int MaxPageId = max;
             // Set page ID
             SrcPage.ID = MaxPageId + 1;
 
-            // add page from the source diagram
+            // Add page from the source diagram
             NewDigram.Pages.Add(SrcPage);
-            // remove first empty page
+            // Remove first empty page
             NewDigram.Pages.Remove(NewDigram.Pages[0]);
-            // save diagram
+            // Save diagram
             NewDigram.Save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:CopyVisioPage
         }

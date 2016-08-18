@@ -14,7 +14,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Geometry_Section
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_GeometrySection();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
             // Set connector shape by page name and ID
             long connectorId = 4;

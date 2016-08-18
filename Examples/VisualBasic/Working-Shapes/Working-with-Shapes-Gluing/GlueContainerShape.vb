@@ -27,7 +27,7 @@ Public Class GlueContainerShape
         page.GlueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndConnectionIndex, shapeToId)
 
         ' Glue shapes in container using connection name
-        ' page.GlueShapesInContainer(fasId, "U05L", "U05R", cabinetId1);
+        ' Page.GlueShapesInContainer(fasId, "U05L", "U05R", cabinetId1);
 
         ' Save diagram
         diagram.Save(dataDir & Convert.ToString("GlueContainerShape_Out.vsdx"), SaveFileFormat.VSDX)

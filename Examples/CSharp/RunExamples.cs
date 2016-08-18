@@ -23,6 +23,7 @@ using Aspose.Diagram.Examples.CSharp.Working_with_Text_Boxes;
 using Aspose.Diagram.Examples.CSharp.Working_with_User_defined_Cells;
 using Aspose.Diagram.Examples.CSharp.Working_with_Window_Elements;
 using Aspose.Diagram.Examples.CSharp.OLE_Objects;
+using Aspose.Diagram.Examples.CSharp.Event_Section;
 
 namespace Aspose.Diagram.Examples.CSharp
 {
@@ -273,7 +274,15 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            ManipulateObjects.Run();
+            //ManipulateObjects.Run();
+
+            // =====================================================
+            // =====================================================
+            // Event-Section
+            // =====================================================
+            // =====================================================
+
+            SettingCellsInEventSection.Run();
                         
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
@@ -295,11 +304,14 @@ namespace Aspose.Diagram.Examples.CSharp
         {
             return Path.GetFullPath(GetDataDir_Data() + "Working-Diagrams/");
         }
-
         public static String GetDataDir_Shapes()
         {
             return Path.GetFullPath(GetDataDir_Data() + "Working-Shapes/");
         }
+        public static String GetDataDir_EventSection()
+        {
+            return Path.GetFullPath(GetDataDir_Data() + "Event-Section/");
+        }       
         public static String GetDataDir_ShapeText()
         {
             return Path.GetFullPath(GetDataDir_Data() + "Working-with-Text/");

@@ -14,10 +14,10 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
-            // initialize a Diagram class
+            // Initialize a Diagram class
             Diagram diagram = new Diagram();
 
-            // save diagram in the VSDX format
+            // Save diagram in the VSDX format
             diagram.Save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:CreateNewVisio
         }

@@ -9,7 +9,7 @@ Public Class UseDiagramSaveOptions
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
-        ' call the diagram constructor to a VSDX diagram
+        ' Call the diagram constructor to a VSDX diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
 
         ' Options when saving a diagram into Visio format

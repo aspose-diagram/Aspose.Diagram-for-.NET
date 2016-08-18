@@ -8,9 +8,9 @@ Namespace Diagrams
             ' ExStart:ExportToHTML
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
-            ' load diagram
+            ' Load diagram
             Dim diagram As New Diagram(dataDir & "ExportToHTML.vsd")
-            ' save diagra in the HTML format
+            ' Save diagra in the HTML format
             diagram.Save(dataDir & "ExportToHTML_Out.html", SaveFileFormat.HTML)
             ' ExEnd:ExportToHTML
         End Sub

@@ -19,7 +19,7 @@ Namespace Shapes
                     shape.Text.Value.Add(New Txt("New Text"))
                 End If
             Next shape
-            ' save diagram
+            ' Save diagram
             vdxDiagram.Save(dataDir & "UpdateShapeText_Out.vdx", SaveFileFormat.VDX)
             ' ExEnd:UpdateShapeText
         End Sub

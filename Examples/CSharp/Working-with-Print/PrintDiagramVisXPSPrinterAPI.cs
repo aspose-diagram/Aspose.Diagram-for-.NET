@@ -14,7 +14,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Print
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Print();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
             
             // Specify the name of the printer you want to print to.

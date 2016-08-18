@@ -14,21 +14,21 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_User_defined_Cells
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_UserDefinedCells();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // get page by name
+            // Get page by name
             Page page = diagram.Pages.GetPage("Page-1");
-            // get shape by id
+            // Get shape by id
             Shape shape = page.Shapes.GetShape(2);
             
-            // initialize user object
+            // Initialize user object
             User user = new User();
             user.Name = "UserDefineCell";
             user.Value.Val = "800";
-            // add user-defined cell
+            // Add user-defined cell
             shape.Users.Add(user);
 
-            // save diagram
+            // Save diagram
             diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:CreateUserDefinedCellInShapeSheet
         }

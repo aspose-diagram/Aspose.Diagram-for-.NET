@@ -14,9 +14,9 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert
             // ExStart:ExportHTMLinStream
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
-            // load diagram
+            // Load diagram
             Diagram diagram = new Diagram(dataDir + "ExportToHTML.vsd");
-            // save resultant HTML directly to a stream
+            // Save resultant HTML directly to a stream
             MemoryStream stream = new MemoryStream();
             diagram.Save(stream, SaveFileFormat.HTML);
             // ExEnd:ExportHTMLinStream

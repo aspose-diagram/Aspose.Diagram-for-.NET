@@ -9,7 +9,7 @@ Public Class RetrieveUserDefinedCells
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_UserDefinedCells()
         Dim count As Integer = 0
-        ' load diagram
+        ' Load diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
 
         ' Iterate through pages

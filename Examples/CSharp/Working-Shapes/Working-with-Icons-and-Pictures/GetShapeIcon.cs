@@ -16,14 +16,14 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.Working_with_Icons_and_P
 
             // Load stencil file to a diagram object
             Diagram stencil = new Diagram(dataDir + "Timeline.vss");
-            // get master
+            // Get master
             Master master = stencil.Masters.GetMaster(1);
 
             using (System.IO.MemoryStream stream = new System.IO.MemoryStream(master.Icon))
             {
                 // Load memory stream into bitmap object
                 System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(stream);
-                // save as png format
+                // Save as png format
                 bitmap.Save(dataDir + "MasterIcon_Out.png", System.Drawing.Imaging.ImageFormat.Png);
             }
             // ExEnd:GetShapeIcon

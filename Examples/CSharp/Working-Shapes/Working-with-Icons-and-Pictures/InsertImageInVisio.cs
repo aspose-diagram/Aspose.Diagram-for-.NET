@@ -20,7 +20,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.Working_with_Icons_and_P
 
             // Get page object by index
             Page page0 = diagram.Pages[0];
-            // set pinX, pinY, width and height
+            // Set pinX, pinY, width and height
             double pinX = 2, pinY = 2, width = 4, hieght = 3;
 
             // Import Bitmap image as Visio shape

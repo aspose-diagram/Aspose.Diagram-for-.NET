@@ -13,7 +13,7 @@ Public Class CheckMasterPresencebyName
 
         ' Set master name
         Dim masterName As String = "VNXe3100 Storage Processor Rear"
-        ' check master object by name
+        ' Check master object by name
         Dim isPresent As Boolean = diagram.Masters.IsExist(masterName)
 
         Console.WriteLine("Master Presence : " & isPresent)

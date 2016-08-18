@@ -14,21 +14,21 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Window_Elements
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_WindowElements();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
-            // get window object by index
+            // Get window object by index
             Window window = diagram.Windows[0];
-            // set visibility of grid
+            // Set visibility of grid
             window.ShowGrid = BOOL.True;
-            // set visibility of guides
+            // Set visibility of guides
             window.ShowGuides = BOOL.True;
-            // set visibility of rulers
+            // Set visibility of rulers
             window.ShowRulers = BOOL.True;
-            // set visibility of page breaks
+            // Set visibility of page breaks
             window.ShowPageBreaks = BOOL.True;
 
-            // save diagram
+            // Save diagram
             diagram.Save(dataDir + "DisplayGridsRulersGuidesAndPageBreaks_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:DisplayGridsRulersGuidesAndPageBreaks
         }

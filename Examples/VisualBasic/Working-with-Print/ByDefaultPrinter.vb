@@ -8,10 +8,10 @@ Public Class ByDefaultPrinter
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Print()
 
-        ' load source Visio diagram
+        ' Load source Visio diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
 
-        ' call the print method to print whole Diagram using the default printer
+        ' Call the print method to print whole Diagram using the default printer
         diagram.Print()
         ' ExEnd:ByDefaultPrinter
     End Sub

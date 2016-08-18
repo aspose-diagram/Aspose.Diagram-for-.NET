@@ -15,32 +15,32 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Text
         {
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_ShapeText();
-            // load diagram
+            // Load diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
-            // get Visio diagram page
+            // Get Visio diagram page
             Aspose.Diagram.Page page = diagram.Pages.GetPage("Page-1");
 
-            // iterate through the shapes
+            // Iterate through the shapes
             foreach (Aspose.Diagram.Shape shape in page.Shapes)
             {
-                // extract plain text from the shape
+                // Extract plain text from the shape
                 GetShapeText(shape);
             }
-            // display extracted text
+            // Display extracted text
             Console.WriteLine(text);
         }
         private static void GetShapeText(Aspose.Diagram.Shape shape)
         {
-            // filter shape text
+            // Filter shape text
             if (shape.Text.Value.Text != "")
                 text += Regex.Replace(shape.Text.Value.Text, "\\<.*?>", "");
 
-            // for image shapes
+            // For image shapes
             if (shape.Type == TypeValue.Foreign)
                 text += (shape.Name);
 
-            // for group shapes
+            // For group shapes
             if (shape.Type == TypeValue.Group)
                 foreach (Aspose.Diagram.Shape subshape in shape.Shapes)
                 {

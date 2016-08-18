@@ -32,7 +32,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Masters
             // Add master with stencil file stream and master id
             diagram.AddMaster(stream, 2);
 
-            // adds master to diagram from source diagram
+            // Adds master to diagram from source diagram
             Diagram src = new Diagram(templateFileName);
             diagram.AddMaster(src, masterName);
 

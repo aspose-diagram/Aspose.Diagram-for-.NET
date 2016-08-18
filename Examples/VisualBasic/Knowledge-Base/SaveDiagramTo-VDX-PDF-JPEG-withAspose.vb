@@ -8,7 +8,7 @@ Public Class SaveDiagramTo_VDX_PDF_JPEG_withAspose
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_KnowledgeBase()
 
-        ' load an exiting Visio diagram
+        ' Load an exiting Visio diagram
         Dim vsdDiagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsd"))
 
         ' Save the diagram as VDX

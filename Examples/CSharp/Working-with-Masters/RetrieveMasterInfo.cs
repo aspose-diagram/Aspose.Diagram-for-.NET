@@ -11,7 +11,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Master();
 
-            // call a Diagram class constructor to load the VDX diagram
+            // Call a Diagram class constructor to load the VDX diagram
             Diagram vdxDiagram = new Diagram(dataDir + "RetrieveMasterInfo.vdx");
 
             foreach (Aspose.Diagram.Master master in vdxDiagram.Masters)

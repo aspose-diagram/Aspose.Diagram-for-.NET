@@ -9,11 +9,11 @@ Namespace Diagrams
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
-            ' call the diagram constructor to load a VSD stream
+            ' Call the diagram constructor to load a VSD stream
             Dim st As New FileStream(dataDir & "ReadDiagramFile.vsd", FileMode.Open)
-            ' load diagram
+            ' Load diagram
             Dim vsdDiagram As New Diagram(st)
-            ' get pages count
+            ' Get pages count
             System.Console.WriteLine("Total Pages:" & vsdDiagram.Pages.Count)
 
             st.Close()

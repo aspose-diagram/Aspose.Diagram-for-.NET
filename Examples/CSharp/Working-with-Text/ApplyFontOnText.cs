@@ -14,17 +14,17 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Text
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_ShapeText();
 
-            // load diagram
+            // Load diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // get page by name
+            // Get page by name
             Page page = diagram.Pages.GetPage("Page-1");
-            // get shape by ID
+            // Get shape by ID
             Shape shape = page.Shapes.GetShape(1);
-            // clear shape text values and chars
+            // Clear shape text values and chars
             shape.Text.Value.Clear();
             shape.Chars.Clear();
 
-            // mark character run and add text
+            // Mark character run and add text
             shape.Text.Value.Add(new Cp(0));
             shape.Text.Value.Add(new Txt("TextStyle_Regular\n"));
             shape.Text.Value.Add(new Cp(1));
@@ -34,7 +34,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Text
             shape.Text.Value.Add(new Cp(3));
             shape.Text.Value.Add(new Txt("TextStyle_Bold_Italic_Underline"));
 
-            // add formatting characters
+            // Add formatting characters
             shape.Chars.Add(new Aspose.Diagram.Char());
             shape.Chars.Add(new Aspose.Diagram.Char());
             shape.Chars.Add(new Aspose.Diagram.Char());
@@ -67,7 +67,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Text
             shape.Chars[3].Font.Value = 4;
             shape.Chars[3].Size.Value = 0.22;
             shape.Chars[3].Style.Value = StyleValue.Bold | StyleValue.Italic | StyleValue.Underline;
-            // save diagram
+            // Save diagram
             diagram.Save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:ApplyFontOnText
         }

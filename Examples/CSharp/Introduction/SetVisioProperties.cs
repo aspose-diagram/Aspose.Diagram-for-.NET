@@ -14,7 +14,7 @@ namespace Aspose.Diagram.Examples.CSharp.Introduction
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Intro();
 
-            // build path of an existing diagram
+            // Build path of an existing diagram
             string visioDrawing = dataDir + "Drawing1.vsdx";
 
             // Call the diagram constructor to load diagram from a VSDX file

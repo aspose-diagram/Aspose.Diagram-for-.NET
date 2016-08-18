@@ -21,7 +21,7 @@ Namespace Diagrams
                         ' Load memory stream into bitmap object
                         Dim bitmap As New System.Drawing.Bitmap(stream)
 
-                        ' save bmp here
+                        ' Save bmp here
                         bitmap.Save(dataDir & "ExtractAllImages" & shape.ID & ".bmp")
                     End Using
                 End If

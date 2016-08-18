@@ -169,7 +169,7 @@ End Class
 ''' But the returned object returns the parent ISequentialStream inteface successfully.
 ''' 
 ''' So the hack is that we obtain the ISequentialStream interface but work with it as 
-''' with the IXpsPrintJobStream interface. 
+''' With the IXpsPrintJobStream interface. 
 ''' </summary>
 ' This is IID of ISequenatialSteam.
 <Guid("0C733A30-2A1C-11CE-ADE5-00AA0044773D")> _

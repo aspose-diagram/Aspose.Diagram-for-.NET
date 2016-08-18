@@ -13,7 +13,7 @@ Public Class GlueVisioShapes
 
         ' Get a particular page
         Dim page As Page = diagram.Pages.GetPage("Page-1")
-        ' set shape id
+        ' Set shape id
         Dim shape1_ID As Long = 7
         Dim shape2_ID As Long = 494
         ' Glue shapes

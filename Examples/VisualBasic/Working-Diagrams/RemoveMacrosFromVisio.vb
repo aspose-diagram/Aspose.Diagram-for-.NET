@@ -8,10 +8,10 @@ Public Class RemoveMacrosFromVisio
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
 
-        ' load a Visio diagram
+        ' Load a Visio diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
 
-        ' remove all macros
+        ' Remove all macros
         diagram.VbProjectData = Nothing
 
         ' Save diagram

@@ -10,7 +10,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
-            // call the diagram constructor to load a VSD diagram
+            // Call the diagram constructor to load a VSD diagram
             Diagram diagram = new Diagram(dataDir + "ExportToImage.vsd");
 
             // Save Image file

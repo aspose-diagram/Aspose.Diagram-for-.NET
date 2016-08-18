@@ -20,14 +20,14 @@ Public Class UseSWFSaveOptions
         '     characters.
         options.DefaultFont = "MS Gothic"
 
-        ' sets the number of pages to render in SWF.
+        ' Sets the number of pages to render in SWF.
         options.PageCount = 2
 
-        ' sets the 0-based index of the first page to render. Default is 0.
+        ' Sets the 0-based index of the first page to render. Default is 0.
         options.PageIndex = 0
-        ' discard saving background pages of the Visio diagram
+        ' Discard saving background pages of the Visio diagram
         options.SaveForegroundPagesOnly = True
-        ' specify whether the generated SWF document should include the integrated document viewer or not.
+        ' Specify whether the generated SWF document should include the integrated document viewer or not.
         options.ViewerIncluded = True
 
         diagram.Save(dataDir & Convert.ToString("UseSWFSaveOptions_Out.swf"), options)

@@ -15,15 +15,15 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Diagrams
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
-            // load a Visio diagram
+            // Load a Visio diagram
             Diagram diagram = new Diagram(dataDir + "BFlowcht.vsdx");
 
-            // use saving options
+            // Use saving options
             DiagramSaveOptions options = new DiagramSaveOptions(SaveFileFormat.VSDX);
-            // set Auto fit page property
+            // Set Auto fit page property
             options.AutoFitPageToDrawingContent = true;
 
-            // save Visio diagram
+            // Save Visio diagram
             diagram.Save(dataDir + "AutoFitShapesInVisio_Out.vsdx", options);
             // ExEnd:AutoFitShapesInVisio
         }

@@ -16,20 +16,20 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
 
             // Load a diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // get page by name
+            // Get page by name
             Page page = diagram.Pages.GetPage("Page-2");
 
             // Add master with stencil file path and master name
             string masterName = "Rectangle";
             diagram.AddMaster(dataDir + "Basic Shapes.vss", masterName);
             
-            // page indexing starts from 0
+            // Page indexing starts from 0
             int PageIndex = 1;
             double width = 2, height = 2, pinX = 4.25, pinY = 4.5;
             // Add a new rectangle shape
             long rectangleId = diagram.AddShape(pinX, pinY, width, height, masterName, PageIndex);
             
-            // set shape properties 
+            // Set shape properties 
             Shape rectangle = page.Shapes.GetShape(rectangleId);
             rectangle.XForm.PinX.Value = 5;
             rectangle.XForm.PinY.Value = 5;

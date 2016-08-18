@@ -11,7 +11,7 @@ Public Class InsertBlankPageInVisio
         ' Load diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
 
-        ' it calculates max page id
+        ' It calculates max page id
         Dim max As Integer = 0
         If diagram.Pages.Count <> 0 Then
             max = diagram.Pages(0).ID
@@ -23,7 +23,7 @@ Public Class InsertBlankPageInVisio
             End If
         Next
 
-        ' set max page ID
+        ' Set max page ID
         Dim MaxPageId As Integer = max
 
         ' Initialize a new page object

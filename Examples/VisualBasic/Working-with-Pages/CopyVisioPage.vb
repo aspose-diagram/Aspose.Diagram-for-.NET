@@ -8,22 +8,22 @@ Public Class CopyVisioPage
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_VisioPages()
 
-        ' initialize the new visio diagram
+        ' Initialize the new visio diagram
         Dim NewDigram As New Diagram()
 
-        ' load source diagram
+        ' Load source diagram
         Dim dgm As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
-        ' add all masters from the source Visio diagram
+        ' Add all masters from the source Visio diagram
         For Each master As Master In dgm.Masters
             NewDigram.Masters.Add(master)
         Next
 
-        ' get page object
+        ' Get page object
         Dim SrcPage As Aspose.Diagram.Page = dgm.Pages.GetPage("Page-1")
         ' Set name
         SrcPage.Name = "new page"
 
-        ' it calculates max page id
+        ' It calculates max page id
         Dim max As Integer = 0
         If NewDigram.Pages.Count <> 0 Then
             max = NewDigram.Pages(0).ID
@@ -35,16 +35,16 @@ Public Class CopyVisioPage
             End If
         Next
 
-        ' set max page ID 
+        ' Set max page ID 
         Dim MaxPageId As Integer = max
         ' Set page ID
         SrcPage.ID = MaxPageId + 1
 
-        ' add page from the source diagram
+        ' Add page from the source diagram
         NewDigram.Pages.Add(SrcPage)
-        ' remove first empty page
+        ' Remove first empty page
         NewDigram.Pages.Remove(NewDigram.Pages(0))
-        ' save diagram
+        ' Save diagram
         NewDigram.Save(dataDir & Convert.ToString("CopyVisioPage_Out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:CopyVisioPage
     End Sub

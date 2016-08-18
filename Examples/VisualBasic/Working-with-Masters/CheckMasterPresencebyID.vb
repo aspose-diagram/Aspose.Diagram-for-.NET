@@ -11,9 +11,9 @@ Public Class CheckMasterPresencebyID
         ' Call the diagram constructor to load diagram from a VDX file
         Dim diagram As New Diagram(dataDir & Convert.ToString("Basic Shapes.vss"))
 
-        ' set master id
+        ' Set master id
         Dim masterid As Integer = 2
-        ' check master by id
+        ' Check master by id
         Dim isPresent As Boolean = diagram.Masters.IsExist(2)
 
         Console.WriteLine("Master Presence : " & isPresent)

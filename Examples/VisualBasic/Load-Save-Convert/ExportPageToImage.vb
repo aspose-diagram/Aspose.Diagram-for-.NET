@@ -9,7 +9,7 @@ Namespace Diagrams
             ' ExStart:ExportPageToImage
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
-            ' load diagram
+            ' Load diagram
             Dim diagram As New Diagram(dataDir & "ExportPageToImage.vsd")
 
             ' Save diagram as PNG

@@ -14,17 +14,17 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
-            // call a Diagram class constructor to load the VSDX diagram
+            // Call a Diagram class constructor to load the VSDX diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // get page by name
+            // Get page by name
             Page page = diagram.Pages.GetPage("Page-3");
 
-            // get a particular connector shape
+            // Get a particular connector shape
             Shape shape = page.Shapes.GetShape(18);
-            // set reroute option
+            // Set reroute option
             shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute;
 
-            // save Visio diagram
+            // Save Visio diagram
             diagram.Save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:RerouteConnectors
         }

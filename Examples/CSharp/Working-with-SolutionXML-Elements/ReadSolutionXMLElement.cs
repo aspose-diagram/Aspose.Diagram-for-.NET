@@ -14,15 +14,15 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_SolutionXML_Elements
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_SolutionXML();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
-            // iterate through SolutionXML elements
+            // Iterate through SolutionXML elements
             foreach (SolutionXML solutionXML in diagram.SolutionXMLs)
             {
-                // get name property
+                // Get name property
                 Console.WriteLine(solutionXML.Name);
-                // get xml value
+                // Get xml value
                 Console.WriteLine(solutionXML.XmlValue);
             }
             // ExEnd:ReadSolutionXMLElement

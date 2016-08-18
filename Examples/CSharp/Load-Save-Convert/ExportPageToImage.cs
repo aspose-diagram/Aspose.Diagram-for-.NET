@@ -12,7 +12,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             // ExStart:ExportPageToImage
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
-            // load diagram
+            // Load diagram
             Diagram diagram = new Diagram(dataDir + "ExportPageToImage.vsd");
 
             // Save diagram as PNG

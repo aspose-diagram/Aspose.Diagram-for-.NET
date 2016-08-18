@@ -15,9 +15,9 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.Working_with_Icons_and_P
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
-            // call a Diagram class constructor to load the VSD diagram
+            // Call a Diagram class constructor to load the VSD diagram
             Diagram diagram = new Diagram(dataDir + "ExtractAllImagesFromPage.vsd");
-            // convert image into bytes array
+            // Convert image into bytes array
             byte[] imageBytes = File.ReadAllBytes(dataDir + "Picture.png");
 
             // Enter page index i.e. 0 for first one
@@ -34,7 +34,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.Working_with_Icons_and_P
                 }
             }
 
-            // save diagram
+            // Save diagram
             diagram.Save(dataDir + "ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:ReplaceShapePicture
         }

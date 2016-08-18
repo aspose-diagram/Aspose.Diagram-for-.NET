@@ -33,7 +33,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.Working_with_Shapes_Glui
             page.GlueShapesInContainer(shapeFromId, shapeToBeginConnectionIndex, shapeToEndConnectionIndex, shapeToId);
 
             // Glue shapes in container using connection name
-            // page.GlueShapesInContainer(fasId, "U05L", "U05R", cabinetId1);
+            // Page.GlueShapesInContainer(fasId, "U05L", "U05R", cabinetId1);
 
             // Save diagram
             diagram.Save(dataDir + "GlueContainerShape_Out.vsdx", SaveFileFormat.VSDX);

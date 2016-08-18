@@ -14,7 +14,7 @@ Public Class InsertImageInVisio
 
         ' Get page object by index
         Dim page0 As Page = diagram.Pages(0)
-        ' set pinX, pinY, width and height
+        ' Set pinX, pinY, width and height
         Dim pinX As Double = 2, pinY As Double = 2, width As Double = 4, hieght As Double = 3
 
         ' Import Bitmap image as Visio shape

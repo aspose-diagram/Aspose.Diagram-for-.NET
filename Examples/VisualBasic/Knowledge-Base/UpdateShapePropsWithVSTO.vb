@@ -31,13 +31,13 @@ Public Class UpdateShapePropsWithVSTO
             shape.TextStyle = "CustomStyle1"
 
             ' Set shape' S position
-            ' shape.get()
-            ' shape.get_Cells("PinX").ResultIU = 5
-            ' shape.get_Cells("PinY").ResultIU = 5
+            ' Shape.get()
+            ' Shape.get_Cells("PinX").ResultIU = 5
+            ' Shape.get_Cells("PinY").ResultIU = 5
 
             ' Set shape' S height and width
-            ' shape.get_Cells("Height").ResultIU = 2
-            ' shape.get_Cells("Width").ResultIU = 3
+            ' Shape.get_Cells("Height").ResultIU = 2
+            ' Shape.get_Cells("Width").ResultIU = 3
 
             ' Save file as VDX
             vsdDoc.SaveAs(dataDir & Convert.ToString("Drawing1.vdx"))

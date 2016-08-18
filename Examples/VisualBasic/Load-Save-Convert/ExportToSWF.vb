@@ -9,9 +9,9 @@ Namespace Diagrams
                 ' ExStart:ExportToSWF
                 ' The path to the documents directory.
                 Dim dataDir As String = RunExamples.GetDataDir_Diagrams()
-                ' load diagram
+                ' Load diagram
                 Dim diagram As New Diagram(dataDir & "ActvDir.vsd")
-                ' save diagram
+                ' Save diagram
                 ' ExEnd:ExportToSWF
                 diagram.Save(dataDir & "Output_Out.swf", SaveFileFormat.SWF)
             Catch ex As System.Exception

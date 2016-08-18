@@ -10,7 +10,7 @@ namespace Aspose.Diagram.Examples.CSharp.Shapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
-            // call a Diagram class constructor to load the VSD diagram
+            // Call a Diagram class constructor to load the VSD diagram
             Diagram diagram = new Diagram(dataDir + "SetXFormdata.vsd");
 
             // Find a particular shape and update its XForm
@@ -22,7 +22,7 @@ namespace Aspose.Diagram.Examples.CSharp.Shapes
                     shape.XForm.PinY.Value = 5;
                 }
             }
-            // save diagram
+            // Save diagram
             diagram.Save(dataDir + "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:SetXFormdata
         }

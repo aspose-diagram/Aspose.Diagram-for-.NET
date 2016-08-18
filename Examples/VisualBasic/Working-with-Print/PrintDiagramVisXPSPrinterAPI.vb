@@ -8,7 +8,7 @@ Public Class PrintDiagramVisXPSPrinterAPI
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Print()
 
-        ' load source Visio diagram
+        ' Load source Visio diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
 
         ' Specify the name of the printer you want to print to.

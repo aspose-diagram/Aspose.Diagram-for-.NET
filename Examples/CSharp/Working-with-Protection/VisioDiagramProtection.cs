@@ -17,7 +17,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             diagram.DocumentSettings.ProtectMasters = BOOL.True;
             diagram.DocumentSettings.ProtectShapes = BOOL.True;
             diagram.DocumentSettings.ProtectStyles = BOOL.True;
-            // save diagram
+            // Save diagram
             diagram.Save(dataDir + "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX);
             // ExEnd:VisioDiagramProtection
         }

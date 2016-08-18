@@ -19,7 +19,7 @@ Namespace Shapes
                     shape.Fill.FillForegnd.Value = "#ebf8df"
                 End If
             Next shape
-            ' save diagram
+            ' Save diagram
             vdxDiagram.Save(dataDir & "SetFillData_Out.vsdx", SaveFileFormat.VDX)
             ' ExEnd:SetFillData
         End Sub

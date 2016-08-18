@@ -10,15 +10,15 @@ Public Class ExportOfHiddenVisioPagesToHTML
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_Intro()
 
-            ' load an existing Visio
+            ' Load an existing Visio
             Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
-            ' get a particular page
+            ' Get a particular page
             Dim page As Page = diagram.Pages.GetPage("Flow 2")
-            ' set Visio page visiblity
+            ' Set Visio page visiblity
             page.PageSheet.PageProps.UIVisibility.Value = BOOL.True
-            ' initialize PDF save options
+            ' Initialize PDF save options
             Dim options As New HTMLSaveOptions()
-            ' set export option of hidden Visio pages
+            ' Set export option of hidden Visio pages
             options.ExportHiddenPage = False
 
             ' Save the Visio diagram

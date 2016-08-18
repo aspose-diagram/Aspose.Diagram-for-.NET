@@ -14,22 +14,22 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Window_Elements
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_WindowElements();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // initialize window object
+            // Initialize window object
             Window window = new Window();
-            // set window state
+            // Set window state
             window.WindowState = WindowStateValue.Maximized;
-            // set window height
+            // Set window height
             window.WindowHeight = 500;
-            // set window width
+            // Set window width
             window.WindowWidth = 500;
-            // set window type
+            // Set window type
             window.WindowType = WindowTypeValue.Stencil;
-            // add window object
+            // Add window object
             diagram.Windows.Add(window);
 
-            // save in any supported format
+            // Save in any supported format
             diagram.Save(dataDir + "AddWindowElementInVisio_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:AddWindowElementInVisio
         }

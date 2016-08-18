@@ -14,11 +14,11 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Hyperlinks
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Hyperlinks();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // get page by name
+            // Get page by name
             Page page = diagram.Pages.GetPage("Page-1");
-            // get shape by ID
+            // Get shape by ID
             Shape shape = page.Shapes.GetShape(2);
 
             // Initialize Hyperlink object

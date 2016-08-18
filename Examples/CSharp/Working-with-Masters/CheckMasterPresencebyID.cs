@@ -17,7 +17,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Masters
             // Call the diagram constructor to load diagram from a VDX file
             Diagram diagram = new Diagram(dataDir + "Basic Shapes.vss");
 
-            // check master by id
+            // Check master by id
             bool isPresent = diagram.Masters.IsExist(2);
 
             Console.WriteLine("Master Presence : " + isPresent);

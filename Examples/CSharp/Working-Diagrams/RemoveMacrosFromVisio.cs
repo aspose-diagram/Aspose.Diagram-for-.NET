@@ -14,10 +14,10 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Diagrams
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Diagrams();
 
-            // load a Visio diagram
+            // Load a Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
-            // remove all macros
+            // Remove all macros
             diagram.VbProjectData = null;
 
             // Save diagram

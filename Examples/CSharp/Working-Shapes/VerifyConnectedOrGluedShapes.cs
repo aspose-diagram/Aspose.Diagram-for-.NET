@@ -14,24 +14,24 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
-            // call a Diagram class constructor to load the VSD diagram
+            // Call a Diagram class constructor to load the VSD diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // set two shape ids
+            // Set two shape ids
             long ShapeIdOne = 15;
             long ShapeIdTwo = 16;
 
-            // get Visio page by name
+            // Get Visio page by name
             Page page = diagram.Pages.GetPage("Page-3");
 
-            // get Visio shapes by ids
+            // Get Visio shapes by ids
             Shape ShapedOne = page.Shapes.GetShape(ShapeIdOne);
             Shape ShapedTwo = page.Shapes.GetShape(ShapeIdTwo);
 
-            // determine whether shapes are connected
+            // Determine whether shapes are connected
             bool connected = ShapedOne.IsConnected(ShapedTwo);
             Console.WriteLine("Shapes are connected: " + connected);
 
-            // determine whether shapes are glued
+            // Determine whether shapes are glued
             bool glued = ShapedOne.IsGlued(ShapedTwo);
             Console.WriteLine("Shapes are Glued: " + glued);
             // ExEnd:VerifyConnectedOrGluedShapes

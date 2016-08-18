@@ -17,7 +17,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
             // Load diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
-            // it calculates max page id
+            // It calculates max page id
             int max = 0;
             if (diagram.Pages.Count != 0)
                 max = diagram.Pages[0].ID;
@@ -28,7 +28,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
                     max = diagram.Pages[i].ID;
             }
 
-            // set max page ID
+            // Set max page ID
             int MaxPageId = max;
 
             // Initialize a new page object

@@ -14,7 +14,7 @@ namespace Aspose.Diagram.Examples.CSharp.Knowledge_Base
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_KnowledgeBase();
 
-            // load an exiting Visio diagram
+            // Load an exiting Visio diagram
             Diagram vsdDiagram = new Diagram(dataDir + "Drawing1.vsd");
 
             // Save the diagram as VDX

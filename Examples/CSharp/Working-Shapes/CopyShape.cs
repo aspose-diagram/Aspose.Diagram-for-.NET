@@ -14,30 +14,30 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
             
-            // load a source Visio
+            // Load a source Visio
             Diagram srcVisio = new Diagram(dataDir + "Drawing1.vsdx");
             
-            // initialize a new Visio
+            // Initialize a new Visio
             Diagram newDiagram = new Diagram();
 
-            // add all masters from the source Visio diagram
+            // Add all masters from the source Visio diagram
             MasterCollection originalMasters = srcVisio.Masters;
             foreach (Master master in originalMasters)
                 newDiagram.AddMaster(srcVisio, master.Name);
 
-            // get the page object from the original diagram
+            // Get the page object from the original diagram
             Aspose.Diagram.Page SrcPage = srcVisio.Pages.GetPage("Page-1");
-            // copy themes from the source diagram
+            // Copy themes from the source diagram
             newDiagram.CopyTheme(srcVisio);
-            // copy pagesheet of the source Visio page
+            // Copy pagesheet of the source Visio page
             newDiagram.Pages[0].PageSheet.Copy(SrcPage.PageSheet);
 
-            // copy shapes from the source Visio page
+            // Copy shapes from the source Visio page
             foreach (Aspose.Diagram.Shape shape in SrcPage.Shapes)
             {
                 newDiagram.Pages[0].Shapes.Add(shape);
             }
-            // save the new Visio
+            // Save the new Visio
             newDiagram.Save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:CopyShape
         }

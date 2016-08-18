@@ -14,10 +14,10 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             Diagram diagram = new Diagram(dataDir + "ExportToPDF.vsd");
 
             MemoryStream pdfStream = new MemoryStream();
-            // save diagram
+            // Save diagram
             diagram.Save(pdfStream, SaveFileFormat.PDF);
 
-            // create a PDF file
+            // Create a PDF file
             FileStream pdfFileStream = new FileStream(dataDir + "ExportToPDF_Out.pdf", FileMode.Create, FileAccess.Write);
             pdfStream.WriteTo(pdfFileStream);
             pdfFileStream.Close();

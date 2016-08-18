@@ -25,10 +25,10 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions
             //     set the DefaultFont such as MingLiu or MS Gothic to show these
             //     characters.
             options.DefaultFont = "MS Gothic";
-            // sets the 0-based index of the first page to render. Default is 0.
+            // Sets the 0-based index of the first page to render. Default is 0.
             options.PageIndex = 0;
 
-            // set page size
+            // Set page size
             PageSize pgSize = new PageSize(PaperSizeFormat.A1);
             options.PageSize = pgSize;
 

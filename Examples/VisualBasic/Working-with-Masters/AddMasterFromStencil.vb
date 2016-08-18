@@ -26,7 +26,7 @@ Public Class AddMasterFromStencil
         ' Add master with stencil file stream and master id
         diagram.AddMaster(stream, 2)
 
-        ' adds master to diagram from source diagram
+        ' Adds master to diagram from source diagram
         Dim src As New Diagram(templateFileName)
         diagram.AddMaster(src, masterName)
 

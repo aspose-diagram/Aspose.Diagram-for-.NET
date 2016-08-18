@@ -11,7 +11,7 @@ namespace Aspose.Diagram.Examples.CSharp.ApplyLicense
         public static void Run() 
         {
             // ExStart:ApplyLicenseByPath
-            // set path of the license file, i.e. c:\temp\
+            // Set path of the license file, i.e. c:\temp\
             string dataDir = @"c:\temp\";
 
             License license = new License();

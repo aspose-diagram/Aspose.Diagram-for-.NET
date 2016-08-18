@@ -19,9 +19,9 @@ Public Class FindAndReplaceShapeText
         replacements.Add("[[AmountReq]]", "$100,000")
         replacements.Add("[[DateApproved]]", DateTime.Now.AddDays(1).ToString("dd/MMMM/yyyy"))
 
-        ' load diagram
+        ' Load diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("FindReplaceText.vsdx"))
-        ' get page by name
+        ' Get page by name
         Dim page As Page = diagram.Pages.GetPage("Page-1")
 
         ' Iterate through the shapes of a page

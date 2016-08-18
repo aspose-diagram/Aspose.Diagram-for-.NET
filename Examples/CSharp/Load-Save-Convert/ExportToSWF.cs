@@ -12,9 +12,9 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
                 // ExStart:ExportToSWF
                 // The path to the documents directory.
                 string dataDir = RunExamples.GetDataDir_Diagrams();
-                // load diagram
+                // Load diagram
                 Diagram diagram = new Diagram(dataDir + "ActvDir.vsd");
-                // save diagram
+                // Save diagram
                 diagram.Save(dataDir + "Output_Out.swf", SaveFileFormat.SWF);
                 // ExEnd:ExportToSWF
             }

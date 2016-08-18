@@ -15,7 +15,7 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
-            // call the diagram constructor to a VSDX diagram
+            // Call the diagram constructor to a VSDX diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
             // Options when saving a diagram into Visio format

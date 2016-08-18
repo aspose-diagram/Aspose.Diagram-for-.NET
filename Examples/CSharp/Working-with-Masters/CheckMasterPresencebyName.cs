@@ -19,7 +19,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Masters
 
             // Set master name
             string masterName = "VNXe3100 Storage Processor Rear";
-            // check master object by name
+            // Check master object by name
             bool isPresent = diagram.Masters.IsExist(masterName);
 
             Console.WriteLine("Master Presence : " + isPresent);

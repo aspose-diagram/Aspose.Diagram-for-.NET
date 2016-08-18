@@ -16,7 +16,7 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_LoadSaveConvert();
 
-            // call the diagram constructor to a VSDX diagram
+            // Call the diagram constructor to a VSDX diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
             // Options when saving a diagram into the HTML format
@@ -27,26 +27,26 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions
             //     set the DefaultFont such as MingLiu or MS Gothic to show these
             //     characters.
             options.DefaultFont = "MS Gothic";
-            // sets the number of pages to render in HTML.
+            // Sets the number of pages to render in HTML.
             options.PageCount = 2;
-            // sets the 0-based index of the first page to render. Default is 0.
+            // Sets the 0-based index of the first page to render. Default is 0.
             options.PageIndex = 0;
 
-            // set page size
+            // Set page size
             PageSize pgSize = new PageSize(PaperSizeFormat.A1);
             options.PageSize = pgSize;
-            // discard saving background pages of the Visio diagram
+            // Discard saving background pages of the Visio diagram
             options.SaveForegroundPagesOnly = true;
 
-            // specify whether to include the toolbar or not. Default value is true.
+            // Specify whether to include the toolbar or not. Default value is true.
             options.SaveToolBar = false;
-            // set title of the HTML document
+            // Set title of the HTML document
             options.Title = "Title goes here";
 
-            // save in any supported file format
+            // Save in any supported file format
             diagram.Save(dataDir + "UseHTMLSaveOptions_Out.html", options);
 
-            // save resultant HTML directly to a stream
+            // Save resultant HTML directly to a stream
             MemoryStream stream = new MemoryStream();
             diagram.Save(stream, SaveFileFormat.HTML);
             // ExEnd:UseHTMLSaveOptions

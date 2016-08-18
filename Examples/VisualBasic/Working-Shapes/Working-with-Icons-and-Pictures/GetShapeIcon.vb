@@ -10,13 +10,13 @@ Public Class GetShapeIcon
 
         ' Load stencil file to a diagram object
         Dim stencil As New Diagram(dataDir & Convert.ToString("Timeline.vss"))
-        ' get master
+        ' Get master
         Dim master As Master = stencil.Masters.GetMaster(1)
 
         Using stream As New System.IO.MemoryStream(master.Icon)
             ' Load memory stream into bitmap object
             Dim bitmap As New System.Drawing.Bitmap(stream)
-            ' save as png format
+            ' Save as png format
             bitmap.Save(dataDir & Convert.ToString("MasterIcon_Out.png"), System.Drawing.Imaging.ImageFormat.Png)
         End Using
         ' ExEnd:GetShapeIcon

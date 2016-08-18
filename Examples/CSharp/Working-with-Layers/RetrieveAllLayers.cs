@@ -14,12 +14,12 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Layers
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Layers();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // get Visio page
+            // Get Visio page
             Aspose.Diagram.Page page = diagram.Pages.GetPage("Page-1");
 
-            // iterate through the layers
+            // Iterate through the layers
             foreach (Layer layer in page.PageSheet.Layers)
             {
                 Console.WriteLine("Name: " + layer.Name.Value);

@@ -14,9 +14,9 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Window_Elements
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_WindowElements();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // iterate through the window elements
+            // Iterate through the window elements
             foreach (Window window in diagram.Windows)
             {
                 Console.WriteLine("ID: " + window.ID);

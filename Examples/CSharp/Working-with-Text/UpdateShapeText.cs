@@ -12,7 +12,7 @@ namespace Aspose.Diagram.Examples.CSharp.Shapes
 
             // Call the diagram constructor to load diagram from a VDX file
             Diagram diagram = new Diagram(dataDir + "UpdateShapeText.vsd");
-            // get page by name
+            // Get page by name
             Page page = diagram.Pages.GetPage("Flow 1");
             // Find a particular shape and update its text
             foreach (Aspose.Diagram.Shape shape in page.Shapes)
@@ -23,7 +23,7 @@ namespace Aspose.Diagram.Examples.CSharp.Shapes
                     shape.Text.Value.Add(new Txt("New Text"));
                 }
             }
-            // save diagram
+            // Save diagram
             diagram.Save(dataDir + "UpdateShapeText_Out.vdx", SaveFileFormat.VDX);
             // ExEnd:UpdateShapeText
         }

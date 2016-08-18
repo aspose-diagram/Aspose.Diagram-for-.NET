@@ -33,17 +33,17 @@ Public Class CreatingDiagramWithVSTO
             ' Add a new rectangle shape
             ' Dim visioRectMaster As Visio.Master = visioStencil.Masters.get_ItemU("Rectangle")
             ' Dim visioRectShape As Visio.Shape = visioPage.Drop(visioRectMaster, 4.25, 5.5)
-            ' visioRectShape.Text = "Rectangle text."
+            ' VisioRectShape.Text = "Rectangle text."
 
             ' Add a new star shape
             ' Dim visioStarMaster As Visio.Master = visioStencil.Masters.get_ItemU("Star 7")
             ' Dim visioStarShape As Visio.Shape = visioPage.Drop(visioStarMaster, 2.0, 5.5)
-            ' visioStarShape.Text = "Star text."
+            ' VisioStarShape.Text = "Star text."
 
             ' Add a new hexagon shape
             ' Dim visioHexagonMaster As Visio.Master = visioStencil.Masters.get_ItemU("Hexagon")
             ' Dim visioHexagonShape As Visio.Shape = visioPage.Drop(visioHexagonMaster, 7.0, 5.5)
-            ' visioHexagonShape.Text = "Hexagon text."
+            ' VisioHexagonShape.Text = "Hexagon text."
 
 
             ' Save diagram as VDX

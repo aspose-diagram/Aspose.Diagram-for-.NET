@@ -16,7 +16,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             // Lic.SetLicense(dataDir + "Aspose.Total.lic");
 
             // Load masters from any existing diagram, stencil or template
-            // and add in the new diagram
+            // And add in the new diagram
             string visioStencil = dataDir + "AddConnectShapes.vss";
 
             // Names of the masters present in the stencil

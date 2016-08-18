@@ -9,7 +9,7 @@ Public Class SetVisioProperties
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Intro()
 
-        ' build path of an existing diagram
+        ' Build path of an existing diagram
         Dim visioDrawing As String = dataDir & Convert.ToString("Drawing1.vsdx")
 
         ' Call the diagram constructor to load diagram from a VSDX file

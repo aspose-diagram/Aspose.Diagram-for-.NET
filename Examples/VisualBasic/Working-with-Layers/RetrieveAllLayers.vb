@@ -8,12 +8,12 @@ Public Class RetrieveAllLayers
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Layers()
 
-        ' load source Visio diagram
+        ' Load source Visio diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
-        ' get Visio page
+        ' Get Visio page
         Dim page As Aspose.Diagram.Page = diagram.Pages.GetPage("Page-1")
 
-        ' iterate through the layers
+        ' Iterate through the layers
         For Each layer As Layer In page.PageSheet.Layers
             Console.WriteLine("Name: " & layer.Name.Value)
             Console.WriteLine("Visibility: " & layer.Visible.Value)

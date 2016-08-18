@@ -8,22 +8,22 @@ Public Class AddWindowElementInVisio
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_WindowElements()
 
-        ' load source Visio diagram
+        ' Load source Visio diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
-        ' initialize window object
+        ' Initialize window object
         Dim window As New Window()
-        ' set window state
+        ' Set window state
         window.WindowState = WindowStateValue.Maximized
-        ' set window height
+        ' Set window height
         window.WindowHeight = 500
-        ' set window width
+        ' Set window width
         window.WindowWidth = 500
-        ' set window type
+        ' Set window type
         window.WindowType = WindowTypeValue.Stencil
-        ' add window object
+        ' Add window object
         diagram.Windows.Add(window)
 
-        ' save in any supported format
+        ' Save in any supported format
         diagram.Save(dataDir & Convert.ToString("AddWindowElementInVisio_Out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:AddWindowElementInVisio
     End Sub

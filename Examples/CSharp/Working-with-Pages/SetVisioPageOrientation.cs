@@ -14,14 +14,14 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_VisioPages();
 
-            // initialize the new visio diagram
+            // Initialize the new visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
-            // get Visio page
+            // Get Visio page
             Aspose.Diagram.Page page = diagram.Pages.GetPage("Flow 1");
-            // page orientation
+            // Page orientation
             page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue.Landscape;
-            // save Visio
+            // Save Visio
             diagram.Save(dataDir + "SetPageOrientation_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:SetVisioPageOrientation
         }

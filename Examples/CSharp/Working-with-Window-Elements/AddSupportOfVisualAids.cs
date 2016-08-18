@@ -14,17 +14,17 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Window_Elements
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_WindowElements();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
 
-            // get window object by index
+            // Get window object by index
             Window window = diagram.Windows[0];
-            // check dynamic grid option
+            // Check dynamic grid option
             window.DynamicGridEnabled = BOOL.True;
-            // check connection points option
+            // Check connection points option
             window.ShowConnectionPoints = BOOL.True;
             
-            // save visio drawing
+            // Save visio drawing
             diagram.Save(dataDir + "AddSupportOfVisualAids_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:AddSupportOfVisualAids
         }

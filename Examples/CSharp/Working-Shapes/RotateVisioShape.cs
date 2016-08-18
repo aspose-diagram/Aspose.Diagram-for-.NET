@@ -14,11 +14,11 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
-            // call a Diagram class constructor to load the VSDX diagram
+            // Call a Diagram class constructor to load the VSDX diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // get page by name
+            // Get page by name
             Page page = diagram.Pages.GetPage("Page-3");
-            // get shape by id
+            // Get shape by id
             Shape shape = page.Shapes.GetShape(16);
 
             // Add a shape and set the angle

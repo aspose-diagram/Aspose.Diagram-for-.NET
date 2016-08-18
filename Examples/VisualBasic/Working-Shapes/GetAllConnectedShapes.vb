@@ -8,11 +8,11 @@ Public Class GetAllConnectedShapes
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Shapes()
 
-        ' call a Diagram class constructor to load the VSDX diagram
+        ' Call a Diagram class constructor to load the VSDX diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
-        ' get shape by id
+        ' Get shape by id
         Dim shape As Shape = diagram.Pages.GetPage("Page-3").Shapes.GetShape(16)
-        ' get connected shapes
+        ' Get connected shapes
         Dim connectedShapeIds As Long() = shape.ConnectedShapes(ConnectedShapesFlags.ConnectedShapesAllNodes, Nothing)
 
         For Each id As Long In connectedShapeIds

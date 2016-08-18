@@ -8,11 +8,11 @@ Public Class AddHyperlinkToShape
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_Hyperlinks()
 
-        ' load source Visio diagram
+        ' Load source Visio diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
-        ' get page by name
+        ' Get page by name
         Dim page As Page = diagram.Pages.GetPage("Page-1")
-        ' get shape by ID
+        ' Get shape by ID
         Dim shape As Shape = page.Shapes.GetShape(2)
 
         ' Initialize Hyperlink object

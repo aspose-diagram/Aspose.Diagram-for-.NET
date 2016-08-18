@@ -12,11 +12,11 @@ namespace Aspose.Diagram.Examples.CSharp.Shapes
 
             // Load diagram
             Diagram vsdDiagram = new Diagram(dataDir + "ApplyCustomStyleSheets.vsd");
-            // get page by name
+            // Get page by name
             Page page = vsdDiagram.Pages.GetPage("Flow 1");
 
             Shape sourceShape = null;
-            // find the shape to apply the style
+            // Find the shape to apply the style
             foreach (Aspose.Diagram.Shape shape in page.Shapes)
             {
                 if (shape.Name == "Process")

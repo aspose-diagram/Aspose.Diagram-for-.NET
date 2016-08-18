@@ -14,14 +14,14 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.Working_with_Shapes_Glui
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
-            // call a Diagram class constructor to load the VSD diagram
+            // Call a Diagram class constructor to load the VSD diagram
             Diagram diagram = new Diagram(dataDir + "RetrieveShapeInfo.vsd");
-            // get shape by an ID
+            // Get shape by an ID
             Shape shape = diagram.Pages[0].Shapes.GetShape(90);
-            // get all glued 1D shapes
+            // Get all glued 1D shapes
             long[] gluedShapeIds = shape.GluedShapes(GluedShapesFlags.GluedShapesAll1D, null, null);
 
-            // display shape ID and name
+            // Display shape ID and name
             foreach (long id in gluedShapeIds)
             {
                 shape = diagram.Pages[0].Shapes.GetShape(id);

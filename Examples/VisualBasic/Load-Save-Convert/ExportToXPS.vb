@@ -9,10 +9,10 @@ Namespace Diagrams
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
-            ' open VSD diagram
+            ' Open VSD diagram
             Dim diagram As New Diagram(dataDir & "ExportToXPS.vsd")
 
-            ' save diagram to XPS format
+            ' Save diagram to XPS format
             diagram.Save(dataDir & "Output.xps", SaveFileFormat.XPS)
             ' ExEnd:ExportToXPS
         End Sub

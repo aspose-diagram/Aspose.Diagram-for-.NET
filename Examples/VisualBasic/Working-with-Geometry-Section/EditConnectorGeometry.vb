@@ -8,7 +8,7 @@ Public Class EditConnectorGeometry
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_GeometrySection()
 
-        ' load source Visio diagram
+        ' Load source Visio diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
         ' Set connector shape by page name and ID
         Dim connectorId As Long = 4

@@ -14,12 +14,12 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Layers
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Layers();
 
-            // load a source Visio diagram
+            // Load a source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // get page by name
+            // Get page by name
             Page page = diagram.Pages.GetPage("Page-1");
 
-            // iterate through the shapes
+            // Iterate through the shapes
             foreach (Aspose.Diagram.Shape shape in page.Shapes)
             {
                 if (shape.Name.ToLower() == "shape1")
@@ -41,7 +41,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Layers
                     layer.LayerMember.Value = "0";
                 }
             }
-            // save diagram
+            // Save diagram
             diagram.Save(dataDir + "ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:ConfigureShapeLayers
         }

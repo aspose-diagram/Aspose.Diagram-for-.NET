@@ -11,7 +11,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
-            // call a Diagram class constructor to load a VSD diagram
+            // Call a Diagram class constructor to load a VSD diagram
             Diagram diagram = new Diagram(dataDir + "ExtractAllImagesFromPage.vsd");
 
             // Enter page index i.e. 0 for first one
@@ -25,7 +25,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
                         // Load memory stream into bitmap object
                         System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(stream);
 
-                        // save bmp here
+                        // Save bmp here
                         bitmap.Save(dataDir + "ExtractAllImages" + shape.ID + "_Out.bmp");
                     }
                 }

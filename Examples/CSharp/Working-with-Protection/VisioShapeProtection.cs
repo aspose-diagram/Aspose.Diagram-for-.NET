@@ -16,12 +16,12 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Protection
 
             // Load diagram
             Diagram diagram = new Diagram(dataDir + "ProtectAndUnprotect.vsd");
-            // get page by name
+            // Get page by name
             Page page = diagram.Pages.GetPage("Flow 1");
-            // get shape by ID
+            // Get shape by ID
             Shape shape = page.Shapes.GetShape(1);
 
-            // set protections
+            // Set protections
             shape.Protection.LockAspect.Value = BOOL.True;
             shape.Protection.LockBegin.Value = BOOL.True;
             shape.Protection.LockCalcWH.Value = BOOL.True;
@@ -43,7 +43,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Protection
             shape.Protection.LockVtxEdit.Value = BOOL.True;
             shape.Protection.LockWidth.Value = BOOL.True;
             
-            // save diagram
+            // Save diagram
             diagram.Save(dataDir + "VisioShapeProtection_Out.vdx", SaveFileFormat.VDX);
             // ExEnd:VisioShapeProtection
         }

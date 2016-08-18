@@ -15,7 +15,7 @@ Namespace Diagrams
             ' Lic.SetLicense(dataDir + "Aspose.Total.lic");
 
             ' Load masters from any existing diagram, stencil or template
-            ' and add in the new diagram
+            ' And add in the new diagram
             Dim visioStencil As String = dataDir & "AddConnectShapes.vss"
 
             ' Names of the masters present in the stencil
@@ -30,7 +30,7 @@ Namespace Diagrams
             ' Add a new rectangle shape
             Dim rectangleId As Long = diagram.AddShape(pinX, pinY, width, height, rectangleMaster, pageNumber)
 
-            ' Set the new shape' S properties
+            ' Set the new shape's properties
             Dim shape As Shape = diagram.Pages(pageNumber).Shapes.GetShape(rectangleId)
             shape.Text.Value.Add(New Txt("Rectangle text."))
             shape.Name = "Rectangle1"

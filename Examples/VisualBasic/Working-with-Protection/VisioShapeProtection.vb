@@ -10,12 +10,12 @@ Public Class VisioShapeProtection
 
         ' Load diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("ProtectAndUnprotect.vsd"))
-        ' get page by name
+        ' Get page by name
         Dim page As Page = diagram.Pages.GetPage("Flow 1")
-        ' get shape by ID
+        ' Get shape by ID
         Dim shape As Shape = page.Shapes.GetShape(1)
 
-        ' set protections
+        ' Set protections
         shape.Protection.LockAspect.Value = BOOL.True
         shape.Protection.LockBegin.Value = BOOL.True
         shape.Protection.LockCalcWH.Value = BOOL.True
@@ -37,7 +37,7 @@ Public Class VisioShapeProtection
         shape.Protection.LockVtxEdit.Value = BOOL.True
         shape.Protection.LockWidth.Value = BOOL.True
 
-        ' save diagram
+        ' Save diagram
         diagram.Save(dataDir & Convert.ToString("VisioShapeProtection_Out.vdx"), SaveFileFormat.VDX)
         ' ExEnd:VisioShapeProtection
     End Sub

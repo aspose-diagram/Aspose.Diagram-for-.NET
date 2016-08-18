@@ -19,7 +19,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.Working_with_Shapes_Glui
 
             // Get a particular page
             Page page = diagram.Pages.GetPage("Page-1");
-            // set shape id
+            // Set shape id
             long shape1_ID = 7;
             long shape2_ID = 494;
             // Glue shapes

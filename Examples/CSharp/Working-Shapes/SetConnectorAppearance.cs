@@ -14,14 +14,14 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Shapes();
 
-            // call a Diagram class constructor to load the VSD diagram
+            // Call a Diagram class constructor to load the VSD diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");
 
             // Get a particular page
             Page page = diagram.Pages.GetPage("Page-3");
             // Get a dynamic connector type shape by id
             Shape shape = page.Shapes.GetShape(18);
-            // set dynamic connector appearance
+            // Set dynamic connector appearance
             shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
 
             // Saving Visio diagram

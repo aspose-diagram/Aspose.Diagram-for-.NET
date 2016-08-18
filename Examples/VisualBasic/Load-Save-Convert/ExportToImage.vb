@@ -9,7 +9,7 @@ Namespace Diagrams
             ' The path to the documents directory.
             Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
-            ' call the diagram constructor to load a VSD diagram
+            ' Call the diagram constructor to load a VSD diagram
             Dim diagram As New Diagram(dataDir & "ExportToImage.vsd")
 
             ' Save Image file

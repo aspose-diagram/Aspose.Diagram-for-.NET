@@ -203,7 +203,7 @@ The following example extracts all the images from a particular page.</Descripti
             </Example>
             <Example>
               <Title>Reading Diagram File</Title>
-              <Description>Use the Diagram class' constructors to read diagram files. The constructors accept a valid name or FileStream object in VSD, VSS, VTX, VDX, VDW, VST and VSX format, and an optional parameter that defines LoadFileFormat or LoadOptions. The Diagram object can also be used to manipulate Microsoft Visio objects.</Description>
+              <Description>Use the Diagram class' Constructors to read diagram files. The constructors accept a valid name or FileStream object in VSD, VSS, VTX, VDX, VDW, VST and VSX format, and an optional parameter that defines LoadFileFormat or LoadOptions. The Diagram object can also be used to manipulate Microsoft Visio objects.</Description>
               <FolderName>ReadingDiagramFile</FolderName>
               <Order>8</Order>
               <DocLink>

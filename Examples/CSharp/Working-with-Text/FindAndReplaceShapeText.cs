@@ -24,9 +24,9 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Text
             replacements.Add("[[AmountReq]]", "$100,000");
             replacements.Add("[[DateApproved]]", DateTime.Now.AddDays(1).ToString("dd/MMMM/yyyy"));
 
-            // load diagram
+            // Load diagram
             Diagram diagram = new Diagram(dataDir + "FindReplaceText.vsdx");
-            // get page by name
+            // Get page by name
             Page page = diagram.Pages.GetPage("Page-1");
 
             // Iterate through the shapes of a page

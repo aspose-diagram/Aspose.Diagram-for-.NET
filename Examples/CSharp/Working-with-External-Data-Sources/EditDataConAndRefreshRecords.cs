@@ -14,15 +14,15 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_External_Data_Sources
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_ExternalDataSources();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsd");
-            // set connecting string
+            // Set connecting string
             diagram.DataConnections[0].ConnectionString = "Data Source=MyServer;Initial Catalog=MyDB;Integrated Security=True";
-            // set command
+            // Set command
             diagram.DataConnections[0].Command = "SELECT * from Project with(nolock)";
-            // refresh all record sets
+            // Refresh all record sets
             diagram.Refresh();
-            // save Visio diagram
+            // Save Visio diagram
             diagram.Save(dataDir + "EditDataConAndRefreshRecords_Out.vdx", SaveFileFormat.VDX);
             // ExEnd:EditDataConAndRefreshRecords
         }

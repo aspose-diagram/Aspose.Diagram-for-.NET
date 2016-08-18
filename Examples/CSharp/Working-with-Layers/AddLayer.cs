@@ -14,25 +14,25 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Layers
             // The path to the documents directory.
             string dataDir = RunExamples.GetDataDir_Layers();
 
-            // load source Visio diagram
+            // Load source Visio diagram
             Diagram diagram = new Diagram(dataDir + "Drawing1.vsdx");
-            // get Visio page
+            // Get Visio page
             Aspose.Diagram.Page page = diagram.Pages.GetPage("Page-1");
 
-            // initialize a new Layer class object
+            // Initialize a new Layer class object
             Layer layer = new Layer();
-            // set Layer name
+            // Set Layer name
             layer.Name.Value = "Layer1";
-            // set Layer Visibility
+            // Set Layer Visibility
             layer.Visible.Value = BOOL.True;
-            // add Layer to the particular page sheet
+            // Add Layer to the particular page sheet
             page.PageSheet.Layers.Add(layer);
 
-            // get shape by ID
+            // Get shape by ID
             Shape shape = page.Shapes.GetShape(3);
-            // assign shape to this new Layer
+            // Assign shape to this new Layer
             shape.LayerMem.LayerMember.Value = layer.IX.ToString();
-            // save diagram
+            // Save diagram
             diagram.Save(dataDir + "AddLayer_Out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:AddLayer
 

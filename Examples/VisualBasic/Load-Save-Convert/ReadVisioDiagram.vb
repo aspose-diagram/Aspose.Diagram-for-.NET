@@ -9,12 +9,12 @@ Public Class ReadVisioDiagram
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_LoadSaveConvert()
 
-        ' call the diagram constructor to load a VSD stream
+        ' Call the diagram constructor to load a VSD stream
         Dim st As New FileStream(dataDir & Convert.ToString("Drawing1.vsdx"), FileMode.Open)
         Dim vsdDiagram As New Diagram(st)
         st.Close()
 
-        ' call the diagram constructor to load a VDX diagram
+        ' Call the diagram constructor to load a VDX diagram
         Dim vdxDiagram As New Diagram(dataDir & Convert.ToString("Drawing1.vdx"))
 
         ' * Call diagram constructor to load a VSS stencil

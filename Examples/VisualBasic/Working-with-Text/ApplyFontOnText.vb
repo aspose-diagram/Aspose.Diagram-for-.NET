@@ -8,17 +8,17 @@ Public Class ApplyFontOnText
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_ShapeText()
 
-        ' load diagram
+        ' Load diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
-        ' get page by name
+        ' Get page by name
         Dim page As Page = diagram.Pages.GetPage("Page-1")
-        ' get shape by ID
+        ' Get shape by ID
         Dim shape As Shape = page.Shapes.GetShape(1)
-        ' clear shape text values and chars
+        ' Clear shape text values and chars
         shape.Text.Value.Clear()
         shape.Chars.Clear()
 
-        ' mark character run and add text
+        ' Mark character run and add text
         shape.Text.Value.Add(New Cp(0))
         shape.Text.Value.Add(New Txt("TextStyle_Regular\n"))
         shape.Text.Value.Add(New Cp(1))
@@ -28,7 +28,7 @@ Public Class ApplyFontOnText
         shape.Text.Value.Add(New Cp(3))
         shape.Text.Value.Add(New Txt("TextStyle_Bold_Italic_Underline"))
 
-        ' add formatting characters
+        ' Add formatting characters
         shape.Chars.Add(New Aspose.Diagram.Char())
         shape.Chars.Add(New Aspose.Diagram.Char())
         shape.Chars.Add(New Aspose.Diagram.Char())
@@ -61,7 +61,7 @@ Public Class ApplyFontOnText
         shape.Chars(3).Font.Value = 4
         shape.Chars(3).Size.Value = 0.22
         shape.Chars(3).Style.Value = StyleValue.Bold Or StyleValue.Italic Or StyleValue.Underline
-        ' save diagram
+        ' Save diagram
         diagram.Save(dataDir & Convert.ToString("ApplyFontOnText_Out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:ApplyFontOnText
     End Sub

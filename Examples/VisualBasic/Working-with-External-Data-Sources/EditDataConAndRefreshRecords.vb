@@ -8,15 +8,15 @@ Public Class EditDataConAndRefreshRecords
         ' The path to the documents directory.
         Dim dataDir As String = RunExamples.GetDataDir_ExternalDataSources()
 
-        ' load source Visio diagram
+        ' Load source Visio diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsd"))
-        ' set connecting string
+        ' Set connecting string
         diagram.DataConnections(0).ConnectionString = "Data Source=MyServer;Initial Catalog=MyDB;Integrated Security=True"
-        ' set command
+        ' Set command
         diagram.DataConnections(0).Command = "SELECT * from Project with(nolock)"
-        ' refresh all record sets
+        ' Refresh all record sets
         diagram.Refresh()
-        ' save Visio diagram
+        ' Save Visio diagram
         diagram.Save(dataDir & Convert.ToString("EditDataConAndRefreshRecords_Out.vdx"), SaveFileFormat.VDX)
         ' ExEnd:EditDataConAndRefreshRecords
     End Sub

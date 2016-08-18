@@ -72,6 +72,7 @@
   <ItemGroup>
     <Compile Include="ApplyLicense\ApplyLicenseByPath.cs" />
     <Compile Include="ApplyLicense\ApplyLicenseUsingFileStream.cs" />
+    <Compile Include="Event-Section\SettingCellsInEventSection.cs" />
     <Compile Include="Knowledge-Base\CreatingDiagramWithAspose.cs" />
     <Compile Include="Knowledge-Base\CreatingDiagramWithVSTO.cs" />
     <Compile Include="Knowledge-Base\SaveDiagramTo-VDX-PDF-JPEG-withAspose.cs" />
