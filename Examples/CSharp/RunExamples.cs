@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using Aspose.Diagram.Examples.CSharp.Diagrams;
+using Aspose.Diagram.Examples.CSharp.Visio_ActiveX_Controls;
 using Aspose.Diagram.Examples.CSharp.Shapes;
 using Aspose.Diagram.Examples.CSharp.Introduction;
 using Aspose.Diagram.Examples.CSharp.Working_Shapes;
@@ -99,7 +100,8 @@ namespace Aspose.Diagram.Examples.CSharp
             // RetrievePageInfo.Run();
             // ExportToSWF.Run();
             // ExportToSWFWithoutViewer.Run();
-            //ModifyVBAModule.Run();
+            // ModifyVBAModule.Run();
+            // RetrieveInheritedFillData.Run();
 
             // =====================================================
             // =====================================================
@@ -282,7 +284,15 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            SettingCellsInEventSection.Run();
+            //SettingCellsInEventSection.Run();
+
+            // =====================================================
+            // =====================================================
+            // Visio-ActiveX-Controls
+            // =====================================================
+            // =====================================================
+
+            InsertActiveXControl.Run();
                         
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
@@ -300,6 +310,10 @@ namespace Aspose.Diagram.Examples.CSharp
         {
             return Path.GetFullPath(GetDataDir_Data() + "Load-Save-Convert/");
         }
+        public static String GetDataDir_VisioActiveXControls()
+        {
+            return Path.GetFullPath(GetDataDir_Data() + "Visio-ActiveX-Controls/");
+        }        
         public static String GetDataDir_Diagrams()
         {
             return Path.GetFullPath(GetDataDir_Data() + "Working-Diagrams/");

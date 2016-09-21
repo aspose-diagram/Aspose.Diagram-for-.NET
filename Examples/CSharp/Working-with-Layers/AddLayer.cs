@@ -25,6 +25,8 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Layers
             layer.Name.Value = "Layer1";
             // Set Layer Visibility
             layer.Visible.Value = BOOL.True;
+            // Set the color checkbox of Layer
+            layer.IsColorChecked = BOOL.True;
             // Add Layer to the particular page sheet
             page.PageSheet.Layers.Add(layer);
 

@@ -1,8 +1,9 @@
 using System.IO;
 using Aspose.Diagram;
 using System;
+
 namespace Aspose.Diagram.Examples.CSharp.Diagrams
-{
+{  
     public class RetrieveConnectorInfo
     {
         public static void Run()
@@ -22,5 +23,5 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             }
             // ExEnd:RetrieveConnectorInfo
         }
-    }
+    }   
 }

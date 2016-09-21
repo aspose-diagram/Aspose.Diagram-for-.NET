@@ -39,9 +39,9 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=6.6.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+    <Reference Include="Aspose.Diagram, Version=6.8.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Aspose.Diagram.6.6.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
+      <HintPath>..\packages\Aspose.Diagram.6.8.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
     </Reference>
     <Reference Include="Aspose.Words">
       <HintPath>..\packages\Aspose.Words.16.6.0\lib\net40-client\Aspose.Words.dll</HintPath>
@@ -84,9 +84,11 @@
     <Compile Include="Load-Save-Convert\VisioSaveOptions\UseSWFSaveOptions.vb" />
     <Compile Include="OLE-Objects\ManipulateObjects.vb" />
     <Compile Include="OS-Fonts-Location\SpecifyFontLocation.vb" />
+    <Compile Include="Visio-ActiveX-Controls\InsertActiveXControl.vb" />
     <Compile Include="Working-Diagrams\AutoFitShapesInVisio.vb" />
     <Compile Include="Working-Diagrams\ModifyVBAModule.vb" />
     <Compile Include="Working-Diagrams\RemoveMacrosFromVisio.vb" />
+    <Compile Include="Working-Diagrams\RetrieveInheritedFillData.vb" />
     <Compile Include="Working-Shapes\AddingNewShape.vb" />
     <Compile Include="Working-Shapes\CalculateCenterOfSubShapes.vb" />
     <Compile Include="Working-Shapes\ChangeShapeSize.vb" />

@@ -76,6 +76,7 @@ Friend Class RunExamples
         ' ExportToSWF.Run()
         ' ExportToSWFWithoutViewer.Run()
         ' ModifyVBAModule.Run()
+        ' RetrieveInheritedFillData.Run()
 
         '' =====================================================
         '' =====================================================
@@ -256,7 +257,14 @@ Friend Class RunExamples
         '' Event-Section
         '' =====================================================
         '' =====================================================
-        SettingCellsInEventSection.Run()
+        ' SettingCellsInEventSection.Run()
+
+        '' =====================================================
+        '' =====================================================
+        '' Visio-ActiveX-Controls
+        '' =====================================================
+        '' =====================================================
+        InsertActiveXControl.Run()
 
         ' Stop before exiting
         Console.WriteLine(Constants.vbLf + Constants.vbLf & "Program Finished. Press any key to exit....")
@@ -265,7 +273,9 @@ Friend Class RunExamples
     Public Shared Function GetDataDir_OLEObjects() As [String]
         Return Path.GetFullPath(GetDataDir_Data() + "OLE-Objects/")
     End Function
-
+    Public Shared Function GetDataDir_VisioActiveXControls() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "Visio-ActiveX-Controls/")
+    End Function
     Public Shared Function GetDataDir_Intro() As [String]
         Return Path.GetFullPath(GetDataDir_Data() + "Introduction/")
     End Function
