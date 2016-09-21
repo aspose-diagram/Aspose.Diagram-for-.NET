@@ -17,6 +17,6 @@ Public Class InsertActiveXControl
         diagram.Pages(0).AddActiveXControl(ControlType.Image, 1, 1, 1, 1)
         ' Save diagram
         diagram.Save(dataDir & Convert.ToString("InsertActiveXControl_out_.vsdx"), SaveFileFormat.VSDX)
-        ' ExEnd:ManipulateObjects
+        ' ExEnd:InsertActiveXControl
     End Sub
 End Class
