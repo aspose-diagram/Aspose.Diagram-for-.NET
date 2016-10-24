@@ -51,9 +51,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=6.8.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Aspose.Diagram.6.8.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
+    <Reference Include="Aspose.Diagram, Version=16.10.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Diagram.16.10.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Aspose.Words">
       <HintPath>..\packages\Aspose.Words.16.6.0\lib\net40-client\Aspose.Words.dll</HintPath>
@@ -82,6 +82,7 @@
     <Compile Include="Introduction\DetectVisioFileFormat.cs" />
     <Compile Include="Introduction\GetLibraryVersion.cs" />
     <Compile Include="Introduction\SetVisioProperties.cs" />
+    <Compile Include="Load-Save-Convert\CreateMasterFromScratch.cs" />
     <Compile Include="Load-Save-Convert\CreateNewVisio.cs" />
     <Compile Include="Load-Save-Convert\ExportHTMLinStream.cs" />
     <Compile Include="Load-Save-Convert\ExportToXAML.cs" />

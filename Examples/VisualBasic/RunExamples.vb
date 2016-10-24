@@ -33,6 +33,7 @@ Friend Class RunExamples
         ' ExportHTMLinStream.Run()
         ' ExportToXAML.Run()
         ' ReadVisioDiagram.Run()
+        ' CreateMasterFromScratch.Run()
 
         '' =====================================================
         '' =====================================================

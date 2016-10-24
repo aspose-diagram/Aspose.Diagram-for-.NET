@@ -58,6 +58,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // ExportHTMLinStream.Run();
             // ExportToXAML.Run();
             // ReadVisioDiagram.Run();
+            CreateMasterFromScratch.Run();
 
             // =====================================================
             // =====================================================
