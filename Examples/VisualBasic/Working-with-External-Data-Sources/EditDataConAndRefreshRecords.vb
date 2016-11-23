@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class EditDataConAndRefreshRecords
     Public Shared Sub Run()
         ' ExStart:EditDataConAndRefreshRecords
@@ -17,7 +15,7 @@ Public Class EditDataConAndRefreshRecords
         ' Refresh all record sets
         diagram.Refresh()
         ' Save Visio diagram
-        diagram.Save(dataDir & Convert.ToString("EditDataConAndRefreshRecords_Out.vdx"), SaveFileFormat.VDX)
+        diagram.Save(dataDir & Convert.ToString("EditDataConAndRefreshRecords_out.vdx"), SaveFileFormat.VDX)
         ' ExEnd:EditDataConAndRefreshRecords
     End Sub
 End Class

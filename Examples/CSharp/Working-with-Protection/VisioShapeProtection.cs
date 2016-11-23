@@ -44,7 +44,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Protection
             shape.Protection.LockWidth.Value = BOOL.True;
             
             // Save diagram
-            diagram.Save(dataDir + "VisioShapeProtection_Out.vdx", SaveFileFormat.VDX);
+            diagram.Save(dataDir + "VisioShapeProtection_out.vdx", SaveFileFormat.VDX);
             // ExEnd:VisioShapeProtection
         }
     }

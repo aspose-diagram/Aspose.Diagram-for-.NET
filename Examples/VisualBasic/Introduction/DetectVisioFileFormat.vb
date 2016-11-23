@@ -1,8 +1,6 @@
-﻿
-Imports System.IO
+﻿Imports System.IO
 Imports System
 Imports Aspose.Diagram
-
 Public Class DetectVisioFileFormat
     Public Shared Sub Run()
         ' ExStart:DetectVisioFileFormat

@@ -1,8 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
-
 Public Class RetrieveUserDefinedCells
     Public Shared Sub Run()
         ' ExStart:RetrieveUserDefinedCells

@@ -1,8 +1,6 @@
-﻿
-Imports System.IO
+﻿Imports System.IO
 Imports Aspose.Diagram
 Imports System
-
 Public Class ReadVisioDiagram
     Public Shared Sub Run()
         ' ExStart:ReadVisioDiagram

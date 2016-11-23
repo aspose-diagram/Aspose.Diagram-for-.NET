@@ -65,7 +65,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             // Set starting index of the page
             opts.PageIndex = 1;
             // Save it
-            srcVisio.Save(dataDir + "SaveVisioShapeInOtherFormats_Out.pdf", opts);
+            srcVisio.Save(dataDir + "SaveVisioShapeInOtherFormats_out.pdf", opts);
             // ExEnd:SaveVisioShapeInOtherFormats
         }
     }

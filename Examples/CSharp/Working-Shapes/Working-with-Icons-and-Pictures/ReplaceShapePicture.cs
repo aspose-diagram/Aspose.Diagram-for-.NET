@@ -35,7 +35,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.Working_with_Icons_and_P
             }
 
             // Save diagram
-            diagram.Save(dataDir + "ReplaceShapePicture_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "ReplaceShapePicture_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:ReplaceShapePicture
         }
     }

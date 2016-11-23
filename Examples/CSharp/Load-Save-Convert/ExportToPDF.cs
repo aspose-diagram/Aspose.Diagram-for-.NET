@@ -1,5 +1,6 @@
 using System.IO;
 using Aspose.Diagram;
+
 namespace Aspose.Diagram.Examples.CSharp.Diagrams
 {
     public class ExportToPDF
@@ -18,7 +19,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             diagram.Save(pdfStream, SaveFileFormat.PDF);
 
             // Create a PDF file
-            FileStream pdfFileStream = new FileStream(dataDir + "ExportToPDF_Out.pdf", FileMode.Create, FileAccess.Write);
+            FileStream pdfFileStream = new FileStream(dataDir + "ExportToPDF_out.pdf", FileMode.Create, FileAccess.Write);
             pdfStream.WriteTo(pdfFileStream);
             pdfFileStream.Close();
 

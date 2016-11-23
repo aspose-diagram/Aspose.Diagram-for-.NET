@@ -1,6 +1,7 @@
 using System.IO;
 using Aspose.Diagram;
 using Aspose.Diagram.AutoLayout;
+
 namespace Aspose.Diagram.Examples.CSharp.Diagrams
 {
     public class LayOutShapesInCompactTreeStyle

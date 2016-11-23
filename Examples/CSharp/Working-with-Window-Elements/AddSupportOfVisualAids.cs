@@ -25,7 +25,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Window_Elements
             window.ShowConnectionPoints = BOOL.True;
             
             // Save visio drawing
-            diagram.Save(dataDir + "AddSupportOfVisualAids_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "AddSupportOfVisualAids_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:AddSupportOfVisualAids
         }
     }

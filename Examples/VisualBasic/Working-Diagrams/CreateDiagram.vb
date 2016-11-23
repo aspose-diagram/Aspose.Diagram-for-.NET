@@ -16,7 +16,7 @@ Namespace Diagrams
             End If
 
             Dim diagram As New Diagram()
-            diagram.Save(dataDir & "CreateDiagram_Out.vsdx", SaveFileFormat.VSDX)
+            diagram.Save(dataDir & "CreateDiagram_out.vsdx", SaveFileFormat.VSDX)
             ' ExEnd:CreateDiagram
         End Sub
     End Class

@@ -1,8 +1,6 @@
 ﻿Imports Aspose.Diagram
 Imports Aspose.Diagram.Manipulation
 Imports System
-
-
 Public Class ConnectVisioSubShapes
     Public Shared Sub Run()
         ' ExStart:ConnectVisioSubShapes
@@ -28,7 +26,7 @@ Public Class ConnectVisioSubShapes
         ' Connect sub-shapes
         page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToId, ConnectionPointPlace.Left, connecter1Id)
         ' Save Visio drawing
-        diagram.Save(dataDir & Convert.ToString("ConnectVisioSubShapes_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("ConnectVisioSubShapes_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:ConnectVisioSubShapes
     End Sub
 End Class

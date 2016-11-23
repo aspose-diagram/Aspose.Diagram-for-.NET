@@ -30,7 +30,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
                 options.ExportHiddenPage = false;
 
                 // Save the Visio diagram
-                diagram.Save(dataDir + "ExportOfHiddenVisioPagesToHTML_Out.html", options);
+                diagram.Save(dataDir + "ExportOfHiddenVisioPagesToHTML_out.html", options);
                 // ExEnd:ExportOfHiddenVisioPagesToHTML
             }
             catch (System.Exception ex)

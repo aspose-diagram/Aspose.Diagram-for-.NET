@@ -1,7 +1,5 @@
 ﻿Imports Aspose.Diagram
-
 Imports System
-
 Public Class ApplyFontOnText
     Public Shared Sub Run()
         ' ExStart:ApplyFontOnText
@@ -62,7 +60,7 @@ Public Class ApplyFontOnText
         shape.Chars(3).Size.Value = 0.22
         shape.Chars(3).Style.Value = StyleValue.Bold Or StyleValue.Italic Or StyleValue.Underline
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("ApplyFontOnText_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("ApplyFontOnText_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:ApplyFontOnText
     End Sub
 End Class

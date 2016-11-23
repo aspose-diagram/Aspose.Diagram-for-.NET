@@ -1,7 +1,5 @@
 ﻿Imports System
-
 Imports Visio = Microsoft.Office.Interop.Visio
-
 Public Class UpdateShapePropsWithVSTO
     Public Shared Sub Run()
         ' ExStart:UpdateShapePropsWithVSTO

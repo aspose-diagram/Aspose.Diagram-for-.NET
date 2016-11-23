@@ -24,7 +24,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.Working_with_Icons_and_P
                 // Load memory stream into bitmap object
                 System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(stream);
                 // Save as png format
-                bitmap.Save(dataDir + "MasterIcon_Out.png", System.Drawing.Imaging.ImageFormat.Png);
+                bitmap.Save(dataDir + "MasterIcon_out.png", System.Drawing.Imaging.ImageFormat.Png);
             }
             // ExEnd:GetShapeIcon
         }

@@ -27,7 +27,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
                 module.Codes = code;
             }
             // Save the Visio diagram
-            diagram.Save(dataDir + "ModifyVBAModule_out_.vssm", SaveFileFormat.VSSM);
+            diagram.Save(dataDir + "ModifyVBAModule_out.vssm", SaveFileFormat.VSSM);
             // ExEnd:ModifyVBAModule           
         }
     }

@@ -13,7 +13,7 @@ Namespace Diagrams
             Dim diagram As New Diagram(dataDir & "ExportToSVG.vsd")
 
             ' Save diagram in the SVG format
-            diagram.Save(dataDir & "ExportToSVG_Out.svg", SaveFileFormat.SVG)
+            diagram.Save(dataDir & "ExportToSVG_out.svg", SaveFileFormat.SVG)
             ' ExEnd:ExportToSVG
         End Sub
     End Class

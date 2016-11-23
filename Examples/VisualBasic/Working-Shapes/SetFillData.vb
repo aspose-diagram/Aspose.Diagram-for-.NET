@@ -20,7 +20,7 @@ Namespace Shapes
                 End If
             Next shape
             ' Save diagram
-            vdxDiagram.Save(dataDir & "SetFillData_Out.vsdx", SaveFileFormat.VDX)
+            vdxDiagram.Save(dataDir & "SetFillData_out.vsdx", SaveFileFormat.VDX)
             ' ExEnd:SetFillData
         End Sub
     End Class

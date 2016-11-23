@@ -31,7 +31,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             page.Shapes.Group(ss);
 
             // Save visio diagram
-            diagram.Save(dataDir + "GroupShapes_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "GroupShapes_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:GroupShapes
         }
     }

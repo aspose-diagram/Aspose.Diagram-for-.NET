@@ -36,7 +36,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.ConfigureTimeLineShapes
             timelineHelper.RefreshTimeLine();
 
             // Save to VDX format
-            diagram.Save(dataDir + "RefreshTimeLine_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "RefreshTimeLine_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:RefreshTimeLine
         }
     }

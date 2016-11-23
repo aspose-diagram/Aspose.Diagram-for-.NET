@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System.IO
 Imports System
-
 Public Class InsertImageInVisio
     Public Shared Sub Run()
         ' ExStart:InsertImageInVisio
@@ -21,7 +19,7 @@ Public Class InsertImageInVisio
         page0.AddShape(pinX, pinY, width, hieght, New FileStream(dataDir & Convert.ToString("image.bmp"), FileMode.OpenOrCreate))
 
         ' Save Visio diagram
-        diagram.Save(dataDir & Convert.ToString("InsertImageInVisio_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("InsertImageInVisio_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:InsertImageInVisio
     End Sub
 End Class

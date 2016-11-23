@@ -5,7 +5,6 @@ Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Text
 Imports Aspose.Diagram.ActiveXControls
-
 Public Class InsertActiveXControl
     Public Shared Sub Run()
         ' ExStart:InsertActiveXControl
@@ -16,7 +15,7 @@ Public Class InsertActiveXControl
         ' Insert an ActiveX control
         diagram.Pages(0).AddActiveXControl(ControlType.Image, 1, 1, 1, 1)
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("InsertActiveXControl_out_.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("InsertActiveXControl_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:InsertActiveXControl
     End Sub
 End Class

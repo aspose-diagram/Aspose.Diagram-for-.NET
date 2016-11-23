@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class GlueContainerShape
     Public Shared Sub Run()
         ' ExStart:GlueContainerShape
@@ -30,7 +28,7 @@ Public Class GlueContainerShape
         ' Page.GlueShapesInContainer(fasId, "U05L", "U05R", cabinetId1);
 
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("GlueContainerShape_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("GlueContainerShape_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:GlueContainerShape
     End Sub
 End Class

@@ -21,7 +21,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Diagrams
             diagram.VbProjectData = null;
 
             // Save diagram
-            diagram.Save(dataDir + "RemoveMacrosFromVisio_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "RemoveMacrosFromVisio_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:RemoveMacrosFromVisio
         }
     }

@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class RemoveMacrosFromVisio
     Public Shared Sub Run()
         ' ExStart:RemoveMacrosFromVisio
@@ -15,7 +13,7 @@ Public Class RemoveMacrosFromVisio
         diagram.VbProjectData = Nothing
 
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("RemoveMacrosFromVisio_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("RemoveMacrosFromVisio_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:RemoveMacrosFromVisio
     End Sub
 End Class

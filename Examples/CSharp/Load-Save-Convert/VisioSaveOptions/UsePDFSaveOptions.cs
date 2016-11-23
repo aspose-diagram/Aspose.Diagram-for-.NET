@@ -52,7 +52,7 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions
             PageSize pgSize = new PageSize(PaperSizeFormat.A1);
             options.PageSize = pgSize;
             // Save in any supported file format
-            diagram.Save(dataDir + "UsePDFSaveOptions_Out.pdf", options);
+            diagram.Save(dataDir + "UsePDFSaveOptions_out.pdf", options);
             // ExEnd:UsePDFSaveOptions
         }
     }

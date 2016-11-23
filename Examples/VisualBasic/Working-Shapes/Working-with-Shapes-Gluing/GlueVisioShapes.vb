@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class GlueVisioShapes
     Public Shared Sub Run()
         ' ExStart:GlueVisioShapes
@@ -20,7 +18,7 @@ Public Class GlueVisioShapes
         page.GlueShapes(shape1_ID, Aspose.Diagram.Manipulation.ConnectionPointPlace.Center, shape2_ID)
 
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("GlueVisioShapes_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("GlueVisioShapes_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:GlueVisioShapes
     End Sub
 End Class

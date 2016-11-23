@@ -1,7 +1,5 @@
 ﻿Imports Aspose.Diagram
 Imports System
-
-
 Public Class InsertBlankPageInVisio
     Public Shared Sub Run()
         ' ExStart:InsertBlankPageInVisio
@@ -40,7 +38,7 @@ Public Class InsertBlankPageInVisio
         diagram.Pages.Add(newPage)
 
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("InsertBlankPage_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("InsertBlankPage_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:InsertBlankPageInVisio
     End Sub
 End Class

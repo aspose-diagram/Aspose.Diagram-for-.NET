@@ -1,8 +1,6 @@
 ﻿Imports Aspose.Diagram.Saving
 Imports System
-
 Imports Aspose.Diagram
-
 Public Class UseImageSaveOptions
     Public Shared Sub Run()
         ' ExStart:UseImageSaveOptions
@@ -71,7 +69,7 @@ Public Class UseImageSaveOptions
         options.TiffCompression = TiffCompression.Ccitt3
 
         ' Save in any supported file format
-        diagram.Save(dataDir & Convert.ToString("UseImageSaveOptions_Out.jpeg"), options)
+        diagram.Save(dataDir & Convert.ToString("UseImageSaveOptions_out.jpeg"), options)
         ' ExEnd:UseImageSaveOptions
     End Sub
 End Class

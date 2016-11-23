@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class RefreshTimeLine
     Public Shared Sub Run()
         ' ExStart:RefreshTimeLine
@@ -31,7 +29,7 @@ Public Class RefreshTimeLine
         timelineHelper.RefreshTimeLine()
 
         ' Save to VDX format
-        diagram.Save(dataDir & Convert.ToString("RefreshTimeLine_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("RefreshTimeLine_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:RefreshTimeLine
     End Sub
 End Class

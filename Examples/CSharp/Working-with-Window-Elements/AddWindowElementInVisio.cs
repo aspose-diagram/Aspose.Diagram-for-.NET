@@ -30,7 +30,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Window_Elements
             diagram.Windows.Add(window);
 
             // Save in any supported format
-            diagram.Save(dataDir + "AddWindowElementInVisio_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "AddWindowElementInVisio_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:AddWindowElementInVisio
         }
     }

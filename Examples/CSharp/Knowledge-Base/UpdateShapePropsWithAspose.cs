@@ -47,7 +47,7 @@ namespace Aspose.Diagram.Examples.CSharp.Knowledge_Base
                 }
 
                 // Save shape as VDX
-                diagram.Save(dataDir + "UpdateShapePropsWithAspose_Out.vdx", SaveFileFormat.VDX);
+                diagram.Save(dataDir + "UpdateShapePropsWithAspose_out.vdx", SaveFileFormat.VDX);
             }
             catch (Exception ex)
             {

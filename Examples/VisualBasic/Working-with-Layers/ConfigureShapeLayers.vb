@@ -1,7 +1,5 @@
 ﻿Imports System
 Imports Aspose.Diagram
-
-
 Public Class ConfigureShapeLayers
     Public Shared Sub Run()
         ' ExStart:ConfigureShapeLayers
@@ -30,7 +28,7 @@ Public Class ConfigureShapeLayers
             End If
         Next
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("ConfigureShapeLayers_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("ConfigureShapeLayers_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:ConfigureShapeLayers
     End Sub
 End Class

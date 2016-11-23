@@ -68,7 +68,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Text
             shape.Chars[3].Size.Value = 0.22;
             shape.Chars[3].Style.Value = StyleValue.Bold | StyleValue.Italic | StyleValue.Underline;
             // Save diagram
-            diagram.Save(dataDir + "ApplyFontOnText_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "ApplyFontOnText_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:ApplyFontOnText
         }
     }

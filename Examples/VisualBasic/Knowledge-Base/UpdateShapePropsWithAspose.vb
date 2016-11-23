@@ -1,7 +1,5 @@
 ﻿Imports System
 Imports Aspose.Diagram
-
-
 Public Class UpdateShapePropsWithAspose
     Public Shared Sub Run()
         ' ExStart:UpdateShapePropsWithAspose
@@ -36,7 +34,7 @@ Public Class UpdateShapePropsWithAspose
             Next
 
             ' Save shape as VDX
-            diagram.Save(dataDir & Convert.ToString("UpdateShapePropsWithAspose_Out.vdx"), SaveFileFormat.VDX)
+            diagram.Save(dataDir & Convert.ToString("UpdateShapePropsWithAspose_out.vdx"), SaveFileFormat.VDX)
         Catch ex As Exception
             Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.")
         End Try

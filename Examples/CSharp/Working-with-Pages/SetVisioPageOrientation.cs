@@ -22,7 +22,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
             // Page orientation
             page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue.Landscape;
             // Save Visio
-            diagram.Save(dataDir + "SetPageOrientation_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "SetPageOrientation_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:SetVisioPageOrientation
         }
     }

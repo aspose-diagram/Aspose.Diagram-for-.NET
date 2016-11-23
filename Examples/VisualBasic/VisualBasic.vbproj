@@ -39,12 +39,12 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=16.10.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Diagram.16.10.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
+    <Reference Include="Aspose.Diagram, Version=16.11.1.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Diagram.16.11.1.0\lib\net40\Aspose.Diagram.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Aspose.Words, Version=16.10.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Words.16.10.0\lib\net40-client\Aspose.Words.dll</HintPath>
+    <Reference Include="Aspose.Words, Version=16.11.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Words.16.11.0\lib\net40-client\Aspose.Words.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Visio, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
@@ -87,6 +87,7 @@
     <Compile Include="OLE-Objects\ManipulateObjects.vb" />
     <Compile Include="OS-Fonts-Location\SpecifyFontLocation.vb" />
     <Compile Include="Visio-ActiveX-Controls\InsertActiveXControl.vb" />
+    <Compile Include="Visio-ActiveX-Controls\RetrieveActiveXControl.vb" />
     <Compile Include="Working-Diagrams\AutoFitShapesInVisio.vb" />
     <Compile Include="Working-Diagrams\ModifyVBAModule.vb" />
     <Compile Include="Working-Diagrams\RemoveMacrosFromVisio.vb" />
@@ -148,6 +149,7 @@
     <Compile Include="Working-with-Protection\VisioShapeProtection.vb" />
     <Compile Include="Working-with-SolutionXML-Elements\AddSolutionXMLElement.vb" />
     <Compile Include="Working-with-SolutionXML-Elements\ReadSolutionXMLElement.vb" />
+    <Compile Include="Working-with-Text\InsertTextShape.vb" />
     <Compile Include="Working-with-User-defined-Cells\CreateUserDefinedCellInShapeSheet.vb" />
     <Compile Include="Working-with-Text-Boxes\FormatShapeTextBlockSection.vb" />
     <Compile Include="Working-with-Text-Boxes\SetShapeTextPositionAtBottom.vb" />

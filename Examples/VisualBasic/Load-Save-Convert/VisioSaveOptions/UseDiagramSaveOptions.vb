@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports Aspose.Diagram.Saving
 Imports System
-
 Public Class UseDiagramSaveOptions
     Public Shared Sub Run()
         ' ExStart:UseDiagramSaveOptions
@@ -28,7 +26,7 @@ Public Class UseDiagramSaveOptions
         '     Default value is false.
         options.AutoFitPageToDrawingContent = True
 
-        diagram.Save(dataDir & Convert.ToString("UseDiagramSaveOptions_Out.vsdx"), options)
+        diagram.Save(dataDir & Convert.ToString("UseDiagramSaveOptions_out.vsdx"), options)
         ' ExEnd:UseDiagramSaveOptions
     End Sub
 End Class

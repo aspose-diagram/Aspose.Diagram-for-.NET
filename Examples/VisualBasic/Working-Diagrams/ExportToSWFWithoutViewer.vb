@@ -1,4 +1,3 @@
-
 Imports Microsoft.VisualBasic
 Imports System.IO
 Imports Aspose.Diagram
@@ -25,7 +24,7 @@ Namespace Diagrams
                 options.ViewerIncluded = False
 
                 ' Save the resultant SWF file
-                diagram.Save(dataDir & "ExportToSWFWithoutViewer_Out.swf", SaveFileFormat.SWF)
+                diagram.Save(dataDir & "ExportToSWFWithoutViewer_out.swf", SaveFileFormat.SWF)
                 ' ExEnd:ExportToSWFWithoutViewer
             Catch ex As System.Exception
                 System.Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.")

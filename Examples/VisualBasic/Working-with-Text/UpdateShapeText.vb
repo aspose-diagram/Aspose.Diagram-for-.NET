@@ -20,7 +20,7 @@ Namespace Shapes
                 End If
             Next shape
             ' Save diagram
-            vdxDiagram.Save(dataDir & "UpdateShapeText_Out.vdx", SaveFileFormat.VDX)
+            vdxDiagram.Save(dataDir & "UpdateShapeText_out.vdx", SaveFileFormat.VDX)
             ' ExEnd:UpdateShapeText
         End Sub
     End Class

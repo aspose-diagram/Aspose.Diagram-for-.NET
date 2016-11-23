@@ -1,9 +1,7 @@
 ﻿Imports Aspose.Diagram.Saving
-
 Imports Aspose.Diagram
 Imports System
 Imports System.IO
-
 Public Class UseHTMLSaveOptions
     Public Shared Sub Run()
         ' ExStart:UseHTMLSaveOptions
@@ -38,7 +36,7 @@ Public Class UseHTMLSaveOptions
         options.Title = "Title goes here"
 
         ' Save in any supported file format
-        diagram.Save(dataDir & Convert.ToString("UseHTMLSaveOptions_Out.html"), options)
+        diagram.Save(dataDir & Convert.ToString("UseHTMLSaveOptions_out.html"), options)
 
         ' Save resultant HTML directly to a stream
         Dim stream As New MemoryStream()

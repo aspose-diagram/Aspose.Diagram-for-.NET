@@ -1,5 +1,6 @@
 using System.IO;
 using Aspose.Diagram;
+
 namespace Aspose.Diagram.Examples.CSharp.Shapes
 {
     public class ApplyCustomStyleSheets
@@ -49,7 +50,7 @@ namespace Aspose.Diagram.Examples.CSharp.Shapes
             }
 
             // Save changed diagram as VDX
-            vsdDiagram.Save(dataDir + "ApplyCustomStyleSheets_Out.vdx", SaveFileFormat.VDX);
+            vsdDiagram.Save(dataDir + "ApplyCustomStyleSheets_out.vdx", SaveFileFormat.VDX);
             // ExEnd:ApplyCustomStyleSheets
  
         }

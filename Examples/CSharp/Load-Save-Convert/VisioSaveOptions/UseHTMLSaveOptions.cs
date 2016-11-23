@@ -44,7 +44,7 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions
             options.Title = "Title goes here";
 
             // Save in any supported file format
-            diagram.Save(dataDir + "UseHTMLSaveOptions_Out.html", options);
+            diagram.Save(dataDir + "UseHTMLSaveOptions_out.html", options);
 
             // Save resultant HTML directly to a stream
             MemoryStream stream = new MemoryStream();

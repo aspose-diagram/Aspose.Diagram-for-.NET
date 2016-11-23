@@ -52,7 +52,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Geometry_Section
             connector.Geoms[0].CoordinateCol.Add(lineTo);
 
             // Save diagram in VDX format
-            diagram.Save(dataDir + "EditConnectorGeometry_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "EditConnectorGeometry_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:EditConnectorGeometry
          }
     }

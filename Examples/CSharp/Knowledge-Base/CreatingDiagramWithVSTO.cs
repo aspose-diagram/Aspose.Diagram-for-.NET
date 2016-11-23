@@ -52,7 +52,7 @@ namespace Aspose.Diagram.Examples.CSharp.Knowledge_Base
 
 
                 // Save diagram as VDX
-                vdxDoc.SaveAs(dataDir + "CreatingDiagramWithVSTO_Out.vdx");
+                vdxDoc.SaveAs(dataDir + "CreatingDiagramWithVSTO_out.vdx");
             }
             catch (Exception ex)
             {

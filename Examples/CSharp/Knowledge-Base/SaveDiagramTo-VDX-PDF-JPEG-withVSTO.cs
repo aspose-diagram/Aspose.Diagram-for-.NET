@@ -24,18 +24,18 @@ namespace Aspose.Diagram.Examples.CSharp.Knowledge_Base
             Visio.Document vsdDoc = vsdApp.Documents.Open(dataDir + "Drawing1.vsd");
 
             // Save the VDX diagram
-            vsdDoc.SaveAs(dataDir + "SaveDiagramToVDXwithVSTO_Out.vdx");
+            vsdDoc.SaveAs(dataDir + "SaveDiagramToVDXwithVSTO_out.vdx");
 
             // Save as PDF file
             vsdDoc.ExportAsFixedFormat(Visio.VisFixedFormatTypes.visFixedFormatPDF,
-                dataDir + "SaveDiagramToPDFwithVSTO_Out.pdf", Visio.VisDocExIntent.visDocExIntentScreen,
+                dataDir + "SaveDiagramToPDFwithVSTO_out.pdf", Visio.VisDocExIntent.visDocExIntentScreen,
                 Visio.VisPrintOutRange.visPrintAll, 1, vsdDoc.Pages.Count, false, true,
                 true, true, true, System.Reflection.Missing.Value);
 
             Visio.Page vsdPage = vsdDoc.Pages[1];
 
             // Save as JPEG Image
-            vsdPage.Export(dataDir + "SaveDiagramToJPGwithVSTO_Out.jpg");
+            vsdPage.Export(dataDir + "SaveDiagramToJPGwithVSTO_out.jpg");
 
             // Quit Visio Object
             vsdApp.Quit();

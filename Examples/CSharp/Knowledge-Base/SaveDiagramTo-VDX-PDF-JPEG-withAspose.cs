@@ -18,13 +18,13 @@ namespace Aspose.Diagram.Examples.CSharp.Knowledge_Base
             Diagram vsdDiagram = new Diagram(dataDir + "Drawing1.vsd");
 
             // Save the diagram as VDX
-            vsdDiagram.Save(dataDir + "SaveDiagramToVDXwithAspose_Out.vdx", SaveFileFormat.VDX);
+            vsdDiagram.Save(dataDir + "SaveDiagramToVDXwithAspose_out.vdx", SaveFileFormat.VDX);
 
             // Save as PDF
-            vsdDiagram.Save(dataDir + "SaveDiagramToPDFwithAspose_Out.pdf", SaveFileFormat.PDF);
+            vsdDiagram.Save(dataDir + "SaveDiagramToPDFwithAspose_out.pdf", SaveFileFormat.PDF);
 
             // Save as JPEG
-            vsdDiagram.Save(dataDir + "SaveDiagramToJPGwithAspose_Out.jpg", SaveFileFormat.JPEG);
+            vsdDiagram.Save(dataDir + "SaveDiagramToJPGwithAspose_out.jpg", SaveFileFormat.JPEG);
             // ExEnd:SaveDiagramTo_VDX_PDF_JPEG_withAspose
         }
     }

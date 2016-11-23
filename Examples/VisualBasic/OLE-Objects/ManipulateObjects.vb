@@ -4,7 +4,7 @@ Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Text
-
+Imports Aspose.Words.Replacing
 Public Class ManipulateObjects
     Public Shared Sub Run()
         ' ExStart:ManipulateObjects
@@ -27,7 +27,7 @@ Public Class ManipulateObjects
                 If info.LoadFormat = Aspose.Words.LoadFormat.Doc OrElse info.LoadFormat = Aspose.Words.LoadFormat.Docx Then
                     ' Modify an OLE object
                     Dim doc = New Aspose.Words.Document(New MemoryStream(OLE_Shape.ForeignData.ObjectData))
-                    doc.Range.Replace("testing", "Aspose", False, True)
+                    doc.Range.Replace("testing", "Aspose", New FindReplaceOptions())
                     Dim outStream As New MemoryStream()
                     doc.Save(outStream, Aspose.Words.SaveFormat.Docx)
                     ' Save back an OLE object
@@ -36,7 +36,7 @@ Public Class ManipulateObjects
             End If
         End If
         ' Save Visio diagram
-        diagram.Save(dataDir & Convert.ToString("ManipulateObjects_out_.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("ManipulateObjects_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:ManipulateObjects
     End Sub
 End Class

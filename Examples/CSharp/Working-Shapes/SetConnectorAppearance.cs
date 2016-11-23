@@ -25,7 +25,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             shape.SetConnectorsType(ConnectorsTypeValue.StraightLines);
 
             // Saving Visio diagram
-            diagram.Save(dataDir + "SetConnectorAppearance_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "SetConnectorAppearance_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:SetConnectorAppearance
         }
     }

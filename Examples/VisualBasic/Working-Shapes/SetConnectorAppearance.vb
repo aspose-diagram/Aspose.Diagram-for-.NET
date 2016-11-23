@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class SetConnectorAppearance
     Public Shared Sub Run()
         ' ExStart:SetConnectorAppearance
@@ -19,7 +17,7 @@ Public Class SetConnectorAppearance
         shape.SetConnectorsType(ConnectorsTypeValue.StraightLines)
 
         ' Saving Visio diagram
-        diagram.Save(dataDir & Convert.ToString("SetConnectorAppearance_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("SetConnectorAppearance_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:SetConnectorAppearance
     End Sub
 End Class

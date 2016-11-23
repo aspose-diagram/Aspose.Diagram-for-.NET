@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class AddSolutionXMLElement
     Public Shared Sub Run()
         ' ExStart:AddSolutionXMLElement
@@ -21,7 +19,7 @@ Public Class AddSolutionXMLElement
         diagram.SolutionXMLs.Add(solXML)
 
         ' Save Visio diagram
-        diagram.Save(dataDir & Convert.ToString("AddSolutionXMLElement_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("AddSolutionXMLElement_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:AddSolutionXMLElement
     End Sub
 End Class

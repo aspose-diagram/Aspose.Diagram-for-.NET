@@ -24,7 +24,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Diagrams
             options.AutoFitPageToDrawingContent = true;
 
             // Save Visio diagram
-            diagram.Save(dataDir + "AutoFitShapesInVisio_Out.vsdx", options);
+            diagram.Save(dataDir + "AutoFitShapesInVisio_out.vsdx", options);
             // ExEnd:AutoFitShapesInVisio
         }
     }

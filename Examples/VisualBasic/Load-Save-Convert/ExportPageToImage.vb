@@ -19,7 +19,7 @@ Namespace Diagrams
             options.PageIndex = 0
 
             ' Save resultant Image file
-            diagram.Save(dataDir & "ExportPageToImage_Out.png", options)
+            diagram.Save(dataDir & "ExportPageToImage_out.png", options)
             ' ExEnd:ExportPageToImage
         End Sub
     End Class

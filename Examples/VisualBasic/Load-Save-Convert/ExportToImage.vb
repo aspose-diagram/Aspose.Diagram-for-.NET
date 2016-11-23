@@ -13,7 +13,7 @@ Namespace Diagrams
             Dim diagram As New Diagram(dataDir & "ExportToImage.vsd")
 
             ' Save Image file
-            diagram.Save(dataDir & "ExportToImage_Out.png", SaveFileFormat.PNG)
+            diagram.Save(dataDir & "ExportToImage_out.png", SaveFileFormat.PNG)
             ' ExEnd:ExportToImage
         End Sub
     End Class

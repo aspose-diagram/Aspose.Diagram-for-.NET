@@ -13,7 +13,7 @@ Namespace Diagrams
                 Dim diagram As New Diagram(dataDir & "ActvDir.vsd")
                 ' Save diagram
                 ' ExEnd:ExportToSWF
-                diagram.Save(dataDir & "Output_Out.swf", SaveFileFormat.SWF)
+                diagram.Save(dataDir & "Output_out.swf", SaveFileFormat.SWF)
             Catch ex As System.Exception
                 System.Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.")
             End Try

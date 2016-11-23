@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class AddSupportOfVisualAids
     Public Shared Sub Run()
         ' ExStart:AddSupportOfVisualAids
@@ -20,7 +18,7 @@ Public Class AddSupportOfVisualAids
         window.ShowConnectionPoints = BOOL.True
 
         ' Save visio drawing
-        diagram.Save(dataDir & Convert.ToString("AddSupportOfVisualAids_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("AddSupportOfVisualAids_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:AddSupportOfVisualAids
     End Sub
 End Class

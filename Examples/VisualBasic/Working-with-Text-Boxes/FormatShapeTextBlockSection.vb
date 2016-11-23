@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class FormatShapeTextBlockSection
     Public Shared Sub Run()
         ' ExStart:FormatShapeTextBlockSection
@@ -35,7 +33,7 @@ Public Class FormatShapeTextBlockSection
         shape.TextBlock.DefaultTabStop.Value = 2
 
         ' Save Visio
-        diagram.Save(dataDir & Convert.ToString("FormatShapeTextBlockSection_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("FormatShapeTextBlockSection_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:FormatShapeTextBlockSection
     End Sub
 End Class

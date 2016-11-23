@@ -1,9 +1,7 @@
 ﻿Imports Aspose.Diagram.Saving
 Imports System
-
 Imports System.Security.Cryptography.X509Certificates
 Imports Aspose.Diagram
-
 Public Class UsePDFSaveOptions
     Public Shared Sub Run()
         ' ExStart:UsePDFSaveOptions
@@ -46,7 +44,7 @@ Public Class UsePDFSaveOptions
         Dim pgSize As New PageSize(PaperSizeFormat.A1)
         options.PageSize = pgSize
         ' Save in any supported file format
-        diagram.Save(dataDir & Convert.ToString("UsePDFSaveOptions_Out.pdf"), options)
+        diagram.Save(dataDir & Convert.ToString("UsePDFSaveOptions_out.pdf"), options)
         ' ExEnd:UsePDFSaveOptions
     End Sub
 End Class

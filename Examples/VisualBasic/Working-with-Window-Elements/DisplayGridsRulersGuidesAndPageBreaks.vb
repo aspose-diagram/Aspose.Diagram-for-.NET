@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class DisplayGridsRulersGuidesAndPageBreaks
     Public Shared Sub Run()
         ' ExStart:DisplayGridsRulersGuidesAndPageBreaks
@@ -23,7 +21,7 @@ Public Class DisplayGridsRulersGuidesAndPageBreaks
         window.ShowPageBreaks = BOOL.True
 
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("DisplayGridsRulersGuidesAndPageBreaks_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("DisplayGridsRulersGuidesAndPageBreaks_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:DisplayGridsRulersGuidesAndPageBreaks
     End Sub
 End Class

@@ -1,7 +1,5 @@
 ﻿Imports Aspose.Diagram
 Imports System
-
-
 Public Class GetLibraryVersion
     Public Shared Sub Run()
         ' ExStart:GetLibraryVersion

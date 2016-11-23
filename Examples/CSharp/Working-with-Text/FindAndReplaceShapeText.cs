@@ -46,7 +46,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Text
                 }
             }
             // Save the diagram
-            diagram.Save(dataDir + "FindAndReplaceShapeText_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "FindAndReplaceShapeText_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:FindAndReplaceShapeText
         }
     }

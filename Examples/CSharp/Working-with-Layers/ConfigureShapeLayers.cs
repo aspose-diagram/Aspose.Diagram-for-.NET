@@ -42,7 +42,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Layers
                 }
             }
             // Save diagram
-            diagram.Save(dataDir + "ConfigureShapeLayers_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "ConfigureShapeLayers_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:ConfigureShapeLayers
         }
     }

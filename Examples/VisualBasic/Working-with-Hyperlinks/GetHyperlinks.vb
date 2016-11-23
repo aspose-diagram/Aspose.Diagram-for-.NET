@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class GetHyperlinks
     Public Shared Sub Run()
         ' ExStart:GetHyperlinks

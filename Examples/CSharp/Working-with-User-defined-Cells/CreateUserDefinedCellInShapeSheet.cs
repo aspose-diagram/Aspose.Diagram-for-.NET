@@ -29,7 +29,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_User_defined_Cells
             shape.Users.Add(user);
 
             // Save diagram
-            diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "CreateUserDefinedCellInShapeSheet_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:CreateUserDefinedCellInShapeSheet
         }
     }

@@ -41,7 +41,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.ConfigureTimeLineShapes
             timelineHelper.DateFormatStringForIntm = "yyyy-MM-dd";
 
             // Save to VDX format
-            diagram.Save(dataDir + "ConfigureTimeLine_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "ConfigureTimeLine_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:ConfigureTimeLine
         }
     }

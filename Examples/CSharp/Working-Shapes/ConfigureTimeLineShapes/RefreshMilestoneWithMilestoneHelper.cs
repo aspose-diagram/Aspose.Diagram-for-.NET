@@ -1,6 +1,7 @@
 using System.IO;
 using Aspose.Diagram;
 using System;
+
 namespace Aspose.Diagram.Examples.CSharp.Shapes
 {
     public class RefreshMilestoneWithMilestoneHelper
@@ -54,7 +55,7 @@ namespace Aspose.Diagram.Examples.CSharp.Shapes
             milestoneHelper.RefreshMilestone(timeline);
 
             // Save Visio file
-            diagram.Save(dataDir + "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "RefreshMilestone_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:RefreshMilestoneWithMilestoneHelper
         }
     }

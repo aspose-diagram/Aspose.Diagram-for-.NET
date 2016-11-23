@@ -34,7 +34,7 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions
             //     Default value is false.
             options.AutoFitPageToDrawingContent = true;
 
-            diagram.Save(dataDir + "UseDiagramSaveOptions_Out.vsdx", options);
+            diagram.Save(dataDir + "UseDiagramSaveOptions_out.vsdx", options);
             // ExEnd:UseDiagramSaveOptions
         }
     }

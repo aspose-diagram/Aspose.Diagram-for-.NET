@@ -21,7 +21,7 @@ namespace Aspose.Diagram.Examples.CSharp.ProgrammersGuide
             diagram.FontDirs = fontDirs;
 
             // Saving Visio diagram in PDF format
-            diagram.Save(dataDir + "SetFontsFolders_Out.pdf", SaveFileFormat.PDF);
+            diagram.Save(dataDir + "SpecifyFontLocation_out.pdf", SaveFileFormat.PDF);
             // ExEnd:SpecifyFontLocation
         }
     }

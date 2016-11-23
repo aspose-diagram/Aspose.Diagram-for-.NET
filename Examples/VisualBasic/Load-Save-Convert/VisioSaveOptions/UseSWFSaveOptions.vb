@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports Aspose.Diagram.Saving
 Imports System
-
 Public Class UseSWFSaveOptions
     Public Shared Sub Run()
         ' ExStart:UseSWFSaveOptions
@@ -30,7 +28,7 @@ Public Class UseSWFSaveOptions
         ' Specify whether the generated SWF document should include the integrated document viewer or not.
         options.ViewerIncluded = True
 
-        diagram.Save(dataDir & Convert.ToString("UseSWFSaveOptions_Out.swf"), options)
+        diagram.Save(dataDir & Convert.ToString("UseSWFSaveOptions_out.swf"), options)
         ' ExEnd:UseSWFSaveOptions
     End Sub
 End Class

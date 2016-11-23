@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class SetMilestoneProps
     Public Shared Sub Run()
         ' ExStart:SetMilestoneProps
@@ -27,7 +25,7 @@ Public Class SetMilestoneProps
         milestoneHelper.Type = 6
 
         ' Save to VDX format
-        diagram.Save(dataDir & Convert.ToString("SetMilestoneProps_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("SetMilestoneProps_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:SetMilestoneProps
     End Sub
 End Class

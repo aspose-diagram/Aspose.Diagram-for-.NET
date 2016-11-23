@@ -1,14 +1,5 @@
-
-' Copyright 2001-2015 Aspose Pty Ltd. All Rights Reserved.
-'
-
-
-
-
-
 Imports Microsoft.VisualBasic
 Imports System.IO
-
 Imports Aspose.Diagram
 Imports System
 

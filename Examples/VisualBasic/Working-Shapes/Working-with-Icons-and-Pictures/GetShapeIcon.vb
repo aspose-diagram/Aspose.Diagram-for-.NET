@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class GetShapeIcon
     Public Shared Sub Run()
         ' ExStart:GetShapeIcon
@@ -17,7 +15,7 @@ Public Class GetShapeIcon
             ' Load memory stream into bitmap object
             Dim bitmap As New System.Drawing.Bitmap(stream)
             ' Save as png format
-            bitmap.Save(dataDir & Convert.ToString("MasterIcon_Out.png"), System.Drawing.Imaging.ImageFormat.Png)
+            bitmap.Save(dataDir & Convert.ToString("MasterIcon_out.png"), System.Drawing.Imaging.ImageFormat.Png)
         End Using
         ' ExEnd:GetShapeIcon
     End Sub

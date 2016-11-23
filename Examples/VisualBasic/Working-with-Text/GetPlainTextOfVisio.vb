@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
 Imports System.Text.RegularExpressions
-
 Public Class GetPlainTextOfVisio
     ' ExStart:GetPlainTextOfVisio
     Shared text As String = ""

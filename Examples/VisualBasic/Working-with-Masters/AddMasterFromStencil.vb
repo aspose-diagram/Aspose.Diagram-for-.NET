@@ -1,8 +1,6 @@
-﻿
-Imports System
+﻿Imports System
 Imports Aspose.Diagram
 Imports System.IO
-
 Public Class AddMasterFromStencil
     Public Shared Sub Run()
         ' ExStart:AddMasterFromStencil

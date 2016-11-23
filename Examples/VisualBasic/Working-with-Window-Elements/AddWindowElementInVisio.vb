@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class AddWindowElementInVisio
     Public Shared Sub Run()
         ' ExStart:AddWindowElementInVisio
@@ -24,7 +22,7 @@ Public Class AddWindowElementInVisio
         diagram.Windows.Add(window)
 
         ' Save in any supported format
-        diagram.Save(dataDir & Convert.ToString("AddWindowElementInVisio_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("AddWindowElementInVisio_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:AddWindowElementInVisio
     End Sub
 End Class

@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class CreateUserDefinedCellInShapeSheet
     Public Shared Sub Run()
         ' ExStart:CreateUserDefinedCellInShapeSheet
@@ -23,7 +21,7 @@ Public Class CreateUserDefinedCellInShapeSheet
         shape.Users.Add(user)
 
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("CreateUserDefinedCellInShapeSheet_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("CreateUserDefinedCellInShapeSheet_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:CreateUserDefinedCellInShapeSheet
     End Sub
 End Class

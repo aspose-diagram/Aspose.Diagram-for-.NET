@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class ConfigureTimeLine
     Public Shared Sub Run()
         ' ExStart:ConfigureTimeLine
@@ -35,7 +33,7 @@ Public Class ConfigureTimeLine
         timelineHelper.DateFormatStringForIntm = "yyyy-MM-dd"
 
         ' Save to VDX format
-        diagram.Save(dataDir & Convert.ToString("ConfigureTimeLine_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("ConfigureTimeLine_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:ConfigureTimeLine
     End Sub
 End Class

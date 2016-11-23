@@ -212,6 +212,7 @@ Friend Class RunExamples
         ' FindAndReplaceShapeText.Run()
         ' GetPlainTextOfVisio.Run()
         ' UpdateShapeText.Run()
+        ' InsertTextShape.Run()
 
         '' =====================================================
         '' =====================================================
@@ -265,7 +266,7 @@ Friend Class RunExamples
         '' Visio-ActiveX-Controls
         '' =====================================================
         '' =====================================================
-        InsertActiveXControl.Run()
+        ' InsertActiveXControl.Run()
 
         ' Stop before exiting
         Console.WriteLine(Constants.vbLf + Constants.vbLf & "Program Finished. Press any key to exit....")

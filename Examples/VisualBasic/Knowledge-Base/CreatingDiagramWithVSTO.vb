@@ -1,10 +1,8 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
 Imports System.IO
 Imports Visio = Microsoft.Office.Interop.Visio
 Imports System.Collections
-
 Public Class CreatingDiagramWithVSTO
     Public Shared Sub Run()
         ' ExStart:CreatingDiagramWithVSTO
@@ -47,7 +45,7 @@ Public Class CreatingDiagramWithVSTO
 
 
             ' Save diagram as VDX
-            vdxDoc.SaveAs(dataDir & Convert.ToString("CreatingDiagramWithVSTO_Out.vdx"))
+            vdxDoc.SaveAs(dataDir & Convert.ToString("CreatingDiagramWithVSTO_out.vdx"))
 
         Catch ex As Exception
             Console.WriteLine(ex.Message)

@@ -1,6 +1,7 @@
 using System.IO;
 using Aspose.Diagram;
 using Aspose.Diagram.Saving;
+
 namespace Aspose.Diagram.Examples.CSharp.Diagrams
 {
     public class ExportToSWFWithoutViewer
@@ -26,7 +27,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
                 options.ViewerIncluded = false;
 
                 // Save the resultant SWF file
-                diagram.Save(dataDir + "ExportToSWFWithoutViewer_Out.swf", SaveFileFormat.SWF);
+                diagram.Save(dataDir + "ExportToSWFWithoutViewer_out.swf", SaveFileFormat.SWF);
                 // ExEnd:ExportToSWFWithoutViewer
             }            
             catch (System.Exception ex)

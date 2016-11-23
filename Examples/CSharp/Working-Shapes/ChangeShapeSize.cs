@@ -24,7 +24,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             shape.SetWidth(2 * shape.XForm.Width.Value);
             shape.SetHeight(2 * shape.XForm.Height.Value);
             // Save diagram
-            diagram.Save(dataDir + "ChangeShapeSize_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "ChangeShapeSize_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:ChangeShapeSize
         }
     }

@@ -21,7 +21,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Comments
             diagram.Pages[0].AddComment(7.205905511811023, 3.880708661417323, "test@");
 
             // Save diagram
-            diagram.Save(dataDir + "AddComment_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "AddComment_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:AddPageLevelCommentInVisio
         }
     }

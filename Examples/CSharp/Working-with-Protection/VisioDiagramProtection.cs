@@ -1,5 +1,6 @@
 using System.IO;
 using Aspose.Diagram;
+
 namespace Aspose.Diagram.Examples.CSharp.Diagrams
 {
     public class VisioDiagramProtection
@@ -18,7 +19,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             diagram.DocumentSettings.ProtectShapes = BOOL.True;
             diagram.DocumentSettings.ProtectStyles = BOOL.True;
             // Save diagram
-            diagram.Save(dataDir + "VisioDiagramProtection_Out.vdx", SaveFileFormat.VDX);
+            diagram.Save(dataDir + "VisioDiagramProtection_out.vdx", SaveFileFormat.VDX);
             // ExEnd:VisioDiagramProtection
         }
     }

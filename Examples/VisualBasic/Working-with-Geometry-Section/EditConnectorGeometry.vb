@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class EditConnectorGeometry
     Public Shared Sub Run()
         ' ExStart:EditConnectorGeometry
@@ -46,7 +44,7 @@ Public Class EditConnectorGeometry
         connector.Geoms(0).CoordinateCol.Add(lineTo)
 
         ' Save diagram in VDX format
-        diagram.Save(dataDir & Convert.ToString("EditConnectorGeometry_Out.vsdx"), SaveFileFormat.VDX)
+        diagram.Save(dataDir & Convert.ToString("EditConnectorGeometry_out.vsdx"), SaveFileFormat.VDX)
         ' ExEnd:EditConnectorGeometry
     End Sub
 End Class

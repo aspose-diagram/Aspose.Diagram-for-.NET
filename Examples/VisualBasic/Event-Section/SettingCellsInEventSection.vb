@@ -28,7 +28,7 @@ Namespace Event_Section
             shape.[Event].TheData.Ufe.F = "CALLTHIS(""ThisDocument.ShowAlert"")"
 
             ' Save diagram
-            diagram.Save(dataDir & "SettingCellsInEventSection_out_.vsdm", SaveFileFormat.VSDM)
+            diagram.Save(dataDir & "SettingCellsInEventSection_out.vsdm", SaveFileFormat.VSDM)
             ' ExEnd:SettingCellsInEventSection
         End Sub
     End Class

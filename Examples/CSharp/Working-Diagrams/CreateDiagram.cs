@@ -19,7 +19,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
                 System.IO.Directory.CreateDirectory(dataDir);
             // Initialize a new Visio
             Diagram diagram = new Diagram();
-            dataDir = dataDir + "CreateDiagram_Out.vsdx";
+            dataDir = dataDir + "CreateDiagram_out.vsdx";
             // Save in the VSDX format
             diagram.Save(dataDir, SaveFileFormat.VSDX);
             // ExEnd:CreateDiagram

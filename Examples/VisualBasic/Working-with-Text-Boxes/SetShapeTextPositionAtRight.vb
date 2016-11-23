@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class SetShapeTextPositionAtRight
     Public Shared Sub Run()
         ' ExStart:SetShapeTextPositionAtRight
@@ -24,7 +22,7 @@ Public Class SetShapeTextPositionAtRight
         shape.TextXForm.TxtAngle.Value = angleRad
 
         ' Save Visio diagram in the local storage
-        diagram.Save(dataDir & Convert.ToString("SetShapeTextPositionAtRight_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("SetShapeTextPositionAtRight_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:SetShapeTextPositionAtRight
     End Sub
 End Class

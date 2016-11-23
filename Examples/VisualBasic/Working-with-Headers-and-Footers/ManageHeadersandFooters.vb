@@ -1,8 +1,6 @@
-﻿
-Imports System.Drawing
+﻿Imports System.Drawing
 Imports Aspose.Diagram
 Imports System
-
 Public Class ManageHeadersandFooters
     Public Shared Sub Run()
         ' ExStart:ManageHeadersandFooters
@@ -38,7 +36,7 @@ Public Class ManageHeadersandFooters
         diagram.HeaderFooter.HeaderFooterFont.Underline = BOOL.False
 
         ' Save Visio diagram
-        diagram.Save(dataDir & Convert.ToString("ManageHeadersandFooters_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("ManageHeadersandFooters_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:ManageHeadersandFooters
     End Sub
 End Class

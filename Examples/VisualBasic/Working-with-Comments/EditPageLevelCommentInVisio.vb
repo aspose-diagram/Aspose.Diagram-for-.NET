@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class EditPageLevelCommentInVisio
     Public Shared Sub Run()
         ' ExStart:EditPageLevelCommentInVisio
@@ -21,7 +19,7 @@ Public Class EditPageLevelCommentInVisio
             annotation.Comment.Value = comment
         Next
         ' Save Visio
-        diagram.Save(dataDir & Convert.ToString("EditComment_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("EditComment_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:EditPageLevelCommentInVisio
     End Sub
 End Class

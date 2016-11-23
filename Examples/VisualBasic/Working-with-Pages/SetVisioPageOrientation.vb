@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class SetVisioPageOrientation
     Public Shared Sub Run()
         ' ExStart:SetVisioPageOrientation
@@ -16,7 +14,7 @@ Public Class SetVisioPageOrientation
         ' Page orientation
         page.PageSheet.PrintProps.PrintPageOrientation.Value = PrintPageOrientationValue.Landscape
         ' Save Visio
-        diagram.Save(dataDir & Convert.ToString("SetPageOrientation_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("SetPageOrientation_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:SetVisioPageOrientation
     End Sub
 End Class

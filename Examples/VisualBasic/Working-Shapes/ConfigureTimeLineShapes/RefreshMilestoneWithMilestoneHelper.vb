@@ -52,7 +52,7 @@ Namespace Shapes
             'RefreshMilesone of timeline shape
             milestoneHelper.RefreshMilestone(timeline)
 
-            diagram.Save(dataDir & "RefreshMilestone_Out.vsdx", SaveFileFormat.VSDX)
+            diagram.Save(dataDir & "RefreshMilestone_out.vsdx", SaveFileFormat.VSDX)
             ' ExEnd:RefreshMilestoneWithMilestoneHelper
         End Sub
     End Class

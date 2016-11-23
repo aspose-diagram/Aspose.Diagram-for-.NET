@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class VisioShapeProtection
     Public Shared Sub Run()
         ' ExStart:VisioShapeProtection
@@ -38,7 +36,7 @@ Public Class VisioShapeProtection
         shape.Protection.LockWidth.Value = BOOL.True
 
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("VisioShapeProtection_Out.vdx"), SaveFileFormat.VDX)
+        diagram.Save(dataDir & Convert.ToString("VisioShapeProtection_out.vdx"), SaveFileFormat.VDX)
         ' ExEnd:VisioShapeProtection
     End Sub
 End Class

@@ -27,7 +27,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.Working_with_Icons_and_P
             page0.AddShape(pinX, pinY, width, hieght, new FileStream(dataDir + "image.bmp", FileMode.OpenOrCreate));
 
             // Save Visio diagram
-            diagram.Save(dataDir + "InsertImageInVisio_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "InsertImageInVisio_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:InsertImageInVisio
         }
     }

@@ -39,7 +39,7 @@ Namespace Shapes
             shape.Line.BeginArrowSize.Value = ArrowSizeValue.Large
 
             ' Save the Visio
-            diagram.Save(dataDir & Convert.ToString("SetLineData_Out.vsdx"), SaveFileFormat.VSDX)
+            diagram.Save(dataDir & Convert.ToString("SetLineData_out.vsdx"), SaveFileFormat.VSDX)
             ' ExEnd:SetLineData
         End Sub
     End Class

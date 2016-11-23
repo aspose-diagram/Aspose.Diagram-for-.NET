@@ -4,7 +4,6 @@ Imports System.Linq
 Imports System.Text
 Imports System.IO
 Imports System
-
 Public Class CreateMasterFromScratch
     ' ExStart:CreateMasterFromScratch
     Public Shared Sub Run()
@@ -16,7 +15,7 @@ Public Class CreateMasterFromScratch
         ' Add master
         diagram.Masters.Add(CreateMaster(101, "Regular", dataDir & Convert.ToString("aspose-logo.jpg")))
         ' Save template
-        diagram.Save(dataDir & Convert.ToString("CreateMasterFromScratch_out_.vtx"), SaveFileFormat.VTX)
+        diagram.Save(dataDir & Convert.ToString("CreateMasterFromScratch_out.vtx"), SaveFileFormat.VTX)
     End Sub
 
     ' Create master

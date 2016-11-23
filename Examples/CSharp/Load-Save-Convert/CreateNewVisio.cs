@@ -18,7 +18,7 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert
             Diagram diagram = new Diagram();
 
             // Save diagram in the VSDX format
-            diagram.Save(dataDir + "CreateNewVisio_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "CreateNewVisio_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:CreateNewVisio
         }
     }

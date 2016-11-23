@@ -16,7 +16,7 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert
             // Load diagram
             Diagram diagram = new Diagram(dataDir + "ExportToXAML.vsd");
             // Save diagram
-            diagram.Save(dataDir + "Output.xaml", SaveFileFormat.XAML);
+            diagram.Save(dataDir + "ExportToXAML_out.xaml", SaveFileFormat.XAML);
             // ExEnd:ExportToXAML
         }
     }

@@ -36,7 +36,7 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions
             // Specify whether the generated SWF document should include the integrated document viewer or not.
             options.ViewerIncluded = true;
 
-            diagram.Save(dataDir + "UseSWFSaveOptions_Out.swf", options);
+            diagram.Save(dataDir + "UseSWFSaveOptions_out.swf", options);
             // ExEnd:UseSWFSaveOptions
         }
     }

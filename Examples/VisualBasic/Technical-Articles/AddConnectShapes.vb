@@ -86,7 +86,7 @@ Namespace Diagrams
             diagram.Pages(0).ConnectShapesViaConnector(rectangleId, ConnectionPointPlace.Bottom, hexagonId, ConnectionPointPlace.Left, connecter2Id)
 
             ' Save the diagram
-            diagram.Save(dataDir & "AddConnectShapes_Out.vsdx", SaveFileFormat.VSDX)
+            diagram.Save(dataDir & "AddConnectShapes_out.vsdx", SaveFileFormat.VSDX)
             ' ExEnd:AddConnectShapes
         End Sub
     End Class

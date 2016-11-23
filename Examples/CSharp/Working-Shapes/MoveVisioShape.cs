@@ -24,7 +24,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             shape.Move(1, 1);
 
             // Save diagram
-            diagram.Save(dataDir + "MoveVisioShape_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "MoveVisioShape_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:MoveVisioShape
         }
     }

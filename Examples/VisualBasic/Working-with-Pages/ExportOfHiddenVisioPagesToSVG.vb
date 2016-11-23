@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports Aspose.Diagram.Saving
 Imports System
-
 Public Class ExportOfHiddenVisioPagesToSVG
     Public Shared Sub Run()
         Try
@@ -23,7 +21,7 @@ Public Class ExportOfHiddenVisioPagesToSVG
             options.ExportHiddenPage = False
 
             ' Save the Visio diagram
-            diagram.Save(dataDir & Convert.ToString("ExportOfHiddenVisioPagesToSVG_Out.svg"), options)
+            diagram.Save(dataDir & Convert.ToString("ExportOfHiddenVisioPagesToSVG_out.svg"), options)
             ' ExEnd:ExportOfHiddenVisioPagesToSVG
         Catch ex As System.Exception
             System.Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.")

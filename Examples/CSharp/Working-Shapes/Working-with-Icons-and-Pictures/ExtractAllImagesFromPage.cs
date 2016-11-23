@@ -1,6 +1,7 @@
 using System.IO;
 using Aspose.Diagram;
 using System;
+
 namespace Aspose.Diagram.Examples.CSharp.Diagrams
 {
     public class ExtractAllImagesFromPage
@@ -26,7 +27,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
                         System.Drawing.Bitmap bitmap = new System.Drawing.Bitmap(stream);
 
                         // Save bmp here
-                        bitmap.Save(dataDir + "ExtractAllImages" + shape.ID + "_Out.bmp");
+                        bitmap.Save(dataDir + "ExtractAllImages" + shape.ID + "_out.bmp");
                     }
                 }
             }

@@ -33,7 +33,7 @@ namespace Aspose.Diagram.Examples.CSharp.Knowledge_Base
             shape.Text.Value.Add(new Txt(@"Hexagon text."));
 
             // Save the new diagram
-            diagram.Save(dataDir + "CreatingDiagramWithAspose_Out.vdx", SaveFileFormat.VDX);
+            diagram.Save(dataDir + "CreatingDiagramWithAspose_out.vdx", SaveFileFormat.VDX);
             // ExEnd:CreatingDiagramWithAspose
         }
     }

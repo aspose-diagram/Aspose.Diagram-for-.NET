@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class RotateVisioShape
     Public Shared Sub Run()
         ' ExStart:RotateVisioShape
@@ -19,7 +17,7 @@ Public Class RotateVisioShape
         shape.SetAngle(190)
 
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("RotateVisioShape_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("RotateVisioShape_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:RotateVisioShape
     End Sub
 End Class

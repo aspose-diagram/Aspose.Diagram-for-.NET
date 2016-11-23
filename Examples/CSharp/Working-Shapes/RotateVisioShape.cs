@@ -25,7 +25,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             shape.SetAngle(190);
 
             // Save diagram
-            diagram.Save(dataDir + "RotateVisioShape_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "RotateVisioShape_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:RotateVisioShape
         }
     }

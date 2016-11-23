@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System.IO
 Imports System
-
 Public Class ExportHTMLinStream
     Public Shared Sub Run()
         ' ExStart:ExportHTMLinStream

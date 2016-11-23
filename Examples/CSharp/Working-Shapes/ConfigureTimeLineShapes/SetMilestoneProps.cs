@@ -33,7 +33,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.ConfigureTimeLineShapes
             milestoneHelper.Type = 6;
 
             // Save to VDX format
-            diagram.Save(dataDir + "SetMilestoneProps_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "SetMilestoneProps_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:SetMilestoneProps
         }
     }

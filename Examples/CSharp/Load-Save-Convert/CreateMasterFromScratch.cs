@@ -20,7 +20,7 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert
             // Add master
             diagram.Masters.Add(CreateMaster(101, "Regular", dataDir + "aspose-logo.jpg"));
             // Save template
-            diagram.Save(dataDir + "CreateMasterFromScratch_out_.vtx", SaveFileFormat.VTX);           
+            diagram.Save(dataDir + "CreateMasterFromScratch_out.vtx", SaveFileFormat.VTX);           
         }
 
         // Create master

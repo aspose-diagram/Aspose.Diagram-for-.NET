@@ -44,7 +44,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Headers_and_Footers
             diagram.HeaderFooter.HeaderFooterFont.Underline = BOOL.False;
 
             // Save Visio diagram
-            diagram.Save(dataDir + "ManageHeadersandFooters_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "ManageHeadersandFooters_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:ManageHeadersandFooters
         }
     }

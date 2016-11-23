@@ -35,7 +35,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Layers
             // Assign shape to this new Layer
             shape.LayerMem.LayerMember.Value = layer.IX.ToString();
             // Save diagram
-            diagram.Save(dataDir + "AddLayer_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "AddLayer_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:AddLayer
 
         }

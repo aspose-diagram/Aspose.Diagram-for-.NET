@@ -23,7 +23,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_External_Data_Sources
             // Refresh all record sets
             diagram.Refresh();
             // Save Visio diagram
-            diagram.Save(dataDir + "EditDataConAndRefreshRecords_Out.vdx", SaveFileFormat.VDX);
+            diagram.Save(dataDir + "EditDataConAndRefreshRecords_out.vdx", SaveFileFormat.VDX);
             // ExEnd:EditDataConAndRefreshRecords
         }
     }

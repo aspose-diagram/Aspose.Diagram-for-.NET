@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
 Imports System.IO
-
 Public Class ReplaceShapePicture
     Public Shared Sub Run()
         ' ExStart:ReplaceShapePicture
@@ -26,7 +24,7 @@ Public Class ReplaceShapePicture
         Next
 
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("ReplaceShapePicture_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("ReplaceShapePicture_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:ReplaceShapePicture
     End Sub
 End Class

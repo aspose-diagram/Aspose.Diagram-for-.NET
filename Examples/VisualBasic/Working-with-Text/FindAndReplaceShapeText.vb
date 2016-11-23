@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System.Collections.Generic
 Imports System
-
 Public Class FindAndReplaceShapeText
     Public Shared Sub Run()
         ' ExStart:FindAndReplaceShapeText
@@ -37,7 +35,7 @@ Public Class FindAndReplaceShapeText
             Next
         Next
         ' Save the diagram
-        diagram.Save(dataDir & Convert.ToString("FindAndReplaceShapeText_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("FindAndReplaceShapeText_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:FindAndReplaceShapeText
     End Sub
 End Class

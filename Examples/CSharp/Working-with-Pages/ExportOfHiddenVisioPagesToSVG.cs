@@ -30,7 +30,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
                 options.ExportHiddenPage = false;
 
                 // Save the Visio diagram
-                diagram.Save(dataDir + "ExportOfHiddenVisioPagesToSVG_Out.svg", options);
+                diagram.Save(dataDir + "ExportOfHiddenVisioPagesToSVG_out.svg", options);
                 // ExEnd:ExportOfHiddenVisioPagesToSVG
             }
             catch (System.Exception ex)

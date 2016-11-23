@@ -24,7 +24,7 @@ namespace Aspose.Diagram.Examples.CSharp.Shapes
                 }
             }
             // Save diagram
-            diagram.Save(dataDir + "UpdateShapeText_Out.vdx", SaveFileFormat.VDX);
+            diagram.Save(dataDir + "UpdateShapeText_out.vdx", SaveFileFormat.VDX);
             // ExEnd:UpdateShapeText
         }
     }

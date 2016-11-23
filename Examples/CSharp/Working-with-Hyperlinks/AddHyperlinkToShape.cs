@@ -35,7 +35,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Hyperlinks
             // Add hyperlink to the shape
             shape.Hyperlinks.Add(hyperlink);            
             // Save diagram to local space
-            diagram.Save(dataDir + "AddHyperlinkToShape_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "AddHyperlinkToShape_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:AddHyperlinkToShape
         }
     }

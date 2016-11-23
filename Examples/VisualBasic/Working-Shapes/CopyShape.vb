@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class CopyShape
     Public Shared Sub Run()
         ' ExStart:CopyShape
@@ -32,7 +30,7 @@ Public Class CopyShape
             newDiagram.Pages(0).Shapes.Add(shape)
         Next
         ' Save the new Visio
-        newDiagram.Save(dataDir & Convert.ToString("CopyShapes_Out.vsdx"), SaveFileFormat.VSDX)
+        newDiagram.Save(dataDir & Convert.ToString("CopyShapes_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:CopyShape
     End Sub
 End Class

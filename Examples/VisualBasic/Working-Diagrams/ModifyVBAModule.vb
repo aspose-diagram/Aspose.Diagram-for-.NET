@@ -22,7 +22,7 @@ Public Class ModifyVBAModule
             [module].Codes = code
         Next
         ' Save the Visio diagram
-        diagram.Save(dataDir & Convert.ToString("ModifyVBAModule_out_.vssm"), SaveFileFormat.VSSM)
+        diagram.Save(dataDir & Convert.ToString("ModifyVBAModule_out.vssm"), SaveFileFormat.VSSM)
         ' ExEnd:ModifyVBAModule           
     End Sub
 End Class

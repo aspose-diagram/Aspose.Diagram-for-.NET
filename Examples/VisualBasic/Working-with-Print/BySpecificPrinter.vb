@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class BySpecificPrinter
     Public Shared Sub Run()
         ' ExStart:BySpecificPrinter

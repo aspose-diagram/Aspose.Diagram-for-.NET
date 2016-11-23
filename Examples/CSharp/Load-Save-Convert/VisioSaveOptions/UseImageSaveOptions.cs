@@ -77,7 +77,7 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions
             options.TiffCompression = TiffCompression.Ccitt3;
 
             // Save in any supported file format
-            diagram.Save(dataDir + "UseImageSaveOptions_Out.jpeg", options);
+            diagram.Save(dataDir + "UseImageSaveOptions_out.jpeg", options);
             // ExEnd:UseImageSaveOptions
         }
     }

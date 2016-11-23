@@ -25,7 +25,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute;
 
             // Save Visio diagram
-            diagram.Save(dataDir + "RerouteConnectors_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "RerouteConnectors_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:RerouteConnectors
         }
     }

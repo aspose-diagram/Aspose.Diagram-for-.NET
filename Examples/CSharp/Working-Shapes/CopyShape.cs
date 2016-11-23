@@ -38,7 +38,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
                 newDiagram.Pages[0].Shapes.Add(shape);
             }
             // Save the new Visio
-            newDiagram.Save(dataDir + "CopyShapes_Out.vsdx", SaveFileFormat.VSDX);
+            newDiagram.Save(dataDir + "CopyShapes_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:CopyShape
         }
     }

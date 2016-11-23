@@ -1,6 +1,7 @@
 using System.IO;
 using Aspose.Diagram;
 using Aspose.Diagram.Manipulation;
+
 namespace Aspose.Diagram.Examples.CSharp.Diagrams
 {
     public class AddConnectShapes
@@ -93,7 +94,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
                 hexagonId, ConnectionPointPlace.Left, connecter2Id);
 
             // Save the diagram
-            diagram.Save(dataDir + "AddConnectShapes_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "AddConnectShapes_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:AddConnectShapes
         }
     }

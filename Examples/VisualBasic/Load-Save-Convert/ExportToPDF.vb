@@ -1,6 +1,7 @@
 Imports Microsoft.VisualBasic
 Imports System.IO
 Imports Aspose.Diagram
+
 Namespace Diagrams
     Public Class ExportToPDF
         Public Shared Sub Run()
@@ -14,7 +15,7 @@ Namespace Diagrams
             Dim pdfStream As New MemoryStream()
             diagram.Save(pdfStream, SaveFileFormat.PDF)
 
-            Dim pdfFileStream As New FileStream(dataDir & "ExportToPDF_Out.pdf", FileMode.Create, FileAccess.Write)
+            Dim pdfFileStream As New FileStream(dataDir & "ExportToPDF_out.pdf", FileMode.Create, FileAccess.Write)
             pdfStream.WriteTo(pdfFileStream)
             pdfFileStream.Close()
 

@@ -27,7 +27,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_SolutionXML_Elements
             diagram.SolutionXMLs.Add(solXML);
 
             // Save Visio diagram
-            diagram.Save(dataDir + "AddSolutionXMLElement_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "AddSolutionXMLElement_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:AddSolutionXMLElement
         }
     }

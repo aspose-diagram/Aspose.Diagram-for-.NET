@@ -1,6 +1,5 @@
 ﻿Imports Aspose.Diagram
 Imports System
-
 Public Class ApplyLicenseByPath
     Public Shared Sub Run()
         ' ExStart:ApplyLicenseByPath

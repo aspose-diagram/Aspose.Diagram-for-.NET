@@ -28,7 +28,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Comments
                 annotation.Comment.Value = comment;
             }
             // Save Visio
-            diagram.Save(dataDir + "EditComment_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "EditComment_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:EditPageLevelCommentInVisio
         }
     }

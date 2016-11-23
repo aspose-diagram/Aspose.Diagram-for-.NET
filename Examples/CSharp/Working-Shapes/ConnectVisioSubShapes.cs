@@ -34,7 +34,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             // Connect sub-shapes
             page.ConnectShapesViaConnector(shapeFromId, ConnectionPointPlace.Right, shapeToId, ConnectionPointPlace.Left, connecter1Id);
             // Save Visio drawing
-            diagram.Save(dataDir + "ConnectVisioSubShapes_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "ConnectVisioSubShapes_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:ConnectVisioSubShapes
         }
     }

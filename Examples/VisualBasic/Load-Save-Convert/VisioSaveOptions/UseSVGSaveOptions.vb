@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports Aspose.Diagram.Saving
 Imports System
-
 Public Class UseSVGSaveOptions
     Public Shared Sub Run()
         ' ExStart:UseSVGSaveOptions
@@ -26,7 +24,7 @@ Public Class UseSVGSaveOptions
         Dim pgSize As New PageSize(PaperSizeFormat.A1)
         options.PageSize = pgSize
 
-        diagram.Save(dataDir & Convert.ToString("UseSVGSaveOptions_Out.svg"), options)
+        diagram.Save(dataDir & Convert.ToString("UseSVGSaveOptions_out.svg"), options)
         ' ExEnd:UseSVGSaveOptions
     End Sub
 End Class

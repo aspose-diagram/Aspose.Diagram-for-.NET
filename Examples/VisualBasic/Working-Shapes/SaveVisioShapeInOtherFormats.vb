@@ -1,8 +1,6 @@
-﻿
-Imports System
+﻿Imports System
 Imports System.Collections
 Imports Aspose.Diagram
-
 Public Class SaveVisioShapeInOtherFormats
     Public Shared Sub Run()
         ' ExStart:SaveVisioShapeInOtherFormats
@@ -56,7 +54,7 @@ Public Class SaveVisioShapeInOtherFormats
         ' Set starting index of the page
         opts.PageIndex = 1
         ' Save it
-        srcVisio.Save(dataDir & Convert.ToString("SaveVisioShapeInOtherFormats_Out.pdf"), opts)
+        srcVisio.Save(dataDir & Convert.ToString("SaveVisioShapeInOtherFormats_out.pdf"), opts)
         ' ExEnd:SaveVisioShapeInOtherFormats
     End Sub
 End Class

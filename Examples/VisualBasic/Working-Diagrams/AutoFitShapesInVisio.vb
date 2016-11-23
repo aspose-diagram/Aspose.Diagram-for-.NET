@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
 Imports Aspose.Diagram.Saving
-
 Public Class AutoFitShapesInVisio
     Public Shared Sub Run()
         ' ExStart:AutoFitShapesInVisio
@@ -18,7 +16,7 @@ Public Class AutoFitShapesInVisio
         options.AutoFitPageToDrawingContent = True
 
         ' Save Visio diagram
-        diagram.Save(dataDir & Convert.ToString("AutoFitShapesInVisio_Out.vsdx"), options)
+        diagram.Save(dataDir & Convert.ToString("AutoFitShapesInVisio_out.vsdx"), options)
         ' ExEnd:AutoFitShapesInVisio
     End Sub
 End Class

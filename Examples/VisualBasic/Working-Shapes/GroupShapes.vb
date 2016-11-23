@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class GroupShapes
     Public Shared Sub Run()
         ' ExStart:GroupShapes
@@ -25,7 +23,7 @@ Public Class GroupShapes
         page.Shapes.Group(ss)
 
         ' Save visio diagram
-        diagram.Save(dataDir & Convert.ToString("GroupShapes_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("GroupShapes_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:GroupShapes
     End Sub
 End Class

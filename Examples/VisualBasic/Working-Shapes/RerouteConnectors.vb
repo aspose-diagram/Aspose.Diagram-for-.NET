@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class RerouteConnectors
     Public Shared Sub Run()
         ' ExStart:RerouteConnectors
@@ -19,7 +17,7 @@ Public Class RerouteConnectors
         shape.Layout.ConFixedCode.Value = ConFixedCodeValue.NeverReroute
 
         ' Save Visio diagram
-        diagram.Save(dataDir & Convert.ToString("RerouteConnectors_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("RerouteConnectors_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:RerouteConnectors
     End Sub
 End Class

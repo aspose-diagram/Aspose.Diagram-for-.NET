@@ -1,5 +1,6 @@
 using System.IO;
 using Aspose.Diagram;
+
 namespace Aspose.Diagram.Examples.CSharp.Diagrams
 {
     public class ExportToSWF
@@ -15,7 +16,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
                 // Load diagram
                 Diagram diagram = new Diagram(dataDir + "ActvDir.vsd");
                 // Save diagram
-                diagram.Save(dataDir + "Output_Out.swf", SaveFileFormat.SWF);
+                diagram.Save(dataDir + "Output_out.swf", SaveFileFormat.SWF);
                 // ExEnd:ExportToSWF
             }
             catch (System.Exception ex)

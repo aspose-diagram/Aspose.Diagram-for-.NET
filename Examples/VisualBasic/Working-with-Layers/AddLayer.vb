@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class AddLayer
     Public Shared Sub Run()
         ' ExStart:AddLayer
@@ -29,7 +27,7 @@ Public Class AddLayer
         ' Assign shape to this new Layer
         shape.LayerMem.LayerMember.Value = layer.IX.ToString()
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("AddLayer_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("AddLayer_out.vsdx"), SaveFileFormat.VSDX)
 
         ' ExEnd:AddLayer
     End Sub

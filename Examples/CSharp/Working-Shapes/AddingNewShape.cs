@@ -42,7 +42,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             rectangle.Fill.FillBkgnd.Value = "#ff00ff";
             rectangle.Fill.FillForegnd.Value = "#ebf8df";
 
-            diagram.Save(dataDir + "AddShape_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "AddShape_out.vsdx", SaveFileFormat.VSDX);
             Console.WriteLine("Shape has been added.");
             // ExEnd:AddingNewShape
         }

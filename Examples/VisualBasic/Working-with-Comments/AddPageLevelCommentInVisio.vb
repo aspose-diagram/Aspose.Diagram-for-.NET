@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class AddPageLevelCommentInVisio
     Public Shared Sub Run()
         ' ExStart:AddPageLevelCommentInVisio
@@ -15,7 +13,7 @@ Public Class AddPageLevelCommentInVisio
         diagram.Pages(0).AddComment(7.20590551181102, 3.88070866141732, "test@")
 
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("AddComment_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("AddComment_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:AddPageLevelCommentInVisio
     End Sub
 End Class

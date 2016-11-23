@@ -1,7 +1,5 @@
 ﻿Imports Aspose.Diagram
 Imports System
-
-
 Public Class CopyVisioPage
     Public Shared Sub Run()
         ' ExStart:CopyVisioPage
@@ -45,7 +43,7 @@ Public Class CopyVisioPage
         ' Remove first empty page
         NewDigram.Pages.Remove(NewDigram.Pages(0))
         ' Save diagram
-        NewDigram.Save(dataDir & Convert.ToString("CopyVisioPage_Out.vsdx"), SaveFileFormat.VSDX)
+        NewDigram.Save(dataDir & Convert.ToString("CopyVisioPage_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:CopyVisioPage
     End Sub
 End Class

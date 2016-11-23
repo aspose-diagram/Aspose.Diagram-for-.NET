@@ -1,6 +1,7 @@
 using System.IO;
 using Aspose.Diagram;
 using Aspose.Diagram.AutoLayout;
+
 namespace Aspose.Diagram.Examples.CSharp.Diagrams
 {
     public class LayOutShapesInFlowchartStyle
@@ -24,25 +25,25 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             // Set layout direction as BottomToTop and then save
             flowChartOptions.Direction = LayoutDirection.BottomToTop;
             diagram.Layout(flowChartOptions);
-            diagram.Save(dataDir + "sample_btm_top.vdx", SaveFileFormat.VDX);
+            diagram.Save(dataDir + "sample_btm_top_out.vdx", SaveFileFormat.VDX);
 
             // Set layout direction as TopToBottom and then save
             diagram = new Diagram(dataDir + fileName);
             flowChartOptions.Direction = LayoutDirection.TopToBottom;
             diagram.Layout(flowChartOptions);
-            diagram.Save(dataDir + "sample_top_btm.vdx", SaveFileFormat.VDX);
+            diagram.Save(dataDir + "sample_top_btm_out.vdx", SaveFileFormat.VDX);
 
             // Set layout direction as LeftToRight and then save
             diagram = new Diagram(dataDir + fileName);
             flowChartOptions.Direction = LayoutDirection.LeftToRight;
             diagram.Layout(flowChartOptions);
-            diagram.Save(dataDir + "sample_left_right.vdx", SaveFileFormat.VDX);
+            diagram.Save(dataDir + "sample_left_right_out.vdx", SaveFileFormat.VDX);
 
             // Set layout direction as RightToLeft and then save
             diagram = new Diagram(dataDir + fileName);
             flowChartOptions.Direction = LayoutDirection.RightToLeft;
             diagram.Layout(flowChartOptions);
-            diagram.Save(dataDir + "sample_right_left.vdx", SaveFileFormat.VDX);
+            diagram.Save(dataDir + "sample_right_left_out.vdx", SaveFileFormat.VDX);
             // ExEnd:LayOutShapesInFlowchartStyle
         }
     }

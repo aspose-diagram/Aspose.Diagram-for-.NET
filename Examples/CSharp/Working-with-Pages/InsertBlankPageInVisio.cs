@@ -45,7 +45,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
             diagram.Pages.Add(newPage);
 
             // Save diagram
-            diagram.Save(dataDir + "InsertBlankPage_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "InsertBlankPage_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:InsertBlankPageInVisio
         }
     }

@@ -30,7 +30,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Text_Boxes
             shape.TextXForm.TxtAngle.Value = angleRad;
 
             // Save Visio diagram in the local storage
-            diagram.Save(dataDir + "SetShapeTextPositionAtRight_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "SetShapeTextPositionAtRight_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:SetShapeTextPositionAtRight
         }
     }

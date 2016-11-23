@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class AddHyperlinkToShape
     Public Shared Sub Run()
         ' ExStart:AddHyperlinkToShape
@@ -29,7 +27,7 @@ Public Class AddHyperlinkToShape
         ' Add hyperlink to the shape
         shape.Hyperlinks.Add(hyperlink)
         ' Save diagram to local space
-        diagram.Save(dataDir & Convert.ToString("AddHyperlinkToShape_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("AddHyperlinkToShape_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:AddHyperlinkToShape
     End Sub
 End Class

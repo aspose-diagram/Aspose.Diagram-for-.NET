@@ -1,5 +1,6 @@
 using System.IO;
 using Aspose.Diagram;
+
 namespace Aspose.Diagram.Examples.CSharp.Diagrams
 {
     public class ReadDiagramFile

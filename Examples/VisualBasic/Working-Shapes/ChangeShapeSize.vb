@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class ChangeShapeSize
     Public Shared Sub Run()
         ' ExStart:ChangeShapeSize
@@ -18,7 +16,7 @@ Public Class ChangeShapeSize
         shape.SetWidth(2 * shape.XForm.Width.Value)
         shape.SetHeight(2 * shape.XForm.Height.Value)
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("ChangeShapeSize_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("ChangeShapeSize_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:ChangeShapeSize
     End Sub
 End Class

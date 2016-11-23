@@ -43,7 +43,7 @@ namespace Aspose.Diagram.Examples.CSharp.OLE_Objects
                 }
             }
             // Save Visio diagram
-            diagram.Save(dataDir + "ManipulateObjects_out_.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "ManipulateObjects_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:ManipulateObjects
         }
     }

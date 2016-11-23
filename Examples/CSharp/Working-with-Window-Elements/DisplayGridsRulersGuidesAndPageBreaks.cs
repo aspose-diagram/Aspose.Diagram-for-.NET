@@ -29,7 +29,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Window_Elements
             window.ShowPageBreaks = BOOL.True;
 
             // Save diagram
-            diagram.Save(dataDir + "DisplayGridsRulersGuidesAndPageBreaks_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "DisplayGridsRulersGuidesAndPageBreaks_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:DisplayGridsRulersGuidesAndPageBreaks
         }
     }

@@ -58,7 +58,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // ExportHTMLinStream.Run();
             // ExportToXAML.Run();
             // ReadVisioDiagram.Run();
-            CreateMasterFromScratch.Run();
+            // CreateMasterFromScratch.Run();
 
             // =====================================================
             // =====================================================
@@ -237,6 +237,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // FindAndReplaceShapeText.Run();
             // GetPlainTextOfVisio.Run();
             // UpdateShapeText.Run();
+            // InsertTextShape.Run();
 
             // =====================================================
             // =====================================================
@@ -277,7 +278,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            //ManipulateObjects.Run();
+            // ManipulateObjects.Run();
 
             // =====================================================
             // =====================================================
@@ -285,7 +286,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            //SettingCellsInEventSection.Run();
+            // SettingCellsInEventSection.Run();
 
             // =====================================================
             // =====================================================
@@ -293,7 +294,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            InsertActiveXControl.Run();
+            // InsertActiveXControl.Run();               
                         
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");

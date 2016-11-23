@@ -20,7 +20,7 @@ namespace Aspose.Diagram.Examples.CSharp.Visio_ActiveX_Controls
             // Insert an ActiveX control
             diagram.Pages[0].AddActiveXControl(ControlType.Image, 1, 1, 1, 1);
             // Save diagram
-            diagram.Save(dataDir + "InsertActiveXControl_out_.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "InsertActiveXControl_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:InsertActiveXControl
         }
     }

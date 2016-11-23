@@ -1,6 +1,5 @@
 ﻿Imports Aspose.Diagram
 Imports System
-
 Public Class CreatingDiagramWithAspose
     Public Shared Sub Run()
         ' ExStart:CreatingDiagramWithAspose
@@ -26,7 +25,7 @@ Public Class CreatingDiagramWithAspose
         shape.Text.Value.Add(New Txt("Hexagon text."))
 
         ' Save the new diagram
-        diagram.Save(dataDir & Convert.ToString("CreatingDiagramWithAspose_Out.vdx"), SaveFileFormat.VDX)
+        diagram.Save(dataDir & Convert.ToString("CreatingDiagramWithAspose_out.vdx"), SaveFileFormat.VDX)
         ' ExEnd:CreatingDiagramWithAspose
     End Sub
 End Class

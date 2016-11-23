@@ -38,7 +38,7 @@ namespace Aspose.Diagram.Examples.CSharp.Shapes
             shape.Line.BeginArrowSize.Value = ArrowSizeValue.Large;
 
             // Save the Visio
-            diagram.Save(dataDir + "SetLineData_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "SetLineData_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:SetLineData
         }
     }

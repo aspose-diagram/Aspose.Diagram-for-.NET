@@ -1,5 +1,6 @@
 using System.IO;
 using Aspose.Diagram;
+
 namespace Aspose.Diagram.Examples.CSharp.Diagrams
 {
     public class ExportToImage
@@ -14,7 +15,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             Diagram diagram = new Diagram(dataDir + "ExportToImage.vsd");
 
             // Save Image file
-            diagram.Save(dataDir + "ExportToImage_Out.png", SaveFileFormat.PNG);
+            diagram.Save(dataDir + "ExportToImage_out.png", SaveFileFormat.PNG);
             // ExEnd:ExportToImage
         }
     }

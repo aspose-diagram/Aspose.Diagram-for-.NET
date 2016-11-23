@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class CheckMasterPresencebyName
     Public Shared Sub Run()
         ' ExStart:CheckMasterPresencebyName

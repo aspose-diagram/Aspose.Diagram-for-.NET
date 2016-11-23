@@ -1,7 +1,5 @@
 ﻿Imports Aspose.Diagram
-
 Imports System
-
 Public Class CreateNewVisio
     Public Shared Sub Run()
         ' ExStart:CreateNewVisio
@@ -12,7 +10,7 @@ Public Class CreateNewVisio
         Dim diagram As New Diagram()
 
         ' Save diagram in the VSDX format
-        diagram.Save(dataDir & Convert.ToString("CreateNewVisio_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("CreateNewVisio_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:CreateNewVisio
     End Sub
 End Class

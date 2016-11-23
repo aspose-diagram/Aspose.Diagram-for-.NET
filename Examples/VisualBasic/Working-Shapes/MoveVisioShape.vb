@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class MoveVisioShape
     Public Shared Sub Run()
         ' ExStart:MoveVisioShape
@@ -18,7 +16,7 @@ Public Class MoveVisioShape
         shape.Move(1, 1)
 
         ' Save diagram
-        diagram.Save(dataDir & Convert.ToString("MoveVisioShape_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("MoveVisioShape_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:MoveVisioShape
     End Sub
 End Class

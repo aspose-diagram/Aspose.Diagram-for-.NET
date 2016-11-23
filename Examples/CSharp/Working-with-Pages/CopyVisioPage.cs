@@ -49,7 +49,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
             // Remove first empty page
             NewDigram.Pages.Remove(NewDigram.Pages[0]);
             // Save diagram
-            NewDigram.Save(dataDir + "CopyVisioPage_Out.vsdx", SaveFileFormat.VSDX);
+            NewDigram.Save(dataDir + "CopyVisioPage_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:CopyVisioPage
         }
     }

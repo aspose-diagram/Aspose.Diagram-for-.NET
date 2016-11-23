@@ -14,7 +14,7 @@ namespace Aspose.Diagram.Examples.CSharp.Diagrams
             Diagram diagram = new Diagram(dataDir + "LayOutShapesInCompactTreeStyle.vdx");
 
             // Save diagram to an XPS format
-            diagram.Save(dataDir + "Output.xps", SaveFileFormat.XPS);
+            diagram.Save(dataDir + "ExportToXPS_out.xps", SaveFileFormat.XPS);
             // ExEnd:ExportToXPS
         }
     }

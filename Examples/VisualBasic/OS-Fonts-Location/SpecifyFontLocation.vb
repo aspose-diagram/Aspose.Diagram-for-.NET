@@ -1,7 +1,5 @@
-﻿
-Imports System
+﻿Imports System
 Imports Aspose.Diagram
-
 Public Class SpecifyFontLocation
     Public Shared Sub Run()
         ' ExStart:SpecifyFontLocation
@@ -15,7 +13,7 @@ Public Class SpecifyFontLocation
         diagram.FontDirs = fontDirs
 
         ' Saving Visio diagram in PDF format
-        diagram.Save(dataDir & Convert.ToString("SetFontsFolders_Out.pdf"), SaveFileFormat.PDF)
+        diagram.Save(dataDir & Convert.ToString("SetFontsFolders_out.pdf"), SaveFileFormat.PDF)
         ' ExEnd:SpecifyFontLocation
     End Sub
 End Class

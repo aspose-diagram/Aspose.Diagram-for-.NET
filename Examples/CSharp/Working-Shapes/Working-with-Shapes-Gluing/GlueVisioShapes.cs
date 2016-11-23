@@ -26,7 +26,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes.Working_with_Shapes_Glui
             page.GlueShapes(shape1_ID, Aspose.Diagram.Manipulation.ConnectionPointPlace.Center, shape2_ID);
 
             // Save diagram
-            diagram.Save(dataDir + "GlueVisioShapes_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "GlueVisioShapes_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:GlueVisioShapes
         }
     }

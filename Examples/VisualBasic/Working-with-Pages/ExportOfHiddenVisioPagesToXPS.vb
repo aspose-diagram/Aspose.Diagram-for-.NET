@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports Aspose.Diagram.Saving
 Imports System
-
 Public Class ExportOfHiddenVisioPagesToXPS
     Public Shared Sub Run()
         Try
@@ -23,7 +21,7 @@ Public Class ExportOfHiddenVisioPagesToXPS
             options.ExportHiddenPage = False
 
             ' Save the Visio diagram
-            diagram.Save(dataDir & Convert.ToString("ExportOfHiddenVisioPagesToXPS_Out.xps"), options)
+            diagram.Save(dataDir & Convert.ToString("ExportOfHiddenVisioPagesToXPS_out.xps"), options)
             ' ExEnd:ExportOfHiddenVisioPagesToXPS
         Catch ex As System.Exception
             System.Console.WriteLine("This example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.")

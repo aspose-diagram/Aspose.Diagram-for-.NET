@@ -1,8 +1,6 @@
 ﻿Imports System.IO
 Imports Aspose.Diagram
 Imports System
-
-
 Public Class ApplyLicenseUsingFileStream
     Public Shared Sub Run()
         ' ExStart:ApplyLicenseUsingFileStream

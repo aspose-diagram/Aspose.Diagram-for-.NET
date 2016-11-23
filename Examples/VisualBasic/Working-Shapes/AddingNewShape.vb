@@ -1,7 +1,5 @@
-﻿
-Imports System
+﻿Imports System
 Imports Aspose.Diagram
-
 Public Class AddingNewShape
     Public Shared Sub Run()
         ' ExStart:AddingNewShape
@@ -37,7 +35,7 @@ Public Class AddingNewShape
         rectangle.Fill.FillBkgnd.Value = "#ff00ff"
         rectangle.Fill.FillForegnd.Value = "#ebf8df"
 
-        diagram.Save(dataDir & Convert.ToString("AddShape_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("AddShape_out.vsdx"), SaveFileFormat.VSDX)
         Console.WriteLine("Shape has been added.")
         ' ExEnd:AddingNewShape
     End Sub

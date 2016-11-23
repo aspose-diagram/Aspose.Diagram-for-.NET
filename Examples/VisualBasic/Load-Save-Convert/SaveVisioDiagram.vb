@@ -1,8 +1,6 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
 Imports System.IO
-
 Public Class SaveVisioDiagram
     Public Shared Sub Run()
         ' ExStart:SaveVisioDiagram
@@ -11,7 +9,7 @@ Public Class SaveVisioDiagram
         ' Load an existing Visio diagram
         Dim diagram As New Diagram(dataDir & Convert.ToString("Drawing1.vsdx"))
         ' Save diagram using the direct path
-        diagram.Save(dataDir & Convert.ToString("SaveVisioDiagram_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("SaveVisioDiagram_out.vsdx"), SaveFileFormat.VSDX)
 
         Dim stream As New MemoryStream()
         ' Save diagram in the stream

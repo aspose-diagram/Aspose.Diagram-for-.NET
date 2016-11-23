@@ -1,7 +1,5 @@
-﻿
-Imports Aspose.Diagram
+﻿Imports Aspose.Diagram
 Imports System
-
 Public Class GetVisioPagebyID
     Public Shared Sub Run()
         ' ExStart:GetVisioPagebyID

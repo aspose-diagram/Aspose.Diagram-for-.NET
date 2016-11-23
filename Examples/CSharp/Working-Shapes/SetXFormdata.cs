@@ -23,7 +23,7 @@ namespace Aspose.Diagram.Examples.CSharp.Shapes
                 }
             }
             // Save diagram
-            diagram.Save(dataDir + "SetXFormdata_Out.vsdx", SaveFileFormat.VSDX);
+            diagram.Save(dataDir + "SetXFormdata_out.vsdx", SaveFileFormat.VSDX);
             // ExEnd:SetXFormdata
         }
     }

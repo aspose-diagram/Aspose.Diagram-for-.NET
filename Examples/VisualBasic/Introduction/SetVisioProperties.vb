@@ -1,7 +1,5 @@
 ﻿Imports Aspose.Diagram
 Imports System
-
-
 Public Class SetVisioProperties
     Public Shared Sub Run()
         ' ExStart:SetVisioProperties
@@ -26,7 +24,7 @@ Public Class SetVisioProperties
         diagram.DocumentProps.Template = "Aspose Template"
 
         ' Write the updated file to the disk in VSDX file format
-        diagram.Save(dataDir & Convert.ToString("SetVisioProperties_Out.vsdx"), SaveFileFormat.VSDX)
+        diagram.Save(dataDir & Convert.ToString("SetVisioProperties_out.vsdx"), SaveFileFormat.VSDX)
         ' ExEnd:SetVisioProperties
     End Sub
 End Class

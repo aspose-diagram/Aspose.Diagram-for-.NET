@@ -51,8 +51,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=16.10.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Diagram.16.10.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
+    <Reference Include="Aspose.Diagram, Version=16.11.1.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Diagram.16.11.1.0\lib\net40\Aspose.Diagram.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Aspose.Words">
@@ -95,6 +95,7 @@
     <Compile Include="Load-Save-Convert\VisioSaveOptions\UseSWFSaveOptions.cs" />
     <Compile Include="OLE-Objects\ManipulateObjects.cs" />
     <Compile Include="OS-Fonts-Location\SpecifyFontLocation.cs" />
+    <Compile Include="Visio-ActiveX-Controls\RetrieveActiveXControl.cs" />
     <Compile Include="Visio-ActiveX-Controls\InsertActiveXControl.cs" />
     <Compile Include="Working-Diagrams\ModifyVBAModule.cs" />
     <Compile Include="Working-Diagrams\RetrieveInheritedFillData.cs" />
@@ -162,6 +163,7 @@
     <Compile Include="Working-with-Text-Boxes\SetShapeTextPositionAtLeft.cs" />
     <Compile Include="Working-with-Text-Boxes\SetShapeTextPositionAtRight.cs" />
     <Compile Include="Working-with-Text-Boxes\SetShapeTextPositionAtTop.cs" />
+    <Compile Include="Working-with-Text\InsertTextShape.cs" />
     <Compile Include="Working-with-Text\ApplyFontOnText.cs" />
     <Compile Include="Working-with-Text\FindAndReplaceShapeText.cs" />
     <Compile Include="Working-with-Text\GetPlainTextOfVisio.cs" />
