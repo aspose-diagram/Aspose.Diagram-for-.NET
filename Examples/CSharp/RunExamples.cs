@@ -25,6 +25,7 @@ using Aspose.Diagram.Examples.CSharp.Working_with_User_defined_Cells;
 using Aspose.Diagram.Examples.CSharp.Working_with_Window_Elements;
 using Aspose.Diagram.Examples.CSharp.OLE_Objects;
 using Aspose.Diagram.Examples.CSharp.Event_Section;
+using Aspose.Diagram.Examples.CSharp.Shape_Gradient_Fill_Data;
 
 namespace Aspose.Diagram.Examples.CSharp
 {
@@ -37,7 +38,6 @@ namespace Aspose.Diagram.Examples.CSharp
             Console.WriteLine("=====================================================");
             // Uncomment the one you want to try out
 
-            
             // =====================================================
             // =====================================================
             // Introduction
@@ -295,7 +295,15 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
 
             // InsertActiveXControl.Run();               
-                        
+
+            // =====================================================
+            // =====================================================
+            // ShapeGradientFillData
+            // =====================================================
+            // =====================================================
+
+            // ModifyShapeGradientFillData.Run();
+
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
             Console.ReadKey();
@@ -395,6 +403,10 @@ namespace Aspose.Diagram.Examples.CSharp
         public static String GetDataDir_KnowledgeBase()
         {
             return Path.GetFullPath(GetDataDir_Data() + "Knowledge-Base/");
+        }
+        public static String GetDataDir_ShapeGradientFillData()
+        {
+            return Path.GetFullPath(GetDataDir_Data() + "ShapeGradientFillData/");
         }
         private static string GetDataDir_Data()
         {
