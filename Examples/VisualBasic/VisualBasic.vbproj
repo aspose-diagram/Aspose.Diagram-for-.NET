@@ -39,12 +39,12 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=16.11.1.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Diagram.16.11.1.0\lib\net40\Aspose.Diagram.dll</HintPath>
+    <Reference Include="Aspose.Diagram, Version=16.12.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Diagram.16.12.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Aspose.Words, Version=16.11.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Words.16.11.0\lib\net40-client\Aspose.Words.dll</HintPath>
+    <Reference Include="Aspose.Words, Version=16.12.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Words.16.12.0\lib\net40-client\Aspose.Words.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Visio, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
@@ -86,6 +86,7 @@
     <Compile Include="Load-Save-Convert\VisioSaveOptions\UseSWFSaveOptions.vb" />
     <Compile Include="OLE-Objects\ManipulateObjects.vb" />
     <Compile Include="OS-Fonts-Location\SpecifyFontLocation.vb" />
+    <Compile Include="ShapeGradientFillData\ModifyShapeGradientFillData.vb" />
     <Compile Include="Visio-ActiveX-Controls\InsertActiveXControl.vb" />
     <Compile Include="Visio-ActiveX-Controls\RetrieveActiveXControl.vb" />
     <Compile Include="Working-Diagrams\AutoFitShapesInVisio.vb" />

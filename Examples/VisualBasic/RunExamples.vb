@@ -268,6 +268,13 @@ Friend Class RunExamples
         '' =====================================================
         ' InsertActiveXControl.Run()
 
+        '' =====================================================
+        '' =====================================================
+        '' ModifyShapeGradientFillData
+        '' =====================================================
+        '' =====================================================
+        ' ModifyShapeGradientFillData.Run()
+
         ' Stop before exiting
         Console.WriteLine(Constants.vbLf + Constants.vbLf & "Program Finished. Press any key to exit....")
         Console.ReadKey()
@@ -345,7 +352,9 @@ Friend Class RunExamples
     Public Shared Function GetDataDir_EventSection() As [String]
         Return Path.GetFullPath(GetDataDir_Data() + "Event-Section/")
     End Function
-
+    Public Shared Function GetDataDir_ShapeGradientFillData() As [String]
+        Return Path.GetFullPath(GetDataDir_Data() + "ShapeGradientFillData/")
+    End Function
     Private Shared Function GetDataDir_Data() As String
         Dim parent = Directory.GetParent(Directory.GetCurrentDirectory()).Parent
         Dim startDirectory As String = Nothing
