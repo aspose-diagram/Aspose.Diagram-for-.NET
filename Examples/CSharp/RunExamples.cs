@@ -59,6 +59,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // ExportToXAML.Run();
             // ReadVisioDiagram.Run();
             // CreateMasterFromScratch.Run();
+            // ConvertVisioWithSelectiveShapes.Run();
 
             // =====================================================
             // =====================================================
