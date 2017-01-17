@@ -34,6 +34,7 @@ Friend Class RunExamples
         ' ExportToXAML.Run()
         ' ReadVisioDiagram.Run()
         ' CreateMasterFromScratch.Run()
+        ' ConvertVisioWithSelectiveShapes.Run()
 
         '' =====================================================
         '' =====================================================

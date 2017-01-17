@@ -39,8 +39,8 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=16.12.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Diagram.16.12.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
+    <Reference Include="Aspose.Diagram, Version=17.1.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Diagram.17.1.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Aspose.Words, Version=16.12.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
@@ -72,6 +72,7 @@
     <Compile Include="Introduction\DetectVisioFileFormat.vb" />
     <Compile Include="Introduction\GetLibraryVersion.vb" />
     <Compile Include="Introduction\SetVisioProperties.vb" />
+    <Compile Include="Load-Save-Convert\ConvertVisioWithSelectiveShapes.vb" />
     <Compile Include="Load-Save-Convert\CreateMasterFromScratch.vb" />
     <Compile Include="Load-Save-Convert\CreateNewVisio.vb" />
     <Compile Include="Load-Save-Convert\ExportHTMLinStream.vb" />
