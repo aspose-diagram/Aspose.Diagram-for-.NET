@@ -118,6 +118,8 @@ namespace Aspose.Diagram.Examples.CSharp
             // SetXFormdata.Run();
             // UpdateShapeText.Run();
             // RefreshMilestoneWithMilestoneHelper.Run();
+            // VerifyShapeIsInGroup.Run();
+            // RetrieveTheParentShape.Run();
 
             // =====================================================
             // =====================================================

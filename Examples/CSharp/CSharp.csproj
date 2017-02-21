@@ -51,8 +51,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=17.1.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Diagram.17.1.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
+    <Reference Include="Aspose.Diagram, Version=17.2.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Diagram.17.02.0.0\lib\net40\Aspose.Diagram.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Aspose.Words, Version=17.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="ApplyLicense\ApplyLicenseByPath.cs" />
     <Compile Include="ApplyLicense\ApplyLicenseUsingFileStream.cs" />
+    <Compile Include="ApplyLicense\PublicAndPrivateKeys.cs" />
     <Compile Include="Event-Section\SettingCellsInEventSection.cs" />
     <Compile Include="Knowledge-Base\CreatingDiagramWithAspose.cs" />
     <Compile Include="Knowledge-Base\CreatingDiagramWithVSTO.cs" />
@@ -103,6 +104,8 @@
     <Compile Include="Working-Diagrams\ModifyVBAModule.cs" />
     <Compile Include="Working-Diagrams\RetrieveInheritedFillData.cs" />
     <Compile Include="Working-Shapes\ReadShapePropByName.cs" />
+    <Compile Include="Working-Shapes\RetrieveTheParentShape.cs" />
+    <Compile Include="Working-Shapes\VerifyShapeIsInGroup.cs" />
     <Compile Include="Working-with-Comments\AddPageLevelCommentInVisio.cs" />
     <Compile Include="Working-Diagrams\AutoFitShapesInVisio.cs" />
     <Compile Include="Working-Diagrams\RemoveMacrosFromVisio.cs" />
