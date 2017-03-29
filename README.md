@@ -18,7 +18,7 @@ Directory | Description
 
 + **Website:** [www.aspose.com](http://www.aspose.com)
 + **Product Home:** [Aspose.Diagram for .NET](http://www.aspose.com/products/diagram/net)
-+ **Download:** [Download Aspose.Diagram for .NET](http://www.aspose.com/downloads/diagram/net)
-+ **Documentation:** [Aspose.Diagram for .NET Documentation](http://www.aspose.com/docs/display/diagramnet/Home)
-+ **Forum:** [Aspose.Diagram for .NET Forum](http://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx)
-+ **Blog:** [Aspose.Diagram for .NET Blog](http://www.aspose.com/blogs/aspose-products/aspose-diagram-product-family.html)
++ **Download:** [Download Aspose.Diagram for .NET](https://downloads.aspose.com/diagram/net)
++ **Documentation:** [Aspose.Diagram for .NET Documentation](https://docs.aspose.com//display/diagramnet/Home)
++ **Forum:** [Aspose.Diagram for .NET Forum](https://www.aspose.com/community/forums/aspose.diagram-product-family/489/showforum.aspx)
++ **Blog:** [Aspose.Diagram for .NET Blog](https://blog.aspose.com/category/aspose-products/aspose-diagram-product-family/)
