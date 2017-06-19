@@ -22,7 +22,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
                 // Get a particular page
                 Page page = diagram.Pages.GetPage("Flow 2");
                 // Set Visio page visiblity
-                page.PageSheet.PageProps.UIVisibility.Value = BOOL.True;
+                page.PageSheet.PageProps.UIVisibility.Value = UIVisibilityValue.Visible;
 
                 // Initialize PDF save options
                 XPSSaveOptions options = new XPSSaveOptions();

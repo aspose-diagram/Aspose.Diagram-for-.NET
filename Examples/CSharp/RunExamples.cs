@@ -26,6 +26,7 @@ using Aspose.Diagram.Examples.CSharp.Working_with_Window_Elements;
 using Aspose.Diagram.Examples.CSharp.OLE_Objects;
 using Aspose.Diagram.Examples.CSharp.Event_Section;
 using Aspose.Diagram.Examples.CSharp.Shape_Gradient_Fill_Data;
+using Aspose.Diagram.Examples.CSharp.OS_Fonts_Location;
 
 namespace Aspose.Diagram.Examples.CSharp
 {
@@ -60,6 +61,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // ReadVisioDiagram.Run();
             // CreateMasterFromScratch.Run();
             // ConvertVisioWithSelectiveShapes.Run();
+            // NotificationofMissingFonts.Run();
 
             // =====================================================
             // =====================================================
@@ -76,7 +78,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
 
             // ManageHeadersandFooters.Run();
-         
+
             // =====================================================
             // =====================================================
             // Working With Diagrams
@@ -120,6 +122,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // RefreshMilestoneWithMilestoneHelper.Run();
             // VerifyShapeIsInGroup.Run();
             // RetrieveTheParentShape.Run();
+            // Apply3DRotationEffects.Run();
 
             // =====================================================
             // =====================================================
@@ -175,7 +178,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // Working-with-Masters
             // =====================================================
             // =====================================================
-                        
+
             // CheckMasterPresencebyID.Run();
             // CheckMasterPresencebyName.Run();
             // GetMasterbyID.Run();
