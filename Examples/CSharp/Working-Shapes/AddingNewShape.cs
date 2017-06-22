@@ -42,6 +42,9 @@ namespace Aspose.Diagram.Examples.CSharp.Working_Shapes
             rectangle.Fill.FillBkgnd.Value = "#ff00ff";
             rectangle.Fill.FillForegnd.Value = "#ebf8df";
 
+            /* refreshes shape's position, including XForm, TextXForm, connection and geom data
+             when changing the shape's text and other's*/
+            rectangle.RefreshData();
             diagram.Save(dataDir + "AddShape_out.vsdx", SaveFileFormat.VSDX);
             Console.WriteLine("Shape has been added.");
             // ExEnd:AddingNewShape
