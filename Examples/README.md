@@ -1,6 +1,6 @@
-##Aspose.Diagram for .NET Examples
+## Aspose.Diagram for .NET Examples
 
-This repository contains C# and VB.NET Example Projects for [Aspose.Diagram for .NET](https://www.aspose.com/products/diagram) which will help you learn Aspose.Diagram for .NET and write your own applications.
+This repository contains C# and VB.NET Example Projects for [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) which will help you learn Aspose.Diagram for .NET and write your own applications.
 
 <p align="center">
   <a title="Download Examples ZIP" href="https://github.com/asposediagram/Aspose_Diagram_NET/archive/master.zip">
