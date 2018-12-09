@@ -20,7 +20,7 @@ namespace Aspose.Diagram.Examples.CSharp.OLE_Objects
             // Get page of the Visio diagram by name
             Aspose.Diagram.Page page = diagram.Pages.GetPage("Page-1");
             // Get shape of the Visio diagram by ID
-            Aspose.Diagram.Shape OLE_Shape = page.Shapes.GetShape(2);
+            Aspose.Diagram.Shape OLE_Shape = page.Shapes.GetShape(1);
 
             // Filter shapes by type Foreign
             if (OLE_Shape.Type == Aspose.Diagram.TypeValue.Foreign)

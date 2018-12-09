@@ -45,9 +45,9 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // GetLibraryVersion.Run();
-            // SetVisioProperties.Run();
-            // DetectVisioFileFormat.Run();
+            //GetLibraryVersion.Run();
+            //SetVisioProperties.Run();
+            //DetectVisioFileFormat.Run();
 
             // =====================================================
             // =====================================================
@@ -55,13 +55,13 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // CreateNewVisio.Run();
-            // ExportHTMLinStream.Run();
-            // ExportToXAML.Run();
-            // ReadVisioDiagram.Run();
-            // CreateMasterFromScratch.Run();
-            // ConvertVisioWithSelectiveShapes.Run();
-            // NotificationofMissingFonts.Run();
+            //CreateNewVisio.Run();
+            //ExportHTMLinStream.Run();
+            //ExportToXAML.Run();
+            //ReadVisioDiagram.Run();
+            //CreateMasterFromScratch.Run();
+            //ConvertVisioWithSelectiveShapes.Run();
+            //NotificationofMissingFonts.Run();
 
             // =====================================================
             // =====================================================
@@ -69,7 +69,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // EditConnectorGeometry.Run();
+            //EditConnectorGeometry.Run();
 
             // =====================================================
             // =====================================================
@@ -77,7 +77,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // ManageHeadersandFooters.Run();
+            //ManageHeadersandFooters.Run();
 
             // =====================================================
             // =====================================================
@@ -85,27 +85,27 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // AddConnectShapes.Run();
-            // CreateDiagram.Run();
-            // ExportPageToImage.Run();
-            // ExportToHTML.Run();
-            // ExportToImage.Run();
-            // ExportToPDF.Run();
-            // ExportToSVG.Run();            
-            // ExportToXML.Run();
-            // ExportToXPS.Run();            
-            // ExtractAllImagesFromPage.Run();
-            // LayOutShapesInCompactTreeStyle.Run();
-            // LayOutShapesInFlowchartStyle.Run();           
-            // ReadDiagramFile.Run();
-            // RetrieveConnectorInfo.Run();
-            // RetrieveFontInfo.Run();
-            // RetrieveMasterInfo.Run();
-            // RetrievePageInfo.Run();
-            // ExportToSWF.Run();
-            // ExportToSWFWithoutViewer.Run();
-            // ModifyVBAModule.Run();
-            // RetrieveInheritedFillData.Run();
+            //AddConnectShapes.Run();
+            //CreateDiagram.Run();
+            //ExportPageToImage.Run();
+            //ExportToHTML.Run();
+            //ExportToImage.Run();
+            //ExportToPDF.Run();
+            //ExportToSVG.Run();
+            //ExportToXML.Run();
+            //ExportToXPS.Run();
+            //ExtractAllImagesFromPage.Run();
+            //LayOutShapesInCompactTreeStyle.Run();
+            //LayOutShapesInFlowchartStyle.Run();
+            //ReadDiagramFile.Run();
+            //RetrieveConnectorInfo.Run();
+            //RetrieveFontInfo.Run();
+            //RetrieveMasterInfo.Run();
+            //RetrievePageInfo.Run();
+            //ExportToSWF.Run();
+            //ExportToSWFWithoutViewer.Run();
+            //ModifyVBAModule.Run();
+            //RetrieveInheritedFillData.Run();
 
             // =====================================================
             // =====================================================
@@ -113,16 +113,16 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // ApplyCustomStyleSheets.Run();
-            // RetrieveShapeInfo.Run();
-            // SetFillData.Run();
-            // SetLineData.Run();
-            // SetXFormdata.Run();
-            // UpdateShapeText.Run();
-            // RefreshMilestoneWithMilestoneHelper.Run();
-            // VerifyShapeIsInGroup.Run();
-            // RetrieveTheParentShape.Run();
-            // Apply3DRotationEffects.Run();
+            //ApplyCustomStyleSheets.Run();
+            //RetrieveShapeInfo.Run();
+            //SetFillData.Run();
+            //SetLineData.Run();
+            //SetXFormdata.Run();
+            //UpdateShapeText.Run();
+            //RefreshMilestoneWithMilestoneHelper.Run();
+            //VerifyShapeIsInGroup.Run();
+            //RetrieveTheParentShape.Run();
+            //Apply3DRotationEffects.Run();
 
             // =====================================================
             // =====================================================
@@ -130,8 +130,8 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // AddPageLevelCommentInVisio.Run();
-            // EditPageLevelCommentInVisio.Run();
+            //AddPageLevelCommentInVisio.Run();
+            //EditPageLevelCommentInVisio.Run();
 
             // =====================================================
             // =====================================================
@@ -139,12 +139,12 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // CreatingDiagramWithAspose.Run();
-            // CreatingDiagramWithVSTO.Run();
-            // SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run();
-            // SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run();
-            // UpdateShapePropsWithAspose.Run();
-            // UpdateShapePropsWithVSTO.Run();
+            //CreatingDiagramWithAspose.Run();
+            //CreatingDiagramWithVSTO.Run();
+            //SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run();
+            //SaveDiagramTo_VDX_PDF_JPEG_withAspose.Run();
+            //UpdateShapePropsWithAspose.Run();
+            //UpdateShapePropsWithVSTO.Run();
 
             // =====================================================
             // =====================================================
@@ -152,7 +152,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // AddConnectShapes.Run();
+            //AddConnectShapes.Run();
 
             // =====================================================
             // =====================================================
@@ -160,8 +160,8 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // AddHyperlinkToShape.Run();
-            // GetHyperlinks.Run();
+            //AddHyperlinkToShape.Run();
+            //GetHyperlinks.Run();
 
             // =====================================================
             // =====================================================
@@ -169,9 +169,9 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // AddLayer.Run();
-            // ConfigureShapeLayers.Run();
-            // RetrieveAllLayers.Run();
+            //AddLayer.Run();
+            //ConfigureShapeLayers.Run();
+            //RetrieveAllLayers.Run();
 
             // =====================================================
             // =====================================================
@@ -179,11 +179,11 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // CheckMasterPresencebyID.Run();
-            // CheckMasterPresencebyName.Run();
-            // GetMasterbyID.Run();
-            // GetMasterbyName.Run();
-            // RetrieveMasterInfo.Run();
+            //CheckMasterPresencebyID.Run();
+            //CheckMasterPresencebyName.Run();
+            //GetMasterbyID.Run();
+            //GetMasterbyName.Run();
+            //RetrieveMasterInfo.Run();
 
             // =====================================================
             // =====================================================
@@ -191,17 +191,17 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // CopyVisioPage.Run();
-            // ExportOfHiddenVisioPagesToHTML.Run();
-            // ExportOfHiddenVisioPagesToImage.Run();
-            // ExportOfHiddenVisioPagesToPDF.Run();
-            // ExportOfHiddenVisioPagesToSVG.Run();
-            // ExportOfHiddenVisioPagesToXPS.Run();
-            // GetVisioPagebyID.Run();
-            // GetVisioPagebyName.Run();
-            // InsertBlankPageInVisio.Run();
-            // RetrievePageInfo.Run();
-            // SetVisioPageOrientation.Run();
+            //CopyVisioPage.Run();
+            //ExportOfHiddenVisioPagesToHTML.Run();
+            //ExportOfHiddenVisioPagesToImage.Run();
+            //ExportOfHiddenVisioPagesToPDF.Run();
+            //ExportOfHiddenVisioPagesToSVG.Run();
+            //ExportOfHiddenVisioPagesToXPS.Run();
+            //GetVisioPagebyID.Run();
+            //GetVisioPagebyName.Run();
+            //InsertBlankPageInVisio.Run();
+            //RetrievePageInfo.Run();
+            //SetVisioPageOrientation.Run();
 
             // =====================================================
             // =====================================================
@@ -209,10 +209,10 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // ByDefaultPrinter.Run();
-            // BySpecificPrinter.Run();
-            // PrintDiagramVisXPSPrinterAPI.Run();
-            // SetPrintJobAndPrinterName.Run();  
+            //ByDefaultPrinter.Run();
+            //BySpecificPrinter.Run();
+            //PrintDiagramVisXPSPrinterAPI.Run();
+            //SetPrintJobAndPrinterName.Run();
 
             // =====================================================
             // =====================================================
@@ -220,8 +220,8 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // VisioDiagramProtection.Run();
-            // VisioShapeProtection.Run();
+            //VisioDiagramProtection.Run();
+            //VisioShapeProtection.Run();
 
             // =====================================================
             // =====================================================
@@ -229,8 +229,8 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // AddSolutionXMLElement.Run();
-            // ReadSolutionXMLElement.Run();
+            //AddSolutionXMLElement.Run();
+            //ReadSolutionXMLElement.Run();
 
             // =====================================================
             // =====================================================
@@ -238,12 +238,12 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // ApplyCustomStyleSheets.Run();
-            // ApplyFontOnText.Run();
-            // FindAndReplaceShapeText.Run();
-            // GetPlainTextOfVisio.Run();
-            // UpdateShapeText.Run();
-            // InsertTextShape.Run();
+            //ApplyCustomStyleSheets.Run();
+            //ApplyFontOnText.Run();
+            //FindAndReplaceShapeText.Run();
+            //GetPlainTextOfVisio.Run();
+            //UpdateShapeText.Run();
+            //InsertTextShape.Run();
 
             // =====================================================
             // =====================================================
@@ -251,11 +251,11 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // FormatShapeTextBlockSection.Run();
-            // SetShapeTextPositionAtBottom.Run();
-            // SetShapeTextPositionAtLeft.Run();
-            // SetShapeTextPositionAtRight.Run();
-            // SetShapeTextPositionAtTop.Run();
+            //FormatShapeTextBlockSection.Run();
+            //SetShapeTextPositionAtBottom.Run();
+            //SetShapeTextPositionAtLeft.Run();
+            //SetShapeTextPositionAtRight.Run();
+            //SetShapeTextPositionAtTop.Run();
 
             // =====================================================
             // =====================================================
@@ -263,9 +263,9 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // CreateUserDefinedCellInShapeSheet.Run();
-            // ReadUserdefinedCellsOfShape.Run();
-            // RetrieveUserDefinedCells.Run();
+            //CreateUserDefinedCellInShapeSheet.Run();
+            //ReadUserdefinedCellsOfShape.Run();
+            //RetrieveUserDefinedCells.Run();
 
             // =====================================================
             // =====================================================
@@ -273,10 +273,10 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // AddSupportOfVisualAids.Run();
-            // AddWindowElementInVisio.Run();
-            // DisplayGridsRulersGuidesAndPageBreaks.Run();
-            // RetrieveWindowElementsOfDiagram.Run();
+            //AddSupportOfVisualAids.Run();
+            //AddWindowElementInVisio.Run();
+            //DisplayGridsRulersGuidesAndPageBreaks.Run();
+            //RetrieveWindowElementsOfDiagram.Run();
 
             // =====================================================
             // =====================================================
@@ -284,7 +284,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // ManipulateObjects.Run();
+            //ManipulateObjects.Run();
 
             // =====================================================
             // =====================================================
@@ -292,7 +292,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // SettingCellsInEventSection.Run();
+            //SettingCellsInEventSection.Run();
 
             // =====================================================
             // =====================================================
@@ -300,7 +300,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // InsertActiveXControl.Run();               
+            //InsertActiveXControl.Run();
 
             // =====================================================
             // =====================================================
@@ -308,7 +308,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            // ModifyShapeGradientFillData.Run();
+            //ModifyShapeGradientFillData.Run();
 
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
