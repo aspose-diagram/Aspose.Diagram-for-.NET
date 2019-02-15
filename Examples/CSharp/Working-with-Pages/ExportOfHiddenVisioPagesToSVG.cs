@@ -28,6 +28,15 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
                 SVGSaveOptions options = new SVGSaveOptions();
                 // Set export option of hidden Visio pages
                 options.ExportHiddenPage = false;
+                // Set export guide shapes 
+                options.ExportGuideShapes = false;
+                // Set save format
+                options.SaveFormat = Aspose.Diagram.SaveFileFormat.SVG;
+                // Set SVG fit to view port
+                options.SVGFitToViewPort = true;
+                // Set export element as Rectangle
+                options.ExportElementAsRectTag = true;
+
 
                 // Save the Visio diagram
                 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToSVG_out.svg", options);
