@@ -203,6 +203,7 @@ namespace Aspose.Diagram.Examples.CSharp
             //RetrievePageInfo.Run();
             //SetVisioPageOrientation.Run();
             //DrawPolylineInPage.Run();
+            //DrawBezierInPage.Run();
 
             // =====================================================
             // =====================================================
