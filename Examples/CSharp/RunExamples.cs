@@ -202,6 +202,8 @@ namespace Aspose.Diagram.Examples.CSharp
             //InsertBlankPageInVisio.Run();
             //RetrievePageInfo.Run();
             //SetVisioPageOrientation.Run();
+            //DrawPolylineInPage.Run();
+            //DrawBezierInPage.Run();
 
             // =====================================================
             // =====================================================

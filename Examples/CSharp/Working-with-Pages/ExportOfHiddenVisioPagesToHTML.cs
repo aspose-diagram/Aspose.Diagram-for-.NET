@@ -9,7 +9,7 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
 {
     public class ExportOfHiddenVisioPagesToHTML
     {
-        public static void Run() 
+        public static void Run()
         {
             try
             {
@@ -28,6 +28,8 @@ namespace Aspose.Diagram.Examples.CSharp.Working_with_Pages
                 HTMLSaveOptions options = new HTMLSaveOptions();
                 // Set export option of hidden Visio pages
                 options.ExportHiddenPage = false;
+                // Set export option of comments
+                options.IsExportComments = false;
 
                 // Save the Visio diagram
                 diagram.Save(dataDir + "ExportOfHiddenVisioPagesToHTML_out.html", options);
