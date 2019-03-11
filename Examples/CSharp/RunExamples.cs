@@ -123,6 +123,7 @@ namespace Aspose.Diagram.Examples.CSharp
             //VerifyShapeIsInGroup.Run();
             //RetrieveTheParentShape.Run();
             //Apply3DRotationEffects.Run();
+            //InheritProps.Run();
 
             // =====================================================
             // =====================================================
