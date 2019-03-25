@@ -27,6 +27,7 @@ using Aspose.Diagram.Examples.CSharp.OLE_Objects;
 using Aspose.Diagram.Examples.CSharp.Event_Section;
 using Aspose.Diagram.Examples.CSharp.Shape_Gradient_Fill_Data;
 using Aspose.Diagram.Examples.CSharp.OS_Fonts_Location;
+using Aspose.Diagram.Examples.CSharp.Working_Diagrams;
 
 namespace Aspose.Diagram.Examples.CSharp
 {
@@ -106,6 +107,7 @@ namespace Aspose.Diagram.Examples.CSharp
             //ExportToSWFWithoutViewer.Run();
             //ModifyVBAModule.Run();
             //RetrieveInheritedFillData.Run();
+            //GetDefaultFontDirectory.Run();
 
             // =====================================================
             // =====================================================
