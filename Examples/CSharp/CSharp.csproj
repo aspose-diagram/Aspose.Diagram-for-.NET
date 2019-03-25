@@ -51,8 +51,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=19.2.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Diagram.19.2.0\lib\net40\Aspose.Diagram.dll</HintPath>
+    <Reference Include="Aspose.Diagram, Version=19.3.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Diagram.19.3.0\lib\net40\Aspose.Diagram.dll</HintPath>
     </Reference>
     <Reference Include="Aspose.Words, Version=18.11.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
       <HintPath>..\packages\Aspose.Words.18.11.0\lib\net40-client\Aspose.Words.dll</HintPath>
@@ -102,6 +102,7 @@
     <Compile Include="ShapeGradientFillData\ModifyShapeGradientFillData.cs" />
     <Compile Include="Visio-ActiveX-Controls\RetrieveActiveXControl.cs" />
     <Compile Include="Visio-ActiveX-Controls\InsertActiveXControl.cs" />
+    <Compile Include="Working-Diagrams\GetDefaultFontDirectory.cs" />
     <Compile Include="Working-Diagrams\ModifyVBAModule.cs" />
     <Compile Include="Working-Diagrams\RetrieveInheritedFillData.cs" />
     <Compile Include="Working-Shapes\Apply3DRotationEffects.cs" />
