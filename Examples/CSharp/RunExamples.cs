@@ -207,6 +207,7 @@ namespace Aspose.Diagram.Examples.CSharp
             //SetVisioPageOrientation.Run();
             //DrawPolylineInPage.Run();
             //DrawBezierInPage.Run();
+            //RemoveHiddenInfo.Run();
 
             // =====================================================
             // =====================================================
