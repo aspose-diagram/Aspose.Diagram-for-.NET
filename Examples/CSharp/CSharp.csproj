@@ -51,8 +51,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=19.3.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Diagram.19.3.0\lib\net40\Aspose.Diagram.dll</HintPath>
+    <Reference Include="Aspose.Diagram, Version=19.4.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Diagram.19.4.0\lib\net40\Aspose.Diagram.dll</HintPath>
     </Reference>
     <Reference Include="Aspose.Words, Version=18.11.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
       <HintPath>..\packages\Aspose.Words.18.11.0\lib\net40-client\Aspose.Words.dll</HintPath>
@@ -161,6 +161,7 @@
     <Compile Include="Working-with-Pages\GetVisioPagebyID.cs" />
     <Compile Include="Working-with-Pages\GetVisioPagebyName.cs" />
     <Compile Include="Working-with-Pages\InsertBlankPageInVisio.cs" />
+    <Compile Include="Working-with-Pages\RemoveHiddenInfo.cs" />
     <Compile Include="Working-with-Pages\SetVisioPageOrientation.cs" />
     <Compile Include="Working-with-Print\ByDefaultPrinter.cs" />
     <Compile Include="Working-with-Print\BySpecificPrinter.cs" />
