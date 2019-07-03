@@ -108,6 +108,7 @@ namespace Aspose.Diagram.Examples.CSharp
             //ModifyVBAModule.Run();
             //RetrieveInheritedFillData.Run();
             //GetDefaultFontDirectory.Run();
+            //GetUnusedFonts.Run();
 
             // =====================================================
             // =====================================================
