@@ -51,8 +51,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Diagram, Version=19.6.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.Diagram.19.6.0\lib\net40\Aspose.Diagram.dll</HintPath>
+    <Reference Include="Aspose.Diagram, Version=19.7.0.0, Culture=neutral, PublicKeyToken=dfdba7ce0555ea8b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Diagram.19.7.0\lib\net40\Aspose.Diagram.dll</HintPath>
     </Reference>
     <Reference Include="Aspose.Words, Version=18.11.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
       <HintPath>..\packages\Aspose.Words.18.11.0\lib\net40-client\Aspose.Words.dll</HintPath>

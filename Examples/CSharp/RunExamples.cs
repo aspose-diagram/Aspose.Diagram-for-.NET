@@ -28,6 +28,7 @@ using Aspose.Diagram.Examples.CSharp.Event_Section;
 using Aspose.Diagram.Examples.CSharp.Shape_Gradient_Fill_Data;
 using Aspose.Diagram.Examples.CSharp.OS_Fonts_Location;
 using Aspose.Diagram.Examples.CSharp.Working_Diagrams;
+using Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions;
 
 namespace Aspose.Diagram.Examples.CSharp
 {
@@ -63,6 +64,14 @@ namespace Aspose.Diagram.Examples.CSharp
             //CreateMasterFromScratch.Run();
             //ConvertVisioWithSelectiveShapes.Run();
             //NotificationofMissingFonts.Run();
+            //UsePDFSaveOptions.Run();
+            //UsePDFSaveOptions.SplitMultiPages();
+            //UsePDFSaveOptions.PageSavingCallback();
+            //UseDiagramSaveOptions.Run();
+            //UseHTMLSaveOptions.Run();
+            //UseImageSaveOptions.Run();
+            //UseSVGSaveOptions.Run();
+            //UseSWFSaveOptions.Run();
 
             // =====================================================
             // =====================================================
