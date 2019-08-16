@@ -218,6 +218,7 @@ namespace Aspose.Diagram.Examples.CSharp
             //DrawPolylineInPage.Run();
             //DrawBezierInPage.Run();
             //RemoveHiddenInfo.Run();
+            //DrawSplineInPage.Run();
 
             // =====================================================
             // =====================================================

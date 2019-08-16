@@ -21,11 +21,10 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions
 
             // Options when saving a diagram into the HTML format
             HTMLSaveOptions options = new HTMLSaveOptions();
-
-            // Summary:
-            //     value or the font is not installed locally, they may appear as a block,
-            //     set the DefaultFont such as MingLiu or MS Gothic to show these
-            //     characters.
+           
+            // Value or the font is not installed locally, they may appear as a block,
+            // Set the DefaultFont such as MingLiu or MS Gothic to show these
+            // characters.
             options.DefaultFont = "MS Gothic";
             // Sets the number of pages to render in HTML.
             options.PageCount = 2;
@@ -42,6 +41,8 @@ namespace Aspose.Diagram.Examples.CSharp.Load_Save_Convert.VisioSaveOptions
             options.SaveToolBar = false;
             // Set title of the HTML document
             options.Title = "Title goes here";
+            // Specify that you want to save tile or not
+            options.SaveTitle = true;
 
             // Save in any supported file format
             diagram.Save(dataDir + "UseHTMLSaveOptions_out.html", options);
