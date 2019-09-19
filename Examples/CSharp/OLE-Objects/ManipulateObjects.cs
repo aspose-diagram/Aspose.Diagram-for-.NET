@@ -34,7 +34,7 @@ namespace Aspose.Diagram.Examples.CSharp.OLE_Objects
                     {
                         // Modify an OLE object
                         var doc = new Aspose.Words.Document(new MemoryStream(OLE_Shape.ForeignData.ObjectData));
-                        doc.Range.Replace("testing", "Aspose", false, true);
+                        doc.Range.Replace("testing", "Aspose", new Words.Replacing.FindReplaceOptions() { FindWholeWordsOnly = false, MatchCase = true });
                         MemoryStream outStream = new MemoryStream();
                         doc.Save(outStream, Aspose.Words.SaveFormat.Docx);
                         // Save back an OLE object
