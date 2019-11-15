@@ -25,6 +25,7 @@ Directory | Description
 + Data folder at the root folder of Examples contains input files which CSharp examples use. It is mandatory that you download the Data folder along with the examples project.
 + Open RunExamples.cs; all the examples are called from here.
 + Uncomment the examples you want to run from within the project.
+
 Please find more details for how to run the examples [here](https://docs.aspose.com/display/diagramnet/How+to+Run+the+Examples).
 
 ## Resources
