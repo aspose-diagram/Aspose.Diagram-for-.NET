@@ -204,6 +204,7 @@ namespace Aspose.Diagram.Examples.CSharp
             // =====================================================
             // =====================================================
 
+            //ApplyStyleToVisioDiagram.Run();
             //CopyVisioPage.Run();
             //ExportOfHiddenVisioPagesToHTML.Run();
             //ExportOfHiddenVisioPagesToImage.Run();
