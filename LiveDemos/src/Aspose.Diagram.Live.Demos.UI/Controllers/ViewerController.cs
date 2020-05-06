@@ -22,8 +22,8 @@ namespace Aspose.Diagram.Live.Demos.UI.Controllers
 		{
 			var model = new ViewModel(this, "Viewer")
 			{				
-				MaximumUploadFiles = 1,				
-				
+				MaximumUploadFiles = 1,
+				DropOrUploadFileLabel = Resources["DropOrUploadFile"],
 				UploadAndRedirect = true
 			};
 			if (model.RedirectToMainApp)
