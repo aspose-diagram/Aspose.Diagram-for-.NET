@@ -24,7 +24,7 @@ namespace Aspose.Diagram.Live.Demos.UI.Controllers
 				for (int i = 0; i < _diagrams.Count; i++)
 				{
 					AsposeDiagramConversion _asposeDiagramConversion = new AsposeDiagramConversion();
-					response = _asposeDiagramConversion.ConvertFile(_diagrams[0].FileName, _diagrams[0].FolderName, outputType);
+					response = _asposeDiagramConversion.ConvertFile(_diagrams[i].FileName, _diagrams[i].FolderName, outputType);
 				}
 
 			}

@@ -178,7 +178,7 @@ namespace Aspose.Diagram.Live.Demos.UI.Models
 		///</Summary>
 		public Response ConvertFile(string fileName, string folderName, string outputType)
 		{
-			outputType = outputType.ToLower();
+			outputType = outputType.ToLower().Trim();
 
 			if (outputType.StartsWith("pdf"))
 			{
