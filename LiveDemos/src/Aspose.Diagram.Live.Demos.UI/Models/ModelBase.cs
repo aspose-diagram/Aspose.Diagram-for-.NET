@@ -60,23 +60,20 @@ namespace Aspose.Diagram.Live.Demos.UI.Models
 			string outfileName = Path.GetFileNameWithoutExtension(fileName) + outFileExtension;
 			string outPath = "";
 
-			string zipOutFolder = OutputDirectory + guid;
+			string zipOutFolder = Config.Configuration.OutputDirectory + guid;
 			string zipOutfileName, zipOutPath;
 			if (string.IsNullOrEmpty(zipFileName))
 			{
 				zipOutfileName = guid + ".zip";
-				zipOutPath = OutputDirectory + zipOutfileName;
+				zipOutPath = Config.Configuration.OutputDirectory + zipOutfileName;
 			}
 			else
 			{
 				var guid2 = Guid.NewGuid().ToString();
 				outFolder = guid2;
 				zipOutfileName = zipFileName + ".zip";
-				zipOutPath = OutputDirectory + guid2;
-				if (createZip)
-				{
-					Directory.CreateDirectory(zipOutPath);
-				}
+				zipOutPath = Config.Configuration.OutputDirectory + guid2;
+				Directory.CreateDirectory(zipOutPath);
 				zipOutPath += "/" + zipOutfileName;
 			}
 
@@ -89,7 +86,7 @@ namespace Aspose.Diagram.Live.Demos.UI.Models
 			else
 			{
 				outFolder = guid;
-				outPath = OutputDirectory + outFolder;
+				outPath = Config.Configuration.OutputDirectory + outFolder;
 				Directory.CreateDirectory(outPath);
 
 				outPath += "/" + outfileName;
@@ -116,12 +113,14 @@ namespace Aspose.Diagram.Live.Demos.UI.Models
 					Directory.Delete(sourceFolder, true);
 				}
 
+				
 			}
 			catch (Exception ex)
 			{
 				statusCodeValue = 500;
 				statusValue = "500 " + ex.Message;
-
+				// Log error message to NLogging database
+				
 			}
 			return new Response
 			{
@@ -132,7 +131,7 @@ namespace Aspose.Diagram.Live.Demos.UI.Models
 				FileProcessingErrorCode = FileProcessingErrorCode.OK
 			};
 		}
-
+			
 		
 		///<Summary>
 		/// Process

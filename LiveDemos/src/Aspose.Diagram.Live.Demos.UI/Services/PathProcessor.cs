@@ -120,9 +120,9 @@ namespace Aspose.Diagram.Live.Demos.UI.Services
 		public PathProcessor(string id, string file)
 		{
 			this.id = id;
-			this.File = file; 
+			this.File = file;
 
-			if (!System.IO.File.Exists(DefaultOutFile)) 
+			if (!System.IO.File.Exists(DefaultOutFile))
 				throw HttpHelper.Http404();
 		}
 

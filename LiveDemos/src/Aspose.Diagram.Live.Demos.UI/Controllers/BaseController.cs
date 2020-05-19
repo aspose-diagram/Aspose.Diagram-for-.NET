@@ -72,6 +72,43 @@ namespace Aspose.Diagram.Live.Demos.UI.Controllers
 				
 			}
 		}
+		protected DiagramBase.DocumentInfo[] UploadDiagramFiles(HttpRequestBase Request, string sourceFolder)
+		{
+			try
+			{
+				var pathProcessor = new PathProcessor(sourceFolder);
+				List<DiagramBase.DocumentInfo> documents = new List< DiagramBase.DocumentInfo > ();
+				// foreach (string fileName in Request.Files)
+				for (int i = 0; i < Request.Files.Count; i++)
+				{
+					HttpPostedFileBase postedFile = Request.Files[i];
+
+					if (postedFile != null)
+					{
+						// Check if File is available.
+						if (postedFile != null && postedFile.ContentLength > 0)
+						{
+							string _savepath = pathProcessor.SourceFolder + "\\" + System.IO.Path.GetFileName(postedFile.FileName);
+							postedFile.SaveAs(_savepath);
+							documents.Add(new DiagramBase.DocumentInfo
+							{
+								FolderName = sourceFolder,
+								FileName = postedFile.FileName,
+								Diagram = new Aspose.Diagram.Diagram(_savepath)
+							});
+						}
+					}
+				}
+				return documents.ToArray();
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine(ex.Message);
+				return new DiagramBase.DocumentInfo[0];
+			}
+
+
+		}
 		protected Aspose.Diagram.Diagram[] UploadVisioDocs(HttpRequestBase Request)
 		{
 			try

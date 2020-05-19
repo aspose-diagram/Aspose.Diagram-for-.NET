@@ -18,14 +18,13 @@ namespace Aspose.Diagram.Live.Demos.UI.Controllers
 			Response response = null;
 			if (Request.Files.Count > 0)
 			{
-				
-				var _diagrams = UploadFiles(Request);
+				string _sourceFolder = Guid.NewGuid().ToString();
+				var _diagrams = UploadDiagramFiles(Request, _sourceFolder);
 
-				for (int i = 0; i < _diagrams.Count; i++)
-				{
-					AsposeDiagramConversion _asposeDiagramConversion = new AsposeDiagramConversion();
-					response = _asposeDiagramConversion.ConvertFile(_diagrams[i].FileName, _diagrams[i].FolderName, outputType);
-				}
+				
+				AsposeDiagramConversion _asposeDiagramConversion = new AsposeDiagramConversion();
+				response = _asposeDiagramConversion.Convert(_diagrams, outputType.Trim());
+				
 
 			}
 
