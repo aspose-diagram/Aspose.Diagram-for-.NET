@@ -2,7 +2,7 @@
 
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) is a Diagramming API for working with Microsoft Visio files. It allows developers to work with VSD, VSDX, VSS, VST, VSX, VTX, VDW, VDX, VSSX and VSTX files on C#, VB.NET, ASP.NET web applications, web services, Mono and Windows applications. Easily open files and manipulate the elements of the diagram from lines and fills to more complex elements and then export to VSDX, VDX, VSX, VTX, VSSX, VSTX, XPS, [HTML](https://wiki.fileformat.com/web/html/), SVG, SWF, XAML, [image](https://wiki.fileformat.com/image/) or [PDF](https://wiki.fileformat.com/view/pdf/) formats.
 
-This repository contains [Examples](Examples), [Demos](Demos), [Plugins](Plugins) and Showcase projects for [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) to help you learn and write your own applications.
+This repository contains [Demos](Demos), [Examples](Examples), [Plugins](Plugins) and Showcase projects for [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) to help you learn and write your own applications.
 
 <p align="center">
   <a title="Download Examples ZIP" href="https://github.com/aspose-diagram/Aspose.Diagram-for-.NET/archive/master.zip">
@@ -12,9 +12,9 @@ This repository contains [Examples](Examples), [Demos](Demos), [Plugins](Plugins
 
 Directory | Description
 --------- | -----------
+[Demos](Demos)  | Aspose.Diagram for .NET Live Demos Source Code
 [Examples](Examples)  | A collection of .NET examples that help you learn the product features
 [Plugins](Plugins)  | Plugins that will demonstrate one or more features of Aspose.Diagram for .NET
-[Demos](Demos)  | Aspose.Diagram for .NET Live Demos Source Code
 
 ## How to Run the Examples
 + You can either clone the repository using your favorite GitHub client or download the ZIP file from here.
