@@ -2,7 +2,7 @@
 
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) API is a solution for Microsoft Visio file manipulation requirements. It allows the .NET applications to read, write, export and process Microsoft Visio diagrams while supporting all Visio objects & properties including shapes, pages, images, shape masters, stencils, text, layers, header, footers, user-defined cells, hyperlinks, file protection, geometries, text boxes, and comments. 
 
-Aspose.Diagram for .NET can also be used to [apply protection to the Microsoft Visio drawings](https://docs.aspose.com/display/diagramnet/Working+with+Protection) by locking backgrounds, stencils (master) as well as  shapes and styles to avoid any accidental amendments.
+Aspose.Diagram for .NET can also be used to [apply protection to the Microsoft Visio drawings](https://docs.aspose.com/diagram/net/working-with-protection/) by locking backgrounds, stencils (master) as well as  shapes and styles to avoid any accidental amendments.
 
 <p align="center">
   <a title="Download Examples ZIP" href="https://github.com/aspose-diagram/Aspose.Diagram-for-.NET/archive/master.zip">
