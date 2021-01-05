@@ -20,9 +20,10 @@ namespace Aspose.Diagram.Live.Demos.UI.Models
 
 		public string ViewerPathWF => $"{UIBasePath}/{Parent.Product}/viewer/";
 
-    public string ViewerPath => $"{UIBasePath}/{Parent.Product}/view?";    
+    public string ViewerPath => $"{UIBasePath}/{Parent.Product}/view?";
+        public string EditorPathWF => $"{UIBasePath}/{Parent.Product}/edit/";
 
-    public string FileSelectMessage => Resources["FileSelectMessage"];
+        public string FileSelectMessage => Resources["FileSelectMessage"];
 
 		public string Product => Parent.Product;
 

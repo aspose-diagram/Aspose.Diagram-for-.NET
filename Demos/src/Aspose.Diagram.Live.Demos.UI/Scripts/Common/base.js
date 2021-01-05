@@ -240,6 +240,35 @@ function requestMerger() {
 	request(url, data);
 }
 
+$(document).ready(function () {
+    if (o.UploadAndRedirect) {
+        $('#newButton').on('click', o.NewMethod);
+    }
+});
+
+function requestEditor(data) {
+    var url = generateEditorLink(data);
+    openIframe(url, '/diagram/editor', '/diagram/edit');
+}
+
+function requestNewEditor() {
+    $("#newButton").val("Loading");
+    var url = generateNewEditorLink();
+    openIframe(url, '/diagram/editor', '/diagram/edit');
+}
+
+function generateEditorLink(data) {
+    var response = data.split('|');
+    var statusCode = response[0];
+    var fileName = response[1];
+    var folderName = response[2];
+
+    return encodeURI(o.EditorPathWF + '?FolderName=' + folderName + '&FileName=') + encodeURIComponent(fileName);
+}
+function generateNewEditorLink() {
+    return encodeURI(o.EditorPathWF);
+}
+
 
 function prepareDownloadUrl() {
 	o.AppDownloadURL = o.AppURL;

@@ -121,6 +121,35 @@
 	<res name="MergerAnotherFile">Merge other documents</res>
 	<res name="MergerSuccessMessage">Your files have been processed successfully</res>
 	<res name="MergerFileAmountMessage">Please select between two and ten files</res>
+
+  <res name="EditorFeature3">Editor Quality</res>
+  <res name="diagramEditorPageTitle">Edit &amp; View Visio Online Free App -Draw Flowchart &amp; Diagram Online Free</res>
+  <res name="diagramEditorTitle">Free Online Visio Editor</res>
+  <res name="diagramEditorMetaDescription">Edit visio online free.Easily open or create visio file online free.Export as vsdx, PDF, PNG, HTML or SVG on your device.</res>
+  <res name="diagramEditorH1">Free Editor App for Microsoft Visio Files</res>
+  <res name="diagramEditorH4">A web app to edit or create visio file online free from anywhere.</res>
+  <res name="diagramEditorTitleSub">Edit Visio files on any platform. Save visio files on your device.</res>
+  <res name="diagramEditorSubTitle">Edit Visio files on any platform. Save visio files on your device.</res>
+  <res name="diagramEditorDesc">Free Editor App for Microsoft Visio Files</res>
+  <res name="diagramEditorLiFeature1">Supported documents：VSD, VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM or VSTM</res>
+  <res name="diagramEditorLiFeature2">Edit your Visio Free Online</res>
+  <res name="diagramEditorLiFeature3">Save to desired format: VSDX, PDF, PNG, HTML or SVG</res>
+  <res name="diagramEditorLiFeature4">Advanced WYSIWYG Visio editor online</res>
+  <res name="diagramEditorFeature1">Quick and Easy Editor</res>
+  <res name="diagramEditorFeature1Description">Upload your document and you will be redirected to the Editor app with great user experience and many more features</res>
+  <res name="diagramEditorFeature1DescriptionChoice">Upload your document and you will be redirected to the {0} Editor app with great user experience and many more features</res>
+  <res name="diagramEditorFeature2">Edit from Anywhere</res>
+  <res name="diagramEditorFeature2Description">It works from all platforms including Windows, Mac, Android and iOS. All files are processed on our servers. No plugin or software installation required for you</res>
+  <res name="diagramEditorFeature3">Editor Quality</res>
+  <res name="diagramEditorAnotherFile">Edit another file</res>
+
+  <res name="diagramEditorPageTitle2">Edit &amp; View {0} Online Free App- Draw {0} Online Free</res>
+  <res name="diagramEditorMetaDescription2">Free online {0} Editor app.Easily open or create visio file online free.Export as vsdx, PDF, PNG, HTML or SVG on your device.</res>
+  <res name="diagramEditorTitle2">Free online {0} Editor</res>
+  <res name="diagramEditorTitleSub2">A web app to edit or create {0} file online free from anywhere.</res>
+  <res name="diagramEditorRawHtmlOverview">Aspose &lt;strong&gt;{0} editor&lt;/strong&gt; is a free app to edit {0} format. Edit {0} online from Mac OS, Linux, Android, IOS, and anywhere.</res>
+  <res name="EditorOtherFeaturesTitle">Other Supported Editor</res>
+  <res name="EditorOtherFeaturesTitleSub">You can also edit other file formats. Please see the list below.</res>
 </resources>
 
 

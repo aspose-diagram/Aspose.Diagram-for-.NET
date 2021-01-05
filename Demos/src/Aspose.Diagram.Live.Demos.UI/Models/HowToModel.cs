@@ -23,6 +23,7 @@ namespace Aspose.Diagram.Live.Demos.UI.Models
 			string extension = "document";
 
 	  List = new List<string>();
+      if (AppName == "Editor") { Title = ""; return; }
       var title = Resources.ContainsKey($"{VMParent.Product}Howto{AppName}Title")
         ? Resources[$"{VMParent.Product}Howto{AppName}Title"]
         : Resources[$"Howto{AppName}Title"];

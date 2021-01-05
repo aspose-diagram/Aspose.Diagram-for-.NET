@@ -1,5 +1,5 @@
 ﻿var fileName = 'toconvertmyaccounts.docx';
-var productName = 'psd';
+var productName = 'diagram';
 var folderName = 'e98f9b3b-8aa2-4ed9-bf4b-88effc5f2494';
 var featureName = '';
 var callbackURL = '';

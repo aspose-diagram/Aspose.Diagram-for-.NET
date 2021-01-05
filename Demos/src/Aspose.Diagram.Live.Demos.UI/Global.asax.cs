@@ -72,8 +72,8 @@ namespace Aspose.Diagram.Live.Demos.UI
 				
 				
 			);
-			
-			routes.MapRoute(
+
+            routes.MapRoute(
 				"UploadFileRoute",
 				"common/uploadfile",
 				new { controller = "Common", action = "UploadFile" }
@@ -90,9 +90,29 @@ namespace Aspose.Diagram.Live.Demos.UI
 				 new { controller = "Viewer", action = "Viewer" }
 			);
 
+            routes.MapPageRoute(
+            "AsposeToolsEditorAppRoute",
+            "diagram/edit/{foldername}/{filename}",
+            "~/Diagram/EditorApp/editor.html"
+        );
 
-		}
+            routes.MapPageRoute(
+               "AsposeToolsEditorNewAppRoute",
+               "diagram/edit/",
+               "~/Diagram/EditorApp/editor.html"
+           );
 
-		
-	}
+            routes.MapRoute(
+                "AsposeEditorRoute",
+                "{product}/editor",
+                 new { controller = "Editor", action = "Editor" }
+            );
+
+
+
+
+        }
+
+
+    }
 }
