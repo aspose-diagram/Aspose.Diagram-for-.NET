@@ -1,0 +1,25 @@
+﻿@model  Aspose.App.Diagram.Pages.PageModels.AppModel
+@if (Model.OtherApps != null)
+{
+    <div id="OtherApps" class="container-fluid otherapps hidden">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h4>@Model.Resources["OtherAppsTitle"]</h4>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var app in Model.OtherApps)
+            {
+                if (app.AppName.ToLower() != Model.App.ToString().ToLower())
+                {
+                    <div class="col-xs-4 col-sm-5ths col-md-5ths col-lg-5ths app-icon">
+                        <a href="/diagram/@app.Href" title="@Model.Resources[app.AppName + "Desc"]" onclick="otherAppClick('@app.AppName')">
+                            <div style="background-image: url('@app.ImageSource')"></div>
+                            <span>@app.AppName</span>
+                        </a>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+}

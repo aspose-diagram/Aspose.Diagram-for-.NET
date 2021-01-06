@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="@ViewBag.MetaDescription" />
+    <meta name="theme-color" content="#3C7DE7" />
+    <link href="/diagram/Resources/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+    <!-- Bootstrap & Font CSS -->
+    <link rel="stylesheet" href="https://cms.dynabic.com/templates/aspose/css/bootstrap.css?v=331" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" type="text/css" />
+
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="https://cms.dynabic.com/templates/aspose/css/common.css" type="text/css" />
+    <link rel="stylesheet" href="~/diagram/Resources/css/error404.css" type="text/css" />
+
+    <!-- Dynabic.Menu CSS -->
+    <script src="https://menu.containerize.com/Scripts/Containerize.Menu.min.js"></script>
+    <link href="https://cms.admin.containerize.com/templates/aspose/css/AsposePtyLtdMenu.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cms.admin.containerize.com/templates/aspose/css/font-awesome.css" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://products.aspose.app/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/diagram/Resources/css/asposeapp.css" type="text/css" />
+    <link rel="stylesheet" href="/diagram/Resources/css/diagram.css" type="text/css" />
+
+    <script src="/diagram/Resources/scripts/base.js"></script>
+    <script src="/diagram/Resources/scripts/filedrop.js"></script>
+
+    <link href="/diagram/Resources/lib/select2.min.css" rel="stylesheet" type="text/css" />
+    <script src="/diagram/Resources/lib/select2.full.min.js"></script>
+
+    @if (ViewBag.JsonLd != null)
+    {
+        foreach (string item in ViewBag.JsonLd as List<string>)
+        {
+            <script type="application/ld+json">
+                @Html.Raw(item)
+            </script>
+        }
+    }
+
+
+    @using Aspose.App.Diagram.Pages.Config
+    @if (AppConfiguration.PageUrl.Contains("products.aspose.app"))
+    {
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3109235-5"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-3109235-5');
+        </script>
+    }
+    @* For Aspose.Diagram testing purpose *@
+    @if (AppConfiguration.PageUrl.Contains("localhost"))
+    {
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148901772-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-148901772-1');
+        </script>
+    }
+</head>
+<body>
+    <div id='DynabicMenuInnerDiv'></div>
+
+    @RenderBody()
+
+    <div id='DynabicMenuFooter'></div>
+
+    <script>
+        LoadMenu("AsposeApp");
+    </script>
+
+    @if (IsSectionDefined("scripts"))
+    {
+        @RenderSection("scripts", false)
+    }
+</body>
+</html>

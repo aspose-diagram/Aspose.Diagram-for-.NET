@@ -1,0 +1,20 @@
+﻿@model  Aspose.App.Diagram.Pages.PageModels.HowToModel
+
+<div class="col-md-12 tl bg-darkgray howtolist" visible="false" runat="server">
+    <div class="container tl dflex">
+        <div class="col-md-4 howtosectiongfx">
+            <img src="~/Diagram/Resources/images/aspose-diagram-app.png" alt="HowTo">
+        </div>
+        <div class="howtosection col-md-8">
+            <div>
+                <h2>@Model.Title</h2>
+                <ul>
+                    @foreach (var el in Model.List)
+                    {
+                        <li>@el.Text</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

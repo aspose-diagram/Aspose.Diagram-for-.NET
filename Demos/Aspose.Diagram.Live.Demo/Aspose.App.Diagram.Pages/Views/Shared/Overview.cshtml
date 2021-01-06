@@ -1,0 +1,25 @@
+﻿@model  Aspose.App.Diagram.Pages.PageModels.OverviewModel
+
+<div class="col-md-12 pt-5 app-product-section tl">
+    <div class="container">
+        <h4 style="font-size:30px;font-weight:bold;margin-bottom: 0px;">
+            <span class="spanclass">
+                <img src="~/diagram/Resources/images/aspose_diagram-for-net.png" style="width:42px;height:42px;" alt="Aspose.Diagram for .NET">
+            </span>
+            <a href="https://products.aspose.com/diagram">Aspose.Diagram</a> @Model.OverviewTitle
+        </h4>
+        <p class="RawHtmlOverview">
+            @Html.Raw(Model.RawHtmlOverview)
+        </p>
+        <ul>
+            @if (Model.AppFeatures != null)
+            {
+                foreach (var feature in Model.AppFeatures)
+                {
+                    <li>@feature</li>
+                }
+            }
+        </ul>
+    </div>
+</div>
+

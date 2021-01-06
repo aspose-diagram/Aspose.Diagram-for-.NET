@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <res name="ConversionFeatureTitle">{0} to {1}</res>
+  <res name="FileConvertedSuccessMessage">Your file has been converted successfully, please check your email to download converted file</res>
+  <res name="btnConvertNow">CONVERT NOW</res>
+  <res name="SaveAs">Save as</res>
+  <res name="DropOrUploadFile">Drop or upload your file</res>
+  <res name="DropOrUploadFiles">Drop or upload your files</res>
+  <res name="DropOrUploadImageFile">Drop or upload your image</res>
+  <res name="FileConvertedSuccessMessage1">Your file has been converted successfully</res>
+  <res name="DownLoadNow">DOWNLOAD NOW</res>
+  <res name="ViewNow">VIEW NOW</res>
+  <res name="FileWrongTypeMessage">You are trying to upload document(s) of unsupported type: </res>
+  <res name="FileWrongTypeMessage2">Please, use our full version of {0} for uploading this type of document(s): </res>
+  <res name="SendDownloadLink">Send the download link to</res>
+  <res name="SendToEmail">Send to email</res>
+  <res name="EmailTitle">Download File</res>
+  <res name="EmailAddress">email address</res> 
+  <res name="Send">Send</res>
+  <res name="OtherAppsTitle">Work with your documents in other free apps</res>
+  <res name="FeedbackSend">Send feedback</res>
+  <res name="FeedbackSuccess">Your feedback is sent successfully</res>
+  <res name="FeedbackLengthError">Feedback text message should be less than 1000 symbols</res>
+  <res name="ShareFacebook">Share on Facebook</res>
+  <res name="ShareTwitter">Share on Twitter</res>
+  <res name="ShareLinkedIn">Share on LinkedIn</res>
+  <res name="BookmarkApp">Bookmark this app</res>
+  <res name="BookmarkTextDownload">
+    Press <strong>Ctrl + D</strong> to store it in your bookmarks in order not to search it again
+  </res>
+  <res name="LeaveFeedback">Leave a feedback</res>
+  <res name="TryCloudAPI">Try our Cloud API</res>
+  <res name="BookmarkText">
+    Press <strong>Ctrl + D</strong> to add this page to your favorites or <strong>Esc</strong> to cancel the action.
+  </res>
+  <res name="GitHub">See source code</res>
+  <res name="FeedbackHeader">Send us your feedback</res>
+  <res name="FeedbackPlaceholder">Write here your opinion, suggestions, etc.</res>
+  <res name="FeedbackMaximumSize">1000 characters maximum</res>
+  <res name="SeeOtherApps">See other apps</res>
+
+  <res name="Save">Save</res>
+  <res name="Cancel">Cancel</res>
+  <res name="Document">visio</res>
+  <res name="DropAFile">Drop or upload your file</res>
+  <res name="UploadAnother">Upload another file</res>
+  <res name="SendTo">Send the download link to</res>
+  
+  <res name="PoweredBy">Powered by</res>
+  <res name="Feature3Description">. All files are processed using Aspose APIs, which are being used by many Fortune 100 companies across 114 countries</res>
+  <res name="NoSearchResultsMessage">No search results</res>
+  <res name="WrongRegExpMessage">Wrong regular expression</res>
+  <res name="SearchQueryErrorMessage">Search query can&apos;t be empty</res>
+
+  <res name="ValidationExpression">.vsd|.vsdx|.vsx|.vtx|.vdx|.vssx|.vstx|.vsdm|.vssm|.vstm</res>
+  <res name="ConversionButtonText">CONVERT</res>
+  <res name="ConversionSuccessMessage">Your files have been processed successfully</res>
+  <res name="ConversionSentEmailSuccessMessage">Your file(s) has been converted successfully, please check your email to download converted file(s)</res>
+  <res name="ConversionViewerButtonText">VIEW RESULTS</res>
+  <res name="ConversionAction">Convert</res>
+  <res name="FileSelectMessage">Please select a file to upload</res>
+
+  <res name="MergerSuccessMessage">Your files have been processed successfully</res>
+  <res name="MergerSentEmailSuccessMessage">Your files has been merged successfully, please check your email to download the merged file</res>
+  <res name="MergerViewerButtonText">VIEW DOCUMENT</res>
+  <res name="MergerFileAmountMessage">Please select between two and ten files</res>
+  <res name="FileAmountMessageLessTen">Please select less than ten files</res>
+  <res name="FileAmountMessageOne">Please select only one file</res>
+  <res name="MergerAllFeaturesTitle">All Supported Mergers</res>
+  <res name="MergerAllFeaturesTitleSub">You can merge many file formats. Please see the list below.</res>
+  <res name="MergerAction">Merge</res>
+  <res name="MergerButtonText">MERGE NOW</res>
+  <!-- ============================================ Diagram APP ============================================ -->
+
+  <res name="ConversionPageTitle">Convert Visio Online App - Free Online Visio Converter</res>
+  <res name="ConversionTitle">Free Online Visio Converter</res>
+  <res name="ConversionMetaDescription">Convert VSDX to PDF,Free Online Convert Microsoft Visio VSD, VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM &amp; VSTM files to PDF, HTML, JPG, PNG, SVG, BMP, TIFF, XPS, GIF, EMF, VSDX and more.</res>
+  <res name="ConversionTitleSub">Convert Visio to PDF, Images , HTML.</res>
+  <res name="ConversionLiFeature1">Supported Documents: VSD, VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM</res>
+  <res name="ConversionLiFeature2">Save as: PDF , HTML, JPG, PNG, SVG, BMP, TIFF, XPS, GIF, EMF, VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM, PPTX, DOCX</res>
+  <res name="ConversionSaveAsOptions">PDF, HTML, JPG, PNG, SVG, BMP, TIFF, XPS, GIF, EMF, VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM, PPTX, DOCX</res>
+  <res name="ConversionFeature1">Fast and Easy Conversion</res>
+  <res name="ConversionFeature1Description">Upload your document, choose the save format type and click on “Convert” button. You will get the download link as soon as the file is converted</res>
+  <res name="ConversionFeature2">Convert from Anywhere</res>
+  <res name="ConversionFeature2Description">It works from all platforms including Windows, Mac, Android and iOS. All files are processed on our servers. No plugin or software installation required for you</res>
+  <res name="ConversionFeature3">Conversion Quality</res>
+  <res name="ConversionAnotherFile">Convert other files</res>
+
+  <res name="ConversionTitle2">Free online {0} to {1} converter</res>
+  <res name="ConversionTitleSub2">Convert {0} to {1} online from any device, with a modern browser like Chrome, Opera and Firefox.</res>
+
+  <res name="MergerPageTitle">Merge Visio Online App - Free Online Visio Merger</res>
+  <res name="MergerTitle">Free Online Visio Merger</res>
+  <res name="MergerMetaDescription">Free Online Visio Merger. Merge, concatenate or combine Visio documents online.</res>
+  <res name="MergerTitleSub">Merge/Combine Visio documents. </res>
+  <res name="MergerDesc">Merge Microsoft Visio</res>
+  <res name="MergerFeature1">Fast and Easy Way to Merge</res>
+  <res name="MergerFeature1Description">Upload your documents and click on “MERGE NOW” button. It will merge your document files into one and provide you a download link to download merged document. The output format will be the output format of your first document</res>
+  <res name="MergerFeature2">Merge from Anywhere</res>
+  <res name="MergerFeature2Description">It works from all platforms including Windows, Mac, Android and iOS. All files are processed on our servers. No plugin or software installation required for you</res>
+  <res name="MergerFeature3">Merge Quality</res>
+  <res name="MergerAnotherFile">Merge other files</res>
+
+  <res name="MergerLiFeature1">Quick way to merge multiple files.</res>
+  <res name="MergerLiFeature2">Choose the order of merged files.</res>
+  <res name="MergerLiFeature3">Merge Visio documents: VSD, VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM &amp; VSTM.</res>
+  <res name="MergerLiFeature4">Save to formats: VSDX, PDF , HTML, JPG, PNG, SVG, BMP, TIFF, XPS, GIF, EMF, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM.</res>
+  <res name="MergerTitle1">Free Online {0} Merger</res>
+  <res name="MergerTitle2">Free Online {0} to {1} Merger</res>
+  <res name="MergerTitleSub1">Merge/Combine {0} documents.</res>
+  <res name="MergerTitleSub2">Merge/Combine {0} to {1} documents.</res>
+
+  <res name="ConversionPageTitle2">Convert {0} To {1} Online Free App - {0} To {1} converter</res>
+  <res name="ConversionMetaDescription2">Free online {0} to {1} converter. Convert visio files online free.</res>
+  
+  <res name="MergerPageTitle1">Merge {0} Online Free App- Free Online {0} Merger</res>
+  <res name="MergerMetaDescription1">Free online {0} merger app. Merger VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM , Visio file online free.</res>
+
+  <res name="MergerPageTitle2">Merge {0} to {1} Online Free App- Free Online {0} to {1} Merger</res>
+  <res name="MergerMetaDescription2">Free online {0} to {1} merger app. Merger VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM , Visio file online free.</res>
+  
+  <res name="ViewerPageTitle2">View {0} Online Free App- Free Online {0} Viewer</res>
+  <res name="ViewerMetaDescription2">Free online {0} viewer app. View VSD, VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM, Visio file online free.</res>
+
+  <res name="ViewerPageTitle">View Visio Online App -Free Online Visio Viewer</res>
+  <res name="ViewerPageTitle1">View {0} Online App -Free Online {0} Viewer</res>
+  <res name="ViewerTitle">Free Online Visio Viewer</res>
+  <res name="ViewerTitle1">Free Online {0} Viewer</res>
+  <res name="ViewerMetaDescription">Free Online View Visio VSD, VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM &amp; VSTM files as images. Save resultant images on your device.</res>
+  <res name="ViewerMetaDescription1">Free Online View {0} files as images.Save resultant images on your device.</res>
+  <res name="ViewerH1">Free Viewer App for Microsoft Visio Files</res>
+  <res name="ViewerTitleSub">View Visio files as images on any platform. Save diagram images on your device.</res>
+  <res name="ViewerTitleSub1">View {0} files as images on any platform. Save diagram images on your device.</res>
+  <res name="ViewerLiFeature1">Supported documents：VSD, VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM or VSTM</res>
+  <res name="ViewerLiFeature2">View your Free Online Visio as an image representation</res>
+  <res name="ViewerFeature1">Quick and Easy Viewer</res>
+  <res name="ViewerFeature1Description">Upload your document and you will be redirected to the Viewer app with great user experience and many more features</res>
+  <res name="ViewerFeature1DescriptionChoice">Upload your document and you will be redirected to the {0} Viewer app with great user experience and many more features</res>
+  <res name="ViewerFeature2">View from Anywhere</res>
+  <res name="ViewerFeature2Description">It works from all platforms including Windows, Mac, Android and iOS. All files are processed on our servers. No plugin or software installation required for you</res>
+  <res name="ViewerFeature3">Viewer Quality</res>
+  <res name="ViewerAnotherFile">View another file</res>
+  
+  <res name="EditorPageTitle">Edit &amp; View Visio Online Free App -Draw Flowchart &amp; Diagram Online Free</res>
+  <res name="EditorTitle">Free Online Visio Editor</res>
+  <res name="EditorMetaDescription">Edit visio online free.Easily open or create visio file online free.Export as vsdx, PDF, PNG, HTML or SVG on your device.</res>
+  <res name="EditorH1">Free Editor App for Microsoft Visio Files</res>
+  <res name="EditorH4">A web app to edit or create visio file online free from anywhere.</res>
+  <res name="EditorTitleSub">Edit Visio files on any platform. Save visio files on your device.</res>
+  <res name="EditorDesc">Free Editor App for Microsoft Visio Files</res>
+  <res name="EditorLiFeature1">Supported documents：VSD, VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM or VSTM</res>
+  <res name="EditorLiFeature2">Edit your Visio Free Online</res>
+  <res name="EditorLiFeature3">Save to desired format: VSDX, PDF, PNG, HTML or SVG</res>
+  <res name="EditorLiFeature4">Advanced WYSIWYG Visio editor online</res>
+  <res name="EditorFeature1">Quick and Easy Editor</res>
+  <res name="EditorFeature1Description">Upload your document and you will be redirected to the Editor app with great user experience and many more features</res>
+  <res name="EditorFeature1DescriptionChoice">Upload your document and you will be redirected to the {0} Editor app with great user experience and many more features</res>
+  <res name="EditorFeature2">Edit from Anywhere</res>
+  <res name="EditorFeature2Description">It works from all platforms including Windows, Mac, Android and iOS. All files are processed on our servers. No plugin or software installation required for you</res>
+  <res name="EditorFeature3">Editor Quality</res>
+  <res name="EditorAnotherFile">Edit another file</res>
+
+  <res name="EditorPageTitle1">Edit &amp; View {0} Online Free App- Draw {0} Online Free</res>
+  <res name="EditorMetaDescription1">Free online {0} Editor app.Easily open or create visio file online free.Export as vsdx, PDF, PNG, HTML or SVG on your device.</res>
+  <res name="EditorTitle1">Free online {0} Editor</res>
+  <res name="EditorTitleSub1">A web app to edit or create {0} file online free from anywhere.</res>
+
+
+  <!-- Conversion App - How To-->
+  <res name="ConversionHowtoTitle">How to convert {0} files</res>
+  <res name="ConversionHowtoFeature1">Click inside the file drop area to upload a {0} file or drag &amp; drop a {0} file.</res>
+  <res name="ConversionHowtoFeature2">Your {0} file will be uploaded and will be converted to other format.</res>
+  <res name="ConversionHowtoFeature3">Download link of result file will be available instantly after conversion.</res>
+  <res name="ConversionHowtoFeature4">You can also send a link to the {0} file to your email address.</res>
+  <res name="ConversionHowtoFeature5">Note that file will be deleted from our servers after 24 hours and download links will stop working after this time period.</res>
+
+  <res name="ConversionHowtoNameFeature1">Upload file</res>
+  <res name="ConversionHowtoNameFeature2">Click Convert</res>
+  <res name="ConversionHowtoNameFeature3">Download</res>
+  <res name="ConversionHowtoNameFeature4">Send Email</res>
+  <res name="ConversionHowtoNameFeature5">Note</res>
+
+  <res name="ConversionHowtoUrlPathFeature1">https://products.aspose.app/diagram/conversion</res>
+  <res name="ConversionHowtoUrlPathFeature2">https://products.aspose.app/diagram/conversion</res>
+  <res name="ConversionHowtoUrlPathFeature3">https://products.aspose.app/diagram/conversion</res>
+  <res name="ConversionHowtoUrlPathFeature4">https://products.aspose.app/diagram/conversion</res>
+  <res name="ConversionHowtoUrlPathFeature5">https://products.aspose.app/diagram/conversion</res>
+
+  <res name="ConversionHowtoImageUrlFeature1">https://products.aspose.app/diagram/img/howto/-step1.png</res>
+  <res name="ConversionHowtoImageUrlFeature2">https://products.aspose.app/diagram/img/howto/-step2.png</res>
+  <res name="ConversionHowtoImageUrlFeature3">https://products.aspose.app/diagram/img/howto/-step3.png</res>
+  <res name="ConversionHowtoImageUrlFeature4">https://products.aspose.app/diagram/img/howto/-step.png</res>
+  <res name="ConversionHowtoImageUrlFeature5">https://products.aspose.app/diagram/img/howto/-step.png</res>
+  
+  <!-- Merger App - How To-->
+  <res name="MergerHowtoTitle">How to merge {0} file</res>
+  <res name="MergerHowtoFeature1">Click inside the file drop area to upload first {0} file or drag &amp; drop a {0} file.</res>
+  <res name="MergerHowtoFeature2">Likewise, upload second {0} file or drag &amp; drop it.</res>
+  <res name="MergerHowtoFeature3">Click the 'MERGE NOW' button to start merging files.</res>
+  <res name="MergerHowtoFeature4">Instantly download, view or send merged file as an email.</res>
+  <res name="MergerHowtoFeature5">Note that file will be deleted from our servers after 24 hours and download links will stop working after this time period.</res>
+
+  <res name="MergerHowtoNameFeature1">Upload first file</res>
+  <res name="MergerHowtoNameFeature2">Upload second file</res>
+  <res name="MergerHowtoNameFeature3">Click Merge Now</res>
+  <res name="MergerHowtoNameFeature4">Download</res>
+  <res name="MergerHowtoNameFeature5">Note</res>
+
+  <res name="MergerHowtoUrlPathFeature1">https://products.aspose.app/diagram/</res>
+  <res name="MergerHowtoUrlPathFeature2">https://products.aspose.app/diagram/</res>
+  <res name="MergerHowtoUrlPathFeature3">https://products.aspose.app/diagram/</res>
+  <res name="MergerHowtoUrlPathFeature4">https://products.aspose.app/diagram/</res>
+  <res name="MergerHowtoUrlPathFeature5">https://products.aspose.app/diagram/</res>
+
+  <res name="MergerHowtoImageUrlFeature1">https://products.aspose.app/diagram/img/howto/-step1.png</res>
+  <res name="MergerHowtoImageUrlFeature2">https://products.aspose.app/diagram/img/howto/-step2.png</res>
+  <res name="MergerHowtoImageUrlFeature3">https://products.aspose.app/diagram/img/howto/-step3.png</res>
+  <res name="MergerHowtoImageUrlFeature4">https://products.aspose.app/diagram/img/howto/-step4.png</res>
+  <res name="MergerHowtoImageUrlFeature5">https://products.aspose.app/diagram/img/howto/-step.png</res>
+
+  <!-- Viewer App - How To-->
+  <res name="ViewerHowtoTitle">How to view a {0} file</res>
+  <res name="ViewerHowtoFeature1">Click inside the file drop area to upload a {0} file or drag &amp; drop a {0} file.</res>
+  <res name="ViewerHowtoFeature2">Your {0} file will be automatically rendered for you to view instantly.</res>
+  <res name="ViewerHowtoFeature3">Download the {0} file in original, image or PDF format.</res>
+  <res name="ViewerHowtoFeature4">View and navigate between pages.</res>
+  <res name="ViewerHowtoFeature5">Set page view zoom-in or zoom-out.</res>
+
+  <res name="ViewerHowtoNameFeature1">Upload file</res>
+  <res name="ViewerHowtoNameFeature2">Rendered</res>
+  <res name="ViewerHowtoNameFeature3">Download</res>
+  <res name="ViewerHowtoNameFeature4">View</res>
+  <res name="ViewerHowtoNameFeature5">zoom-in or zoom-out</res>
+
+  <res name="ViewerHowtoUrlPathFeature1">https://products.aspose.app/diagram/</res>
+  <res name="ViewerHowtoUrlPathFeature2">https://products.aspose.app/diagram/</res>
+  <res name="ViewerHowtoUrlPathFeature3">https://products.aspose.app/diagram/</res>
+  <res name="ViewerHowtoUrlPathFeature4">https://products.aspose.app/diagram/</res>
+  <res name="ViewerHowtoUrlPathFeature5">https://products.aspose.app/diagram/</res>
+
+  <res name="ViewerHowtoImageUrlFeature1">https://products.aspose.app/diagram/img/howto/-step1.png</res>
+  <res name="ViewerHowtoImageUrlFeature2">https://products.aspose.app/diagram/img/howto/-step.png</res>
+  <res name="ViewerHowtoImageUrlFeature3">https://products.aspose.app/diagram/img/howto/-step.png</res>
+  <res name="ViewerHowtoImageUrlFeature4">https://products.aspose.app/diagram/img/howto/-step.png</res>
+  <res name="ViewerHowtoImageUrlFeature5">https://products.aspose.app/diagram/img/howto/-step.png</res>
+
+  <res name="ConversionBreadcrumb">{0} to {1}</res>
+
+
+  <res name="ConversionRawHtmlOverview">Aspose &lt;strong&gt;{0} converter&lt;/strong&gt; is a free app to convert {0} format. Convert {0} online from Mac OS, Linux, Android, IOS, and anywhere. &lt;/br&gt;If you want to convert programmatically please check &lt;a target="_blank" href="https://docs.aspose.com/diagram/net/how-to-convert-a-visio-diagram/"&gt;&lt;strong&gt;Aspose.Diagram documentation&lt;/strong&gt;&lt;/a&gt;.</res>
+  <res name="ViewerRawHtmlOverview">Aspose &lt;strong&gt;{0} viewer&lt;/strong&gt; is a free app to view {0}. View {0} online from Mac OS, Linux, Android, IOS, and anywhere.</res>
+  <res name="MergerRawHtmlOverview">Aspose &lt;strong&gt;{0} merger&lt;/strong&gt; is a free app to merge {0} format. Merge {0} online from Mac OS, Linux, Android, IOS, and anywhere.</res>
+  <res name="EditorRawHtmlOverview">Aspose &lt;strong&gt;{0} editor&lt;/strong&gt; is a free app to edit {0} format. Edit {0} online from Mac OS, Linux, Android, IOS, and anywhere.</res>
+  <res name="ViewerOtherFeaturesTitle">Other Supported Viewers</res>
+  <res name="ViewerOtherFeaturesTitleSub">You can also view other file formats. Please see the list below.</res>
+  <res name="MergerOtherFeaturesTitle">Other Supported Mergers</res>
+  <res name="MergerOtherFeaturesTitleSub">You can also merge other file formats. Please see the list below.</res>
+  <res name="EditorOtherFeaturesTitle">Other Supported Editor</res>
+  <res name="EditorOtherFeaturesTitleSub">You can also edit other file formats. Please see the list below.</res>
+  <res name="ConversionOtherFeaturesTitle">Other Supported Conversions</res>
+  <res name="ConversionOtherFeaturesTitleSub">You can also convert other file formats. Please see the list below.</res>
+
+  <res name="ConversionDesc">Convert your Microsoft Visio files to PDF, HTML, Image, Word, PPT and other formats</res>
+  <res name="ViewerDesc">Free Viewer App for Microsoft Visio Files</res>
+
+  <res name="ViewerButtonText">VIEW</res>
+  <res name="ViewerViewerButtonText">VIEW DOCUMENT</res>
+  <!-- ============================================ Diagram APP END ============================================ -->
+</resources>
+
+
+

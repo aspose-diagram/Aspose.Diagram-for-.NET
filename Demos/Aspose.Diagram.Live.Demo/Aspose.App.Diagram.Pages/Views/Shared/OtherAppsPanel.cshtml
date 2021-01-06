@@ -1,0 +1,13 @@
+@model  Aspose.App.Diagram.Pages.PageModels.AppModel
+<div id="otherapps-panel">
+    @foreach (var app in Model.OtherApps)
+    {
+        <a href="/diagram/@app.Href"
+           title="@Model.Resources[app.AppName + "Desc"]"
+           onclick="otherAppClick('@app.AppName', true)"
+           class="otherapps-panel__button @(Model.App.ToString().ToLower() == app.AppName.ToLower() ? "otherapps-panel__button_current" : "")"
+           style="background-image: url('@app.ImageSource')">
+            @app.AppName
+        </a>
+    }
+</div>

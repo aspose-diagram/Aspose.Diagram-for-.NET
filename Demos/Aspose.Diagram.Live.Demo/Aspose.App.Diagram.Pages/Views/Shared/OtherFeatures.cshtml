@@ -1,0 +1,16 @@
+﻿@model Aspose.App.Diagram.Pages.PageModels.OtherFeaturesModel
+
+<div class="col-md-10 col-md-offset-1 pt-5 pb-5 convertypes">
+    <a class="anchor" name="apps"></a>
+    <div class="container">
+        <h4>@Model.Title</h4>
+        <p>@Model.TitleSub</p>
+
+        <ul class="threebox">
+            @foreach (var item in Model.Items)
+            {
+                <li><a href='@item.URL'>@item.Title</a>@item.TitleSub</li>
+            }
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspose.App.Diagram.Api", "Aspose.App.Diagram.Api\Aspose.App.Diagram.Api.csproj", "{7DF0C171-993D-4C61-8543-63C305736255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspose.App.Diagram.Processor", "Aspose.App.Diagram.Processor\Aspose.App.Diagram.Processor.csproj", "{E0C256E0-9161-48EA-84A5-407A46CEFC63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspose.App.Diagram.Infrastructure", "Aspose.App.Diagram.Infrastructure\Aspose.App.Diagram.Infrastructure.csproj", "{4EF38753-0353-4950-AEC2-F33BB8721D47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspose.App.Diagram.Pages", "Aspose.App.Diagram.Pages\Aspose.App.Diagram.Pages.csproj", "{53E7DED7-25E6-4BED-8FE3-A07F7C5A4A5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspose.App.Diagram.Models", "Aspose.App.Diagram.Models\Aspose.App.Diagram.Models.csproj", "{2A6A3454-8089-43E3-84FC-8F3ADDD6A1D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DF0C171-993D-4C61-8543-63C305736255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF0C171-993D-4C61-8543-63C305736255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF0C171-993D-4C61-8543-63C305736255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF0C171-993D-4C61-8543-63C305736255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C256E0-9161-48EA-84A5-407A46CEFC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C256E0-9161-48EA-84A5-407A46CEFC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C256E0-9161-48EA-84A5-407A46CEFC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C256E0-9161-48EA-84A5-407A46CEFC63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF38753-0353-4950-AEC2-F33BB8721D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF38753-0353-4950-AEC2-F33BB8721D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF38753-0353-4950-AEC2-F33BB8721D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF38753-0353-4950-AEC2-F33BB8721D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E7DED7-25E6-4BED-8FE3-A07F7C5A4A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E7DED7-25E6-4BED-8FE3-A07F7C5A4A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E7DED7-25E6-4BED-8FE3-A07F7C5A4A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E7DED7-25E6-4BED-8FE3-A07F7C5A4A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A6A3454-8089-43E3-84FC-8F3ADDD6A1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A6A3454-8089-43E3-84FC-8F3ADDD6A1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A6A3454-8089-43E3-84FC-8F3ADDD6A1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A6A3454-8089-43E3-84FC-8F3ADDD6A1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {541A7614-2446-48C7-A3A1-6743C5103EB7}
+	EndGlobalSection
+EndGlobal

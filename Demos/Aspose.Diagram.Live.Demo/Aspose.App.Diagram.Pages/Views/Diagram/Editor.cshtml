@@ -1,0 +1,20 @@
+﻿@model  Aspose.App.Diagram.Pages.PageModels.AppModel
+
+@{
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+@{
+    ViewBag.Title = Model.PageTitle;
+    ViewBag.MetaDescription = Model.PageMetaDescription;
+}
+@Html.Partial("Main")
+@section scripts {
+
+    <script type="text/javascript">
+        var o = @Html.Raw(Model.JSOptions);
+        $.extend(o, {
+            NewMethod: requestNewEditor,
+            Method: requestEditor
+        });
+    </script>
+}

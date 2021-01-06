@@ -1,0 +1,55 @@
+﻿
+<div class="modal fade" tabindex="-1" role="dialog" id="errorModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" style="color:#FF1616">Oops! An error has occurred.</h4>
+                <h5 class="modal-title" id="errorTitle">Invalid file, please ensure that uploading correct file</h5>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="errorForm">
+                    <p style="font-size:16px;font-weight:600;font-style:italic">Would you like to report this error to the forum, so that we can look into it and resolve the issue? You will get the notification email when error is fixed.</p>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Email:</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" name="Email" id="errorEmail" placeholder="example@example.com" />
+                        </div>
+                        <div style="display:none">
+                            <input type="text" name="ErrorAction" id="errorAction" />
+                            <input type="text" name="ErrorFolderName" id="errorFolderName" />
+                            <input type="text" name="ErrorMessage"  id="errorMessage" />
+                            <input type="text" name="Private" id="errorPrivate" />
+                        </div>
+                    </div>
+                    <p><input type="checkbox" id="forumPrivate" checked="checked">Make this forum private, so that it will only be accessible to you and our developers</p>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="requestErrorReport()" id="reportError">Report Error</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="reportResultModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" style="color:green">Error has been reported successfully.</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    <b><i>You have successfully reported the error, You will get the notification email when error is fixed.</i></b>
+                    Click <a id="lnkForums" target="_blank" href="https://forum.aspose.com/">this link</a> to visit the forums.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script type="text/javascript">
+        mxBasePath = "/Diagram/EditorApp/mxgraph"
+    </script>
+    <link rel="stylesheet" type="text/css" href="/Diagram/EditorApp/css/editor.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" type="text/css" />
+    <script type="text/javascript" src="/Diagram/EditorApp/mxgraph/js/mxClient.min.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/lib/jquery/jquery.js"></script>
+
+    <script type="text/javascript" src="/Diagram/EditorApp/js/page.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/Action.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/Items.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/Shapes.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/Stencil.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/Primitives.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/Pages.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/Dialog.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/site.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/pako.min.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/Vsdx.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/mxVsdxCanvas2D.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/sanitizer.min.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/OutLine.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/Diagram/EditorApp/lib/bootstrap-3.4.1/dropdown.css">
+    <script type="text/javascript" src="/Diagram/EditorApp/lib/bootstrap-3.4.1/dropdown.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/lib/vue/vue.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/Diagram/EditorApp/lib/bootoast/bootoast.css">
+    <script type="text/javascript" src="/Diagram/EditorApp/lib/bootoast/bootoast.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/Diagram/EditorApp/iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="/Diagram/EditorApp/lib/jquery/jquery.bigcolorpicker.css">
+    <script type="text/javascript" src="/Diagram/EditorApp/lib/jquery/jquery.bigcolorpicker.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/lib/pageload.js"></script>
+    <script type="text/javascript" src="/Diagram/EditorApp/js/editorInit.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav-bar">
+            <div class="nav-left">
+                <a class="navbar-brand" href="javascript:void(0);"><img src="/Diagram/EditorApp/images/Aspose-logo.jpg" alt="Aspose Document Editor App"></a>
+                <h3>Visio Editor</h3>
+                <span>Drawing.vsdx</span>
+
+            </div>
+            <div class="nav-right">
+                <div class="import-box">
+                    <a title="Open visio file" id="Open_file" class="download-button" data-toggle="dropdown">Open</a>
+                </div>
+                <div class="download-box">
+                    <a class="download-button" data-toggle="dropdown">Download<i
+                            class="iconfont downicon">&#xe626;</i></a>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a class="download_file" data-format="vsdx"><i class="iconfont">&#xe74f;</i>Download As
+                                VSDX</a></li>
+                        <li><a class="download_file" data-format="pdf"><i class="iconfont">&#xe74f;</i>Download As
+                                PDF</a></li>
+                        <li><a class="download_file" data-format="png"><i class="iconfont">&#xe74f;</i>Download As
+                                PNG</a></li>
+                        <li><a class="download_file" data-format="html"><i class="iconfont">&#xe74f;</i>Download As
+                                HTML</a></li>
+                        <li><a class="download_file" data-format="svg"><i class="iconfont">&#xe74f;</i>Download As
+                                SVG</a></li>
+                    </ul>
+                </div>
+                <a title="Close" class="btn-close" href="javascript:void(0);" onclick="closeWindow()"><i
+                        class="iconfont">&#xe653;</i></a>
+            </div>
+        </div>
+
+        <div class="property-bar">
+            <div class="property-bar-item tool-undo">
+                <a class="back-left property-item" title="Undo(Ctrl+Z)"><i class="iconfont">&#xe6f5;</i></a>
+                <a class="back-right property-item" title="Redo(Ctrl+Y)"><i class="iconfont">&#xe6f6;</i></a>
+            </div>
+            <!-- <div class="property-bar-item">
+                <a title="brush" id="Brush" class="property-item"><i class="iconfont">&#xe604;</i></a>
+            </div> -->
+            <div class="property-bar-item">
+                <a title="Zoom" class="property-item" data-toggle="dropdown"><span id="zoom_val">100%</span><i
+                        class="iconfont downicon">&#xe626;</i></a>
+                <ul class="dropdown-menu" aria-labelledby="dLabel" id="tool_zoom">
+                    <!-- <li><a>300%</a></li> -->
+                    <li><a>200%</a></li>
+                    <li><a>150%</a></li>
+                    <li><a>120%</a></li>
+                    <li><a>100%</a></li>
+                    <li><a>90%</a></li>
+                    <li><a>80%</a></li>
+                    <li><a>70%</a></li>
+                    <li><a>50%</a></li>
+                    <li><a>20%</a></li>
+                    <li><a>10%</a></li>
+                    <li><a>5%</a></li>
+                </ul>
+            </div>
+            <div class="tool-sep"></div>
+            <div class="property-bar-item">
+                <a title="Font Family" class="property-item shape-property disable" style="pointer-events: none;" data-toggle="dropdown"><span id="font_family_val">Helvetica</span><i
+                        class="iconfont downicon">&#xe626;</i></a>
+                <ul class="dropdown-menu" aria-labelledby="dLabel" id="tool_font_family">
+                    <li><a style="font-family:Arial;">Arial</a></li>
+                    <li><a style="font-family:Helvetica;">Helvetica</a></li>
+                    <li><a style="font-family:Verdana;">Verdana</a></li>
+                    <li><a style="font-family:Times New Roman;">Times New Roman</a></li>
+                    <li><a style="font-family:Garamond;">Garamond</a></li>
+                    <li><a style="font-family:Comic Sans MS;">Comic Sans MS</a></li>
+                    <li><a style="font-family:Courier New;">Courier New</a></li>
+                    <li><a style="font-family:Georgia;">Georgia</a></li>
+                    <li><a style="font-family:Lucida Console;">Lucida Console</a></li>
+                    <li><a style="font-family:Tahoma;">Tahoma</a></li>
+                </ul>
+            </div>
+
+            <div class="property-bar-item">
+                <a title="Font Size" class="property-item shape-property disable" style="pointer-events: none;" data-toggle="dropdown"><span id="font_size_val">14px</span><i
+                        class="iconfont downicon">&#xe626;</i></a>
+                <ul class="dropdown-menu" aria-labelledby="dLabel" id="tool_font_size">
+                    <li><a>30px</a></li>
+                    <li><a>24px</a></li>
+                    <li><a>20px</a></li>
+                    <li><a>18px</a></li>
+                    <li><a>16px</a></li>
+                    <li><a>14px</a></li>
+                    <li><a>12px</a></li>
+                    <li><a>10px</a></li>
+                    <!-- <li><a>10px</a></li> -->
+                </ul>
+            </div>
+
+            <div class="property-bar-item">
+                <a title="Text Bold" id="text_bold" class="text-style text-style-selected property-item shape-property disable" style="pointer-events: none;" text-sytle="1"><i class="iconfont">&#xe600;</i></a>
+            </div>
+            <div class="property-bar-item">
+                <a title="Text Italic" id="text_italic" class="text-style property-item shape-property disable" style="pointer-events: none;" text-sytle="2"><i class="iconfont">&#xe601;</i></a>
+            </div>
+            <div class="property-bar-item">
+                <a title="Text Underlineext" id="text_underline" class="property-item text-style shape-property disable" style="pointer-events: none;" text-sytle="3"><i class="iconfont">&#xe711;</i></a>
+            </div>
+            <div class="property-bar-item">
+                <a title="Text Color" class="property-item shape-property disable" style="pointer-events: none;" id="text_color_picker"><i class="iconfont">&#xe63c;</i>
+                    <div class="bottom-color" id="text_color_picker_val" style="background-color: #7F7F7F;"></div><i
+                        class="iconfont downicon">&#xe626;</i>
+                </a>
+            </div>
+            <div class="tool-sep"></div>
+            <div class="property-bar-item">
+                <a title="Text Left" id="align_Left" class="text-x-position property-item shape-property disable" style="pointer-events: none;"><i class="iconfont">&#xe627;</i></a>
+            </div>
+            <div class="property-bar-item">
+                <a title="Text Center" id="align_center" class="text-x-position text-style-selected property-item shape-property disable" style="pointer-events: none;"><i class="iconfont">&#xe616;</i></a>
+            </div>
+            <div class="property-bar-item">
+                <a title="Text Right" id="align_right" class="text-x-position property-item shape-property disable" style="pointer-events: none;"><i class="iconfont">&#xe617;</i></a>
+            </div>
+
+            <div class="property-bar-item">
+                <a title="Text Top" id="align_top" class="text-y-position property-item shape-property disable" style="pointer-events: none;"><i class="iconfont">&#xe8e2;</i></a>
+            </div>
+            <div class="property-bar-item">
+                <a title="Text Middle" id="align_middle" class="text-y-position text-style-selected property-item shape-property disable" style="pointer-events: none;"><i class="iconfont">&#xe8e3;</i></a>
+            </div>
+            <div class="property-bar-item">
+                <a title="Text Bottom" id="align_bottom" class="text-y-position property-item shape-property disable" style="pointer-events: none;"><i class="iconfont">&#xe8e1;</i></a>
+            </div>
+
+            <div class="tool-sep"></div>
+            <div class="property-bar-item">
+                <a title="Fill Color" class="property-item shape-property disable" style="pointer-events: none;" id="fill_color_picker"><i class="iconfont">&#xea7c;</i>
+                    <div class="bottom-color" id="fill_color_picker_val" style="background-color: #7F7F7F;"></div><i
+                        class="iconfont downicon">&#xe626;</i>
+                </a>
+            </div>
+            <div class="property-bar-item">
+                <a title="Pen Color" class="property-item shape-property disable" style="pointer-events: none;" id="pen_color_picker"><i class="iconfont iconfont14">&#xe609;</i>
+                    <div class="bottom-color" id="pen_color_picker_val" style="background-color: #7F7F7F;"></div><i
+                        class="iconfont downicon">&#xe626;</i>
+                </a>
+            </div>
+            <div class="property-bar-item">
+                <a title="Linewidth" data-toggle="dropdown" class="property-item shape-property disable" style="pointer-events: none;"><i class="iconfont iconfont14">&#xe685;</i><i
+                        class="iconfont downicon">&#xe626;</i></a>
+                <ul class="dropdown-menu" aria-labelledby="dLabel" id="Linewidth">
+                    <li>
+                        <a title="1" id="Thick1">
+                            <div class="Line">
+                                <div class="Thick1"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="2" id="Thick2">
+                            <div class="Line">
+                                <div class="Thick2"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="3" id="Thick3">
+                            <div class="Line">
+                                <div class="Thick3"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="4" id="Thick4">
+                            <div class="Line">
+                                <div class="Thick4"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="5" id="Thick5">
+                            <div class="Line">
+                                <div class="Thick5"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="property-bar-item">
+                <a title="LineStyle" data-toggle="dropdown" class="property-item shape-property disable" style="pointer-events: none;"><i class="iconfont">&#xe72d;</i><i
+                        class="iconfont downicon">&#xe626;</i></a>
+                <ul class="dropdown-menu" aria-labelledby="dLabel" id="LineStyle">
+                    <li>
+                        <a title="Solid" id="Solid">
+                            <div class="Line">
+                                <div class="Solid"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Dashed" id="Dashed1">
+                            <div class="Line">
+                                <div class="Dashed"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Dashed2" id="Dashed2">
+                            <div class="Line">
+                                <div class="Dashed2"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Dashed3" id="Dashed3">
+                            <div class="Line">
+                                <div class="Dashed3"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tool-sep"></div>
+            <div class="property-bar-item">
+                <a title="WayPoints" data-toggle="dropdown" class="property-item shape-property disable" style="pointer-events: none;"><i class="iconfont">&#xe69b;</i><i
+                        class="iconfont downicon">&#xe626;</i></a>
+                <ul class="dropdown-menu" aria-labelledby="dLabel" id="WayPoints">
+                    <li>
+                        <a title="Straight" id="Straight">
+                            <div class="WayPoint">
+                                <div class="imageEntity Straight"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Orthogonal" id="Orthogonal">
+                            <div class="WayPoint">
+                                <div class="imageEntity Orthogonal"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Simple" id="Simple">
+                            <div class="WayPoint">
+                                <div class="imageEntity Simple"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Simple" id="Simple1">
+                            <div class="WayPoint">
+                                <div class="imageEntity Simple1"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Curved" id="Curved">
+                            <div class="WayPoint">
+                                <div class="imageEntity Curved"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Entity Relation" id="EntityRelation">
+                            <div class="WayPoint">
+                                <div class="imageEntity EntityRelation"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="property-bar-item">
+                <a title="text"><i class="iconfont iconfont12">&#xe80e;</i><i class="iconfont downicon">&#xe626;</i></a>
+            </div> -->
+            <div class="tool-sep"></div>
+            <div class="property-bar-item">
+                <a title="To Front" class="property-item shape-property disable" style="pointer-events: none;" id="toFront" class="shape-z-index"><i class="iconfont iconfont-back-front">&#xe6ec;</i></a>
+            </div>
+            <div class="property-bar-item">
+                <a title="To Back" class="property-item shape-property disable" style="pointer-events: none;" id="toBack" class="shape-z-index"><i class="iconfont iconfont-back-front">&#xe6ea;</i></a>
+            </div>
+            <div class="property-bar-item">
+                <a title="Delete(Delete)" class="property-item shape-property disable" style="pointer-events: none;" id="delete"><i class="iconfont iconfont-back-front">&#xe603;</i></a>
+            </div>
+            <div class="property-bar-item" style="display:none;">
+                <a title="LineStyle" data-toggle="dropdown"><i class="iconfont">&#xe608;</i><i
+                        class="iconfont downicon">&#xe626;</i></a>
+                <ul class="dropdown-menu" aria-labelledby="dLabel" id="LineStyle">
+                    <!-- <li><a title="Link..." id="Link">
+                            <div class="Line">
+                                Link
+                            </div>
+                        </a>
+                    </li> -->
+                    <li>
+                        <a title="Image..." id="Image">
+                            <div class="Line">
+                                Image
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-left">
+        </div>
+        <div class="main" tabindex="0" id="graph_container">
+        </div>
+        <div class="footer">
+            <div class="geTabContainer"></div>
+        </div>
+    </div>
+    <!-- <div style="display: none;">
+        <input type="file" id="input_file_open">
+    </div> -->
+    <script type="text/javascript">
+        var urlParams = (function(url) {
+            var result = new Object();
+            var idx = url.lastIndexOf("?");
+
+            if (idx > 0) {
+                var params = url.substring(idx + 1).split("&");
+
+                for (var i = 0; i < params.length; i++) {
+                    idx = params[i].indexOf("=");
+
+                    if (idx > 0) {
+                        result[params[i].substring(0, idx)] = params[i].substring(idx + 1);
+                    }
+                }
+            }
+
+            return result;
+        })(window.location.href);
+
+        var bundle = mxResources.getDefaultBundle("/Diagram/EditorApp/resources/dia_am", '') ||
+            mxResources.getSpecialBundle("/Diagram/EditorApp/resources/dia_am", '');
+
+        var doc = Actions.prototype.loadXMLDoc("/Diagram/EditorApp/Resources/dia_am.txt");
+
+        mxUtils.getAll([bundle], function(xhr) {
+            // Adds bundle text to resources
+            mxResources.parse(xhr[0].getText());
+        });
+    </script>
+</body>
+
+</html>
+<script>
+    function closeWindow() {
+        if (window.parent && window.parent.closeIframe) {
+            window.history.go(-1);
+            parent.location.reload();
+            window.parent.closeIframe();
+        } else {
+
+        }
+    }
+</script>
+<script>
+    $(document).ready(function() {
+        var x = 10;
+        var y = 20;
+        var newtitle = '';
+        $('.property-item').mouseover(function(e) {
+            newtitle = this.title;
+            this.title = '';
+            $('body').append('<div id="mytitle" >' + newtitle + '</div>');
+            $('#mytitle').css({
+                'left': (e.pageX + x - 5 + 'px'),
+                'top': (e.pageY + y - 5 + 'px')
+            }).show();
+        }).mouseout(function() {
+            this.title = newtitle;
+            $('#mytitle').remove();
+        }).mousemove(function(e) {
+            // $('#mytitle').css({
+            //     'left': (e.pageX + x + 10 + 'px'),
+            //     'top': (e.pageY + y - 10 + 'px')
+            // }).show();
+        })
+    });
+</script>
+<script src="/Diagram/EditorApp/js/editor.js "></script>
+<script src="/Diagram/EditorApp/js/editor-event.js "></script>
