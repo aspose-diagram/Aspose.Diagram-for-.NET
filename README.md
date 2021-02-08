@@ -1,3 +1,5 @@
+![Nuget](https://img.shields.io/nuget/v/Aspose.Diagram) ![Nuget](https://img.shields.io/nuget/dt/Aspose.Diagram) ![GitHub](https://img.shields.io/github/license/aspose-diagram/Aspose.Diagram-for-.NET)
+
 # .NET API for Microsoft Visio® File Formats
 
 [Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) API is a solution for Microsoft Visio file manipulation requirements. It allows the .NET applications to read, write, export and process Microsoft Visio diagrams while supporting all Visio objects & properties including shapes, pages, images, shape masters, stencils, text, layers, header, footers, user-defined cells, hyperlinks, file protection, geometries, text boxes, and comments. 
