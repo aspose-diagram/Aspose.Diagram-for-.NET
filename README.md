@@ -86,4 +86,4 @@ foreach (Layer layer in page.PageSheet.Layers)
 }
 ```
 
-[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/diagram/net) | [Docs](https://docs.aspose.com/diagram/net/) | [Demos](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.com/diagram/net) | [Examples](https://github.com/aspose-diagram/Aspose.Diagram-for-.NET) | [Blog](https://blog.aspose.com/category/diagram/) | [Free Support](https://forum.aspose.com/c/diagram) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/diagram/net) | [Docs](https://docs.aspose.com/diagram/net/) | [Demos](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.com/diagram/net) | [Examples](https://github.com/aspose-diagram/Aspose.Diagram-for-.NET) | [Blog](https://blog.aspose.com/category/diagram/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/diagram) |  [Temporary License](https://purchase.aspose.com/temporary-license)
